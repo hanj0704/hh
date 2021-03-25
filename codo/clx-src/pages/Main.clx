@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:cl="http://tomatosystem.co.kr/cleopatra" xmlns:std="http://tomatosystem.co.kr/cleopatra/studio" std:sid="html-d944b50b" version="1.0.0.0">
+  <head std:sid="head-6c321ad1">
+    <title>Main</title>
+    <screen std:sid="screen-dcae22de" id="tablet" customHeight="400" customWidth="800" height="667px" minwidth="500px" name="tablet" useCustomHeight="true" useCustomWidth="false" width="500px"/>
+    <screen std:sid="screen-347a4b09" id="mobile" height="525px" maxwidth="499px" name="mobile" width="350px"/>
+    <cl:model std:sid="model-3548ac2b"/>
+    <cl:appspec/>
+  </head>
+  <body std:sid="body-285d7dd5" style="background-repeat:no-repeat; top:0px; left:0px; width:800px; background-image:url('../images/imgLogo_exb6.png'); background-position:center; height:600px;">
+    <cl:output std:sid="output-cadd0298" style="font-size:1.5em; text-align:center;" value="안녕하세요, eXbuilder 6입니다.">
+      <cl:xylayoutdata std:sid="xyl-data-0e4fe1a1" height="36px" horizontalAnchor="BOTH" left="20px" right="20px" top="40px" verticalAnchor="TOP"/>
+    </cl:output>
+    <cl:button std:sid="button-ac0720fa" class="btn-lg" icon="../images/camera.png" value="사진 촬영">
+      <cl:listener std:sid="listener-59f26ec0" handler="onButtonClick" name="click"/>
+      <cl:xylayoutdata std:sid="xyl-data-c2be5c9f" bottom="40px" height="37px" horizontalAnchor="BOTH" left="20px" right="20px" verticalAnchor="BOTTOM"/>
+      <cl:iconstyle style="width:32px; height:24px; padding-right:5px;"/>
+    </cl:button>
+    <cl:xylayout std:sid="xylayout-e30c2475"/>
+  </body>
+  <std:studiosetting>
+    <std:hruler/>
+    <std:vruler/>
+  </std:studiosetting>
+</html>

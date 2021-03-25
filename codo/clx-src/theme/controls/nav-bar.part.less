@@ -1,0 +1,183 @@
+@import "../settings.part.less";
+@import "../custom/custom-variables.part.less";
+
+ /* 네비게이션 바 */
+ .cl-navigationbar {
+	font: @font-base;
+//	background-color: @navbar-light-color;
+	border :solid 1px @default-border-color;
+	border-radius : @border-radius-sm;
+	color : @default-text-color;
+
+	/* 상단 바 */
+	.cl-navigationbar-bar {
+		
+		/* 네비게이션 바 아이템 */
+		.cl-navigationbar-item {
+			padding : 7px 14px;
+
+			/* 네비게이션 바 아이템 아이콘 */
+			.cl-navigationbar-icon {
+			}
+
+			/* 네비게이션 바 아이템 텍스트 */
+			.cl-text {
+				font-size : 15.5px;
+			}
+
+			/* 네비게이션 바 아이템 단축키*/
+			.cl-navigationbar-accesskey{
+			}
+			
+			/* 네비게이션 바 아이템 드랍다운 아이콘 */
+			.cl-navigationbar-arrow {
+				 background-image: url(images/icon/icon_chevron_down_b.png);
+				 margin-left : 3px;
+			}
+
+			/* 네비게이션 바 아이템 - 호버 */
+			&:not(.cl-disabled):not(.cl-selected).cl-hover, 
+			&:not(.cl-disabled):not(.cl-selected):hover,
+			&:not(.cl-disabled).cl-hover,
+			&:not(.cl-disabled):hover {
+				background-color: @hover-background;
+				color: @hover-foreground;
+			}
+
+			/* 네비게이션 바 아이템 - disabled */
+			&.cl-disabled {
+				color: @disabled-text-color;
+
+				/* 네비게이션 바 아이템 - 선택됨, disabled */
+				&.cl-selected {
+					color: @disabled-selection-foreground;
+					background-color:  @disabled-selection-background;
+				}
+			}
+		
+			/* 네비게이션 바 아이템 - 선택됨 */
+			&.cl-selected {
+				background-color: @selection-background;
+				color: @selection-foreground;
+				font-weight : @font-weight-medium;
+				
+				/* 네비게이션 바 아이템 드랍다운 아이콘 - 선택됨 */
+				.cl-navigationbar-arrow {
+					 background-image: url(images/icon/icon_chevron_down_b.png);
+				}
+			}
+			
+		}
+	}
+	/* 네비게이션 바 - 포커스 */
+	&.cl-focus {
+		border-color: @focus-border-color;
+	}
+	
+	&.cl-disabled {
+		background-color : @disabled-selection-background;
+	}
+}
+
+/* 네비게이션 바 드랍다운 메뉴 */
+.cl-navigationbar-list {
+	border: solid 1px @default-border-color;
+	border-radius : 5px;
+	box-shadow : 0 5px 75px 2px rgba(64,70,74,.2);
+	font: @default-font;
+	padding : 7px 0;
+	transition : all .2s linear;
+
+	/* megamenu 타입의 카테고리 */
+	.cl-navigationbar-category{
+		
+		/* 카테고리의 아이템 영역 */
+		.sub-items {
+			
+			/* 카테고리의 목록 아이템*/
+			.cl-navigationbar-listitem{
+				&[data-itemlevel='0'] {
+					background-color : rgba(30, 159, 242, 0.1);
+					color : @focus-text-color;
+					border : 1px solid @focus-border-color;
+					border-radius : 3.5px;
+					margin-bottom : 5px;
+					
+					&:hover, &.cl-hover {
+						background-color : rgba(30, 159, 242, 0.15);
+						color : @focus-text-color;
+					}
+				}
+			}
+		}
+	}
+
+	/* 네비게이션 바 드랍다운 메뉴 아이템 */
+	.cl-navigationbar-listitem {
+		color: @default-text-color;
+		padding : 10px 20px;
+		
+		.cl-navigationbar-icon-wrapper{
+
+			/* 네비게이션 바 드랍다운 메뉴 아이템 아이콘 */
+			.cl-navigationbar-icon{
+			}
+		}
+
+		.cl-navigationbar-arrow-wrapper{
+			.cl-navigationbar-arrow {
+
+				/* 네비게이션 바 드랍다운 메뉴 아이템 아이콘 */
+				&.cl-navigationbar-arrow-image {
+					 background-image: url(images/icon/icon_chevron_down_b.png);
+				}
+			}
+		}
+
+		/* 네비게이션 바 드랍다운 메뉴 아이템 텍스트 */
+		.cl-text {
+			font-size : 15px;
+		}
+
+		.cl-navigationbar-accesskey-wrapper{
+			/* 네비게이션 바 드랍다운 메뉴 아이템 단축키 */
+			.cl-navigationbar-accesskey{
+			}
+		}
+
+		/* 네비게이션 바 드랍다운 메뉴 아이템 - 호버 */
+		&:not(.cl-disabled):not(.cl-selected).cl-hover, 
+		&:not(.cl-disabled):not(.cl-selected):hover,
+		&:not(.cl-disabled).cl-hover,
+		&:not(.cl-disabled):hover {
+			background-color: @hover-background;
+			color: @hover-foreground;
+		}
+
+		/* 네비게이션 바 드랍다운 메뉴 아이템 - disabled */
+		&.cl-disabled {
+			color: @disabled-text-color;
+
+			/* 네비게이션 바 드랍다운 메뉴 아이템 - disabled, 선택됨 */
+			&.cl-selected {
+				color: @disabled-selection-foreground;
+				background-color:  @disabled-selection-background;
+			}
+		}
+
+		/* 네비게이션 바 드랍다운 메뉴 아이템 - 선택됨 */
+		&.cl-selected {
+			background-color: @selection-background;
+			color: @selection-foreground;
+			font-weight : @font-weight-medium;
+			
+			&.cl-folder {
+				> .cl-navigationbar-arrow-wrapper {
+					.cl-navigationbar-arrow {
+						background-image : url(images/icon/icon_chevron_right_b.png);
+					}
+				}
+			}
+		}
+	}
+}

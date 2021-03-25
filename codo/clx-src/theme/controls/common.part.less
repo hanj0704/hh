@@ -1,0 +1,27 @@
+@charset "UTF-8";
+@import "../settings.part.less";
+@import "../custom/custom-variables.part.less";
+
+/* 모든 UIControl 공통 스타일 */
+.cl-control {
+	font: @font-base;
+	color: @component-color;
+}
+
+/* 오류 발생시 표시되는 메시지 스타일 */
+.cl-unavailable {
+	 border: @input-border-width solid @warning;
+	 border-radius: @component-border-radius;
+	.cl-text {
+		// color: red;
+		// font-weight: bold;
+	}
+	.cl-text:before {
+		 display: block;
+		 content: "X";
+		 color: @transparent;
+		 background: url(images/icon/icon_fail_to_rendering.png) no-repeat ~'calc(100% - 10px)' 11px;
+		 background-size: 16px;
+		 height: 100%;
+	}
+}

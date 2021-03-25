@@ -1,0 +1,131 @@
+@import "../settings.part.less";
+@import "../custom/custom-variables.part.less";
+
+ /* 라디오 버튼 */
+.cl-radiobutton {
+	 font: @font-base;
+	 color: @select-color;
+
+	/* 라디오 버튼 아이템 */
+	.cl-radiobutton-item {
+		
+		/* 아이콘 정렬을 설정 */
+		.cl-icon-wrapper {
+			 vertical-align: middle;
+		}
+
+		/* 라디오 버튼 아이템 텍스트 */
+		.cl-text {
+			/* 말줄임 style 적용(한줄) */
+			// overflow: hidden;
+			// text-overflow: ellipsis;
+			// white-space: nowrap;
+
+			/* 여러 줄 style 적용 */
+			// white-space: pre-wrap;
+			// word-break: break-all;
+		}
+
+		/* 라디오아이템 아이콘 스타일 */
+		.cl-radiobutton-icon {
+			 background-image: url(images/icon/icon_radio.png);
+		}
+
+		/* 라디오아이템 hover시 아이콘 스타일 */
+		&:hover, &.cl-hover {
+			.cl-radiobutton-icon {
+				 background-image:url(images/icon/icon_radio_focus.png);
+			}
+		}	
+
+		/* 선택된 라디오아이템 아이콘 스타일 */
+		&.cl-selected {
+			.cl-radiobutton-icon {
+				 background-image:url(images/icon/icon_radio_selected.png);
+			}
+
+			/* 선택된 라디오아이템 hover시 아이콘 스타일 */
+			&:hover, &.cl-hover {
+				.cl-radiobutton-icon {
+					 background-image:url(images/icon/icon_radio_selected.png);
+				}
+			}
+		}
+
+		/* disabled 라디오아이템 스타일 */
+		&.cl-disabled{
+
+			.cl-text{
+				 color: @select-disabled-color;
+			}
+			
+			.cl-radiobutton-icon {
+				background-image : url(images/icon/icon_radio_disabled.png);
+			}
+			
+			/* disabled 라디오아이템 hover시 아이콘 스타일 */
+			&:hover, &.cl-hover {
+				.cl-radiobutton-icon {
+					background-image : url(images/icon/icon_radio_disabled.png);
+				}
+			}
+
+			/* 선택된 disabled 라디오아이템 아이콘 스타일 */
+			&.cl-selected {
+				.cl-radiobutton-icon {
+					background-image : url(images/icon/icon_radio_disabled_selected.png);
+				}
+
+				/* 선택된 disabled 라디오아이템 hover시 아이콘 스타일 */
+				&:hover, &.cl-hover {
+					.cl-radiobutton-icon {
+						background-image : url(images/icon/icon_radio_disabled_selected.png);
+					}
+				}
+			}
+		}
+	}
+
+	/* 라디오버튼 focus 스타일 */
+	&:focus, &.cl-focus {
+		.cl-radiobutton-item {
+			.cl-radiobutton-icon {
+				&:focus, &.cl-focus {
+					outline: @select-focus-outline-width dotted @select-focus-outline-color;
+				}
+			}
+		}
+	}
+
+	/* disabled 라디오버튼 스타일 */
+	&.cl-disabled{
+		color: @select-disabled-color;
+
+		.cl-radiobutton-item {
+			.cl-radiobutton-icon {
+				background-image : url(images/icon/icon_radio_disabled.png);
+			}
+			
+			/* disabled 라디오버튼에 라디오아이템 hover시 아이콘 스타일 */
+			&:hover, &.cl-hover{
+				.cl-radiobutton-icon{
+					background-image : url(images/icon/icon_radio_disabled.png);
+				}
+			}
+	
+			/* disabled 라디오버튼의 선택된 라디오아이템 아이콘 스타일 */
+			&.cl-selected {
+				.cl-radiobutton-icon {
+					 background-image:url(images/icon/icon_radio_disabled_selected.png);
+				}
+	
+				/* disabled 라디오버튼의 선택된 라디오아이템 hover시 아이콘 스타일 */
+				&:hover, &.cl-hover {
+					.cl-radiobutton-icon {
+						 background-image:url(images/icon/icon_radio_disabled_selected.png);
+					}
+				}
+			}
+		}
+	}
+}

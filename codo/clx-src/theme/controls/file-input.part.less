@@ -1,0 +1,109 @@
+@import "../settings.part.less";
+@import "../custom/custom-variables.part.less";
+
+ /* 파일 인풋 루트 */
+.cl-fileinput {
+	font: @font-base;
+	color: @input-color;
+	border: @input-border-width solid @input-border-color;
+	border-radius : @border-radius-sm;
+	background-color: @input-bg;
+	transition : @transition-base;
+	text-align : left;
+	
+	/*autoSize 설정시 표시되는 기본크기*/
+	//min-width: 50px;
+	//min-height: 20px;
+	
+	&:after {
+		content : "";
+		display : block;
+		position : absolute;
+		
+		top : 0;
+		right : 0;
+		bottom : 0;
+		width : 38px;
+		
+		background : @body-bg url(images/icon/icon_file_b.png) no-repeat center;
+		background-size : 16px;
+		border-left : @input-border-width solid @input-border-color;
+		
+		transition : @transition-base;
+	}
+	
+	/* 파일 인풋 내 텍스트 */
+	.cl-text {
+		padding : @input-padding-y @input-padding-x;
+		
+		/* 파일 인풋 placeholder 스타일 */
+		&.cl-placeholder {
+			color : @input-placeholder-color !important;
+		}
+	}
+	
+	/* 파일 인풋 - readonly 스타일 */
+	&.cl-readonly {
+		background-color: @input-readonly-bg;
+		border-color: @input-readonly-border-color;
+		color: @input-readonly-color;
+		
+		&:after {
+			content : "";
+			
+			background : @input-readonly-bg url(images/icon/icon_file_b.png) no-repeat center;
+			background-size : 16px;
+			border-left : @input-border-width solid @input-readonly-border-color;
+		}
+		
+		&:focus {
+			&:after {
+				content : "";
+				
+				background : @input-readonly-bg url(images/icon/icon_file_b.png) no-repeat center;
+				background-size : 16px;
+				border-left-color : @input-focus-border-color;
+			}
+		}
+	}
+
+	
+	/* 포커스 상태 */
+	&:focus{
+		border: @input-border-width solid @input-focus-border-color;
+		
+		&:after {
+			content : "";
+			
+			background : @body-bg url(images/icon/icon_file_b.png) no-repeat center;
+			background-size : 16px;
+			border-left : @input-border-width solid @input-focus-border-color;
+		}
+	}
+	
+	&.cl-disabled {
+		 border-color: @input-disabled-border-color;
+		 background-color: @input-disabled-bg;
+		 color: @input-disabled-color;
+		 
+		 &:after {
+			content : "";
+			display : block;
+			position : absolute;
+			
+			top : 0;
+			right : 0;
+			bottom : 0;
+			width : 38px;
+			
+			background : @input-disabled-bg url(images/icon/icon_file_b.png) no-repeat center;
+			background-size : 16px;
+			border-left : @input-border-width solid @input-disabled-border-color;
+		}
+	}
+}
+
+/* 드래그 호버 상태 */
+.cl-fileinput-draghover {
+	border-color : @input-focus-border-color;
+}

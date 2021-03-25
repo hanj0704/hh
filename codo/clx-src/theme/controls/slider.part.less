@@ -1,0 +1,95 @@
+@import "../settings.part.less";
+@import "../custom/custom-variables.part.less";
+
+ /* 슬라이더 */
+.cl-slider {
+	font: @font-base;
+
+	&.cl-horizontal{
+		// min-width: 40px;
+		// min-height: 20px;
+	}
+	&.cl-vertical{
+		// min-width: 20px;
+		// min-height: 40px;
+	}
+
+	/* 슬라이더 바 */
+	.cl-slider-bar {
+		background-color: @component-bg;
+		border: @component-border-width solid @component-border-color;
+		border-radius : @border-radius-sm;
+
+		/* 슬라이더 가로 바 */
+		&.cl-horizontal{
+			background-image: none;
+		}
+
+		/* 슬라이더 세로 바*/
+		&.cl-vertical {
+			background-image: none;
+		}
+
+
+		/* 슬라이더 핸들 */
+		.cl-slider-handle {
+			background-color : @white;
+			background-image: url(images/icon/icon_slider_handle.png);
+			border : @component-border-width solid @component-border-color;
+			width : 11px;
+			height : 25px;
+
+			/* 슬라이더 가로바 핸들 */
+			&.cl-horizontal {
+				top : -10px;
+			}
+
+			/* 슬라이더 세로바 핸들 */
+			&.cl-vertical {
+			}
+
+		}
+
+		/* 슬라이더 선택 영역 표시 바 */
+		.cl-slider-range {
+			background-color: @component-active-bg;
+		}
+	}
+
+	&.cl-focus{
+		/* 슬라이더 바 - focus */
+		.cl-slider-bar {
+			border-color: @component-focus-border-color;
+		}
+	}
+
+	&.cl-disabled {
+		
+		.cl-slider-bar {
+			background-color : @component-disabled-bg;
+			
+			/* 슬라이더 바 핸들 - disabled */
+			.cl-slider-handle {
+				background-color : @component-disabled-bg;
+				background-image: url(images/icon/icon_slider_handle.png);
+				border-color : @component-disabled-border-color;
+			}
+	
+			/* 슬라이더 바 선택 영역 - disabled */
+			.cl-slider-range {
+				background-color: @component-disabled-active-bg;
+			}
+		}
+	}
+}
+
+.cl-slider:not(.cl-disabled){
+	.cl-slider-bar {
+		.cl-slider-handle{
+			/* 슬라이더 바 핸들 - hover */
+			&:hover, &.cl-hover {
+				background-image: url(images/icon/icon_slider_handle.png);
+			}
+		}
+	}
+}
