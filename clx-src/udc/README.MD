@@ -1,1 +1,0 @@
-Place UDC Controls for cordova-sample here.
