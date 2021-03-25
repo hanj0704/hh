@@ -1,0 +1,41 @@
+@import "../settings.part.less";
+@import "../custom/custom-variables.part.less";
+
+ /* 인풋 박스 루트 */
+.cl-inputbox {
+	font: @font-base;
+	color: @input-color;
+	border: @input-border-width solid @input-border-color;
+	border-radius : @border-radius-sm;
+	background-color: @input-bg;
+	background-image : @input-bg-img;
+	transition: @transition-base;
+
+	/* 인풋 박스 텍스트 */
+	.cl-text{
+		padding : @input-padding-y @input-padding-x;
+		/* 인풋 박스 placeholder 스타일 */
+		&.cl-placeholder {
+			color : @input-placeholder-color !important;
+		}
+	}
+	
+	/* 인풋 박스 readonly 스타일 */
+	&.cl-readonly {
+		background-color: @input-readonly-bg;
+		border-color: @input-readonly-border-color;
+		color: @input-readonly-color;
+	}
+	
+	/* 인풋 박스 - 포커스 상태 */
+	&.cl-focus {
+		border-color: @input-focus-border-color;
+	}
+
+	/* 인풋 박스 - disabled 상태 */
+	&.cl-disabled {
+		border-color: @input-border-color;
+		background-color: @input-disabled-bg;
+		color: @input-disabled-color;
+	}
+}

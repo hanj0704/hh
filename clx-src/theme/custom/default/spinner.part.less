@@ -1,0 +1,55 @@
+@import "../../settings.part.less";
+@import "../custom-variables.part.less";
+
+.cl-output.spinner {
+	background : transparent;
+	border-radius : 50%;
+}
+
+.cl-output.spinner.border-spin {
+	border : 2px solid transparent;
+	border-top-color : @info;
+	animation: rotate 800ms linear infinite;
+}
+
+.cl-output.spinner.double-border-spin {
+	border : 2px solid rgba(255, 255, 255, 0.3);
+	border-top-color : @info;
+	border-bottom-color : @info;
+	animation: rotate 800ms ease infinite;
+}
+
+.cl-output.spinner.semi-circle-spin {
+	background-color : transparent !important;
+	background-image : linear-gradient(transparent 0,transparent 70%, @info 30%, @info 100%);
+	animation: rotate 800ms ease-in-out infinite;
+}
+
+/* Animation - ROTATE */
+@keyframes rotate {
+	to
+		{
+		transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		-webkit-transform: rotate(360deg);
+	}
+}
+
+@-webkit-keyframes rotate {
+	to
+		{
+		transform: rotate(360deg);
+		-webkit-transform: rotate(360deg);
+	}
+}
+
+.rotating {
+	-webkit-animation: rotate 800ms ease-in-out infinite;
+	-moz-animation: rotate 800ms ease-in-out infinite;
+	-ms-animation: rotate 800ms ease-in-out infinite;
+	-o-animation: rotate 800ms ease-in-out infinite;
+	animation: rotate 800ms ease-in-out infinite;
+}
+

@@ -1,0 +1,70 @@
+@import "../settings.part.less";
+@import "../custom/custom-variables.part.less";
+
+ /* 다이얼로그 루트 */
+.cl-dialog {
+	border: @modal-border-width solid @modal-border-color;
+	border-radius : @border-radius-sm;
+	
+	/* 다이얼로그 헤더 */
+	.cl-dialog-header {
+		background-color: @modal-header-bg;
+		color: @modal-header-color;
+		border-bottom:@modal-header-border-width solid @modal-header-border-color;
+		padding : @modal-header-padding-y @modal-header-padding-x;
+		font-weight : @font-weight-medium;
+		font-size : @modal-header-font-size;
+
+		/* 다이얼로그 헤더 텍스트 */
+		.cl-text {
+		}
+
+		/* 다이얼로그 닫기 버튼 */
+		.cl-dialog-close {
+			 background-image: url(images/icon/icon_close_w.png);
+			 background-size : 18px;
+		}
+
+		/* 다이얼로그 닫기 버튼 - 호버 */
+		.cl-dialog-close:hover{
+			 background-image: url(images/icon/icon_close_w.png);
+		}
+
+		/* 다이얼로그 닫기 버튼 - 액티브 */
+		.cl-dialog-close:active {
+			 background-image: url(images/icon/icon_close_w.png);
+		}
+		/* 다이얼로그 최소화 버튼 */
+		.cl-dialog-min {
+			 background-image: url(images/icon/icon_minus_w.png);
+			 background-size : 18px;
+		}
+
+		/* 다이얼로그 최소화 버튼 - 액티브 */
+		.cl-dialog-min:active {
+			 background-image: url(images/icon/icon_minus_w.png);
+		}
+		/* 다이얼로그 최대화 버튼 */
+		.cl-dialog-max {
+			 background-image: url(images/icon/icon_maximize_w.png);
+			 background-size : 18px;
+		}
+		/* 다이얼로그 최대화 버튼 - 액티브 */
+		.cl-dialog-max:active {
+			 background-image: url(images/icon/icon_maximize_w.png);
+		}
+		/* 다이얼로그 복구 버튼 */
+		.cl-dialog-restore {
+			 background-image: url(images/icon/icon_minimize_w.png);
+			 background-size : 18px;
+		}
+		/* 다이얼로그 복구 버튼 - 액티브 */
+		.cl-dialog-restore:active {
+			 background-image: url(images/icon/icon_minimize_w.png);
+		}
+	}
+}
+
+.cl-overlay {
+	background-color : @modal-overlay-bg;
+}

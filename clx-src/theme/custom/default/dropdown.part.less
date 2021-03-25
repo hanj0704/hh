@@ -1,0 +1,52 @@
+@import "../../settings.part.less";
+@import "../custom-variables.part.less";
+
+/*
+ * 드롭 다운 메뉴
+ */
+ .cl-menu.dropdown-menu {
+ 	.cl-menu-list {
+ 		.cl-menu-item {
+ 			padding : @dropdown-item-padding-y @dropdown-item-padding-x;
+ 			.cl-text {
+ 				font-size : 14px;
+ 				font-weight : @font-weight-light;
+ 				padding-left : 10px;
+ 			}
+ 			
+ 			.cl-menu-accesskey {
+ 				width : 0px;
+ 				
+ 				&.cl-text {
+ 					padding-left : 0px;
+ 				}
+ 			}
+ 			
+ 			.cl-menu-arrow {
+ 				width : 0px;
+ 			}
+ 		}
+ 	}
+ 	&.divider {
+ 		.cl-menu-list {
+ 			.cl-menu-item:last-child {
+ 				margin-top : 11px;
+ 				&:before {
+ 					content : "";
+ 					position : absolute;
+ 					display : block;
+ 					
+ 					top : -6px;
+ 					left : 0;
+ 					right : 0;
+ 					height : 1px;
+ 					background-color : @dropdown-item-divider-bg;
+ 				}
+ 			}
+ 			
+ 			.cl-menu-item:nth-last-of-type(2) {
+ 				margin-bottom : 11px;
+ 			}
+ 		}
+ 	}
+ }

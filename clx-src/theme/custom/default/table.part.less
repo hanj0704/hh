@@ -1,0 +1,129 @@
+@import "../../settings.part.less";
+@import "../custom-variables.part.less";
+
+/* Grid Striped Rows */
+.cl-grid.table-striped {
+	.cl-grid-row {
+		&.cl-odd-row {
+			background-color : #fafbfc;
+		}
+	}
+}
+
+/* Grid Thead Default */
+.cl-grid.table-dark {
+	border-top-color : @table-accent-bg;
+	
+	.cl-grid-header {
+		background-color : @table-accent-bg !important;
+		color : @white;
+		
+		.cl-grid-cell {
+			border-bottom : none;
+			
+			.cl-control {
+			}
+		}
+		
+		.cl-blank {
+			background-color : @table-accent-bg !important;
+		}
+		
+		.cl-sort {
+			&.cl-sortable {
+				 background-image: url(images/icon/icon_sort_w.png);
+			}
+
+			&.cl-sort-asc {
+				 background-image: url(images/icon/icon_sort_asc.png);
+			}
+
+			&.cl-sort-desc {
+				 background-image: url(images/icon/icon_sort_desc.png);
+			}
+		}
+		
+		.cl-filter {
+			 background-image: url(images/icon/icon_filter_w.png);
+			 background-size: 12px 10px;
+			
+			/* 그리드 헤더 셀 필터 인디케이터에 마우스가 호버되었을 때 스타일 */
+			&:hover {
+				 background-image: url(images/icon/icon_filter_hover_w.png);
+			}
+
+			/* 그리드 헤더 셀 필터 인디케이터 - 필터되었을 때 스타일 */
+			&.cl-filtered {
+				 background-image: url(images/icon/icon_filter_on.png);
+			}
+		}
+		
+		.cl-sortable-cell {
+			.cl-sort {
+				.cl-sort-icon:before {
+					content: "";
+					background-image : url(images/icon/icon_sortable_w.png);
+					background-repeat : no-repeat;
+					background-position : center;
+					display : block;
+					height : 100%;
+				}
+			}
+
+			&.cl-sort-asc {
+				.cl-sort-icon:before {
+					content: " ";
+					background-image : url(images/icon/icon_sortable_asc_w.png);
+					background-repeat : no-repeat;
+					background-position : center;
+					display : block;
+					height : 100%;
+				}
+			}
+
+			&.cl-sort-desc {
+				.cl-sort-icon:before {
+					content: " ";
+					background-image : url(images/icon/icon_sortable_desc_w.png);
+					background-repeat : no-repeat;
+					background-position : center;
+					display : block;
+					height : 100%;
+				}
+			}
+		}
+	}
+}
+
+.cl-grid.table-light {
+	.cl-grid-header {
+		background-color : @table-metal-bg !important;
+		color : @default-text-color;
+		
+		.cl-blank {
+			background-color : @table-metal-bg !important;
+		}
+		
+		.cl-grid-cell {
+			border-bottom : 1px solid @default-border-color;
+			
+			.cl-control {
+			}
+		}
+	}
+}
+
+/* Grid Bordered */
+.cl-grid.table-bordered {
+	border-width : 1px;
+	
+	.cl-grid-header {
+		.cl-blank {
+			background-color: #f1f1f1;
+		}
+	}
+	
+	.cl-grid-cell {
+		border-right: 1px solid @default-border-color;
+	}
+}

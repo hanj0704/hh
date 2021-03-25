@@ -1,0 +1,32 @@
+@import "../settings.part.less";
+@import "../custom/custom-variables.part.less";
+
+ /* 프로그레스 바 루트 */
+ .cl-progress {
+	background-image: none;
+	background-color : #eee;
+	border: 1px solid @default-border-color;
+	border-radius : 3.5px;
+	
+	/* 진행 바 */
+	.cl-progress-bar {
+		background-color : @info;
+		background-image : linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+		border-radius : 0px;
+		background-size : 14px 14px;
+	}
+}
+
+/* 프로그레스 바 - disabled */
+.cl-progress.cl-disabled {
+	border-color: @disabled-border-color;
+	background-color : #eee;
+	background-image: none;
+	
+	/* 진행 바 - disabled */
+	.cl-progress-bar {
+		background-color : @gray-600;
+		background-image : linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+		background-size : 14px 14px;
+	}
+}

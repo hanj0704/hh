@@ -1,0 +1,42 @@
+@import "../settings.part.less";
+@import "../custom/custom-variables.part.less";
+
+/* 텍스트 에리어 */
+.cl-textarea {
+	font: @font-base;
+	border: @input-border-width solid @input-border-color;
+	color: @input-color;
+	border-radius : @border-radius-sm;
+	background-color: @input-bg;
+	background-image : @input-bg-img;
+	transition : @transition-base;
+	
+	/* 텍스트 에리어 텍스트 */
+	.cl-text {
+		padding : @input-padding-y-lg @input-padding-x !important;
+		//overflow: auto
+		
+		/* 인풋 박스 placeholder 스타일 */
+		&.cl-placeholder {
+			color : @input-placeholder-color !important;
+		}
+	}
+	
+	&.cl-readonly {
+		background-color: @input-readonly-bg;
+		color: @input-readonly-color;
+		border-color: @input-readonly-border-color;
+	}
+
+	/* 텍스트 에리어 - disabled */
+	&.cl-disabled {
+		border-color: @input-disabled-border-color;
+		background-color: @input-disabled-bg;
+		color: @input-disabled-color;
+	}
+
+	/* 텍스트 에리어 - focus*/
+	&.cl-focus {
+		border-color: @input-focus-border-color;
+	}
+}

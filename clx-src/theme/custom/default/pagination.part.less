@@ -1,0 +1,138 @@
+@import "../../settings.part.less";
+@import "../custom-variables.part.less";
+
+/* Not Separated Pagination with Arrows */
+.cl-pageindexer.pagination {
+	.cl-pageindexer-first ,
+	.cl-pageindexer-last ,
+	.cl-pageindexer-prev ,
+	.cl-pageindexer-next,
+	.cl-pageindexer-index {
+		border: 1px solid @default-border-color;
+		border-radius : 0px;
+		margin : 0 0 0 -1px;
+		
+		&:first-child {
+			border-radius : 3.5px 0 0 3.5px;
+			margin : 0px;
+		}
+		
+		&:last-child {
+			border-radius : 0 3.5px 3.5px 0;
+		}
+	}
+	
+	.cl-pageindexer-index-area {
+		margin : 0 0 0 -1px;
+		&:not(:first-child) {
+			.cl-pageindexer-index {
+				border-radius : 0px;
+			}
+		}
+	}
+	
+	.cl-pageindexer-index {
+		&.cl-selected {
+			background-color: @selection-background;
+			color: @selection-foreground;
+			border-color : @focus-border-color;
+			font-weight : @font-weight-medium;
+			position : relative;
+		}
+	}
+	
+	&:not(.cl-disabled) {
+		.cl-pageindexer-first ,
+		.cl-pageindexer-last ,
+		.cl-pageindexer-prev ,
+		.cl-pageindexer-next,
+		.cl-pageindexer-index {
+			&:not(.cl-selected){
+				&.cl-hover, 
+				&:hover{
+					background-color:@hover-background;
+					color : @hover-foreground;
+				}
+			}
+		}
+	}
+	
+	&.cl-disabled {
+		.cl-pageindexer-first ,
+		.cl-pageindexer-last ,
+		.cl-pageindexer-prev ,
+		.cl-pageindexer-next,
+		.cl-pageindexer-index {
+			background-color: @disabled-selection-background;
+			border-color : @disabled-border-color;
+			color: @disabled-selection-foreground;
+			text-shadow : none;
+		}
+		
+		.cl-pageindexer-index {
+			&.cl-selected {
+				background-color: @disabled-selection-background;
+				color: @disabled-text-color;
+			}
+		}
+	}
+}
+
+/* Flat Pagination */
+.cl-pageindexer.pagination-flat {
+	color : @focus-text-color;
+	
+	.cl-pageindexer-first ,
+	.cl-pageindexer-last ,
+	.cl-pageindexer-prev ,
+	.cl-pageindexer-next,
+	.cl-pageindexer-index {
+		background-color : transparent;
+		border: 1px solid transparent;
+		border-radius : 3.5px;
+	}
+	.cl-pageindexer-index {
+		&.cl-selected {
+			background-color: @selection-background;
+			color: @selection-foreground;
+			border-color : transparent;
+			font-weight : @font-weight-medium;
+		}
+	}
+	
+	&:not(.cl-disabled) {
+		.cl-pageindexer-first ,
+		.cl-pageindexer-last ,
+		.cl-pageindexer-prev ,
+		.cl-pageindexer-next,
+		.cl-pageindexer-index {
+			&:not(.cl-selected){
+				&.cl-hover, 
+				&:hover{
+					background-color:@hover-background;
+					color : @hover-foreground;
+				}
+			}
+		}
+	}
+	
+	&.cl-disabled {
+		.cl-pageindexer-first ,
+		.cl-pageindexer-last ,
+		.cl-pageindexer-prev ,
+		.cl-pageindexer-next,
+		.cl-pageindexer-index {
+			background-color: transparent;
+			border-color : transparent;
+			color: @disabled-selection-foreground;
+			text-shadow : none;
+		}
+		
+		.cl-pageindexer-index {
+			&.cl-selected {
+				background-color: @disabled-selection-background;
+				color: @disabled-text-color;
+			}
+		}
+	}
+}
