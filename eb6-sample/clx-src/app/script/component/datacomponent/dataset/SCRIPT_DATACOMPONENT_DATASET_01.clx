@@ -1,0 +1,1073 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:cl="http://tomatosystem.co.kr/cleopatra" xmlns:std="http://tomatosystem.co.kr/cleopatra/studio" std:sid="html-0f44055f" version="1.0.0.0">
+  <head std:sid="head-46c6e483">
+    <title>SCRIPT_DATACOMPONENT_DATASET_01</title>
+    <screen std:sid="screen-63bcce98" id="default" name="default" minwidth="1200px" width="1200px" height="768px"/>
+    <screen std:sid="screen-0bf16b1d" id="tablet" name="tablet" minwidth="850px" maxwidth="1199px" width="850px" height="768px"/>
+    <screen std:sid="screen-97b7b041" id="test" name="mobile" maxwidth="849px" width="544px" height="768px"/>
+    <cl:model std:sid="model-57a335fd">
+      <cl:dataset std:sid="d-set-f2d022b4" id="dsSample" sortcondition="">
+        <cl:datacolumnlist>
+          <cl:datacolumn comment="사번" std:sid="d-column-4ec459c2" name="empId" datatype="string"/>
+          <cl:datacolumn comment="사원명" std:sid="d-column-89488c70" name="empNm"/>
+          <cl:datacolumn comment="이메일" std:sid="d-column-aa29eff4" name="email"/>
+          <cl:datacolumn comment="핸드폰" std:sid="d-column-0775dff7" name="phone"/>
+          <cl:datacolumn comment="주소" std:sid="d-column-9f95112c" name="address" datatype="string"/>
+          <cl:datacolumn comment="등록일자" std:sid="d-column-5f6dfea4" name="regDt" datatype="string"/>
+        </cl:datacolumnlist>
+        <cl:datarowlist>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[12192]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[한석규]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[seokgyu@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-2950-2899]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[경기도 수원시 권선구 서둔동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20120213]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[12347]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[김혜수]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[hyesoo@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-8602-9206]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[경기도 고양시 덕양구 고양동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20120316]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[12720]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[장동건]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[donggeon@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-5892-6776]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[경기도 하남시 미사동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20120720]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[13182]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[황정민]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[jungmin@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-2394-9631]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[서울시 송파구 잠실2동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20130218]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[13602]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[권상우]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[sangwoo@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-2592-0960]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[경기도 부천시 범안동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20130614]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[13898]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[배두나]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[duna@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-3329-5820]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[서울시 관악구 신사동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20131127]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[14348]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[하지원]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[jiwon@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-4856-9912]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[서울시 서대문구 연희동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20140408]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[14492]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[주지훈]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[jihoon@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-4892-7710]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[서울시 용산구 한남동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20140728]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[14994]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[송혜교]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[hyaegyo@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-9902-8715]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[경기도 의왕시 오전동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20141226]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[15302]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[공유]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[gongyoo@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-2950-9683]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[경기도 김포시 김포본동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20150223]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[15624]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[이정재]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[jungjae@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-5492-8589]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[서울시 강남구 논현동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20150819]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[15879]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[이병헌]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[byunghun@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-1298-8292]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[경기도 성남시 분당구 분당동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20151111]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[16024]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[조정석]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[jungseok@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-9420-6832]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[서울시 금천구 독산제1동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20160124]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[16432]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[조승우]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[sungwoo@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-3275-0182]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[서울시 노원구 공릉2동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20160427]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[16928]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[정우성]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[woosung@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-6693-1892]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[서울시 서초구 반포1동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20161227]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[17247]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[박신혜]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[shinhyae@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-1209-9587]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[경기도 평택시 중앙동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20170303]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[17504]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[하정우]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[jungwoo@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-2485-6790]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[서울시 동작구 대방동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20170530]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[17697]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[전도연]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[doyeon@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-5928-1902]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[경기도 용인시 기흥구 신갈동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20170707]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[18332]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[송중기]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[gunggi@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-6693-9910]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[경기도 군포시 산본동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20180427]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[18702]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[손예진]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[yaejin@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-7282-1810]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[서울시 중구 약수동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20180919]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[18925]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[송강호]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[gangho@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-8219-9825]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[서울시 영등포구 문래동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20181210]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[19240]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[문채원]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[caewon@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-1298-4055]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[서울시 도봉구 쌍문제1동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20190304]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[19558]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[김수현]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[soohyun@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-8762-9590]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[경기도 안산시 상록구 반월동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20190520]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[19889]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[류준열]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[junyeol@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-8602-1810]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[경기도 광명시 소하동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20191014]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[20445]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[고수]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[gosu@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-2980-8609]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[경기도 광주시 탄벌동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20200413]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[20719]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[강동원]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[dongwon@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-4382-1980]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[서울시 성동구 옥수동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20200914]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[20874]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[변요한]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[yohan@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-5982-0280]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[경기도 화성시 동탄동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20200823]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[21054]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[박서준]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[seojoon@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-1567-9867]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[서울시 중랑구 면목제2동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20210111]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[21116]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[원빈]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[onebin@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-8602-0285]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[경기도 의정부시 장암동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20210125]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[21220]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[김고은]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[goeun@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-9201-9828]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[경기도 안양시 동안구 부림동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20210225]]></cl:datavalue>
+          </cl:datarow>
+        </cl:datarowlist>
+      </cl:dataset>
+      <cl:dataset std:sid="d-set-e1be2ccf" id="dsView" sortcondition="" filtercondition="">
+        <cl:datacolumnlist>
+          <cl:datacolumn comment="사번" std:sid="d-column-41c77f4e" name="empId" datatype="number"/>
+          <cl:datacolumn comment="사원명" std:sid="d-column-f84cbcf9" name="empNm"/>
+          <cl:datacolumn comment="이메일" std:sid="d-column-38fb3b1b" name="email"/>
+          <cl:datacolumn comment="핸드폰" std:sid="d-column-8a8c1252" name="phone"/>
+          <cl:datacolumn comment="주소" std:sid="d-column-03dab225" name="address"/>
+          <cl:datacolumn comment="등록일자" std:sid="d-column-a4a1aab3" name="regDt"/>
+        </cl:datacolumnlist>
+        <cl:datarowlist>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[12192]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[한석규]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[seokgyu@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-2950-2899]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[경기도 수원시 권선구 서둔동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20120213]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[12347]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[김혜수]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[hyesoo@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-8602-9206]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[경기도 고양시 덕양구 고양동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20120316]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[12720]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[장동건]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[donggeon@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-5892-6776]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[경기도 하남시 미사동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20120720]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[13182]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[황정민]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[jungmin@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-2394-9631]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[서울시 송파구 잠실2동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20130218]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[13602]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[권상우]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[sangwoo@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-2592-0960]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[경기도 부천시 범안동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20130614]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[13898]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[배두나]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[duna@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-3329-5820]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[서울시 관악구 신사동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20131127]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[14348]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[하지원]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[jiwon@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-4856-9912]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[서울시 서대문구 연희동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20140408]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[14492]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[주지훈]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[jihoon@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-4892-7710]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[서울시 용산구 한남동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20140728]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[14994]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[송혜교]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[hyaegyo@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-9902-8715]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[경기도 의왕시 오전동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20141226]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[15302]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[공유]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[gongyoo@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-2950-9683]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[경기도 김포시 김포본동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20150223]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[15624]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[이정재]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[jungjae@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-5492-8589]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[서울시 강남구 논현동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20150819]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[15879]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[이병헌]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[byunghun@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-1298-8292]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[경기도 성남시 분당구 분당동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20151111]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[16024]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[조정석]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[jungseok@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-9420-6832]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[서울시 금천구 독산제1동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20160124]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[16432]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[조승우]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[sungwoo@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-3275-0182]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[서울시 노원구 공릉2동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20160427]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[16928]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[정우성]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[woosung@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-6693-1892]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[서울시 서초구 반포1동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20161227]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[17247]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[박신혜]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[shinhyae@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-1209-9587]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[경기도 평택시 중앙동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20170303]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[17504]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[하정우]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[jungwoo@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-2485-6790]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[서울시 동작구 대방동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20170530]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[17697]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[전도연]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[doyeon@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-5928-1902]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[경기도 용인시 기흥구 신갈동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20170707]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[18332]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[송중기]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[gunggi@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-6693-9910]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[경기도 군포시 산본동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20180427]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[18702]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[손예진]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[yaejin@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-7282-1810]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[서울시 중구 약수동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20180919]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[18925]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[송강호]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[gangho@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-8219-9825]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[서울시 영등포구 문래동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20181210]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[19240]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[문채원]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[caewon@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-1298-4055]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[서울시 도봉구 쌍문제1동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20190304]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[19558]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[김수현]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[soohyun@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-8762-9590]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[경기도 안산시 상록구 반월동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20190520]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[19889]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[류준열]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[junyeol@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-8602-1810]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[경기도 광명시 소하동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20191014]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[20445]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[고수]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[gosu@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-2980-8609]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[경기도 광주시 탄벌동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20200413]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[20719]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[강동원]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[dongwon@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-4382-1980]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[서울시 성동구 옥수동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20200914]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[20874]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[변요한]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[yohan@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-5982-0280]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[경기도 화성시 동탄동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20200823]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[21054]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[박서준]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[seojoon@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-1567-9867]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[서울시 중랑구 면목제2동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20210111]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[21116]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[원빈]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[onebin@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-8602-0285]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[경기도 의정부시 장암동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20210125]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[21220]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[김고은]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[goeun@tomatosystem.co.kr]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-9201-9828]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[경기도 안양시 동안구 부림동]]></cl:datavalue>
+            <cl:datavalue columnname="regDt"><![CDATA[20210225]]></cl:datavalue>
+          </cl:datarow>
+        </cl:datarowlist>
+      </cl:dataset>
+      <cl:dataset std:sid="d-set-1b541379" id="dsCopy">
+        <cl:datacolumnlist>
+          <cl:datacolumn comment="사번" std:sid="d-column-619d0af9" name="empId"/>
+          <cl:datacolumn comment="사원명" std:sid="d-column-198d2943" name="empNm"/>
+          <cl:datacolumn comment="이메일" std:sid="d-column-7b3e4784" name="email"/>
+          <cl:datacolumn comment="핸드폰" std:sid="d-column-62cf31f6" name="phone"/>
+          <cl:datacolumn comment="주소" std:sid="d-column-afc4ce56" name="address"/>
+          <cl:datacolumn comment="등록일자" std:sid="d-column-a9653f23" name="regDt"/>
+        </cl:datacolumnlist>
+      </cl:dataset>
+    </cl:model>
+    <cl:appspec title="데이터 셋 기능"/>
+  </head>
+  <body std:sid="body-aaabd9f5" style="top:0px; left:0px; width:800px; height:600px;">
+    <cl:group std:sid="group-59960b1b" class="content-card">
+      <cl:verticaldata std:sid="v-data-b5746e4a" width="1200px" height="4377px" autosize="height"/>
+      <cl:udc std:sid="ud-control-b8469aa4" type="udc.cmn.AppTitle">
+        <cl:verticaldata std:sid="v-data-f0bae039" width="1140px" height="175px" autosize="none"/>
+        <cl:property name="tags" value="스크립트,데이터 컴포넌트,데이터 셋" type="string"/>
+      </cl:udc>
+      <cl:group std:sid="group-a4b3eb74">
+        <cl:verticaldata std:sid="v-data-3747f6b2" width="400px" height="4202px" autosize="height"/>
+        <cl:group std:sid="group-c3b4f76c" class="card-inner">
+          <cl:verticaldata std:sid="v-data-76d5fec5" width="400px" height="159px" autosize="height"/>
+          <cl:udc std:sid="ud-control-400ea92b" id="areatitle1" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-6e7053ba" width="300px" height="38px"/>
+            <cl:property name="value" value="개요" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-91f8c8b3" value="이 문서는 데이터 셋 컨트롤 기능에 대하여 설명합니다.">
+            <cl:verticaldata std:sid="v-data-89fb3e43" width="100px" height="46px" autosize="height"/>
+          </cl:output>
+          <cl:verticallayout std:sid="v-layout-f8b7a75d" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-de8c1411" class="card-inner">
+          <cl:verticaldata std:sid="v-data-b7ece3a4" width="400px" height="514px" autosize="height"/>
+          <cl:udc std:sid="ud-control-fb8bf275" id="areatitle2" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-a1e15097" width="1040px" height="38px" autosize="none"/>
+            <cl:property name="value" value="컨트롤 생성 및 설정" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-63aedf87" value="그리드 컨트롤을 [Palette] 뷰에서 찾아 디자인 편집기에 배치합니다.&#xD;&#xA;&#xD;&#xA;그리드에 연결될 데이터 셋을 [Model] 뷰를 통해 생성합니다. 데이터 셋의 ID는 &quot;dsSample&quot;로 설정하고, 해당 데이터 셋에 empId, empNm, email, phone, address, rgstDt 컬럼을 추가합니다.&#xD;&#xA;&#xD;&#xA;데이터 셋 구성이 완료되면 데이터 셋을 그리드에 드래그 앤 드롭하여 연결하여 그리드 구성을 완료합니다.">
+            <cl:verticaldata std:sid="v-data-7a20e9d2" width="100px" height="46px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-5f47d467" class="attach-box">
+            <cl:verticaldata std:sid="v-data-4e38cf7f" width="400px" height="340px" autosize="height"/>
+            <cl:group std:sid="group-d161ccf6">
+              <cl:flowlayoutdata std:sid="f-data-19f55388" width="650px" height="300px" autosize="none"/>
+              <cl:output std:sid="output-5aa6c1ae" class="text-center" value="&lt;그리드에 연결된 데이터 셋 컨트롤>">
+                <cl:formdata std:sid="f-data-6ce63a53" row="1" col="0"/>
+              </cl:output>
+              <cl:grid std:sid="grid-42bfbe4c" id="dsToGrdView" datasetid="dsView">
+                <cl:formdata std:sid="f-data-db4820cd" row="0" col="0"/>
+                <cl:gridcolumn std:sid="g-column-08340ef0"/>
+                <cl:gridcolumn std:sid="g-column-7b3b4f65"/>
+                <cl:gridcolumn std:sid="g-column-b4665c5b"/>
+                <cl:gridcolumn std:sid="g-column-0c726940"/>
+                <cl:gridcolumn std:sid="g-column-996f5721"/>
+                <cl:gridcolumn std:sid="g-column-9a6eec2b"/>
+                <cl:gridheader std:sid="gh-band-f2f9333d">
+                  <cl:gridrow std:sid="g-row-b6629347" height="35px"/>
+                  <cl:gridcell std:sid="gh-cell-9d104395" rowindex="0" colindex="0" targetcolumnname="empId" sortable="false" filterable="false" text="사번"/>
+                  <cl:gridcell std:sid="gh-cell-77c7d7c2" rowindex="0" colindex="1" targetcolumnname="empNm" sortable="false" filterable="false" text="사원명"/>
+                  <cl:gridcell std:sid="gh-cell-02b031bf" rowindex="0" colindex="2" targetcolumnname="email" sortable="false" filterable="false" text="이메일"/>
+                  <cl:gridcell std:sid="gh-cell-a7f1175a" rowindex="0" colindex="3" targetcolumnname="phone" sortable="false" filterable="false" text="핸드폰"/>
+                  <cl:gridcell std:sid="gh-cell-6709a5f1" rowindex="0" colindex="4" targetcolumnname="address" sortable="false" filterable="false" text="주소"/>
+                  <cl:gridcell std:sid="gh-cell-bafcb8ae" rowindex="0" colindex="5" targetcolumnname="regDt" sortable="false" filterable="false" text="등록일자"/>
+                </cl:gridheader>
+                <cl:griddetail std:sid="gd-band-aaaf6017">
+                  <cl:gridrow std:sid="g-row-d57eedad" height="30px"/>
+                  <cl:gridcell std:sid="gd-cell-01fc7e61" rowindex="0" colindex="0" columnname="empId"/>
+                  <cl:gridcell std:sid="gd-cell-4436eed8" rowindex="0" colindex="1" columnname="empNm"/>
+                  <cl:gridcell std:sid="gd-cell-2794fad1" rowindex="0" colindex="2" columnname="email"/>
+                  <cl:gridcell std:sid="gd-cell-6f90ee41" rowindex="0" colindex="3" columnname="phone"/>
+                  <cl:gridcell std:sid="gd-cell-feac9887" rowindex="0" colindex="4" columnname="address"/>
+                  <cl:gridcell std:sid="gd-cell-8eac9f6a" rowindex="0" colindex="5" columnname="regDt"/>
+                </cl:griddetail>
+              </cl:grid>
+              <cl:formlayout std:sid="f-layout-55aaa290" hspace="5px" vspace="5px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+                <cl:rows length="1" unit="FRACTION" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+                <cl:rows length="20" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+                <cl:columns length="1" unit="FRACTION"/>
+              </cl:formlayout>
+            </cl:group>
+            <cl:flowlayout std:sid="f-layout-3c9b5206" scrollable="false" spacing="20" halign="center" valign="middle" leftmargin="20" rightmargin="20" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-fea69ec9" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-11053d61" class="card-inner">
+          <cl:verticaldata std:sid="v-data-92db121e" width="1040px" height="393px" autosize="height"/>
+          <cl:udc std:sid="ud-control-d726449c" id="areatitle3" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-2234104b" width="300px" height="38px"/>
+            <cl:property name="value" value="스타일 시트" type="string"/>
+          </cl:udc>
+          <cl:group std:sid="group-6a755066" id="grp16" class="ref-card info">
+            <cl:verticaldata std:sid="v-data-a577cd31" width="1040px" height="95px" autosize="height"/>
+            <cl:output std:sid="output-d6122608" id="opt14" class="ref-title" value="경로 : LESS 파일">
+              <cl:verticaldata std:sid="v-data-157990b2" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-88c60ef5" id="opt15" value="`clx-src/asset/STY_CTRL_SLCT_01.less`">
+              <cl:verticaldata std:sid="v-data-7eea5e7b" width="100px" height="25px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-3d91933b" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:output std:sid="output-c66842e8" value="`스타일 시트 내용을 입력하십시오.`">
+            <cl:verticaldata std:sid="v-data-d3939fb0" width="1040px" height="126px" autosize="height"/>
+          </cl:output>
+          <cl:udc std:sid="ud-control-b7a23aae" id="ace1" type="udc.cmn.Ace">
+            <cl:verticaldata std:sid="v-data-ae2cf1f3" width="300px" height="29px" autosize="height"/>
+            <cl:property name="value" value=".cl-container.toggle-wrap {&#xD;&#xA;&#x9;/* 토글 버튼 스타일 */&#xD;&#xA;&#x9;background-color: #cccccc;&#xD;&#xA;&#x9;border-radius: 5px;&#xD;&#xA;&#x9;&#xD;&#xA;&#x9;.cl-checkbox.toggle {&#xD;&#xA;&#x9;&#x9;/* 토글되지 않은 상태 스타일 */&#xD;&#xA;&#x9;&#x9;padding: 0px;&#xD;&#xA;&#x9;&#x9;text-align: center;&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;.cl-checkbox-wrap {&#xD;&#xA;&#x9;&#x9;&#x9;/* 체크박스 아이콘 래퍼 스타일 */&#xD;&#xA;&#x9;&#x9;&#x9;vertical-align: middle;&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;.cl-checkbox-icon {&#xD;&#xA;&#x9;&#x9;&#x9;/* 체크박스 아이콘 스타일 */&#xD;&#xA;&#x9;&#x9;&#x9;background-image: none;&#xD;&#xA;&#x9;&#x9;&#x9;background-color: #ffffff;&#xD;&#xA;&#x9;&#x9;&#x9;border-radius: 3px;&#xD;&#xA;&#x9;&#x9;&#x9;margin-left: 0px;&#xD;&#xA;&#x9;&#x9;&#x9;width: 20px;&#xD;&#xA;&#x9;&#x9;&#x9;height: 20px;&#xD;&#xA;&#x9;&#x9;&#x9;min-height: 20px;&#xD;&#xA;&#x9;&#x9;&#x9;margin-bottom: 2px;&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&amp;.cl-focus, &amp;:focus {&#xD;&#xA;&#x9;&#x9;&#x9;.cl-checkbox-icon {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;/* 체크박스 포커스 스타일 */&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;outline: none;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;&#xD;&#xA;&#x9;&amp;.on {&#xD;&#xA;&#x9;&#x9;/* 토글 상태 스타일 */&#xD;&#xA;&#x9;&#x9;background-color: #6edc5f;&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;&#xD;&#xA;&#x9;&amp;.round {&#xD;&#xA;&#x9;&#x9;/* 둥근 토글 버튼 스타일 */&#xD;&#xA;&#x9;&#x9;border-radius: 14px;&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;.cl-checkbox.toggle {&#xD;&#xA;&#x9;&#x9;&#x9;.cl-checkbox-icon {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;/* 둥근 토글 버튼 아이콘 스타일 */&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;border-radius: 14px;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;}&#xD;&#xA;}" type="string"/>
+            <cl:property name="language" value="ace/mode/less" type="enumeration"/>
+          </cl:udc>
+          <cl:verticallayout std:sid="v-layout-81987a1e" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-54850849" class="card-inner">
+          <cl:verticaldata std:sid="v-data-49f1570a" width="1040px" height="269px" autosize="height"/>
+          <cl:udc std:sid="ud-control-3bc3fa1b" id="areatitle8" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-9d05f978" width="300px" height="38px"/>
+            <cl:property name="value" value="시나리오" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-5fa2801f" value="1. 선택된 컬럼을 getValue API를 통해 값을 가져와 보여줍니다.&#xD;&#xA;2. 선택된 컬럼과 변경할 값을 setValue API를 통해 컬럼의 값을 변경합니다.&#xD;&#xA;3. getRowCount API를 통해 데이터 셋의 현재 행의 수를 반환하여 보여줍니다.&#xD;&#xA;4. getRowData API를 통해 선택된 행의 데이터를 가져와 보여줍니다.&#xD;&#xA;5. insertRow API를 통해 선택된 행을 기준으로 행을 추가합니다.&#xD;&#xA;6. addColumn API를 통해 데이터 셋에 컬럼을 추가합니다. 결과값에 도출되는 컬럼명 배열로 추가됨을 확인합니다.&#xD;&#xA;7. changeRowIndex API를 통해 선택된 행과 입력받은 index를 가진 행의 위치가 서로 바뀌는지 확인합니다.&#xD;&#xA;8. moveRowIndex API를 통해 선택된 행이 이동시킬 index의 위치로 이동하는지 확인합니다.&#xD;&#xA;9. copyToDataSet API를 통해 그리드에 연결된 데이터 셋의 데이터를 다른 데이터 셋으로 복사합니다.&#xD;&#xA;10. deleteRow API를 통해 선택된 행이 삭제되는지 확인합니다.&#xD;&#xA;11. clear API를 통해 데이터 셋의 정보를 제거되는지 확인합니다.&#xD;&#xA;12. parseData API를 통해 데이터 셋이 생성 및 초기화되는지 확인합니다.">
+            <cl:verticaldata std:sid="v-data-da502c34" width="1040px" height="46px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-8f14d7fc" class="ref-card warning">
+            <cl:verticaldata std:sid="v-data-5b7a0ae3" width="1200px" height="95px" autosize="height"/>
+            <cl:output std:sid="output-564d9426" class="ref-title" value="WARNING">
+              <cl:verticaldata std:sid="v-data-076d9fe9" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-28ab6d03" value="`시나리오 영역에서 특별히 안내가 필요한 정보를 작성하십시오.`">
+              <cl:verticaldata std:sid="v-data-37c1bfe5" width="100px" height="25px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-ec928def" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-d8c39c93" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-f5df0ee5" class="card-inner">
+          <cl:verticaldata std:sid="v-data-35411d62" width="1040px" height="1484px" autosize="height"/>
+          <cl:udc std:sid="ud-control-c65fdfe7" id="areatitle4" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-980fb5f9" width="300px" height="38px"/>
+            <cl:property name="value" value="주요 기능" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-df49c14a" value="시나리오 순서대로 각 API의 실행 버튼을 눌러 그리드에 연결된 데이터 셋 동작과 스크립트를 확인하십시오.">
+            <cl:verticaldata std:sid="v-data-e0f2ddad" width="1040px" height="25px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-363efae4" class="attach-box">
+            <cl:verticaldata std:sid="v-data-fd07513a" width="1100px" height="340px" autosize="height"/>
+            <cl:group std:sid="group-a68074cb">
+              <cl:flowlayoutdata std:sid="f-data-6c3b3aba" width="650px" height="300px"/>
+              <cl:output std:sid="output-f174da7d" class="text-center" value="&lt;기능 확인 데이터 셋 컨트롤>">
+                <cl:formdata std:sid="f-data-f0723df7" row="1" col="0"/>
+              </cl:output>
+              <cl:grid std:sid="grid-6ce55386" id="dsToGrdSample" datasetid="dsSample" autofit="all">
+                <cl:formdata std:sid="f-data-dd38809b" row="0" col="0"/>
+                <cl:gridcolumn std:sid="g-column-3e67acb3"/>
+                <cl:gridcolumn std:sid="g-column-eb49ac65"/>
+                <cl:gridcolumn std:sid="g-column-8ce921d6"/>
+                <cl:gridcolumn std:sid="g-column-38aafd27"/>
+                <cl:gridcolumn std:sid="g-column-1502b459"/>
+                <cl:gridcolumn std:sid="g-column-e2d380aa"/>
+                <cl:gridheader std:sid="gh-band-559622bb">
+                  <cl:gridrow std:sid="g-row-f8756577" height="35px"/>
+                  <cl:gridcell std:sid="gh-cell-04bd35e9" rowindex="0" colindex="0" targetcolumnname="empId" sortable="false" filterable="false" text="사번"/>
+                  <cl:gridcell std:sid="gh-cell-741ef419" rowindex="0" colindex="1" targetcolumnname="empNm" sortable="false" filterable="false" text="사원명"/>
+                  <cl:gridcell std:sid="gh-cell-f705c2ef" rowindex="0" colindex="2" targetcolumnname="email" sortable="false" filterable="false" text="이메일"/>
+                  <cl:gridcell std:sid="gh-cell-4242d0b7" rowindex="0" colindex="3" targetcolumnname="phone" sortable="false" filterable="false" text="핸드폰"/>
+                  <cl:gridcell std:sid="gh-cell-306b5246" rowindex="0" colindex="4" targetcolumnname="address" sortable="false" filterable="false" text="주소"/>
+                  <cl:gridcell std:sid="gh-cell-4286ce87" rowindex="0" colindex="5" targetcolumnname="regDt" sortable="false" filterable="false" text="등록일자"/>
+                </cl:gridheader>
+                <cl:griddetail std:sid="gd-band-fb71d68d">
+                  <cl:gridrow std:sid="g-row-60170f3c" height="30px"/>
+                  <cl:gridcell std:sid="gd-cell-9849a5a3" rowindex="0" colindex="0" columnname="empId"/>
+                  <cl:gridcell std:sid="gd-cell-7a1458e3" rowindex="0" colindex="1" columnname="empNm"/>
+                  <cl:gridcell std:sid="gd-cell-3137f285" rowindex="0" colindex="2" columnname="email"/>
+                  <cl:gridcell std:sid="gd-cell-f2abd6cd" rowindex="0" colindex="3" columnname="phone"/>
+                  <cl:gridcell std:sid="gd-cell-6cff235a" rowindex="0" colindex="4" columnname="address"/>
+                  <cl:gridcell std:sid="gd-cell-523a6e76" rowindex="0" colindex="5" columnname="regDt"/>
+                </cl:griddetail>
+              </cl:grid>
+              <cl:formlayout std:sid="f-layout-bd803e82" hspace="5px" vspace="5px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+                <cl:rows length="1" unit="FRACTION" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+                <cl:rows length="20" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+                <cl:columns length="1" unit="FRACTION"/>
+              </cl:formlayout>
+            </cl:group>
+            <cl:flowlayout std:sid="f-layout-1d420c14" scrollable="false" spacing="20" halign="center" valign="middle" leftmargin="20" rightmargin="20" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:group std:sid="group-52461ffb" class="attach-box">
+            <cl:verticaldata std:sid="v-data-98af4422" width="1100px" height="340px" autosize="height"/>
+            <cl:group std:sid="group-891dfd6f">
+              <cl:flowlayoutdata std:sid="f-data-b25ce72d" width="650px" height="300px"/>
+              <cl:output std:sid="output-7c689d6b" class="text-center" value="&lt;'copyToDataSet' API 확인 데이터 셋 컨트롤>">
+                <cl:formdata std:sid="f-data-7666d46b" row="1" col="0"/>
+              </cl:output>
+              <cl:grid std:sid="grid-9f85b9bb" id="dsToGrdCopy" datasetid="dsCopy">
+                <cl:formdata std:sid="f-data-3635a0cc" row="0" col="0"/>
+                <cl:gridcolumn std:sid="g-column-760f6cc1"/>
+                <cl:gridcolumn std:sid="g-column-017701d6"/>
+                <cl:gridcolumn std:sid="g-column-d8c8fd0a"/>
+                <cl:gridcolumn std:sid="g-column-89639a7a"/>
+                <cl:gridcolumn std:sid="g-column-3b7d2ade"/>
+                <cl:gridcolumn std:sid="g-column-c3499d31"/>
+                <cl:gridheader std:sid="gh-band-e4f5c4fa">
+                  <cl:gridrow std:sid="g-row-c9da5183" height="35px"/>
+                  <cl:gridcell std:sid="gh-cell-bd816cba" rowindex="0" colindex="0" targetcolumnname="empId" sortable="false" filterable="false" text="사번"/>
+                  <cl:gridcell std:sid="gh-cell-2a3810af" rowindex="0" colindex="1" targetcolumnname="empNm" sortable="false" filterable="false" text="사원명"/>
+                  <cl:gridcell std:sid="gh-cell-ab38e0c4" rowindex="0" colindex="2" targetcolumnname="email" sortable="false" filterable="false" text="이메일"/>
+                  <cl:gridcell std:sid="gh-cell-9cbe0f34" rowindex="0" colindex="3" targetcolumnname="phone" sortable="false" filterable="false" text="핸드폰"/>
+                  <cl:gridcell std:sid="gh-cell-af11326e" rowindex="0" colindex="4" targetcolumnname="address" sortable="false" filterable="false" text="주소"/>
+                  <cl:gridcell std:sid="gh-cell-b7dd808c" rowindex="0" colindex="5" targetcolumnname="regDt" sortable="false" filterable="false" text="등록일자"/>
+                </cl:gridheader>
+                <cl:griddetail std:sid="gd-band-d385ce52">
+                  <cl:gridrow std:sid="g-row-8022795a" height="30px"/>
+                  <cl:gridcell std:sid="gd-cell-0427bab3" rowindex="0" colindex="0" columnname="empId"/>
+                  <cl:gridcell std:sid="gd-cell-ead68197" rowindex="0" colindex="1" columnname="empNm"/>
+                  <cl:gridcell std:sid="gd-cell-81aa1298" rowindex="0" colindex="2" columnname="email"/>
+                  <cl:gridcell std:sid="gd-cell-ef10377d" rowindex="0" colindex="3" columnname="phone"/>
+                  <cl:gridcell std:sid="gd-cell-430ba2ca" rowindex="0" colindex="4" columnname="address"/>
+                  <cl:gridcell std:sid="gd-cell-1206854a" rowindex="0" colindex="5" columnname="regDt"/>
+                </cl:griddetail>
+              </cl:grid>
+              <cl:formlayout std:sid="f-layout-a78d15d4" hspace="5px" vspace="5px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+                <cl:rows length="1" unit="FRACTION" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+                <cl:rows length="20" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+                <cl:columns length="1" unit="FRACTION"/>
+              </cl:formlayout>
+            </cl:group>
+            <cl:flowlayout std:sid="f-layout-d2cbc50c" scrollable="false" spacing="20" halign="center" valign="middle" leftmargin="20" rightmargin="20" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:group std:sid="group-09d32a74" class="form-box vertical">
+            <cl:verticaldata std:sid="v-data-f0926932" width="400px" height="522px" autosize="height"/>
+            <cl:output std:sid="output-ebfd262a" class="label" value="API">
+              <cl:formdata std:sid="f-data-29062f84" row="0" col="0"/>
+            </cl:output>
+            <cl:output std:sid="output-8528dd47" class="label" value="설명">
+              <cl:formdata std:sid="f-data-45811037" row="0" col="1"/>
+            </cl:output>
+            <cl:output std:sid="output-96613175" class="label" value="입력값">
+              <cl:formdata std:sid="f-data-650fab76" row="0" col="2"/>
+            </cl:output>
+            <cl:output std:sid="output-b7dfb44f" class="label" value="기능확인">
+              <cl:formdata std:sid="f-data-fb62526b" row="0" col="3"/>
+            </cl:output>
+            <cl:output std:sid="output-816cb9ab" value="getValue(rowIndex, columnName)">
+              <cl:formdata std:sid="f-data-a8557972" row="1" col="0"/>
+            </cl:output>
+            <cl:output std:sid="output-1c5060bf" value="선택된 행의 해당하는 컬럼의 값을 가져옵니다.">
+              <cl:formdata std:sid="f-data-60369f67" row="1" col="1"/>
+            </cl:output>
+            <cl:combobox std:sid="c-box-f63f98e9" id="cmbGetValueColumnName" maxvisibleitems="6" placeholder="컬럼 선택" preventinput="true">
+              <cl:formdata std:sid="f-data-7676db3e" valign="CENTER" height="30" row="1" col="2"/>
+              <cl:item std:sid="item-04235935" label="사번" value="empId"/>
+              <cl:item std:sid="item-68913adc" label="사원명" value="empNm"/>
+              <cl:item std:sid="item-3ad0d81b" label="이메일" value="email"/>
+              <cl:item std:sid="item-e6812eaf" label="핸드폰" value="phone"/>
+              <cl:item std:sid="item-36d9ad80" label="주소" value="address"/>
+              <cl:item std:sid="item-cfd33633" label="등록일자" value="regDt"/>
+            </cl:combobox>
+            <cl:button std:sid="button-8ca082b2" id="btnGetValue" value="실행">
+              <cl:listener std:sid="listener-2420299e" name="click" handler="onBtnGetValueClick"/>
+              <cl:formdata std:sid="f-data-6ec71237" valign="CENTER" height="30" row="1" col="3"/>
+            </cl:button>
+            <cl:output std:sid="output-ef8ac65b" value="setValue(rowIndex, columnName, value)">
+              <cl:formdata std:sid="f-data-55d73361" row="2" col="0"/>
+            </cl:output>
+            <cl:output std:sid="output-f170a580" value="선택된 행의 해당하는 컬럼의 값을 변경합니다.">
+              <cl:formdata std:sid="f-data-45735456" row="2" col="1"/>
+            </cl:output>
+            <cl:button std:sid="button-c76e0d9c" id="btnSetValue" value="실행">
+              <cl:listener std:sid="listener-ce50552b" name="click" handler="onBtnSetValueClick"/>
+              <cl:formdata std:sid="f-data-5248bf1b" valign="CENTER" height="30" row="2" col="3"/>
+            </cl:button>
+            <cl:output std:sid="output-3ac677d7" value="getRowCount()">
+              <cl:formdata std:sid="f-data-583a5cdc" row="3" col="0"/>
+            </cl:output>
+            <cl:output std:sid="output-f701a295" value="데이터 셋의 현재 행의 수를 반환합니다.">
+              <cl:formdata std:sid="f-data-836b3616" row="3" col="1"/>
+            </cl:output>
+            <cl:button std:sid="button-68ef4ac0" id="btnGetRowCount" value="실행">
+              <cl:listener std:sid="listener-8f0d27d8" name="click" handler="onBtnGetRowCountClick"/>
+              <cl:formdata std:sid="f-data-28d735a3" valign="CENTER" height="30" row="3" col="3"/>
+            </cl:button>
+            <cl:output std:sid="output-94962cca" value="getRowData(rowIndex)">
+              <cl:formdata std:sid="f-data-d6a60573" row="4" col="0"/>
+            </cl:output>
+            <cl:output std:sid="output-f96f540f" value="선택된 행의 데이터를 가져옵니다.">
+              <cl:formdata std:sid="f-data-5d08254f" row="4" col="1"/>
+            </cl:output>
+            <cl:button std:sid="button-c0ba44ed" id="btnGetRowData" value="실행">
+              <cl:listener std:sid="listener-3bef5ae2" name="click" handler="onBtnGetRowDataClick"/>
+              <cl:formdata std:sid="f-data-1317f810" valign="CENTER" height="30" row="4" col="3"/>
+            </cl:button>
+            <cl:output std:sid="output-51b9c058" value="insertRow(rowIndex)">
+              <cl:formdata std:sid="f-data-0be881c1" row="5" col="0"/>
+            </cl:output>
+            <cl:output std:sid="output-c605fd8a" value="선택된 행 아래로 행을 추가합니다. INSERTED 이벤트가 발생하며, 추가된 행 데이터의 상태는 'INSERTED' 상태 입니다.">
+              <cl:formdata std:sid="f-data-f2d7da65" row="5" col="1"/>
+            </cl:output>
+            <cl:button std:sid="button-5a47db6f" id="btnInsertRow" value="실행">
+              <cl:listener std:sid="listener-1df59968" name="click" handler="onBtnInsertRowClick"/>
+              <cl:formdata std:sid="f-data-55a68272" valign="CENTER" height="30" row="5" col="3"/>
+            </cl:button>
+            <cl:group std:sid="group-e249ad37">
+              <cl:formdata std:sid="f-data-211528de" valign="CENTER" height="30" row="2" col="2" rowspan="1" colspan="1"/>
+              <cl:combobox std:sid="c-box-5edcad52" id="cmbSetValueColumnName" maxvisibleitems="6" placeholder="컬럼 선택" preventinput="true">
+                <cl:formdata std:sid="f-data-a4ad25f2" row="0" col="0"/>
+                <cl:item std:sid="item-0f5445fa" label="사번" value="empId"/>
+                <cl:item std:sid="item-66d030b1" label="사원명" value="empNm"/>
+                <cl:item std:sid="item-91553b6d" label="이메일" value="email"/>
+                <cl:item std:sid="item-bc65e0b3" label="핸드폰" value="phone"/>
+                <cl:item std:sid="item-d0eb0b02" label="주소" value="address"/>
+                <cl:item std:sid="item-9d217e15" label="등록일자" value="regDt"/>
+              </cl:combobox>
+              <cl:inputbox std:sid="i-box-6c7fbc8b" id="ipbSetValue" placeholder="변경할 값 입력">
+                <cl:formdata std:sid="f-data-cb4734dc" row="0" col="1"/>
+              </cl:inputbox>
+              <cl:formlayout std:sid="f-layout-ce5e6701" hspace="5px" vspace="5px">
+                <cl:rows length="30" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+                <cl:columns length="1" unit="FRACTION" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+                <cl:columns length="1" unit="FRACTION" autoSizing="false" minlength="0"/>
+              </cl:formlayout>
+            </cl:group>
+            <cl:output std:sid="output-5a3eac77" value="addColumn(column)">
+              <cl:formdata std:sid="f-data-d39f005f" row="6" col="0"/>
+            </cl:output>
+            <cl:output std:sid="output-299ecaaa" value="데이터 셋에 컬럼을 추가합니다. 데이터 셋 컬럼명을 배열로 가져오는 getColumnNames API를 통해 추가됨을 확인하실 수 있습니다.">
+              <cl:formdata std:sid="f-data-3caae530" row="6" col="1"/>
+            </cl:output>
+            <cl:inputbox std:sid="i-box-cd05c406" id="ipbAddColumnName" placeholder="추가할 컬럼명 입력">
+              <cl:formdata std:sid="f-data-2c79228d" valign="CENTER" height="30" row="6" col="2"/>
+            </cl:inputbox>
+            <cl:button std:sid="button-829e4ae5" id="btnAddColumn" value="실행">
+              <cl:listener std:sid="listener-38a0cafd" name="click" handler="onBtnAddColumnClick"/>
+              <cl:formdata std:sid="f-data-541a7caa" valign="CENTER" height="30" row="6" col="3"/>
+            </cl:button>
+            <cl:output std:sid="output-e109d9f3" value="changeRowIndex(soruceIndex, targetIndex)">
+              <cl:formdata std:sid="f-data-8b0a1467" row="7" col="0"/>
+            </cl:output>
+            <cl:output std:sid="output-97a3cb7d" value="선택된 행, 입력받은 행 두 개의 행의 위치를 바꿉니다.">
+              <cl:formdata std:sid="f-data-8aa01456" row="7" col="1"/>
+            </cl:output>
+            <cl:numbereditor std:sid="n-editor-5480e996" id="nbeChangeRowIndex" min="0.0" placeholder="바꿀 index 입력">
+              <cl:formdata std:sid="f-data-90b87659" valign="CENTER" height="30" row="7" col="2"/>
+            </cl:numbereditor>
+            <cl:button std:sid="button-295695be" id="btnChangeRowIndex" value="실행">
+              <cl:listener std:sid="listener-2eb37f45" name="click" handler="onBtnChangeRowIndexClick"/>
+              <cl:formdata std:sid="f-data-0466ebfe" valign="CENTER" height="30" row="7" col="3"/>
+            </cl:button>
+            <cl:output std:sid="output-5cd9d3c8" value="moveRowIndex(soruceIndex, targetIndex)">
+              <cl:formdata std:sid="f-data-5acb827e" row="8" col="0"/>
+            </cl:output>
+            <cl:output std:sid="output-dbcd242a" value="선택된 행의 데이터를 이동시킵니다.&#xD;&#xA;">
+              <cl:formdata std:sid="f-data-bf7256d7" row="8" col="1"/>
+            </cl:output>
+            <cl:numbereditor std:sid="n-editor-e7cee61a" id="nbeMoveRowIndex" min="0.0" placeholder="이동시킬 index 입력">
+              <cl:formdata std:sid="f-data-f9ce2eb0" valign="CENTER" height="30" row="8" col="2"/>
+            </cl:numbereditor>
+            <cl:button std:sid="button-e52af3cf" id="btnMoveRowIndex" value="실행">
+              <cl:listener std:sid="listener-cdd28e54" name="click" handler="onBtnMoveRowIndexClick"/>
+              <cl:formdata std:sid="f-data-24e0daa2" valign="CENTER" height="30" row="8" col="3"/>
+            </cl:button>
+            <cl:output std:sid="output-c76ce20b" value="copyToDataSet(targetDataSet)">
+              <cl:formdata std:sid="f-data-25faf924" row="9" col="0"/>
+            </cl:output>
+            <cl:output std:sid="output-dcb673c1" value="현재 데이터 셋의 데이터를 복사될 타겟 데이터 셋으로 복사합니다. 타겟 데이터 셋의 존재하는 컬럼만 복사되며, 복사시 추가되는 데이터의 상태는 'INSERTED' 상태입니다.">
+              <cl:formdata std:sid="f-data-6a3a31c5" row="9" col="1"/>
+            </cl:output>
+            <cl:button std:sid="button-f989eec9" id="btnCopyToDataSet" value="실행">
+              <cl:listener std:sid="listener-0f018d1e" name="click" handler="onBtnCopyToDataSetClick"/>
+              <cl:formdata std:sid="f-data-a34ee2c8" valign="CENTER" height="30" row="9" col="3"/>
+            </cl:button>
+            <cl:output std:sid="output-9a224aea" value="deleteRow(rowIndex)">
+              <cl:formdata std:sid="f-data-dafcbf54" row="10" col="0"/>
+            </cl:output>
+            <cl:output std:sid="output-c35befed" value="선택된 행을 제거합니다. DELETED 이벤트가 발생하며, 삭제된 행 데이터의 상태는 'DELETED' 상태 입니다.">
+              <cl:formdata std:sid="f-data-a6a85803" row="10" col="1"/>
+            </cl:output>
+            <cl:button std:sid="button-ac00d4fa" id="btnDeletedRow" value="실행">
+              <cl:listener std:sid="listener-ceb5b22c" name="click" handler="onBtnDeletedRowClick"/>
+              <cl:formdata std:sid="f-data-a80a8de5" valign="CENTER" height="30" row="10" col="3"/>
+            </cl:button>
+            <cl:output std:sid="output-256bc3f6" value="clear()">
+              <cl:formdata std:sid="f-data-1108d632" row="11" col="0"/>
+            </cl:output>
+            <cl:output std:sid="output-3698a3ab" value="데이터 셋의 정보를 제거합니다. 제거되는 정보는 데이터 셋의 데이터, 정렬 표현식, 필터표현식입니다.">
+              <cl:formdata std:sid="f-data-92f93db6" row="11" col="1"/>
+            </cl:output>
+            <cl:button std:sid="button-9cfc7de0" id="btnClear" value="실행">
+              <cl:listener std:sid="listener-6188e58a" name="click" handler="onBtnClearClick"/>
+              <cl:formdata std:sid="f-data-5b9ed17c" valign="CENTER" height="30" row="11" col="3"/>
+            </cl:button>
+            <cl:output std:sid="output-6489ebfe" value="parseData()">
+              <cl:formdata std:sid="f-data-67c43649" row="12" col="0"/>
+            </cl:output>
+            <cl:output std:sid="output-a22aec01" value="데이터 셋을 생성, 초기화합니다.">
+              <cl:formdata std:sid="f-data-761ef5d0" row="12" col="1"/>
+            </cl:output>
+            <cl:button std:sid="button-3b00db1a" id="btnParseData" value="실행">
+              <cl:listener std:sid="listener-589f9ca4" name="click" handler="onBtnParseDataClick"/>
+              <cl:formdata std:sid="f-data-a5e11ea2" valign="CENTER" height="30" row="12" col="3"/>
+            </cl:button>
+            <cl:formlayout std:sid="f-layout-74e4f45e" hspace="10px" vspace="10px" top-margin="5px" right-margin="5px" bottom-margin="5px" left-margin="5px" hseparatorwidth="1" hseparatortype="BY_CLASS" vseparatorwidth="1" vseparatortype="BY_CLASS">
+              <cl:rows length="30" unit="PIXEL" autoSizing="false" shadetype="BY_CLASS" shadecolor="#000000" minlength="0"/>
+              <cl:rows length="30" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:rows length="30" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:rows length="30" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:rows length="30" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:rows length="30" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:rows length="30" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:rows length="30" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:rows length="30" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:rows length="30" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:rows length="30" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:rows length="30" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:rows length="30" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="200" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="1" unit="FRACTION" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="200" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="80" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+            </cl:formlayout>
+          </cl:group>
+          <cl:group std:sid="group-76dccbbe" class="form-box">
+            <cl:verticaldata std:sid="v-data-246ae8e8" width="1100px" height="40px" autosize="height"/>
+            <cl:output std:sid="output-66b315aa" class="label" value="결과값">
+              <cl:formdata std:sid="f-data-8eb7a9a1" row="0" col="0"/>
+            </cl:output>
+            <cl:output std:sid="output-2b159af0" id="lblVal" value="">
+              <cl:formdata std:sid="f-data-fb45ad0b" row="0" col="1"/>
+            </cl:output>
+            <cl:formlayout std:sid="f-layout-5f6211f1" hspace="10px" vspace="10px" top-margin="5px" right-margin="5px" bottom-margin="5px" left-margin="5px" hseparatorwidth="1" hseparatortype="BY_CLASS" vseparatorwidth="1" vseparatortype="BY_CLASS">
+              <cl:rows length="1" unit="FRACTION"/>
+              <cl:columns length="100" unit="PIXEL" shadetype="BY_CLASS"/>
+              <cl:columns length="1" unit="FRACTION"/>
+            </cl:formlayout>
+          </cl:group>
+          <cl:udc std:sid="ud-control-10dd49ff" id="ace2" type="udc.cmn.Ace">
+            <cl:verticaldata std:sid="v-data-ffeb6519" width="300px" height="29px" autosize="height"/>
+          </cl:udc>
+          <cl:verticallayout std:sid="v-layout-7fc796fa" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-b18febb5" class="card-inner">
+          <cl:verticaldata std:sid="v-data-8382d0b4" width="1040px" height="399px" autosize="height"/>
+          <cl:udc std:sid="ud-control-8a69315d" id="areatitle9" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-ddf1f627" width="300px" height="38px"/>
+            <cl:property name="value" value="서버" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-0b305f19" value="`서버 소스에 대하여 설명을 작성하십시오.`">
+            <cl:verticaldata std:sid="v-data-1cfc2ae0" width="1040px" height="25px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-39ab9ba5" class="form-box vertical">
+            <cl:verticaldata std:sid="v-data-c68bfb63" width="400px" height="202px" autosize="height"/>
+            <cl:output std:sid="output-4b41e07c" class="label" value="API">
+              <cl:formdata std:sid="f-data-b9f9822c" row="0" col="0"/>
+            </cl:output>
+            <cl:output std:sid="output-594e0364" class="label" value="설명">
+              <cl:formdata std:sid="f-data-adeb8db4" row="0" col="1"/>
+            </cl:output>
+            <cl:output std:sid="output-c0b849c4" class="label" value="입력값">
+              <cl:formdata std:sid="f-data-cf1be17e" row="0" col="2"/>
+            </cl:output>
+            <cl:output std:sid="output-e1c8a74e" class="label" value="기능확인">
+              <cl:formdata std:sid="f-data-f4f79628" row="0" col="3"/>
+            </cl:output>
+            <cl:output std:sid="output-b1a9e9b5" value="">
+              <cl:formdata std:sid="f-data-f8b416c4" row="1" col="0"/>
+            </cl:output>
+            <cl:output std:sid="output-bea7dda6" value="">
+              <cl:formdata std:sid="f-data-07dca4dd" row="1" col="1"/>
+            </cl:output>
+            <cl:button std:sid="button-bd3a3970" id="btnInit2" value="실행">
+              <cl:formdata std:sid="f-data-f571db7e" valign="CENTER" height="30" row="1" col="3"/>
+            </cl:button>
+            <cl:formlayout std:sid="f-layout-25438dea" hspace="10px" vspace="10px" top-margin="5px" right-margin="5px" bottom-margin="5px" left-margin="5px" hseparatorwidth="1" hseparatortype="BY_CLASS" vseparatorwidth="1" vseparatortype="BY_CLASS">
+              <cl:rows length="30" unit="PIXEL" autoSizing="false" shadetype="BY_CLASS" shadecolor="#000000" minlength="0"/>
+              <cl:rows length="30" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="200" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="1" unit="FRACTION" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="200" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="80" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+            </cl:formlayout>
+          </cl:group>
+          <cl:udc std:sid="ud-control-5f94f350" id="ace3" type="udc.cmn.Ace">
+            <cl:verticaldata std:sid="v-data-dc3dc443" width="300px" height="29px" autosize="height"/>
+          </cl:udc>
+          <cl:verticallayout std:sid="v-layout-8a55cc02" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-1c3aa905" class="card-inner">
+          <cl:verticaldata std:sid="v-data-dc5153b2" width="400px" height="248px" autosize="height"/>
+          <cl:udc std:sid="ud-control-bcb64de7" id="areatitle5" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-644908cd" width="1040px" height="38px" autosize="none"/>
+            <cl:property name="value" value="유의사항" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-495c0c07" value="그리드에 연결된 DataSet과 DataView의 경우 해당 데이터 컴포넌트로 직접 조작시 그리드와 싱크가 안 맞는 경우가 발생할 수 있으므로, 되도록 그리드를 통해 데이터 조작하는 것을 권장드립니다.&#xD;&#xA;ex) DataSet.deleteRow(1) → Grid.deleteRow(1)">
+            <cl:verticaldata std:sid="v-data-46b08fb4" width="100px" height="25px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-1488dccb" class="ref-card danger">
+            <cl:verticaldata std:sid="v-data-6a83a5c9" width="1200px" height="95px" autosize="height"/>
+            <cl:output std:sid="output-64057e29" class="ref-title" value="컬럼명 작성 규칙">
+              <cl:verticaldata std:sid="v-data-437b9b9a" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-74838383" value="DataSet의 컬럼명은 영문자로 시작해야하며 영문자, 숫자, 언더바를 포함할 수 있습니다.&#xD;&#xA;올바르지 않은 규칙으로 컬럼명을 작성할 경우 표현식을 사용할 수 없습니다.">
+              <cl:verticaldata std:sid="v-data-140086d7" width="1040px" height="25px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-f4b4941d" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-4a914592" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-f59d0528" class="card-inner">
+          <cl:verticaldata std:sid="v-data-4e6004be" width="400px" height="248px" autosize="height"/>
+          <cl:udc std:sid="ud-control-3dead214" id="areatitle6" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-1ff324f1" width="1040px" height="38px" autosize="none"/>
+            <cl:property name="value" value="최소 요구 버전" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-50ed7766" value="``">
+            <cl:verticaldata std:sid="v-data-c03d0e2d" width="100px" height="25px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-62079995" class="ref-card warning">
+            <cl:verticaldata std:sid="v-data-f752b593" width="1040px" height="95px" autosize="height"/>
+            <cl:output std:sid="output-a9b248ef" class="ref-title" value="WARNING">
+              <cl:verticaldata std:sid="v-data-8dbfa4b4" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-532ac550" value="`특별히 인지해야 하는 정보에 대하여 작성하십시오.`">
+              <cl:verticaldata std:sid="v-data-7f6b1b60" width="100px" height="25px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-7607fc8d" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-25a6e49a" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-bc3decc0" class="card-inner">
+          <cl:verticaldata std:sid="v-data-fc989f6e" width="1040px" height="248px" autosize="height"/>
+          <cl:udc std:sid="ud-control-73179844" id="areatitle7" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-97420d3e" width="300px" height="38px"/>
+            <cl:property name="value" value="도움말" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-b1c673c6" value="데이터 셋 컨트롤에 대한 자세한 사항은 도움말을 참조하십시오.">
+            <cl:verticaldata std:sid="v-data-69dd3988" width="1040px" height="25px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-ee002fc3" class="ref-card default">
+            <cl:verticaldata std:sid="v-data-c9537cf9" width="1200px" height="95px" autosize="height"/>
+            <cl:output std:sid="output-5a0e53f8" class="ref-title" value="Help Contents">
+              <cl:verticaldata std:sid="v-data-f51eafad" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-6fbfbfa0" value="eXBuilder6 > 앱 개발 > 컨트롤 > 데이터 > 데이터 셋&#xD;&#xA;eXBuilder6 > API References > cpr.data > cpr.data.DataSet">
+              <cl:verticaldata std:sid="v-data-761bc800" width="1040px" height="25px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-eff44aa2" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-49276802" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:verticallayout std:sid="v-layout-a50c518b" spacing="20" leftmargin="50" rightmargin="50" topmargin="20" bottommargin="60"/>
+      </cl:group>
+      <cl:verticallayout std:sid="v-layout-5825919e" spacing="0"/>
+    </cl:group>
+    <cl:udc std:sid="ud-control-98388c51" id="updatedtitle1" type="udc.cmn.UpdatedTitle">
+      <cl:verticaldata std:sid="v-data-f46414d2" width="1200px" height="25px" autosize="none"/>
+      <cl:property name="value" value="20210308" type="string"/>
+    </cl:udc>
+    <cl:verticallayout std:sid="v-layout-7b87f4fa"/>
+  </body>
+  <std:studiosetting>
+    <std:hruler/>
+    <std:vruler/>
+  </std:studiosetting>
+</html>

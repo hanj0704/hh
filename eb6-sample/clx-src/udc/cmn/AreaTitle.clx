@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:cl="http://tomatosystem.co.kr/cleopatra" xmlns:std="http://tomatosystem.co.kr/cleopatra/studio" std:sid="html-725729c4" version="1.0.0.0">
+  <head std:sid="head-cca15377">
+    <title>AreaTitle</title>
+    <screen std:sid="screen-4052b396" id="default" name="default" minwidth="1200px" width="1200px" height="768px" customHeight="600" customWidth="800"/>
+    <screen std:sid="screen-0aaaa55c" id="tablet" name="tablet" minwidth="850px" maxwidth="1199px" width="850px" height="768px"/>
+    <screen std:sid="screen-09e57791" id="mobile" name="mobile" maxwidth="849px" width="544px" height="768px"/>
+    <cl:model std:sid="model-1dcb0d98"/>
+    <cl:appspec>
+      <cl:property name="value" type="string" default="영역 타이틀" std:desc="영역에 대한 타이틀 값"/>
+    </cl:appspec>
+  </head>
+  <body std:sid="body-cd06b69b" style="top:0px; left:0px; width:300px; height:38px;">
+    <cl:listener std:sid="listener-64cb3610" name="before-draw" handler="onBodyBeforeDraw"/>
+    <cl:output std:sid="output-ae7d1771" id="lblAreaTtl" class="h3" value="">
+      <cl:apppropbind property="value" app-property="value"/>
+      <cl:formdata std:sid="f-data-9fefa3c4" row="0" col="0"/>
+    </cl:output>
+    <cl:button std:sid="button-ac118de7" id="btnFldArea" visible="false" value="">
+      <std:metadata>
+        <std:property key="hidden" value="true"/>
+      </std:metadata>
+      <cl:formdata std:sid="f-data-6da96126" row="0" col="1"/>
+    </cl:button>
+    <cl:formlayout std:sid="f-layout-080898c9" hspace="5px" vspace="5px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+      <cl:rows length="1" unit="FRACTION"/>
+      <cl:columns length="1" unit="FRACTION"/>
+      <cl:columns length="38" unit="PIXEL" autoSizing="false" hidden="true" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+    </cl:formlayout>
+  </body>
+  <std:studiosetting>
+    <std:hruler/>
+    <std:vruler/>
+  </std:studiosetting>
+</html>

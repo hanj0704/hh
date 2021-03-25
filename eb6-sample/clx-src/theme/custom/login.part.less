@@ -1,0 +1,22 @@
+@import "../custom-settings.part.less";
+
+/************************************************
+ * 로그인
+ ************************************************/
+
+.cl-container.login-wrap {
+	background-image: url("../images/com/login/bg6.jpg"), url("../images/com/login/bg6_sp.png");
+	background-position: left bottom, bottom;
+	background-repeat: no-repeat, repeat-x;
+}
+
+.cl-container.login-box {
+	background-color: @white;
+	box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.45);
+	
+	.cl-inputbox.form-control {
+		.cl-text {
+			padding: @input-padding-0 (@input-padding-x * 2);
+		}
+	}
+}

@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:cl="http://tomatosystem.co.kr/cleopatra" xmlns:std="http://tomatosystem.co.kr/cleopatra/studio" std:sid="html-6074e5bd" version="1.0.0.0">
+  <head std:sid="head-d8365f34">
+    <title>SCRIPT_CONTROLS_MDIFOLDER_01</title>
+    <screen std:sid="screen-9a2aff14" id="default" name="default" minwidth="1200px" width="1200px" height="768px"/>
+    <screen std:sid="screen-cee5857a" id="tablet" name="tablet" minwidth="850px" maxwidth="1199px" width="850px" height="768px"/>
+    <screen std:sid="screen-bb0a3293" id="test" name="mobile" maxwidth="849px" width="544px" height="768px"/>
+    <cl:model std:sid="model-5c140b65"/>
+    <cl:appspec title="MDI폴더 화면 전환"/>
+  </head>
+  <body std:sid="body-b0abd749" style="top:0px; left:0px; width:800px; height:600px;">
+    <cl:group std:sid="group-59960b1b" class="content-card">
+      <cl:verticaldata std:sid="v-data-6d813254" width="1200px" height="3807px" autosize="height"/>
+      <cl:udc std:sid="ud-control-b8469aa4" type="udc.cmn.AppTitle">
+        <cl:verticaldata std:sid="v-data-f0bae039" width="1140px" height="175px" autosize="none"/>
+        <cl:property name="tags" value="스크립트,MDI 폴더,화면 전환" type="string"/>
+      </cl:udc>
+      <cl:group std:sid="group-a4b3eb74">
+        <cl:verticaldata std:sid="v-data-3747f6b2" width="400px" height="3632px" autosize="height"/>
+        <cl:group std:sid="group-c3b4f76c" class="card-inner">
+          <cl:verticaldata std:sid="v-data-76d5fec5" width="400px" height="159px" autosize="height"/>
+          <cl:udc std:sid="ud-control-400ea92b" id="areatitle1" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-6e7053ba" width="300px" height="38px"/>
+            <cl:property name="value" value="개요" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-91f8c8b3" value="이 문서는 MDI 폴더에 선택된 앱으로 화면을 전환하거나 앱을 추가, 제거하는 기능에 대하여 설명합니다.&#xD;&#xA;MDI 폴더에서 제공하는 API를 사용하여 나타냅니다.">
+            <cl:verticaldata std:sid="v-data-89fb3e43" width="100px" height="46px" autosize="height"/>
+          </cl:output>
+          <cl:verticallayout std:sid="v-layout-f8b7a75d" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-de8c1411" class="card-inner">
+          <cl:verticaldata std:sid="v-data-b7ece3a4" width="400px" height="614px" autosize="height"/>
+          <cl:udc std:sid="ud-control-fb8bf275" id="areatitle2" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-a1e15097" width="1040px" height="38px" autosize="none"/>
+            <cl:property name="value" value="컨트롤 생성 및 설정" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-63aedf87" value="루트 컨테이너의 레이아웃과 관계없이 MDI 폴더 컨트롤을 [Palette] 뷰에서 찾아 디자인 편집기에 배치합니다.&#xD;&#xA;MDI 폴더에 앱을 추가하여 추가된 Tab에 화면을 구성합니다.">
+            <cl:verticaldata std:sid="v-data-7a20e9d2" width="100px" height="46px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-5f47d467" class="attach-box">
+            <cl:verticaldata std:sid="v-data-4e38cf7f" width="400px" height="440px" autosize="height"/>
+            <cl:group std:sid="group-d161ccf6">
+              <cl:flowlayoutdata std:sid="f-data-19f55388" width="600px" height="400px"/>
+              <cl:output std:sid="output-5aa6c1ae" class="text-center" value="&lt;기본 MDI 폴더 컨트롤>">
+                <cl:formdata std:sid="f-data-6ce63a53" row="1" col="0"/>
+              </cl:output>
+              <cl:mdifolder std:sid="mdifolder-b5002878" id="mdi1">
+                <cl:formdata std:sid="f-data-4676b755" row="0" col="0"/>
+                <cl:tabitem std:sid="t-item-18707a65" selected="true" text="MDI A">
+                  <std:metadata>
+                    <std:property key="is-active-item" value="true"/>
+                  </std:metadata>
+                  <cl:embeddedapp std:sid="e-app-577496eb" id="ea4" src="SCRIPT_CONTROLS_MDIFOLDER_01_A.clx">
+                    <std:metadata>
+                      <std:property key="locked" value="true"/>
+                    </std:metadata>
+                  </cl:embeddedapp>
+                </cl:tabitem>
+                <cl:tabitem std:sid="t-item-9f6f5fbe" text="MDI B">
+                  <cl:embeddedapp std:sid="e-app-e0578bbe" id="ea5" src="SCRIPT_CONTROLS_MDIFOLDER_01_B.clx">
+                    <std:metadata>
+                      <std:property key="locked" value="true"/>
+                    </std:metadata>
+                  </cl:embeddedapp>
+                </cl:tabitem>
+                <cl:tabitem std:sid="t-item-69c33b8c" text="MDI C">
+                  <cl:embeddedapp std:sid="e-app-9963cd21" id="ea6" src="SCRIPT_CONTROLS_MDIFOLDER_01_C.clx">
+                    <std:metadata>
+                      <std:property key="locked" value="true"/>
+                    </std:metadata>
+                  </cl:embeddedapp>
+                </cl:tabitem>
+              </cl:mdifolder>
+              <cl:formlayout std:sid="f-layout-55aaa290" hspace="5px" vspace="5px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+                <cl:rows length="1" unit="FRACTION" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+                <cl:rows length="20" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+                <cl:columns length="1" unit="FRACTION"/>
+              </cl:formlayout>
+            </cl:group>
+            <cl:flowlayout std:sid="f-layout-3c9b5206" scrollable="false" spacing="20" halign="center" valign="middle" leftmargin="20" rightmargin="20" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-fea69ec9" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-11053d61" class="card-inner">
+          <cl:verticaldata std:sid="v-data-92db121e" width="1040px" height="393px" autosize="height"/>
+          <cl:udc std:sid="ud-control-d726449c" id="areatitle3" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-2234104b" width="300px" height="38px"/>
+            <cl:property name="value" value="스타일 시트" type="string"/>
+          </cl:udc>
+          <cl:group std:sid="group-6a755066" id="grp16" class="ref-card info">
+            <cl:verticaldata std:sid="v-data-a577cd31" width="1040px" height="95px" autosize="height"/>
+            <cl:output std:sid="output-d6122608" id="opt14" class="ref-title" value="경로 : LESS 파일">
+              <cl:verticaldata std:sid="v-data-157990b2" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-88c60ef5" id="opt15" value="`clx-src/asset/STY_CTRL_SLCT_01.less`">
+              <cl:verticaldata std:sid="v-data-7eea5e7b" width="100px" height="25px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-3d91933b" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:output std:sid="output-c66842e8" value="`스타일 시트 내용을 입력하십시오.`">
+            <cl:verticaldata std:sid="v-data-d3939fb0" width="1040px" height="126px" autosize="height"/>
+          </cl:output>
+          <cl:udc std:sid="ud-control-b7a23aae" id="ace1" type="udc.cmn.Ace">
+            <cl:verticaldata std:sid="v-data-ae2cf1f3" width="300px" height="29px" autosize="height"/>
+            <cl:property name="value" value=".cl-container.toggle-wrap {&#xD;&#xA;&#x9;/* 토글 버튼 스타일 */&#xD;&#xA;&#x9;background-color: #cccccc;&#xD;&#xA;&#x9;border-radius: 5px;&#xD;&#xA;&#x9;&#xD;&#xA;&#x9;.cl-checkbox.toggle {&#xD;&#xA;&#x9;&#x9;/* 토글되지 않은 상태 스타일 */&#xD;&#xA;&#x9;&#x9;padding: 0px;&#xD;&#xA;&#x9;&#x9;text-align: center;&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;.cl-checkbox-wrap {&#xD;&#xA;&#x9;&#x9;&#x9;/* 체크박스 아이콘 래퍼 스타일 */&#xD;&#xA;&#x9;&#x9;&#x9;vertical-align: middle;&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;.cl-checkbox-icon {&#xD;&#xA;&#x9;&#x9;&#x9;/* 체크박스 아이콘 스타일 */&#xD;&#xA;&#x9;&#x9;&#x9;background-image: none;&#xD;&#xA;&#x9;&#x9;&#x9;background-color: #ffffff;&#xD;&#xA;&#x9;&#x9;&#x9;border-radius: 3px;&#xD;&#xA;&#x9;&#x9;&#x9;margin-left: 0px;&#xD;&#xA;&#x9;&#x9;&#x9;width: 20px;&#xD;&#xA;&#x9;&#x9;&#x9;height: 20px;&#xD;&#xA;&#x9;&#x9;&#x9;min-height: 20px;&#xD;&#xA;&#x9;&#x9;&#x9;margin-bottom: 2px;&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&amp;.cl-focus, &amp;:focus {&#xD;&#xA;&#x9;&#x9;&#x9;.cl-checkbox-icon {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;/* 체크박스 포커스 스타일 */&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;outline: none;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;&#xD;&#xA;&#x9;&amp;.on {&#xD;&#xA;&#x9;&#x9;/* 토글 상태 스타일 */&#xD;&#xA;&#x9;&#x9;background-color: #6edc5f;&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;&#xD;&#xA;&#x9;&amp;.round {&#xD;&#xA;&#x9;&#x9;/* 둥근 토글 버튼 스타일 */&#xD;&#xA;&#x9;&#x9;border-radius: 14px;&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;.cl-checkbox.toggle {&#xD;&#xA;&#x9;&#x9;&#x9;.cl-checkbox-icon {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;/* 둥근 토글 버튼 아이콘 스타일 */&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;border-radius: 14px;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;}&#xD;&#xA;}" type="string"/>
+            <cl:property name="language" value="ace/mode/less" type="enumeration"/>
+          </cl:udc>
+          <cl:verticallayout std:sid="v-layout-81987a1e" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-54850849" class="card-inner">
+          <cl:verticaldata std:sid="v-data-49f1570a" width="1040px" height="269px" autosize="height"/>
+          <cl:udc std:sid="ud-control-3bc3fa1b" id="areatitle8" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-9d05f978" width="300px" height="38px"/>
+            <cl:property name="value" value="시나리오" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-5fa2801f" value="1. MDI 폴더의 findItemWithAppID API를 통해 App ID로 해당 앱을 포함하는 TabItem을 찾고, MDI 폴더의 setSelectedTabItem API를 통해 찾은 TabItem을 선택하여 보여줍니다.&#xD;&#xA;2. MDI 폴더의 addItemWithApp API를 통해 MDI 폴더에 App을 추가합니다.&#xD;&#xA;3. MDI 폴더의 findItemWithAppID API를 통해 App ID로 해당 앱을 포함하는 TabItem을 찾고, MDI 폴더의 removeTabItem API를 통해 찾은 TabItem을 제거합니다.">
+            <cl:verticaldata std:sid="v-data-da502c34" width="1040px" height="46px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-8f14d7fc" class="ref-card warning">
+            <cl:verticaldata std:sid="v-data-5b7a0ae3" width="1200px" height="95px" autosize="height"/>
+            <cl:output std:sid="output-564d9426" class="ref-title" value="WARNING">
+              <cl:verticaldata std:sid="v-data-076d9fe9" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-28ab6d03" value="`시나리오 영역에서 특별히 안내가 필요한 정보를 작성하십시오.`">
+              <cl:verticaldata std:sid="v-data-37c1bfe5" width="100px" height="25px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-ec928def" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-d8c39c93" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-f5df0ee5" class="card-inner">
+          <cl:verticaldata std:sid="v-data-35411d62" width="1040px" height="814px" autosize="height"/>
+          <cl:udc std:sid="ud-control-c65fdfe7" id="areatitle4" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-980fb5f9" width="300px" height="38px"/>
+            <cl:property name="value" value="주요 기능" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-df49c14a" value="시나리오 순서대로 아래의 실행 버튼을 눌러 MDI 폴더 API 동작과 스크립트를 확인하십시오.">
+            <cl:verticaldata std:sid="v-data-e0f2ddad" width="1040px" height="25px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-dbdd7a02" class="attach-box">
+            <cl:verticaldata std:sid="v-data-5798a75c" width="1040px" height="440px" autosize="height"/>
+            <cl:group std:sid="group-a466b510">
+              <cl:flowlayoutdata std:sid="f-data-8303c484" width="600px" height="400px"/>
+              <cl:output std:sid="output-84338f3d" class="text-center" value="&lt;기능 확인 MDI 폴더>">
+                <cl:formdata std:sid="f-data-a25ef98e" row="1" col="0"/>
+              </cl:output>
+              <cl:mdifolder std:sid="mdifolder-9da64bc3" id="sampleMDIFolder">
+                <cl:formdata std:sid="f-data-e86900a2" row="0" col="0"/>
+                <cl:tabitem std:sid="t-item-c809d2b9" selected="true" text="MDI A">
+                  <std:metadata>
+                    <std:property key="is-active-item" value="true"/>
+                  </std:metadata>
+                  <cl:embeddedapp std:sid="e-app-c9b07d5b" id="ea1" src="SCRIPT_CONTROLS_MDIFOLDER_01_A.clx">
+                    <std:metadata>
+                      <std:property key="locked" value="true"/>
+                    </std:metadata>
+                  </cl:embeddedapp>
+                </cl:tabitem>
+                <cl:tabitem std:sid="t-item-c0b6f77c" text="MDI B">
+                  <cl:embeddedapp std:sid="e-app-42338a22" id="ea2" src="SCRIPT_CONTROLS_MDIFOLDER_01_B.clx">
+                    <std:metadata>
+                      <std:property key="locked" value="true"/>
+                    </std:metadata>
+                  </cl:embeddedapp>
+                </cl:tabitem>
+                <cl:tabitem std:sid="t-item-b2308cd4" text="MDI C">
+                  <cl:embeddedapp std:sid="e-app-dffa5377" id="ea3" src="SCRIPT_CONTROLS_MDIFOLDER_01_C.clx">
+                    <std:metadata>
+                      <std:property key="locked" value="true"/>
+                    </std:metadata>
+                  </cl:embeddedapp>
+                </cl:tabitem>
+              </cl:mdifolder>
+              <cl:formlayout std:sid="f-layout-2a759d15" hspace="5px" vspace="5px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+                <cl:rows length="1" unit="FRACTION" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+                <cl:rows length="20" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+                <cl:columns length="1" unit="FRACTION"/>
+              </cl:formlayout>
+            </cl:group>
+            <cl:flowlayout std:sid="f-layout-814cfc30" scrollable="false" spacing="20" halign="center" valign="middle" leftmargin="20" rightmargin="20" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:group std:sid="group-09d32a74" class="form-box vertical">
+            <cl:verticaldata std:sid="v-data-f0926932" width="400px" height="162px" autosize="height"/>
+            <cl:output std:sid="output-ebfd262a" class="label" value="API">
+              <cl:formdata std:sid="f-data-29062f84" row="0" col="0"/>
+            </cl:output>
+            <cl:output std:sid="output-8528dd47" class="label" value="설명">
+              <cl:formdata std:sid="f-data-45811037" row="0" col="1"/>
+            </cl:output>
+            <cl:output std:sid="output-96613175" class="label" value="입력값">
+              <cl:formdata std:sid="f-data-650fab76" row="0" col="2"/>
+            </cl:output>
+            <cl:output std:sid="output-b7dfb44f" class="label" value="기능확인">
+              <cl:formdata std:sid="f-data-fb62526b" row="0" col="3"/>
+            </cl:output>
+            <cl:output std:sid="output-b0d78427" value="tabItem을 선택하여 보여줍니다. (콤보박스의 value에는 appID를 갖고, findItemWithAppID API를 통해 appID로 해당 앱을 포함하는 tabItem을 찾습니다.)">
+              <cl:formdata std:sid="f-data-6681a54d" row="1" col="1"/>
+            </cl:output>
+            <cl:button std:sid="button-d794cae4" id="btnFindAppId" value="실행">
+              <cl:listener std:sid="listener-6471a5b9" name="click" handler="onBtnFindAppIdClick"/>
+              <cl:formdata std:sid="f-data-93965766" valign="CENTER" height="30" row="1" col="3"/>
+            </cl:button>
+            <cl:combobox std:sid="c-box-1de08f62" id="cmbFindAppId" placeholder="보여줄 화면 선택" preventinput="true">
+              <cl:formdata std:sid="f-data-1d21c2b1" valign="CENTER" height="30" row="1" col="2"/>
+              <cl:item std:sid="item-6a154971" label="MDI A" value="app/script/component/controls/mdifolder/SCRIPT_CONTROLS_MDIFOLDER_01_A"/>
+              <cl:item std:sid="item-b8c24785" label="MDI B" value="app/script/component/controls/mdifolder/SCRIPT_CONTROLS_MDIFOLDER_01_B"/>
+              <cl:item std:sid="item-5d61a12b" label="MDI C" value="app/script/component/controls/mdifolder/SCRIPT_CONTROLS_MDIFOLDER_01_C"/>
+              <cl:item std:sid="item-4e3ff462" label="MDI D" value="app/script/component/controls/mdifolder/SCRIPT_CONTROLS_MDIFOLDER_01_D"/>
+            </cl:combobox>
+            <cl:output std:sid="output-4eefa108" value="setSelectedTabItem(tabItem)">
+              <cl:formdata std:sid="f-data-45f7b122" row="1" col="0"/>
+            </cl:output>
+            <cl:output std:sid="output-fdb9848c" value="addItemWithApp(appId)">
+              <cl:formdata std:sid="f-data-7922f8b7" row="2" col="0"/>
+            </cl:output>
+            <cl:output std:sid="output-ad640f0d" value="App으로 된 TabItem을 추가합니다. 추가된 TabItem은 맨 뒤에 추가됩니다.">
+              <cl:formdata std:sid="f-data-635d0143" row="2" col="1"/>
+            </cl:output>
+            <cl:combobox std:sid="c-box-131269cb" id="cmbAddAppId" placeholder="추가할 화면 선택" preventinput="true">
+              <cl:formdata std:sid="f-data-63d359d8" row="2" col="2"/>
+              <cl:item std:sid="item-226eb5bf" label="MDI A" value="app/script/component/controls/mdifolder/SCRIPT_CONTROLS_MDIFOLDER_01_A"/>
+              <cl:item std:sid="item-623f8339" label="MDI B" value="app/script/component/controls/mdifolder/SCRIPT_CONTROLS_MDIFOLDER_01_B"/>
+              <cl:item std:sid="item-0e7a946d" label="MDI C" value="app/script/component/controls/mdifolder/SCRIPT_CONTROLS_MDIFOLDER_01_C"/>
+              <cl:item std:sid="item-37619942" label="MDI D" value="app/script/component/controls/mdifolder/SCRIPT_CONTROLS_MDIFOLDER_01_D"/>
+            </cl:combobox>
+            <cl:button std:sid="button-a87a2220" id="btnAddAppId" value="실행">
+              <cl:listener std:sid="listener-a65e389e" name="click" handler="onBtnAddAppIdClick"/>
+              <cl:formdata std:sid="f-data-355dd284" row="2" col="3"/>
+            </cl:button>
+            <cl:output std:sid="output-3dc00591" value="removeTabItem(tabItem)">
+              <cl:formdata std:sid="f-data-406f4243" row="3" col="0"/>
+            </cl:output>
+            <cl:output std:sid="output-5d945693" id="optResult" value="TabItem을 제거합니다. (콤보박스의 value에는 appID를 갖고, findItemWithAppID API를 통해 appID로 해당 앱을 포함하는 tabItem을 찾습니다.)">
+              <cl:formdata std:sid="f-data-b55501ea" row="3" col="1"/>
+            </cl:output>
+            <cl:combobox std:sid="c-box-55f15600" id="cmbRemoveAppId" placeholder="삭제할 화면 선택" preventinput="true">
+              <cl:formdata std:sid="f-data-cae42fe4" valign="CENTER" height="30" row="3" col="2"/>
+              <cl:item std:sid="item-09fbb44f" label="MDI A" value="app/script/component/controls/mdifolder/SCRIPT_CONTROLS_MDIFOLDER_01_A"/>
+              <cl:item std:sid="item-f227ed56" label="MDI B" value="app/script/component/controls/mdifolder/SCRIPT_CONTROLS_MDIFOLDER_01_B"/>
+              <cl:item std:sid="item-ceff3489" label="MDI C" value="app/script/component/controls/mdifolder/SCRIPT_CONTROLS_MDIFOLDER_01_C"/>
+              <cl:item std:sid="item-35adfa3c" label="MDI D" value="app/script/component/controls/mdifolder/SCRIPT_CONTROLS_MDIFOLDER_01_D"/>
+            </cl:combobox>
+            <cl:button std:sid="button-e4b93e4a" id="btnRemoveAppId" value="실행">
+              <cl:listener std:sid="listener-79b2c212" name="click" handler="onBtnRemoveAppIdClick"/>
+              <cl:formdata std:sid="f-data-62bf4d2a" valign="CENTER" height="30" row="3" col="3"/>
+            </cl:button>
+            <cl:formlayout std:sid="f-layout-74e4f45e" hspace="10px" vspace="10px" top-margin="5px" right-margin="5px" bottom-margin="5px" left-margin="5px" hseparatorwidth="1" hseparatortype="BY_CLASS" vseparatorwidth="1" vseparatortype="BY_CLASS">
+              <cl:rows length="30" unit="PIXEL" autoSizing="false" shadetype="BY_CLASS" shadecolor="#000000" minlength="0"/>
+              <cl:rows length="30" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:rows length="30" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:rows length="30" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="200" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="1" unit="FRACTION" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="200" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="80" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+            </cl:formlayout>
+          </cl:group>
+          <cl:udc std:sid="ud-control-10dd49ff" id="ace2" type="udc.cmn.Ace">
+            <cl:verticaldata std:sid="v-data-ffeb6519" width="300px" height="29px" autosize="height"/>
+          </cl:udc>
+          <cl:verticallayout std:sid="v-layout-7fc796fa" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-b18febb5" class="card-inner">
+          <cl:verticaldata std:sid="v-data-8382d0b4" width="1040px" height="399px" autosize="height"/>
+          <cl:udc std:sid="ud-control-8a69315d" id="areatitle9" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-ddf1f627" width="300px" height="38px"/>
+            <cl:property name="value" value="서버" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-0b305f19" value="`서버 소스에 대하여 설명을 작성하십시오.`">
+            <cl:verticaldata std:sid="v-data-1cfc2ae0" width="1040px" height="25px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-39ab9ba5" class="form-box vertical">
+            <cl:verticaldata std:sid="v-data-d7a80de1" width="1100px" height="202px" autosize="height"/>
+            <cl:output std:sid="output-4b41e07c" class="label" value="API">
+              <cl:formdata std:sid="f-data-b9f9822c" row="0" col="0"/>
+            </cl:output>
+            <cl:output std:sid="output-594e0364" class="label" value="설명">
+              <cl:formdata std:sid="f-data-adeb8db4" row="0" col="1"/>
+            </cl:output>
+            <cl:output std:sid="output-c0b849c4" class="label" value="입력값">
+              <cl:formdata std:sid="f-data-cf1be17e" row="0" col="2"/>
+            </cl:output>
+            <cl:output std:sid="output-e1c8a74e" class="label" value="기능확인">
+              <cl:formdata std:sid="f-data-f4f79628" row="0" col="3"/>
+            </cl:output>
+            <cl:output std:sid="output-b1a9e9b5" value="">
+              <cl:formdata std:sid="f-data-f8b416c4" row="1" col="0"/>
+            </cl:output>
+            <cl:output std:sid="output-bea7dda6" value="">
+              <cl:formdata std:sid="f-data-07dca4dd" row="1" col="1"/>
+            </cl:output>
+            <cl:button std:sid="button-bd3a3970" id="btnInit2" value="실행">
+              <cl:formdata std:sid="f-data-f571db7e" valign="CENTER" height="30" row="1" col="3"/>
+            </cl:button>
+            <cl:formlayout std:sid="f-layout-25438dea" hspace="10px" vspace="10px" top-margin="5px" right-margin="5px" bottom-margin="5px" left-margin="5px" hseparatorwidth="1" hseparatortype="BY_CLASS" vseparatorwidth="1" vseparatortype="BY_CLASS">
+              <cl:rows length="30" unit="PIXEL" autoSizing="false" shadetype="BY_CLASS" shadecolor="#000000" minlength="0"/>
+              <cl:rows length="30" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="200" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="1" unit="FRACTION" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="200" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="80" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+            </cl:formlayout>
+          </cl:group>
+          <cl:udc std:sid="ud-control-5f94f350" id="ace3" type="udc.cmn.Ace">
+            <cl:verticaldata std:sid="v-data-dc3dc443" width="300px" height="29px" autosize="height"/>
+          </cl:udc>
+          <cl:verticallayout std:sid="v-layout-8a55cc02" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-1c3aa905" class="card-inner">
+          <cl:verticaldata std:sid="v-data-dc5153b2" width="400px" height="248px" autosize="height"/>
+          <cl:udc std:sid="ud-control-bcb64de7" id="areatitle5" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-644908cd" width="1040px" height="38px" autosize="none"/>
+            <cl:property name="value" value="유의사항" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-495c0c07" value="`해당 기능은 브라우저의 뒤로 가기, 앞으로 가기가 되지 않는 예제입니다.`">
+            <cl:verticaldata std:sid="v-data-46b08fb4" width="100px" height="25px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-1488dccb" class="ref-card danger">
+            <cl:verticaldata std:sid="v-data-6a83a5c9" width="1200px" height="95px" autosize="height"/>
+            <cl:output std:sid="output-64057e29" class="ref-title" value="DANGER">
+              <cl:verticaldata std:sid="v-data-437b9b9a" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-721ab1e1" value="`반드시 숙지해야 하는 정보에 대하여 작성하십시오.`">
+              <cl:verticaldata std:sid="v-data-6e431a84" width="100px" height="25px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-f4b4941d" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-4a914592" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-f59d0528" class="card-inner">
+          <cl:verticaldata std:sid="v-data-4e6004be" width="400px" height="248px" autosize="height"/>
+          <cl:udc std:sid="ud-control-3dead214" id="areatitle6" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-1ff324f1" width="1040px" height="38px" autosize="none"/>
+            <cl:property name="value" value="최소 요구 버전" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-50ed7766" value="">
+            <cl:verticaldata std:sid="v-data-c03d0e2d" width="100px" height="25px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-62079995" class="ref-card warning">
+            <cl:verticaldata std:sid="v-data-f752b593" width="1040px" height="95px" autosize="height"/>
+            <cl:output std:sid="output-a9b248ef" class="ref-title" value="1.0.1120 릴리즈 버전">
+              <cl:verticaldata std:sid="v-data-8dbfa4b4" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-532ac550" value="MDITabFolder의 addItemWithApp()의 마지막 인자인 콜백함수가 (TabItem) => void 형식에서 (TabItem, App) => void 형식으로 확장되었습니다.&#xD;&#xA;두번째 인자로 전달되는 App이 null인지 체크하여 존재하지 않는 앱이나 404 오류에 대응하는 코드를 작성할 수 있습니다.">
+              <cl:verticaldata std:sid="v-data-7f6b1b60" width="100px" height="25px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-7607fc8d" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-25a6e49a" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-bc3decc0" class="card-inner">
+          <cl:verticaldata std:sid="v-data-fc989f6e" width="1040px" height="248px" autosize="height"/>
+          <cl:udc std:sid="ud-control-73179844" id="areatitle7" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-97420d3e" width="300px" height="38px"/>
+            <cl:property name="value" value="도움말" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-b1c673c6" value="MDI 폴더에 대한 자세한 사항은 도움말을 참조하십시오.">
+            <cl:verticaldata std:sid="v-data-69dd3988" width="1040px" height="25px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-ee002fc3" class="ref-card default">
+            <cl:verticaldata std:sid="v-data-c9537cf9" width="1200px" height="95px" autosize="height"/>
+            <cl:output std:sid="output-5a0e53f8" class="ref-title" value="Help Contents">
+              <cl:verticaldata std:sid="v-data-f51eafad" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-741fa5d5" value="eXBuilder6 > 앱 개발 > 컨트롤 > UI 컨트롤 > MDI 폴더&#xD;&#xA;eXBuilder6 > API References > cpr.controls > cpr.controls.MDIFolder">
+              <cl:verticaldata std:sid="v-data-c8df8970" width="100px" height="25px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-eff44aa2" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-49276802" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:verticallayout std:sid="v-layout-a50c518b" spacing="20" leftmargin="50" rightmargin="50" topmargin="20" bottommargin="60"/>
+      </cl:group>
+      <cl:verticallayout std:sid="v-layout-5825919e" spacing="0"/>
+    </cl:group>
+    <cl:udc std:sid="ud-control-98388c51" id="updatedtitle1" type="udc.cmn.UpdatedTitle">
+      <cl:verticaldata std:sid="v-data-d9fabd1d" width="1200px" height="25px" autosize="none"/>
+      <cl:property name="value" value="20210226" type="string"/>
+    </cl:udc>
+    <cl:verticallayout std:sid="v-layout-fbf546bb"/>
+  </body>
+  <std:studiosetting>
+    <std:hruler/>
+    <std:vruler>
+      <std:guide position="2353"/>
+    </std:vruler>
+  </std:studiosetting>
+</html>

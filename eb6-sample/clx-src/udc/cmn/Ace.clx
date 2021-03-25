@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:cl="http://tomatosystem.co.kr/cleopatra" xmlns:std="http://tomatosystem.co.kr/cleopatra/studio" std:sid="html-47035cff" version="1.0.0.0">
+  <head std:sid="head-9a872970">
+    <title>Ace</title>
+    <screen std:sid="screen-221a9237" id="default" name="default" minwidth="1200px" width="1200px" height="768px"/>
+    <screen std:sid="screen-65672d50" id="tablet" name="tablet" minwidth="850px" maxwidth="1199px" width="850px" height="768px"/>
+    <screen std:sid="screen-17410e38" id="test" name="mobile" maxwidth="849px" width="544px" height="768px"/>
+    <cl:model std:sid="model-e00eda09"/>
+    <cl:appspec>
+      <cl:property name="value" type="string" bindable="true" std:desc="소스 값"/>
+      <cl:property name="language" type="enumeration" default="ace/mode/javascript" std:desc="표시 언어 설정">
+        <cl:available-value>ace/mode/css</cl:available-value>
+        <cl:available-value>ace/mode/html</cl:available-value>
+        <cl:available-value>ace/mode/java</cl:available-value>
+        <cl:available-value>ace/mode/javascript</cl:available-value>
+        <cl:available-value>ace/mode/json</cl:available-value>
+        <cl:available-value>ace/mode/less</cl:available-value>
+        <cl:available-value>ace/mode/mysql</cl:available-value>
+        <cl:available-value>ace/mode/sql</cl:available-value>
+        <cl:available-value>ace/mode/sqlserver</cl:available-value>
+        <cl:available-value>ace/mode/svg</cl:available-value>
+        <cl:available-value>ace/mode/text</cl:available-value>
+        <cl:available-value>ace/mode/xml</cl:available-value>
+      </cl:property>
+      <cl:property name="theme" type="enumeration" default="ace/theme/tomorrow_night" std:desc="에디터 테마">
+        <cl:available-value>ace/theme/chrome</cl:available-value>
+        <cl:available-value>ace/theme/clouds</cl:available-value>
+        <cl:available-value>ace/theme/crimson_editor</cl:available-value>
+        <cl:available-value>ace/theme/dawn</cl:available-value>
+        <cl:available-value>ace/theme/dreamweaver</cl:available-value>
+        <cl:available-value>ace/theme/eclipse</cl:available-value>
+        <cl:available-value>ace/theme/github</cl:available-value>
+        <cl:available-value>ace/theme/iplastic</cl:available-value>
+        <cl:available-value>ace/theme/solarized_light</cl:available-value>
+        <cl:available-value>ace/theme/textmate</cl:available-value>
+        <cl:available-value>ace/theme/tomorrow</cl:available-value>
+        <cl:available-value>ace/theme/xcode</cl:available-value>
+        <cl:available-value>ace/theme/kuroir</cl:available-value>
+        <cl:available-value>ace/theme/katzenmilich</cl:available-value>
+        <cl:available-value>ace/theme/sqlserver</cl:available-value>
+        <cl:available-value>ace/theme/ambiance</cl:available-value>
+        <cl:available-value>ace/theme/chaos</cl:available-value>
+        <cl:available-value>ace/theme/clouds_minight</cl:available-value>
+        <cl:available-value>ace/theme/dracula</cl:available-value>
+        <cl:available-value>ace/theme/cobalt</cl:available-value>
+        <cl:available-value>ace/theme/gruvbox</cl:available-value>
+        <cl:available-value>ace/theme/gob</cl:available-value>
+        <cl:available-value>ace/theme/idle_fingers</cl:available-value>
+        <cl:available-value>ace/theme/kr_theme</cl:available-value>
+        <cl:available-value>ace/theme/merbivore</cl:available-value>
+        <cl:available-value>ace/theme/merbivore_soft</cl:available-value>
+        <cl:available-value>ace/theme/mono_industrial</cl:available-value>
+        <cl:available-value>ace/theme/monokai</cl:available-value>
+        <cl:available-value>ace/theme/nord_dark</cl:available-value>
+        <cl:available-value>ace/theme/pastel_on_dark</cl:available-value>
+        <cl:available-value>ace/theme/solarized_dark</cl:available-value>
+        <cl:available-value>ace/theme/terminal</cl:available-value>
+        <cl:available-value>ace/theme/tomorrow_night</cl:available-value>
+        <cl:available-value>ace/theme/tomorrow_night_blue</cl:available-value>
+        <cl:available-value>ace/theme/tomorrow_night_bright</cl:available-value>
+        <cl:available-value>ace/theme/tomorrow_night_eighties</cl:available-value>
+        <cl:available-value>ace/theme/twilight</cl:available-value>
+        <cl:available-value>ace/theme/vibrant_ink</cl:available-value>
+      </cl:property>
+    </cl:appspec>
+  </head>
+  <body std:sid="body-3daa66c1" style="top:0px; left:0px; width:300px; height:300px;">
+    <cl:listener std:sid="listener-9bd25895" name="before-draw" handler="onBodyBeforeDraw"/>
+    <cl:listener std:sid="listener-be1dfe10" name="property-change" handler="onBodyPropertyChange"/>
+    <cl:group std:sid="group-a9c497f1" class="ace-editor-buttons">
+      <cl:formdata std:sid="f-data-5cd25087" row="0" col="0"/>
+      <cl:checkbox std:sid="c-box-660e94e9" id="cbxFldEdt" class="folding-editor" tooltip="소스 접기/펼치기" value="" text="">
+        <cl:listener std:sid="listener-6864ee1e" name="value-change" handler="onCbxFldEdtValueChange"/>
+        <cl:flowlayoutdata std:sid="f-data-9ea14fc8" width="25px" height="25px"/>
+      </cl:checkbox>
+      <cl:button std:sid="button-5ccb27c0" id="btnCp" class="btn-transparent btn-copy" tooltip="코드 복사" value="">
+        <cl:listener std:sid="listener-2b240c3e" name="click" handler="onBtnCpClick"/>
+        <cl:flowlayoutdata std:sid="f-data-25084cd0" width="25px" height="25px" autosize="none"/>
+      </cl:button>
+      <cl:button std:sid="button-6c56c629" id="btnDwld" class="btn-transparent btn-share" visible="false" value="">
+        <std:metadata>
+          <std:property key="hidden" value="true"/>
+        </std:metadata>
+        <cl:flowlayoutdata std:sid="f-data-5744f364" width="25px" height="25px"/>
+      </cl:button>
+      <cl:flowlayout std:sid="f-layout-6f19f9c5" scrollable="false" spacing="10" halign="right" valign="middle" linewrap="false" leftmargin="10" rightmargin="10" topmargin="5" bottommargin="5"/>
+    </cl:group>
+    <cl:htmlsnippet std:sid="htmlsnippet-21ed4c26" id="hspAce" value="">
+      <cl:listener std:sid="listener-c5ba3b98" name="value-change" handler="onHspAceValueChange"/>
+      <cl:formdata std:sid="f-data-2dbca269" row="1" col="0"/>
+    </cl:htmlsnippet>
+    <cl:formlayout std:sid="f-layout-2996db65" hspace="0px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+      <cl:rows length="35" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+      <cl:rows length="1" unit="FRACTION"/>
+      <cl:columns length="1" unit="FRACTION"/>
+    </cl:formlayout>
+  </body>
+  <std:studiosetting>
+    <std:hruler/>
+    <std:vruler/>
+  </std:studiosetting>
+</html>

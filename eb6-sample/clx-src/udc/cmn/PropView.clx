@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:cl="http://tomatosystem.co.kr/cleopatra" xmlns:std="http://tomatosystem.co.kr/cleopatra/studio" std:sid="html-5afe1b90" version="1.0.0.0">
+  <head std:sid="head-e519ff4a">
+    <title>PropView</title>
+    <screen std:sid="screen-10efa1e3" id="default" name="default" minwidth="1200px" width="1200px" height="768px" customHeight="600" customWidth="800"/>
+    <screen std:sid="screen-72b10b20" id="tablet" name="tablet" minwidth="850px" maxwidth="1199px" width="850px" height="768px"/>
+    <screen std:sid="screen-ea8aa563" id="mobile" name="mobile" maxwidth="849px" width="544px" height="768px"/>
+    <cl:model std:sid="model-80183d39">
+      <cl:dataset std:sid="d-set-223b27f7" id="dsPropVw" info="프로퍼티 뷰 (속성 뷰)">
+        <cl:datacolumnlist>
+          <cl:datacolumn comment="컨트롤 명" std:sid="d-column-2ab4891d" name="CTRL_NM"/>
+          <cl:datacolumn comment="속성 탭 명" std:sid="d-column-068c1e55" name="PROP_SJ"/>
+          <cl:datacolumn comment="속성 명" std:sid="d-column-3f149788" name="PROP_NM"/>
+          <cl:datacolumn comment="속성 값" std:sid="d-column-53fd0a82" name="PROP_VAL"/>
+          <cl:datacolumn comment="속성 설명" std:sid="d-column-09e0c603" name="PROP_STY_DESC"/>
+        </cl:datacolumnlist>
+        <cl:datarowlist/>
+      </cl:dataset>
+    </cl:model>
+    <cl:appspec>
+      <cl:property name="dataset" type="control"/>
+      <cl:property name="filterType" type="enumeration" default="control" bindable="true">
+        <cl:available-value>control</cl:available-value>
+        <cl:available-value>cell</cl:available-value>
+      </cl:property>
+      <cl:property name="filterCondition" type="enumeration" bindable="true">
+        <cl:available-value>accordion</cl:available-value>
+        <cl:available-value>audio</cl:available-value>
+        <cl:available-value>button</cl:available-value>
+        <cl:available-value>calendar</cl:available-value>
+        <cl:available-value>checkbox</cl:available-value>
+        <cl:available-value>checkboxgroup</cl:available-value>
+        <cl:available-value>combobox</cl:available-value>
+        <cl:available-value>container</cl:available-value>
+        <cl:available-value>dateinput</cl:available-value>
+        <cl:available-value>dialog</cl:available-value>
+        <cl:available-value>embeddedapp</cl:available-value>
+        <cl:available-value>embeddedpage</cl:available-value>
+        <cl:available-value>fileinput</cl:available-value>
+        <cl:available-value>fileupload</cl:available-value>
+        <cl:available-value>grid</cl:available-value>
+        <cl:available-value>htmlobject</cl:available-value>
+        <cl:available-value>htmlsnippet</cl:available-value>
+        <cl:available-value>image</cl:available-value>
+        <cl:available-value>inputbox</cl:available-value>
+        <cl:available-value>linkedcombobox</cl:available-value>
+        <cl:available-value>linkedlistbox</cl:available-value>
+        <cl:available-value>listbox</cl:available-value>
+        <cl:available-value>maskeditor</cl:available-value>
+        <cl:available-value>mdifolder</cl:available-value>
+        <cl:available-value>menu</cl:available-value>
+        <cl:available-value>navigationbar</cl:available-value>
+        <cl:available-value>notifier</cl:available-value>
+        <cl:available-value>numbereditor</cl:available-value>
+        <cl:available-value>output</cl:available-value>
+        <cl:available-value>pageindexer</cl:available-value>
+        <cl:available-value>progress</cl:available-value>
+        <cl:available-value>radiobutton</cl:available-value>
+        <cl:available-value>searchinput</cl:available-value>
+        <cl:available-value>slider</cl:available-value>
+        <cl:available-value>tabfolder</cl:available-value>
+        <cl:available-value>textarea</cl:available-value>
+        <cl:available-value>tree</cl:available-value>
+        <cl:available-value>treecell</cl:available-value>
+        <cl:available-value>video</cl:available-value>
+        <cl:available-value>headerCell</cl:available-value>
+        <cl:available-value>detailCell</cl:available-value>
+        <cl:available-value>footerCell</cl:available-value>
+        <cl:available-value>group</cl:available-value>
+      </cl:property>
+    </cl:appspec>
+  </head>
+  <body std:sid="body-ce8a6c9c" style="top:0px; left:0px; width:400px; height:350px;">
+    <cl:listener std:sid="listener-02b197cb" name="property-change" handler="onBodyPropertyChange"/>
+    <cl:listener std:sid="listener-5016984f" name="before-draw" handler="onBodyBeforeDraw"/>
+    <cl:group std:sid="group-c2e5a03c" id="grp5">
+      <cl:xylayoutdata std:sid="xyl-data-7e382f76" top="0px" right="0px" bottom="0px" left="0px" horizontalAnchor="BOTH" verticalAnchor="BOTH"/>
+      <cl:tabfolder std:sid="t-folder-cc4c40e8" id="tfPropVw" class="tab" headerarrowposition="right">
+        <cl:listener std:sid="listener-07869721" name="selection-change" handler="onTfPropVwSelectionChange"/>
+        <cl:formdata std:sid="f-data-41dc238b" row="0" col="0"/>
+        <cl:tabitem std:sid="t-item-660feded" text="일반" tooltip="일반">
+          <std:metadata>
+            <std:property key="is-active-item" value="true"/>
+          </std:metadata>
+          <cl:group std:sid="group-0470ed9e">
+            <std:metadata>
+              <std:property key="locked" value="true"/>
+            </std:metadata>
+            <cl:grid std:sid="grid-9a090730" id="grd1" class="table-prop" readonly="true" datasetid="dsPropVw" autofit="all" resizablecolumns="all">
+              <cl:xylayoutdata std:sid="xyl-data-754ee244" top="0px" right="0px" bottom="0px" left="0px" horizontalAnchor="BOTH" verticalAnchor="BOTH"/>
+              <cl:gridcolumn std:sid="g-column-d3737394" width="100px"/>
+              <cl:gridcolumn std:sid="g-column-6348114f" width="150px"/>
+              <cl:gridheader std:sid="gh-band-2127c8ce">
+                <cl:gridrow std:sid="g-row-65ffcc25" height="25px"/>
+                <cl:gridcell std:sid="gh-cell-9d95a819" rowindex="0" colindex="0" targetcolumnname="PROP_NM" sortable="false" filterable="false" text="속성"/>
+                <cl:gridcell std:sid="gh-cell-e4b96b74" rowindex="0" colindex="1" targetcolumnname="PROP_VAL" sortable="false" filterable="false" text="값"/>
+              </cl:gridheader>
+              <cl:griddetail std:sid="gd-band-a44d22c8">
+                <cl:gridrow std:sid="g-row-72974228" height="25px"/>
+                <cl:gridcell std:sid="gd-cell-e762e96e" rowindex="0" colindex="0" columnname="PROP_NM">
+                  <cl:output std:sid="output-2dca4ec3">
+                    <cl:expbind property="tooltip" category="PROPERTY" expression="PROP_NM"/>
+                  </cl:output>
+                </cl:gridcell>
+                <cl:gridcell std:sid="gd-cell-40972e30" rowindex="0" colindex="1" columnname="PROP_VAL">
+                  <cl:output std:sid="output-2ffb20dc">
+                    <cl:expbind property="tooltip" category="PROPERTY" expression="PROP_VAL"/>
+                  </cl:output>
+                </cl:gridcell>
+              </cl:griddetail>
+            </cl:grid>
+            <cl:xylayout std:sid="xylayout-e2dc2a99"/>
+          </cl:group>
+        </cl:tabitem>
+        <cl:tabitem std:sid="t-item-10fb6ec7" text="스타일" tooltip="스타일">
+          <cl:group std:sid="group-902ad7b5">
+            <std:metadata>
+              <std:property key="locked" value="true"/>
+            </std:metadata>
+            <cl:grid std:sid="grid-539b5f9f" id="grd2" class="table-prop" readonly="true" datasetid="dsPropVw" resizablecolumns="all">
+              <cl:xylayoutdata std:sid="xyl-data-23133a64" top="0px" right="0px" bottom="0px" left="0px" horizontalAnchor="BOTH" verticalAnchor="BOTH"/>
+              <cl:gridcolumn std:sid="g-column-54d46108" width="120px"/>
+              <cl:gridcolumn std:sid="g-column-d14e9374"/>
+              <cl:gridcolumn std:sid="g-column-e5fd1771" width="150px"/>
+              <cl:gridheader std:sid="gh-band-c572f371">
+                <cl:gridrow std:sid="g-row-0d1c7898" height="25px"/>
+                <cl:gridcell std:sid="gh-cell-9e2c5a90" rowindex="0" colindex="0" targetcolumnname="PROP_NM" sortable="false" filterable="false" text="속성"/>
+                <cl:gridcell std:sid="gh-cell-cf760f01" rowindex="0" colindex="1" targetcolumnname="PROP_VAL" sortable="false" filterable="false" text="값"/>
+                <cl:gridcell std:sid="gh-cell-a00e1a36" rowindex="0" colindex="2" targetcolumnname="PROP_STY_DESC" text="설명"/>
+              </cl:gridheader>
+              <cl:griddetail std:sid="gd-band-f363fb82">
+                <cl:gridrow std:sid="g-row-38d02f0a" height="25px"/>
+                <cl:gridcell std:sid="gd-cell-e8cc4f0c" rowindex="0" colindex="0" columnname="PROP_NM">
+                  <cl:output std:sid="output-5c034ce3" ellipsis="true">
+                    <cl:expbind property="tooltip" category="PROPERTY" expression="PROP_NM"/>
+                  </cl:output>
+                </cl:gridcell>
+                <cl:gridcell std:sid="gd-cell-d39d17ae" rowindex="0" colindex="1" columnname="PROP_VAL">
+                  <cl:output std:sid="output-cd8ca06b" ellipsis="true">
+                    <cl:expbind property="tooltip" category="PROPERTY" expression="PROP_VAL"/>
+                  </cl:output>
+                </cl:gridcell>
+                <cl:gridcell std:sid="gd-cell-fedf619b" rowindex="0" colindex="2" columnname="PROP_STY_DESC">
+                  <cl:output std:sid="output-e156bdd4" ellipsis="true">
+                    <cl:expbind property="tooltip" category="PROPERTY" expression="PROP_STY_DESC"/>
+                  </cl:output>
+                </cl:gridcell>
+              </cl:griddetail>
+            </cl:grid>
+            <cl:xylayout std:sid="xylayout-e0ebebd5"/>
+          </cl:group>
+        </cl:tabitem>
+        <cl:tabitem std:sid="t-item-9ba38900" text="레이아웃" tooltip="레이아웃">
+          <cl:group std:sid="group-cd85b95c">
+            <std:metadata>
+              <std:property key="locked" value="true"/>
+            </std:metadata>
+            <cl:grid std:sid="grid-6907ebca" id="grd3" class="table-prop" readonly="true" datasetid="dsPropVw" resizablecolumns="all">
+              <cl:xylayoutdata std:sid="xyl-data-8cc1f87d" top="0px" right="0px" bottom="0px" left="0px" horizontalAnchor="BOTH" verticalAnchor="BOTH"/>
+              <cl:gridcolumn std:sid="g-column-c4e6deb4" width="100px"/>
+              <cl:gridcolumn std:sid="g-column-dc20733d"/>
+              <cl:gridheader std:sid="gh-band-e7d5f763">
+                <cl:gridrow std:sid="g-row-fb750427" height="25px"/>
+                <cl:gridcell std:sid="gh-cell-95844219" rowindex="0" colindex="0" targetcolumnname="PROP_NM" sortable="false" filterable="false" text="속성"/>
+                <cl:gridcell std:sid="gh-cell-b44411ed" rowindex="0" colindex="1" targetcolumnname="PROP_VAL" sortable="false" filterable="false" text="값"/>
+              </cl:gridheader>
+              <cl:griddetail std:sid="gd-band-1e403240">
+                <cl:gridrow std:sid="g-row-a9dfd968" height="25px"/>
+                <cl:gridcell std:sid="gd-cell-645acc4b" rowindex="0" colindex="0" columnname="PROP_NM">
+                  <cl:output std:sid="output-6bc07827" ellipsis="true">
+                    <cl:expbind property="tooltip" category="PROPERTY" expression="PROP_NM"/>
+                  </cl:output>
+                </cl:gridcell>
+                <cl:gridcell std:sid="gd-cell-3ed23b60" rowindex="0" colindex="1" columnname="PROP_VAL">
+                  <cl:output std:sid="output-0435d864" ellipsis="true">
+                    <cl:expbind property="tooltip" category="PROPERTY" expression="PROP_VAL"/>
+                  </cl:output>
+                </cl:gridcell>
+              </cl:griddetail>
+            </cl:grid>
+            <cl:xylayout std:sid="xylayout-5e41bebb"/>
+          </cl:group>
+        </cl:tabitem>
+        <cl:tabitem std:sid="t-item-a075fbb0" text="이벤트" tooltip="이벤트">
+          <cl:group std:sid="group-efc78ff1">
+            <std:metadata>
+              <std:property key="locked" value="true"/>
+            </std:metadata>
+            <cl:grid std:sid="grid-edde1d0a" id="grd4" class="table-prop" readonly="true" datasetid="dsPropVw" resizablecolumns="all">
+              <cl:xylayoutdata std:sid="xyl-data-94a50166" top="0px" right="0px" bottom="0px" left="0px" horizontalAnchor="BOTH" verticalAnchor="BOTH"/>
+              <cl:gridcolumn std:sid="g-column-aa8b7d57" width="120px"/>
+              <cl:gridcolumn std:sid="g-column-3ebdda93"/>
+              <cl:gridheader std:sid="gh-band-e80c4803">
+                <cl:gridrow std:sid="g-row-9bf30cc9" height="25px"/>
+                <cl:gridcell std:sid="gh-cell-54946799" rowindex="0" colindex="0" targetcolumnname="PROP_NM" sortable="false" filterable="false" text="속성"/>
+                <cl:gridcell std:sid="gh-cell-5e1eacb3" rowindex="0" colindex="1" targetcolumnname="PROP_VAL" sortable="false" filterable="false" text="값"/>
+              </cl:gridheader>
+              <cl:griddetail std:sid="gd-band-457ef9bd">
+                <cl:gridrow std:sid="g-row-793f8a2d" height="25px"/>
+                <cl:gridcell std:sid="gd-cell-153777f8" rowindex="0" colindex="0" columnname="PROP_NM">
+                  <cl:output std:sid="output-87a4b3ff" ellipsis="true">
+                    <cl:expbind property="tooltip" category="PROPERTY" expression="PROP_NM"/>
+                  </cl:output>
+                </cl:gridcell>
+                <cl:gridcell std:sid="gd-cell-596f86b8" rowindex="0" colindex="1" columnname="PROP_VAL">
+                  <cl:output std:sid="output-d737c477" ellipsis="true">
+                    <cl:expbind property="tooltip" category="PROPERTY" expression="PROP_VAL"/>
+                  </cl:output>
+                </cl:gridcell>
+              </cl:griddetail>
+            </cl:grid>
+            <cl:xylayout std:sid="xylayout-b87d1aba"/>
+          </cl:group>
+        </cl:tabitem>
+        <cl:tabitem std:sid="t-item-9e6843ab" text="사용자 속성" tooltip="사용자 속성">
+          <cl:group std:sid="group-dec17864">
+            <std:metadata>
+              <std:property key="locked" value="true"/>
+            </std:metadata>
+            <cl:grid std:sid="grid-95a2d86b" id="grd5" class="table-prop" readonly="true" datasetid="dsPropVw" resizablecolumns="all">
+              <cl:xylayoutdata std:sid="xyl-data-bf2032a1" top="0px" right="0px" bottom="0px" left="0px" horizontalAnchor="BOTH" verticalAnchor="BOTH"/>
+              <cl:gridcolumn std:sid="g-column-13ca48d3" width="120px"/>
+              <cl:gridcolumn std:sid="g-column-ddf7fd31"/>
+              <cl:gridheader std:sid="gh-band-0aff9510">
+                <cl:gridrow std:sid="g-row-adfedf64" height="25px"/>
+                <cl:gridcell std:sid="gh-cell-b74feeee" rowindex="0" colindex="0" targetcolumnname="PROP_NM" sortable="false" filterable="false" text="속성"/>
+                <cl:gridcell std:sid="gh-cell-4ff7ad58" rowindex="0" colindex="1" targetcolumnname="PROP_VAL" sortable="false" filterable="false" text="값"/>
+              </cl:gridheader>
+              <cl:griddetail std:sid="gd-band-64b7ae73">
+                <cl:gridrow std:sid="g-row-1a3ac4ad" height="25px"/>
+                <cl:gridcell std:sid="gd-cell-3a89a2cf" rowindex="0" colindex="0" columnname="PROP_NM">
+                  <cl:output std:sid="output-d2387f73" ellipsis="true">
+                    <cl:expbind property="tooltip" category="PROPERTY" expression="PROP_NM"/>
+                  </cl:output>
+                </cl:gridcell>
+                <cl:gridcell std:sid="gd-cell-1f948c10" rowindex="0" colindex="1" columnname="PROP_VAL">
+                  <cl:output std:sid="output-2ee39aab" ellipsis="true">
+                    <cl:expbind property="tooltip" category="PROPERTY" expression="PROP_VAL"/>
+                  </cl:output>
+                </cl:gridcell>
+              </cl:griddetail>
+            </cl:grid>
+            <cl:xylayout std:sid="xylayout-3f195506"/>
+          </cl:group>
+        </cl:tabitem>
+        <cl:tabitem std:sid="t-item-8d089b71" text="바인딩" tooltip="바인딩">
+          <cl:group std:sid="group-7fb1c43e">
+            <std:metadata>
+              <std:property key="locked" value="true"/>
+            </std:metadata>
+            <cl:grid std:sid="grid-d13f2949" id="grd6" class="table-prop" readonly="true" datasetid="dsPropVw" resizablecolumns="all">
+              <cl:xylayoutdata std:sid="xyl-data-6da256e7" top="0px" right="0px" bottom="0px" left="0px" horizontalAnchor="BOTH" verticalAnchor="BOTH"/>
+              <cl:gridcolumn std:sid="g-column-a1f39316" width="100px"/>
+              <cl:gridcolumn std:sid="g-column-f2a710cd" width="150px"/>
+              <cl:gridheader std:sid="gh-band-256c609a">
+                <cl:gridrow std:sid="g-row-9b47f889" height="25px"/>
+                <cl:gridcell std:sid="gh-cell-e4e6e56d" rowindex="0" colindex="0" targetcolumnname="PROP_NM" sortable="false" filterable="false" text="속성"/>
+                <cl:gridcell std:sid="gh-cell-460fba74" rowindex="0" colindex="1" targetcolumnname="PROP_VAL" sortable="false" filterable="false" text="값"/>
+              </cl:gridheader>
+              <cl:griddetail std:sid="gd-band-6ea5c115">
+                <cl:gridrow std:sid="g-row-54f52875" height="25px"/>
+                <cl:gridcell std:sid="gd-cell-86f48cfa" rowindex="0" colindex="0" columnname="PROP_NM">
+                  <cl:output std:sid="output-7a7992e9" ellipsis="true">
+                    <cl:expbind property="tooltip" category="PROPERTY" expression="PROP_NM"/>
+                  </cl:output>
+                </cl:gridcell>
+                <cl:gridcell std:sid="gd-cell-a3b1c400" rowindex="0" colindex="1" columnname="PROP_VAL">
+                  <cl:output std:sid="output-9820511d" ellipsis="true">
+                    <cl:expbind property="tooltip" category="PROPERTY" expression="PROP_VAL"/>
+                  </cl:output>
+                </cl:gridcell>
+              </cl:griddetail>
+            </cl:grid>
+            <cl:xylayout std:sid="xylayout-2ce209ba"/>
+          </cl:group>
+        </cl:tabitem>
+      </cl:tabfolder>
+      <cl:output std:sid="output-4c3c616f" id="lblCptn" class="text-center" value="" displayexp="switch(@filterType){&#xD;&#xA;&#x9;case &quot;cell&quot; : &quot;&lt; &quot; + text + &quot; >&quot;&#xD;&#xA;&#x9;default : &quot;&lt; &quot; + text + &quot; 컨트롤 >&quot;&#xD;&#xA;}">
+        <cl:formdata std:sid="f-data-4d6a7455" row="1" col="0"/>
+      </cl:output>
+      <cl:formlayout std:sid="f-layout-93044669" hspace="5px" vspace="5px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+        <cl:rows length="1" unit="FRACTION" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+        <cl:rows length="20" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+        <cl:columns length="1" unit="FRACTION"/>
+      </cl:formlayout>
+    </cl:group>
+    <cl:xylayout std:sid="xylayout-434659e0"/>
+  </body>
+  <std:studiosetting>
+    <std:hruler/>
+    <std:vruler/>
+  </std:studiosetting>
+</html>
