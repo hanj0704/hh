@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:cl="http://tomatosystem.co.kr/cleopatra" xmlns:std="http://tomatosystem.co.kr/cleopatra/studio" std:sid="html-bcaf2ae0" version="1.0.0.0">
+  <head std:sid="head-2ba2dadd">
+    <title>Template</title>
+    <screen std:sid="screen-17c7c4a0" id="default" name="default" minwidth="1200px" width="1200px" height="768px"/>
+    <screen std:sid="screen-d1198bb5" id="tablet" name="tablet" minwidth="850px" maxwidth="1199px" width="850px" height="768px"/>
+    <screen std:sid="screen-9a734e2e" id="test" name="mobile" maxwidth="849px" width="544px" height="768px"/>
+    <cl:model std:sid="model-c3daba54">
+      <cl:dataset std:sid="d-set-223b27f7" id="dsPropVw" info="프로퍼티 뷰 (속성 뷰)">
+        <cl:datacolumnlist>
+          <cl:datacolumn comment="컨트롤 명" std:sid="d-column-2ab4891d" name="CTRL_NM"/>
+          <cl:datacolumn comment="속성 탭 명" std:sid="d-column-068c1e55" name="PROP_SJ"/>
+          <cl:datacolumn comment="속성 명" std:sid="d-column-3f149788" name="PROP_NM"/>
+          <cl:datacolumn comment="속성 값" std:sid="d-column-53fd0a82" name="PROP_VAL"/>
+        </cl:datacolumnlist>
+        <cl:datarowlist>
+          <cl:datarow>
+            <cl:datavalue columnname="CTRL_NM"><![CDATA[checkbox]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_SJ"><![CDATA[일반]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_NM"><![CDATA[value]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_VAL"><![CDATA[]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="CTRL_NM"><![CDATA[checkbox]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_SJ"><![CDATA[스타일]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_NM"><![CDATA[text-align]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_VAL"><![CDATA[center]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="CTRL_NM"><![CDATA[checkbox]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_SJ"><![CDATA[레이아웃]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_NM"><![CDATA[width]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_VAL"><![CDATA[25px]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="CTRL_NM"><![CDATA[checkbox]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_SJ"><![CDATA[레이아웃]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_NM"><![CDATA[height]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_VAL"><![CDATA[25px]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="CTRL_NM"><![CDATA[container]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_SJ"><![CDATA[레이아웃]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_NM"><![CDATA[레이아웃]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_VAL"><![CDATA[XY레이아웃]]></cl:datavalue>
+          </cl:datarow>
+        </cl:datarowlist>
+      </cl:dataset>
+    </cl:model>
+    <cl:appspec/>
+  </head>
+  <body std:sid="body-cf8b7bd6" style="top:0px; left:0px; width:800px; height:600px;">
+    <cl:output std:sid="output-46e7c40c" class="h3" value="템플릿">
+      <cl:verticaldata std:sid="v-data-880707d5" width="100px" height="50px"/>
+    </cl:output>
+    <cl:group std:sid="group-a96380ed">
+      <cl:verticaldata std:sid="v-data-59cd4289" width="400px" height="573px" autosize="height"/>
+      <cl:output std:sid="output-57b61ec3" class="h6" value="와이어 프레임">
+        <cl:verticaldata std:sid="v-data-23929467" width="100px" height="25px"/>
+      </cl:output>
+      <cl:output std:sid="output-ffcb72f5" value="- 스타일, 스크립트, 템플릿 등 샘플 작성에 필요한 와이어 프레임을 다음과 같이 설정한다.&#xD;&#xA;- 와이어 프레임에 대한 자세한 설정은 PTmpl.clx 또는 STmpl.clx를 참조한다.">
+        <cl:verticaldata std:sid="v-data-ee5be0a3" width="100px" height="42px" autosize="height"/>
+      </cl:output>
+      <cl:group std:sid="group-69c8f3eb" class="bg-gray-200">
+        <cl:verticaldata std:sid="v-data-8ca8120e" width="1200px" height="503px" autosize="height"/>
+        <cl:group std:sid="group-9645db36" class="content-card">
+          <cl:verticaldata std:sid="v-data-9c21001f" width="400px" height="403px" autosize="height"/>
+          <cl:udc std:sid="ud-control-8339d2d2" type="udc.cmn.AppTitle">
+            <cl:verticaldata std:sid="v-data-59a14fac" width="544px" height="175px" autosize="height"/>
+          </cl:udc>
+          <cl:group std:sid="group-fcb88f1f">
+            <cl:verticaldata std:sid="v-data-c8f62e89" width="400px" height="228px" autosize="height"/>
+            <cl:group std:sid="group-c3b4f76c" class="card-inner">
+              <cl:verticaldata std:sid="v-data-b88b47e3" width="1040px" height="211px" autosize="height"/>
+              <cl:udc std:sid="ud-control-43bc5407" type="udc.cmn.AreaTitle">
+                <cl:verticaldata std:sid="v-data-386ecf32" width="300px" height="38px"/>
+              </cl:udc>
+              <cl:output std:sid="output-91f8c8b3" value="설명을 작성하십시오.">
+                <cl:verticaldata std:sid="v-data-89fb3e43" width="100px" height="25px" autosize="height"/>
+              </cl:output>
+              <cl:group std:sid="group-fc5891b4" class="attach-box">
+                <cl:verticaldata std:sid="v-data-d20e3b78" width="1040px" height="40px" autosize="height"/>
+                <cl:flowlayout std:sid="f-layout-6ea22f5b" scrollable="false" spacing="15" halign="center" valign="middle" linewrap="false" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="20"/>
+              </cl:group>
+              <cl:verticallayout std:sid="v-layout-f8b7a75d" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+            </cl:group>
+            <cl:verticallayout std:sid="v-layout-c96c659b" leftmargin="50" rightmargin="50" topmargin="20" bottommargin="60"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-25ac16ca" spacing="0"/>
+        </cl:group>
+        <cl:udc std:sid="ud-control-d22f2418" type="udc.cmn.UpdatedTitle">
+          <cl:verticaldata std:sid="v-data-03c4cf6d" width="300px" height="25px"/>
+          <cl:property name="value" value="20210201" type="string"/>
+        </cl:udc>
+        <cl:verticallayout std:sid="v-layout-60e9f72b" leftmargin="30" rightmargin="30" topmargin="30" bottommargin="50"/>
+      </cl:group>
+      <cl:verticallayout std:sid="v-layout-dbbce54a"/>
+    </cl:group>
+    <cl:group std:sid="group-633e0132">
+      <cl:verticaldata std:sid="v-data-f7f01a90" width="400px" height="430px" autosize="height"/>
+      <cl:output std:sid="output-bf0b6f18" class="h6" value="속성 뷰">
+        <cl:verticaldata std:sid="v-data-84bce203" width="1200px" height="25px" autosize="none"/>
+      </cl:output>
+      <cl:output std:sid="output-3cd5294f" value="- 속성 뷰 UDC에 연결될 데이터셋 컨트롤 객체와 filterCondition 속성 값을 지정한다. filterCondition을 통해 속성 뷰에 표시되는 데이터가 결정된다.&#xD;&#xA;- filterCondition은 탭 폴더 아래에 표시되는 캡션 값으로도 사용된다.">
+        <cl:verticaldata std:sid="v-data-a8389b51" width="1200px" height="42px" autosize="height"/>
+      </cl:output>
+      <cl:group std:sid="group-f2f56dca" class="attach-box">
+        <cl:verticaldata std:sid="v-data-85a6ac29" width="1040px" height="400px" autosize="height"/>
+        <cl:udc std:sid="ud-control-e224d0ed" type="udc.cmn.PropView">
+          <cl:flowlayoutdata std:sid="f-data-9093fe4f" width="400px" height="350px"/>
+          <cl:property name="caption" value="그룹" type="string"/>
+          <cl:property name="dataset" value="dsPropVw" type="control"/>
+          <cl:property name="filterCondition" value="checkbox" type="enumeration"/>
+        </cl:udc>
+        <cl:flowlayout std:sid="f-layout-72330de9" scrollable="false" spacing="15" halign="center" valign="middle" linewrap="false" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="20"/>
+      </cl:group>
+      <cl:verticallayout std:sid="v-layout-aaddb064"/>
+    </cl:group>
+    <cl:group std:sid="group-0d402f53">
+      <cl:verticaldata std:sid="v-data-8099f5b6" width="1200px" height="238px" autosize="height"/>
+      <cl:output std:sid="output-29600916" class="h6" value="목록형 폼">
+        <cl:verticaldata std:sid="v-data-a9033015" width="1200px" height="25px" autosize="none"/>
+      </cl:output>
+      <cl:output std:sid="output-840f54dd" value="- API 목록 또는 파라미터 목록 등에 사용되는 폼&#xD;&#xA;- 폼 레이아웃의 기본 높이는 30px로 한다. 단, 경우에 따라 각 구역의 px은 유동적으로 변경될 수 있다.&#xD;&#xA;- 설명은 최대한 명확하고 간결하게 작성한다.">
+        <cl:verticaldata std:sid="v-data-97958afc" width="100px" height="69px" autosize="height"/>
+      </cl:output>
+      <cl:group std:sid="group-09d32a74" class="form-box vertical">
+        <cl:verticaldata std:sid="v-data-b9e8d568" width="1040px" height="82px" autosize="height"/>
+        <cl:output std:sid="output-ebfd262a" class="label" value="컨트롤">
+          <cl:formdata std:sid="f-data-29062f84" row="0" col="0"/>
+        </cl:output>
+        <cl:output std:sid="output-8528dd47" class="label" value="API">
+          <cl:formdata std:sid="f-data-45811037" row="0" col="1"/>
+        </cl:output>
+        <cl:output std:sid="output-96613175" class="label" value="설명">
+          <cl:formdata std:sid="f-data-650fab76" row="0" col="2"/>
+        </cl:output>
+        <cl:output std:sid="output-c075744c" value="">
+          <cl:formdata std:sid="f-data-cb06f5cb" row="1" col="0"/>
+        </cl:output>
+        <cl:output std:sid="output-d2ddb19c" value="">
+          <cl:formdata std:sid="f-data-270a92d7" row="1" col="1"/>
+        </cl:output>
+        <cl:output std:sid="output-564c1937" value="">
+          <cl:formdata std:sid="f-data-2c645f70" row="1" col="2"/>
+        </cl:output>
+        <cl:formlayout std:sid="f-layout-74e4f45e" hspace="10px" vspace="10px" top-margin="5px" right-margin="5px" bottom-margin="5px" left-margin="5px" hseparatorwidth="1" hseparatortype="BY_CLASS" vseparatorwidth="1" vseparatortype="BY_CLASS">
+          <cl:rows length="30" unit="PIXEL" autoSizing="false" shadetype="BY_CLASS" shadecolor="#000000" minlength="0"/>
+          <cl:rows length="30" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+          <cl:columns length="100" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+          <cl:columns length="250" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+          <cl:columns length="1" unit="FRACTION"/>
+        </cl:formlayout>
+      </cl:group>
+      <cl:group std:sid="group-58269d4c" class="form-box">
+        <cl:verticaldata std:sid="v-data-7115496b" width="1040px" height="42px" autosize="height"/>
+        <cl:output std:sid="output-df342e07" class="label" value="결과 값">
+          <cl:formdata std:sid="f-data-b7d82399" row="0" col="0"/>
+        </cl:output>
+        <cl:output std:sid="output-62980935" value="">
+          <cl:formdata std:sid="f-data-ed64b098" row="0" col="1"/>
+        </cl:output>
+        <cl:formlayout std:sid="f-layout-88d4a851" hspace="10px" vspace="10px" top-margin="5px" right-margin="5px" bottom-margin="5px" left-margin="5px" hseparatorwidth="1" hseparatortype="BY_CLASS" vseparatorwidth="1" vseparatortype="BY_CLASS">
+          <cl:rows length="30" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+          <cl:columns length="100" unit="PIXEL" autoSizing="false" shadetype="BY_CLASS" shadecolor="#000000" minlength="0"/>
+          <cl:columns length="1" unit="FRACTION"/>
+        </cl:formlayout>
+      </cl:group>
+      <cl:verticallayout std:sid="v-layout-3a4e28f3"/>
+    </cl:group>
+    <cl:group std:sid="group-d71b4fd5">
+      <cl:verticaldata std:sid="v-data-d0384edf" width="400px" height="716px" autosize="height"/>
+      <cl:output std:sid="output-73f29769" class="h6" value="참조 박스">
+        <cl:verticaldata std:sid="v-data-a2fe8671" width="1200px" height="25px" autosize="none"/>
+      </cl:output>
+      <cl:output std:sid="output-00a55b9b" value="- [INFO] 박스 활용 : 특정 clx 파일의 앱 ID 또는 파일 경로 표시&#xD;&#xA;- [SUCCESS] 박스 활용 : 알아두면 좋은 정보(팁)에 대해 표시&#xD;&#xA;- [WARNING] 박스 활용 : 유의 사항 영역 외에 특별히 인지해야 하는 정보에 대해 표시&#xD;&#xA;- [DANGER] 박스 활용 : 반드시 숙지해야 하는 정보에 대해 표시&#xD;&#xA;- [DEFAULT] 박스 활용 : 단순 참조 정보 표시 시 사용 (도움말 경로)">
+        <cl:verticaldata std:sid="v-data-8ca7b43d" width="100px" height="109px" autosize="height"/>
+      </cl:output>
+      <cl:group std:sid="group-37f50465" class="attach-box">
+        <cl:verticaldata std:sid="v-data-d4947827" width="1040px" height="521px" autosize="height"/>
+        <cl:group std:sid="group-302da85a" id="grp12" class="ref-card info">
+          <cl:verticaldata std:sid="v-data-20635baa" width="1040px" height="100px" autosize="height"/>
+          <cl:output std:sid="output-bc642f3d" id="opt6" class="ref-title" value="INFO">
+            <cl:verticaldata std:sid="v-data-10b1299e" width="100px" height="25px"/>
+          </cl:output>
+          <cl:output std:sid="output-0c06a818" id="opt7" value="가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력">
+            <cl:verticaldata std:sid="v-data-90dc2a0a" width="100px" height="25px" autosize="height"/>
+          </cl:output>
+          <cl:verticallayout std:sid="v-layout-a519a76b" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+        </cl:group>
+        <cl:group std:sid="group-fb4db7d5" id="grp13" class="ref-card success">
+          <cl:verticaldata std:sid="v-data-722b84e8" width="1040px" height="100px" autosize="height"/>
+          <cl:output std:sid="output-2e4abe21" id="opt8" class="ref-title" value="SUCCESS">
+            <cl:verticaldata std:sid="v-data-50c30c8d" width="100px" height="25px"/>
+          </cl:output>
+          <cl:output std:sid="output-a734d075" id="opt9" value="가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력">
+            <cl:verticaldata std:sid="v-data-6bdf1f36" width="100px" height="25px" autosize="height"/>
+          </cl:output>
+          <cl:verticallayout std:sid="v-layout-58cc4704" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+        </cl:group>
+        <cl:group std:sid="group-62079995" id="grp14" class="ref-card warning">
+          <cl:verticaldata std:sid="v-data-7c17983a" width="1040px" height="100px" autosize="height"/>
+          <cl:output std:sid="output-a9b248ef" id="opt10" class="ref-title" value="WARNING">
+            <cl:verticaldata std:sid="v-data-8dbfa4b4" width="100px" height="25px"/>
+          </cl:output>
+          <cl:output std:sid="output-532ac550" id="opt11" value="가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력">
+            <cl:verticaldata std:sid="v-data-7f6b1b60" width="100px" height="25px" autosize="height"/>
+          </cl:output>
+          <cl:verticallayout std:sid="v-layout-7607fc8d" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+        </cl:group>
+        <cl:group std:sid="group-1488dccb" id="grp15" class="ref-card danger">
+          <cl:verticaldata std:sid="v-data-dc4b7164" width="1040px" height="100px" autosize="height"/>
+          <cl:output std:sid="output-64057e29" id="opt12" class="ref-title" value="DANGER">
+            <cl:verticaldata std:sid="v-data-437b9b9a" width="100px" height="25px"/>
+          </cl:output>
+          <cl:output std:sid="output-721ab1e1" id="opt13" value="가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력">
+            <cl:verticaldata std:sid="v-data-6e431a84" width="100px" height="25px" autosize="height"/>
+          </cl:output>
+          <cl:verticallayout std:sid="v-layout-f4b4941d" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+        </cl:group>
+        <cl:group std:sid="group-ee002fc3" id="grp11" class="ref-card default">
+          <cl:verticaldata std:sid="v-data-4e8d05e2" width="1040px" height="100px" autosize="height"/>
+          <cl:output std:sid="output-5a0e53f8" id="opt4" class="ref-title" value="DEFAULT">
+            <cl:verticaldata std:sid="v-data-f51eafad" width="100px" height="25px"/>
+          </cl:output>
+          <cl:output std:sid="output-741fa5d5" id="opt5" value="가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력 가이드 내용을 입력">
+            <cl:verticaldata std:sid="v-data-c8df8970" width="100px" height="25px" autosize="height"/>
+          </cl:output>
+          <cl:verticallayout std:sid="v-layout-eff44aa2" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+        </cl:group>
+        <cl:verticallayout std:sid="v-layout-a5ec3774"/>
+      </cl:group>
+      <cl:verticallayout std:sid="v-layout-e15e2f22"/>
+    </cl:group>
+    <cl:group std:sid="group-388bf185">
+      <cl:verticaldata std:sid="v-data-499be402" width="1200px" height="875px" autosize="height"/>
+      <cl:output std:sid="output-89c0f578" class="h6" value="`문자`에 대하여">
+        <cl:verticaldata std:sid="v-data-f91d4f0a" width="1200px" height="25px" autosize="none"/>
+      </cl:output>
+      <cl:output std:sid="output-abb54e50" value="- 영역 내 아웃풋 또는 참조 박스 내 아웃풋 내에서 ` 문자를 사용하는 경우 해당 아웃풋의 상위 그룹은 자동으로 visible=false 됩니다. (단, 타이틀 아웃풋은 해당 규칙이 적용되지 않음)&#xD;&#xA;- 위에서 설명하는 기능은 AreaTitle.clx (UDC)에 작성되어 있음&#xD;&#xA;- AreaTitle (UDC)와 같은 레벨의 요소이며 아웃풋에 ` 문자가 문자의 앞과 뒤에 포함되어 있는 경우 영역을 감싸는 그룹을 숨기며, ref-box 클래스를 사용하는 컨테이너 내의 아웃풋에 ` 문자가 문자의 앞과 뒤에 포함되어 있는 경우 ref-box 클래스가 적용된 그룹을 숨긴다.&#xD;&#xA;- 다음의 예시는 런타임에서 기능 작동에 의해 일부 영역이 표시되지 않을 수도 있습니다.">
+        <cl:verticaldata std:sid="v-data-6eeb5652" width="100px" height="122px" autosize="height"/>
+      </cl:output>
+      <cl:group std:sid="group-09a6fc05" class="attach-box">
+        <cl:verticaldata std:sid="v-data-5c8dcb86" width="1040px" height="717px" autosize="height"/>
+        <cl:output std:sid="output-0f12d92e" class="text-danger" value="↓ 보여지는 영역">
+          <cl:verticaldata std:sid="v-data-7f7d786a" width="100px" height="25px"/>
+        </cl:output>
+        <cl:group std:sid="group-121a5716" class="card-inner">
+          <cl:verticaldata std:sid="v-data-038ff6d4" width="1040px" height="211px" autosize="height"/>
+          <cl:udc std:sid="ud-control-c3ed4719" id="areatitle1" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-03b4d32a" width="300px" height="38px"/>
+          </cl:udc>
+          <cl:output std:sid="output-b36d04eb" value="` 문자를 사용하지 않으면 다음의 영역은 사라지지 않습니다.">
+            <cl:verticaldata std:sid="v-data-6481f0f8" width="100px" height="25px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-fa6ca679" class="ref-card info">
+            <cl:verticaldata std:sid="v-data-21e34dc5" width="1200px" height="100px" autosize="height"/>
+            <cl:output std:sid="output-610a6914" class="ref-title" value="INFO">
+              <cl:verticaldata std:sid="v-data-50257d34" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-89497eaa" value="`내용을 입력하세요.`">
+              <cl:verticaldata std:sid="v-data-94f51889" width="100px" height="25px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-2da0c555" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-82fb4729" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-e776d300" class="card-inner">
+          <cl:verticaldata std:sid="v-data-e4918b83" width="1200px" height="211px" autosize="height"/>
+          <cl:udc std:sid="ud-control-4d4b3fd2" id="areatitle3" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-9a4b42cb" width="300px" height="38px"/>
+          </cl:udc>
+          <cl:output std:sid="output-421d6728" value="` 문자를 하나만 사용하거나 아예 사용하지 않으면 다음의 영역은 사라지지 않습니다.">
+            <cl:verticaldata std:sid="v-data-c7ec00a7" width="100px" height="25px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-69467098" class="ref-card info">
+            <cl:verticaldata std:sid="v-data-bdde0b12" width="1200px" height="100px" autosize="height"/>
+            <cl:output std:sid="output-8f1bfda7" class="ref-title" value="INFO">
+              <cl:verticaldata std:sid="v-data-281b9047" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-5f925b7d" value="내용을 입력하세요.">
+              <cl:verticaldata std:sid="v-data-58b6fef6" width="100px" height="25px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-833032b2" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-500551b8" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:output std:sid="output-c1f392b1" class="text-danger" value="↓ 안 보여지는 영역">
+          <cl:verticaldata std:sid="v-data-d4592493" width="100px" height="25px"/>
+        </cl:output>
+        <cl:group std:sid="group-f90ad20b" class="card-inner">
+          <cl:verticaldata std:sid="v-data-a1b3818a" width="1040px" height="211px" autosize="height"/>
+          <cl:udc std:sid="ud-control-50883cee" id="areatitle2" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-92d8f2db" width="300px" height="38px"/>
+          </cl:udc>
+          <cl:output std:sid="output-96d4fe36" value="`문자를 앞뒤로 사용하면 다음의 영역은 사라집니다.`">
+            <cl:verticaldata std:sid="v-data-81518881" width="100px" height="25px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-f6dfebeb" class="ref-card info">
+            <cl:verticaldata std:sid="v-data-dd457763" width="1200px" height="100px" autosize="height"/>
+            <cl:output std:sid="output-516621a8" class="ref-title" value="INFO">
+              <cl:verticaldata std:sid="v-data-ea6ba652" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-0048633f" value="`내용을 입력하세요.`">
+              <cl:verticaldata std:sid="v-data-cf289600" width="100px" height="25px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-8e873492" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-25374173" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:verticallayout std:sid="v-layout-c194d073"/>
+      </cl:group>
+      <cl:verticallayout std:sid="v-layout-93cec4ac"/>
+    </cl:group>
+    <cl:verticallayout std:sid="v-layout-cba8254a" spacing="20"/>
+  </body>
+  <std:studiosetting>
+    <std:hruler/>
+    <std:vruler/>
+  </std:studiosetting>
+</html>

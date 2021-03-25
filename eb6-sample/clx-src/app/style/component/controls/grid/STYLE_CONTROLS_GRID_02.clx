@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:cl="http://tomatosystem.co.kr/cleopatra" xmlns:std="http://tomatosystem.co.kr/cleopatra/studio" std:sid="html-68c45a44" version="1.0.0.0">
+  <head std:sid="head-76f2716f">
+    <title>STYLE_CONTROLS_GRID_02</title>
+    <screen std:sid="screen-525eab15" id="default" name="default" minwidth="1200px" width="1200px" height="768px"/>
+    <screen std:sid="screen-7366356d" id="tablet" name="tablet" minwidth="850px" maxwidth="1199px" width="850px" height="768px"/>
+    <screen std:sid="screen-dc4e5291" id="test" name="mobile" maxwidth="849px" width="544px" height="768px"/>
+    <cl:model std:sid="model-c58483fa">
+      <cl:dataset std:sid="d-set-223b27f7" id="dsPropVw" info="프로퍼티 뷰 (속성 뷰)">
+        <cl:datacolumnlist>
+          <cl:datacolumn comment="컨트롤 명" std:sid="d-column-2ab4891d" name="CTRL_NM"/>
+          <cl:datacolumn comment="속성 탭 명" std:sid="d-column-068c1e55" name="PROP_SJ"/>
+          <cl:datacolumn comment="속성 명" std:sid="d-column-3f149788" name="PROP_NM"/>
+          <cl:datacolumn comment="속성 값" std:sid="d-column-53fd0a82" name="PROP_VAL"/>
+          <cl:datacolumn comment="속성 설명" std:sid="d-column-09e0c603" name="PROP_STY_DESC"/>
+        </cl:datacolumnlist>
+        <cl:datarowlist>
+          <cl:datarow>
+            <cl:datavalue columnname="CTRL_NM"><![CDATA[grid]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_SJ"><![CDATA[스타일]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_NM"><![CDATA[class]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_VAL"><![CDATA[table-checked]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_STY_DESC"><![CDATA[그리드 행 체크 스타일]]></cl:datavalue>
+          </cl:datarow>
+        </cl:datarowlist>
+      </cl:dataset>
+      <cl:dataset std:sid="d-set-2a100359" id="dsList">
+        <cl:datacolumnlist>
+          <cl:datacolumn comment="사번" std:sid="d-column-e285c200" name="empId"/>
+          <cl:datacolumn comment="사원명" std:sid="d-column-1ebec5c1" name="empNm"/>
+          <cl:datacolumn comment="이메일" std:sid="d-column-d74a31d4" name="email"/>
+          <cl:datacolumn comment="핸드폰" std:sid="d-column-b6bc7058" name="phone"/>
+          <cl:datacolumn comment="주소" std:sid="d-column-e9248ae8" name="address"/>
+          <cl:datacolumn comment="등록일자" std:sid="d-column-c05b1ae9" name="rgstDt"/>
+        </cl:datacolumnlist>
+        <cl:datarowlist>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[594-38-4655]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[Lane Considine]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[rbissell0@de.vu]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-1886-6554]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[12 Burning Wood Avenue]]></cl:datavalue>
+            <cl:datavalue columnname="rgstDt"><![CDATA[20200920]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[314-39-2150]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[Selma Fay]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[lairton1@amazon.de]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-2043-2275]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[36 Darwin Avenue]]></cl:datavalue>
+            <cl:datavalue columnname="rgstDt"><![CDATA[20200912]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[164-62-6156]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[Neal Zieme]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[mjindra2@so-net.ne.jp]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-6299-8957]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[98 Drewry Junction]]></cl:datavalue>
+            <cl:datavalue columnname="rgstDt"><![CDATA[20200615]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[484-19-2604]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[Meggan Auer]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[skennet3@dropbox.com]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-3187-3090]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[9 Montana Terrace]]></cl:datavalue>
+            <cl:datavalue columnname="rgstDt"><![CDATA[20200312]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[559-13-4942]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[Araceli Smith]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[dhocking4@t.co]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-1622-5856]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[40863 Scofield Circle]]></cl:datavalue>
+            <cl:datavalue columnname="rgstDt"><![CDATA[20200128]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[840-42-2888]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[Mickey Erdman]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[hcollins5@stanford.edu]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-2768-3424]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[556 West Court]]></cl:datavalue>
+            <cl:datavalue columnname="rgstDt"><![CDATA[20200901]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[144-26-0513]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[Rosalva Jerde]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[olettsom6@addtoany.com]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-6745-6895]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[20858 Center Parkway]]></cl:datavalue>
+            <cl:datavalue columnname="rgstDt"><![CDATA[20200806]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[450-28-5237]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[Teodoro Sanford]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[pclampett7@twitpic.com]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-8681-1087]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[8 Oak Hill]]></cl:datavalue>
+            <cl:datavalue columnname="rgstDt"><![CDATA[20200430]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[748-53-9610]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[Shaquana Murazik]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[sglaum8@moonfruit.com]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-4246-2969]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[19885 4th Terrace]]></cl:datavalue>
+            <cl:datavalue columnname="rgstDt"><![CDATA[20191204]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId"><![CDATA[437-25-7106]]></cl:datavalue>
+            <cl:datavalue columnname="empNm"><![CDATA[Cliff Green]]></cl:datavalue>
+            <cl:datavalue columnname="email"><![CDATA[mdrever9@adobe.com]]></cl:datavalue>
+            <cl:datavalue columnname="phone"><![CDATA[010-8757-3058]]></cl:datavalue>
+            <cl:datavalue columnname="address"><![CDATA[355 Hanover Hill]]></cl:datavalue>
+            <cl:datavalue columnname="rgstDt"><![CDATA[20200627]]></cl:datavalue>
+          </cl:datarow>
+        </cl:datarowlist>
+      </cl:dataset>
+    </cl:model>
+    <cl:appspec title="그리드 체크된 행 스타일"/>
+  </head>
+  <body std:sid="body-047d88ca" style="top:0px; left:0px; width:800px; height:600px;">
+    <cl:group std:sid="group-59960b1b" class="content-card">
+      <cl:verticaldata std:sid="v-data-0e444f29" width="1200px" height="3374px" autosize="height"/>
+      <cl:udc std:sid="ud-control-b8469aa4" type="udc.cmn.AppTitle">
+        <cl:verticaldata std:sid="v-data-f0bae039" width="1140px" height="175px" autosize="none"/>
+        <cl:property name="tags" value="퍼블리싱,그리드,그리드 행,특수컬럼" type="string"/>
+      </cl:udc>
+      <cl:group std:sid="group-a4b3eb74">
+        <cl:verticaldata std:sid="v-data-3747f6b2" width="400px" height="3196px" autosize="height"/>
+        <cl:group std:sid="group-c3b4f76c" class="card-inner">
+          <cl:verticaldata std:sid="v-data-76d5fec5" width="400px" height="375px" autosize="height"/>
+          <cl:udc std:sid="ud-control-400ea92b" id="areatitle1" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-6e7053ba" width="300px" height="38px"/>
+            <cl:property name="value" value="개요" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-91f8c8b3" value="이 문서는 그리드 행을 특수 컬럼을 이용하여 추가된 체크박스에 체크했을 때 체크된 행에 대한 행 스타일을 변경하는 방법에 대하여 설명합니다. 그리드에서 제공하는 퍼블리싱 포인트를 활용하여 체크된 행에 대한 스타일을 변경할 수 있습니다.">
+            <cl:verticaldata std:sid="v-data-89fb3e43" width="100px" height="46px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-fc5891b4" class="attach-box">
+            <cl:verticaldata std:sid="v-data-d20e3b78" width="1040px" height="238px" autosize="height"/>
+            <cl:grid std:sid="grid-0270cf72" id="grdBf" readonly="true" datasetid="dsList" resizablecolumns="all" columnMovable="true">
+              <cl:flowlayoutdata std:sid="f-data-fe85a7be" width="500px" height="200px"/>
+              <cl:gridcolumn std:sid="g-column-991a873f" width="50px"/>
+              <cl:gridcolumn std:sid="g-column-c4076a9e"/>
+              <cl:gridcolumn std:sid="g-column-7abc00ce"/>
+              <cl:gridcolumn std:sid="g-column-734a3571"/>
+              <cl:gridcolumn std:sid="g-column-71525144"/>
+              <cl:gridcolumn std:sid="g-column-f0006cf3"/>
+              <cl:gridcolumn std:sid="g-column-2eca3a69"/>
+              <cl:gridheader std:sid="gh-band-43ec764a">
+                <cl:gridrow std:sid="g-row-07766114" height="35px"/>
+                <cl:gridcell std:sid="gh-cell-2fe7cefb" rowindex="0" colindex="0" sortable="false" filterable="false" columntype="checkbox" text=""/>
+                <cl:gridcell std:sid="gh-cell-23df0cbe" rowindex="0" colindex="1" targetcolumnname="empId" sortable="false" filterable="false" text="사번"/>
+                <cl:gridcell std:sid="gh-cell-4b89043a" rowindex="0" colindex="2" targetcolumnname="empNm" sortable="false" filterable="false" text="사원명"/>
+                <cl:gridcell std:sid="gh-cell-2f3b7f87" rowindex="0" colindex="3" targetcolumnname="email" sortable="false" filterable="false" text="이메일"/>
+                <cl:gridcell std:sid="gh-cell-51038902" rowindex="0" colindex="4" targetcolumnname="phone" sortable="false" filterable="false" text="핸드폰"/>
+                <cl:gridcell std:sid="gh-cell-957231a1" rowindex="0" colindex="5" targetcolumnname="address" sortable="false" filterable="false" text="주소"/>
+                <cl:gridcell std:sid="gh-cell-6b15aa24" rowindex="0" colindex="6" targetcolumnname="rgstDt" sortable="false" filterable="false" text="등록일자"/>
+              </cl:gridheader>
+              <cl:griddetail std:sid="gd-band-3ffbefd7">
+                <cl:gridrow std:sid="g-row-c775ef47" height="30px"/>
+                <cl:gridcell std:sid="gd-cell-4bf8f809" rowindex="0" colindex="0" columntype="checkbox"/>
+                <cl:gridcell std:sid="gd-cell-2ee95f06" rowindex="0" colindex="1" columnname="empId"/>
+                <cl:gridcell std:sid="gd-cell-1d585564" rowindex="0" colindex="2" columnname="empNm"/>
+                <cl:gridcell std:sid="gd-cell-9c431005" rowindex="0" colindex="3" columnname="email"/>
+                <cl:gridcell std:sid="gd-cell-5a3bb707" rowindex="0" colindex="4" columnname="phone"/>
+                <cl:gridcell std:sid="gd-cell-fe6099ad" rowindex="0" colindex="5" columnname="address"/>
+                <cl:gridcell std:sid="gd-cell-cb1df085" rowindex="0" colindex="6" columnname="rgstDt"/>
+              </cl:griddetail>
+            </cl:grid>
+            <cl:output std:sid="output-6b266da4" value="→">
+              <cl:flowlayoutdata std:sid="f-data-2eb553f3" width="20px" height="25px" autosize="width"/>
+            </cl:output>
+            <cl:grid std:sid="grid-332b9167" id="grdAf" class="table-checked" readonly="true" datasetid="dsList" resizablecolumns="all" columnMovable="true">
+              <cl:flowlayoutdata std:sid="f-data-642d3215" width="500px" height="200px"/>
+              <cl:gridcolumn std:sid="g-column-d26d5e97" width="50px"/>
+              <cl:gridcolumn std:sid="g-column-097db6dd"/>
+              <cl:gridcolumn std:sid="g-column-b91ab90c"/>
+              <cl:gridcolumn std:sid="g-column-229f2a18"/>
+              <cl:gridcolumn std:sid="g-column-f7fa21d5"/>
+              <cl:gridcolumn std:sid="g-column-e4aedc5a"/>
+              <cl:gridcolumn std:sid="g-column-77d33be6"/>
+              <cl:gridheader std:sid="gh-band-45f73667">
+                <cl:gridrow std:sid="g-row-8c7b1a0f" height="35px"/>
+                <cl:gridcell std:sid="gh-cell-b7f0a545" rowindex="0" colindex="0" sortable="false" filterable="false" columntype="checkbox" text=""/>
+                <cl:gridcell std:sid="gh-cell-5657cbc9" rowindex="0" colindex="1" targetcolumnname="empId" sortable="false" filterable="false" text="사번"/>
+                <cl:gridcell std:sid="gh-cell-8ed7a514" rowindex="0" colindex="2" targetcolumnname="empNm" sortable="false" filterable="false" text="사원명"/>
+                <cl:gridcell std:sid="gh-cell-cf210157" rowindex="0" colindex="3" targetcolumnname="email" sortable="false" filterable="false" text="이메일"/>
+                <cl:gridcell std:sid="gh-cell-64ff4c75" rowindex="0" colindex="4" targetcolumnname="phone" sortable="false" filterable="false" text="핸드폰"/>
+                <cl:gridcell std:sid="gh-cell-9c78e719" rowindex="0" colindex="5" targetcolumnname="address" sortable="false" filterable="false" text="주소"/>
+                <cl:gridcell std:sid="gh-cell-e8da90b0" rowindex="0" colindex="6" targetcolumnname="rgstDt" sortable="false" filterable="false" text="등록일자"/>
+              </cl:gridheader>
+              <cl:griddetail std:sid="gd-band-2c3b10ff">
+                <cl:gridrow std:sid="g-row-8f8edb0b" height="30px"/>
+                <cl:gridcell std:sid="gd-cell-ddf9ca7c" rowindex="0" colindex="0" columntype="checkbox"/>
+                <cl:gridcell std:sid="gd-cell-544f2c6f" rowindex="0" colindex="1" columnname="empId"/>
+                <cl:gridcell std:sid="gd-cell-7c7fdcb6" rowindex="0" colindex="2" columnname="empNm"/>
+                <cl:gridcell std:sid="gd-cell-84a649d2" rowindex="0" colindex="3" columnname="email"/>
+                <cl:gridcell std:sid="gd-cell-7bcd0784" rowindex="0" colindex="4" columnname="phone"/>
+                <cl:gridcell std:sid="gd-cell-a5096538" rowindex="0" colindex="5" columnname="address"/>
+                <cl:gridcell std:sid="gd-cell-0af49433" rowindex="0" colindex="6" columnname="rgstDt"/>
+              </cl:griddetail>
+            </cl:grid>
+            <cl:flowlayout std:sid="f-layout-6ea22f5b" scrollable="false" spacing="15" halign="center" valign="middle" linewrap="false" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-f8b7a75d" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-de8c1411" class="card-inner">
+          <cl:verticaldata std:sid="v-data-b7ece3a4" width="400px" height="716px" autosize="height"/>
+          <cl:udc std:sid="ud-control-fb8bf275" id="areatitle2" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-a1e15097" width="1040px" height="38px" autosize="none"/>
+            <cl:property name="value" value="컨트롤 생성 및 설정" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-63aedf87" value="그리드 컨트롤은 상위 컨테이너에 적용되어 있는 레이아웃에 따라 너비와 높이를 유동적으로 변경할 수 있습니다. 그리드는 데이터를 표시할 수 있도록 데이터 셋을 추가하여 그리드에 연결될 수 있도록 합니다.&#xD;&#xA;&#xD;&#xA;그리드 체크박스 특수 컬럼은 데이터 셋을 그리드에 드래그 앤 드롭하면 띄워지는 그리드 생성 마법사 창에서 특수 컬럼 항목의 &quot;체크박스 컬럼 생성&quot; 항목에 체크하여 추가할 수 있습니다. 이미 그리드 생성을 마친 상태에서는 그리드를 더블 클릭하여 그리드 편집기에서 체크박스 컬럼이 위치할 곳에 컬럼을 추가하고, 헤더 또는 디테일 셀에서 columnType 속성을 &quot;checkbox&quot;로 변경하여 체크박스 특수 컬럼을 추가할 수 있습니다.">
+            <cl:verticaldata std:sid="v-data-7a20e9d2" width="100px" height="208px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-5f47d467" class="attach-box">
+            <cl:verticaldata std:sid="v-data-4e38cf7f" width="400px" height="381px" autosize="height"/>
+            <cl:udc std:sid="ud-control-b3725e63" id="propview3" type="udc.cmn.PropView">
+              <cl:flowlayoutdata std:sid="f-data-aff83a67" width="400px" height="350px"/>
+              <cl:property name="dataset" value="dsPropVw" type="control"/>
+              <cl:property name="filterCondition" value="grid" type="enumeration"/>
+            </cl:udc>
+            <cl:flowlayout std:sid="f-layout-3c9b5206" scrollable="false" spacing="20" halign="center" valign="middle" leftmargin="20" rightmargin="20" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-fea69ec9" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-11053d61" class="card-inner">
+          <cl:verticaldata std:sid="v-data-92db121e" width="1040px" height="393px" autosize="height"/>
+          <cl:udc std:sid="ud-control-d726449c" id="areatitle3" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-2234104b" width="300px" height="38px"/>
+            <cl:property name="value" value="스타일 시트" type="string"/>
+          </cl:udc>
+          <cl:group std:sid="group-6a755066" id="grp16" class="ref-card info">
+            <cl:verticaldata std:sid="v-data-a577cd31" width="1040px" height="96px" autosize="height"/>
+            <cl:output std:sid="output-d6122608" id="opt14" class="ref-title" value="경로 : LESS 파일">
+              <cl:verticaldata std:sid="v-data-157990b2" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-88c60ef5" id="opt15" value="theme/assets/less/controls/grid/STYLE_CONTROLS_GRID_02.less">
+              <cl:verticaldata std:sid="v-data-7eea5e7b" width="100px" height="25px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-3d91933b" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:output std:sid="output-c66842e8" value="그리드 컨트롤에서 체크박스 특수 컬럼에 행이 체크되었을 때에 체크된 행의 스타일을 변경하고 싶은 경우 다음과 같이 스타일을 작성하세요.&#xD;&#xA;&#xD;&#xA;행에 대한 스타일 색상을 지정할 때 헥스 코드(#000000 과 같은 형태)로 색상을 지정하는 것보다 rgba() 형태로 색상을 지정하도록 권고하고 있으므로 행에 대한 스타일은 반드시 rgba() 형태를 사용하십시오. 헥스 코드 또는 rgb() 형식으로 색상을 지정하는 경우 병합된 셀에서 일부 텍스트가 가려지는 현상이 발생할 수 있습니다.&#xD;&#xA;&#xD;&#xA;만약 전역적으로 그리드 행에 대한 스타일을 변경해야 하는 경우에는 grid.part.less 파일에서 다음의 스타일을 적용할 수 있도록 합니다.">
+            <cl:verticaldata std:sid="v-data-d3939fb0" width="1040px" height="126px" autosize="height"/>
+          </cl:output>
+          <cl:udc std:sid="ud-control-b7a23aae" id="ace1" type="udc.cmn.Ace">
+            <cl:verticaldata std:sid="v-data-ae2cf1f3" width="300px" height="50px" autosize="height"/>
+            <cl:property name="value" value=".cl-grid.table-checked {&#xD;&#xA;&#x9;/* 그리드 디테일 영역 */&#xD;&#xA;&#x9;.cl-grid-detail {&#xD;&#xA;&#x9;&#x9;.cl-grid-row {&#xD;&#xA;&#x9;&#x9;&#x9;/* 체크된 상태 */&#xD;&#xA;&#x9;&#x9;&#x9;&amp;.cl-checked {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;background-color: rgba(255, 235, 59, 0.45);&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;color: #333333;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;}&#xD;&#xA;}" type="string"/>
+            <cl:property name="language" value="ace/mode/less" type="enumeration"/>
+          </cl:udc>
+          <cl:verticallayout std:sid="v-layout-81987a1e" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-f5df0ee5" class="card-inner">
+          <cl:verticaldata std:sid="v-data-35411d62" width="1040px" height="800px" autosize="height"/>
+          <cl:udc std:sid="ud-control-c65fdfe7" id="areatitle4" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-980fb5f9" width="300px" height="38px"/>
+            <cl:property name="value" value="주요 기능" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-df49c14a" value="``">
+            <cl:verticaldata std:sid="v-data-e0f2ddad" width="1040px" height="126px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-cd38c461" class="attach-box">
+            <cl:verticaldata std:sid="v-data-129e6858" width="1100px" height="238px" autosize="height"/>
+            <cl:grid std:sid="grid-067d5994" id="grdExm" class="table-state" readonly="true" datasetid="dsList" resizablecolumns="all" columnMovable="true">
+              <cl:flowlayoutdata std:sid="f-data-dbb758e6" width="800px" height="200px"/>
+              <cl:gridcolumn std:sid="g-column-17834f7c" width="50px"/>
+              <cl:gridcolumn std:sid="g-column-c917f85a"/>
+              <cl:gridcolumn std:sid="g-column-f78d307e"/>
+              <cl:gridcolumn std:sid="g-column-b7260f66"/>
+              <cl:gridcolumn std:sid="g-column-f775fdb9"/>
+              <cl:gridcolumn std:sid="g-column-1cf3c7e2"/>
+              <cl:gridcolumn std:sid="g-column-645b8ffb"/>
+              <cl:gridheader std:sid="gh-band-179e26c7">
+                <cl:gridrow std:sid="g-row-b8be96c5" height="35px"/>
+                <cl:gridcell std:sid="gh-cell-80aaef48" rowindex="0" colindex="0" sortable="false" filterable="false" text="상태"/>
+                <cl:gridcell std:sid="gh-cell-d6444fd6" rowindex="0" colindex="1" targetcolumnname="empId" sortable="false" filterable="false" text="사번"/>
+                <cl:gridcell std:sid="gh-cell-6da59483" rowindex="0" colindex="2" targetcolumnname="empNm" sortable="false" filterable="false" text="사원명"/>
+                <cl:gridcell std:sid="gh-cell-d0e21f39" rowindex="0" colindex="3" targetcolumnname="email" sortable="false" filterable="false" text="이메일"/>
+                <cl:gridcell std:sid="gh-cell-018b7545" rowindex="0" colindex="4" targetcolumnname="phone" sortable="false" filterable="false" text="핸드폰"/>
+                <cl:gridcell std:sid="gh-cell-da1bc337" rowindex="0" colindex="5" targetcolumnname="address" sortable="false" filterable="false" text="주소"/>
+                <cl:gridcell std:sid="gh-cell-fc81cf72" rowindex="0" colindex="6" targetcolumnname="rgstDt" sortable="false" filterable="false" text="등록일자"/>
+              </cl:gridheader>
+              <cl:griddetail std:sid="gd-band-41d9c499">
+                <cl:gridrow std:sid="g-row-8f54f516" height="30px"/>
+                <cl:gridcell std:sid="gd-cell-4bec4b17" rowindex="0" colindex="0">
+                  <cl:output std:sid="output-06736328" class="text-center">
+                    <cl:expbind property="value" category="PROPERTY" expression="getStateString()"/>
+                  </cl:output>
+                </cl:gridcell>
+                <cl:gridcell std:sid="gd-cell-8e0c76ed" rowindex="0" colindex="1" columnname="empId"/>
+                <cl:gridcell std:sid="gd-cell-09e9fa81" rowindex="0" colindex="2" columnname="empNm"/>
+                <cl:gridcell std:sid="gd-cell-cfd61bef" rowindex="0" colindex="3" columnname="email"/>
+                <cl:gridcell std:sid="gd-cell-a98cd59b" rowindex="0" colindex="4" columnname="phone"/>
+                <cl:gridcell std:sid="gd-cell-bd500790" rowindex="0" colindex="5" columnname="address"/>
+                <cl:gridcell std:sid="gd-cell-a7ec9a15" rowindex="0" colindex="6" columnname="rgstDt"/>
+              </cl:griddetail>
+            </cl:grid>
+            <cl:flowlayout std:sid="f-layout-8a392ab2" scrollable="false" spacing="15" halign="center" valign="middle" linewrap="false" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:group std:sid="group-09d32a74" class="form-box vertical">
+            <cl:verticaldata std:sid="v-data-f0926932" width="400px" height="82px" autosize="height"/>
+            <cl:output std:sid="output-ebfd262a" class="label" value="컨트롤">
+              <cl:formdata std:sid="f-data-29062f84" row="0" col="0"/>
+            </cl:output>
+            <cl:output std:sid="output-8528dd47" class="label" value="API">
+              <cl:formdata std:sid="f-data-45811037" row="0" col="1"/>
+            </cl:output>
+            <cl:output std:sid="output-96613175" class="label" value="설명">
+              <cl:formdata std:sid="f-data-650fab76" row="0" col="2"/>
+            </cl:output>
+            <cl:output std:sid="output-564c1937">
+              <cl:formdata std:sid="f-data-2c645f70" row="1" col="2"/>
+            </cl:output>
+            <cl:output std:sid="output-093f1e70">
+              <cl:formdata std:sid="f-data-fd5fc309" row="1" col="0"/>
+            </cl:output>
+            <cl:output std:sid="output-b0d78427">
+              <cl:formdata std:sid="f-data-10055418" row="1" col="1"/>
+            </cl:output>
+            <cl:formlayout std:sid="f-layout-74e4f45e" hspace="10px" vspace="10px" top-margin="5px" right-margin="5px" bottom-margin="5px" left-margin="5px" hseparatorwidth="1" hseparatortype="BY_CLASS" vseparatorwidth="1" vseparatortype="BY_CLASS">
+              <cl:rows length="30" unit="PIXEL" autoSizing="false" shadetype="BY_CLASS" shadecolor="#000000" minlength="0"/>
+              <cl:rows length="30" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="100" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="200" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="1" unit="FRACTION"/>
+            </cl:formlayout>
+          </cl:group>
+          <cl:udc std:sid="ud-control-10dd49ff" id="ace2" type="udc.cmn.Ace">
+            <cl:verticaldata std:sid="v-data-ffeb6519" width="300px" height="29px" autosize="height"/>
+          </cl:udc>
+          <cl:group std:sid="group-5126a136" class="ref-card warning">
+            <cl:verticaldata std:sid="v-data-e5df9a80" width="1100px" height="100px" autosize="height"/>
+            <cl:output std:sid="output-0d848dc3" class="ref-title" value="WARNING">
+              <cl:verticaldata std:sid="v-data-6952a117" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-4201be27" value="``">
+              <cl:verticaldata std:sid="v-data-06b84d8c" width="100px" height="25px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-17dcf119" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-7fc796fa" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-1c3aa905" class="card-inner">
+          <cl:verticaldata std:sid="v-data-dc5153b2" width="400px" height="216px" autosize="height"/>
+          <cl:udc std:sid="ud-control-bcb64de7" id="areatitle5" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-644908cd" width="1040px" height="38px" autosize="none"/>
+            <cl:property name="value" value="유의사항" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-495c0c07" value="컬럼 병합 및 행 병합 기능을 이용하는 경우 반드시 행에 대한 스타일을 지정할 때 행의 색상이 투명도를 가질 수 있도록 rgba()를 사용해야 합니다. rgba()를 사용하는 것이 아닌 헥스 코드로 색상을 지정하는 경우 병합된 셀의 데이터의 일부가 배경색으로 가려지는 현상이 발생할 수 있습니다.">
+            <cl:verticaldata std:sid="v-data-46b08fb4" width="100px" height="70px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-1488dccb" class="ref-card danger">
+            <cl:verticaldata std:sid="v-data-6a83a5c9" width="1200px" height="100px" autosize="height"/>
+            <cl:output std:sid="output-64057e29" class="ref-title" value="DANGER">
+              <cl:verticaldata std:sid="v-data-437b9b9a" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-721ab1e1" value="`반드시 숙지해야 하는 정보에 대하여 작성하십시오.`">
+              <cl:verticaldata std:sid="v-data-6e431a84" width="100px" height="25px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-f4b4941d" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-4a914592" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-f59d0528" class="card-inner">
+          <cl:verticaldata std:sid="v-data-4e6004be" width="400px" height="218px" autosize="height"/>
+          <cl:udc std:sid="ud-control-3dead214" id="areatitle6" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-1ff324f1" width="1040px" height="38px" autosize="none"/>
+            <cl:property name="value" value="최소 요구 버전" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-50ed7766" id="opt1" value="* 1.0.2826 릴리즈 버전 이상&#xD;&#xA;&#xD;&#xA;그리드의 .cl-grid-row.cl-checked 퍼블리싱 포인트는 1.0.2826 릴리즈 버전 이상부터 사용할 수 있습니다. &#xD;&#xA;그리드 행(.cl-grid-row)이 체크되었을 때에 대한 퍼블리싱 포인트가 추가되어 그리드 행이 특수 컬럼에 의하여 체크되었을 때 대한 행 스타일을 변경할 수  있도록 개선되었습니다.">
+            <cl:verticaldata std:sid="v-data-c03d0e2d" width="100px" height="25px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-62079995" id="grp14" class="ref-card warning">
+            <cl:verticaldata std:sid="v-data-f752b593" width="1040px" height="100px" autosize="height"/>
+            <cl:output std:sid="output-a9b248ef" id="opt10" class="ref-title" value="WARNING">
+              <cl:verticaldata std:sid="v-data-8dbfa4b4" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-532ac550" id="opt11" value="`특별히 인지해야 하는 정보에 대하여 작성하십시오.`">
+              <cl:verticaldata std:sid="v-data-7f6b1b60" width="100px" height="25px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-7607fc8d" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-25a6e49a" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-bc3decc0" class="card-inner">
+          <cl:verticaldata std:sid="v-data-fc989f6e" width="1040px" height="281px" autosize="height"/>
+          <cl:udc std:sid="ud-control-73179844" id="areatitle7" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-97420d3e" width="300px" height="38px"/>
+            <cl:property name="value" value="도움말" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-b1c673c6" value="그리드에 대한 자세한 사항은 도움말을 참조하십시오.">
+            <cl:verticaldata std:sid="v-data-69dd3988" width="1040px" height="25px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-ee002fc3" id="grp11" class="ref-card default">
+            <cl:verticaldata std:sid="v-data-c9537cf9" width="1200px" height="129px" autosize="height"/>
+            <cl:output std:sid="output-5a0e53f8" id="opt4" class="ref-title" value="Help Contents">
+              <cl:verticaldata std:sid="v-data-f51eafad" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-741fa5d5" id="opt5" value="eXBuilder6 > API References > cpr.controls > Grid&#xD;&#xA;eXBuilder6 > 앱 개발 > 컨트롤 > UI 컨트롤 > 그리드">
+              <cl:verticaldata std:sid="v-data-c8df8970" width="100px" height="58px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-eff44aa2" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-49276802" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:verticallayout std:sid="v-layout-a50c518b" spacing="20" leftmargin="50" rightmargin="50" topmargin="20" bottommargin="60"/>
+      </cl:group>
+      <cl:verticallayout std:sid="v-layout-5825919e" spacing="0"/>
+    </cl:group>
+    <cl:udc std:sid="ud-control-98388c51" id="updatedtitle1" type="udc.cmn.UpdatedTitle">
+      <cl:verticaldata std:sid="v-data-906a32a8" width="1200px" height="25px" autosize="none"/>
+      <cl:property name="value" value="20210217" type="string"/>
+    </cl:udc>
+    <cl:verticallayout std:sid="v-layout-530ced53"/>
+  </body>
+  <std:studiosetting>
+    <std:hruler/>
+    <std:vruler/>
+  </std:studiosetting>
+</html>

@@ -1,0 +1,559 @@
+/* 
+ * Define Custom variables
+ * Template Name : common-template-v3
+ * Author : Da-eun Ryu
+ * File : less
+ */
+ 
+ /************************************************
+ * Color System
+ ************************************************/
+ 
+ @transparent: transparent;
+ @gray-100: #F6F8FA;
+ @gray-200: #F5F5F5;
+ @gray-300: #EDEDED;
+ @gray-400: #ECEFF1;
+ @gray-500: #DBE1E6;
+ @gray-600: #BABFC7;
+ @gray-700: #6B6F82;
+ @gray-800: #4E5154;
+ @gray-900: #2C353E;
+ @black: #000000;
+ 
+ 
+ @blue: #2196F3;
+ @indigo: #1E3D73;
+ @purple: #9C27B0;
+ @pink: #E91E63;
+ @red: #F44336;
+ @orange: #FFC107;
+ @yellow: #FFEB3B;
+ @green: #31CB72;
+ @teal: #009688;
+ @cyan: #00BCD4;
+ @white: #FFFFFF;
+ @gray: #607D8B;
+ @dark: #424242;
+
+ @primary: #3f87fd; //#2AA6DE;
+ @secondary: #6B6F82;
+ @info: #1E9FF2;
+ @success: #28D094;
+ @warning: #FF9149;
+ @danger: #FF4961;
+ 
+
+ @blue-dim: #E8F4FE;
+ @indigo-dim: #E8EBF1;
+ @purple-dim: #F5E9F7;
+ @pink-dim: #FDE8EF;
+ @red-dim: #FEECEB;
+ @orange-dim: #FFF6DA;
+ @yellow-dim: #FFFCE2;
+ @green-dim: #EAFAF1;
+ @teal-dim: #E5F4F3;
+ @cyan-dim: #E5F8FB;
+ @dark-dim: #ECECEC;
+ @gray-dim: #EFF2F3;
+
+ @primary-dim: #E2EBF9; //#E9F6FC;
+ @secondary-dim: #F0F0F2;
+ @info-dim: #EFF5FF;
+ @success-dim: #E1FFF0;
+ @warning-dim: #FFF5EF;
+ @danger-dim: #FFEEF1;
+
+
+ @light: #D4DADD;
+ @lighter: #F4F5FA;
+ 
+ /************************************************
+ * Body
+ ************************************************/
+ 
+ @body-background-color: @gray-200;
+ 
+ /************************************************
+ * Main
+ ************************************************/
+ 
+ 
+ 
+ /************************************************
+ * Font
+ ************************************************/
+
+ @font-base: @font-weight-regular @font-size-base @font-family-base;
+ 
+ @font-family-sans-serif: "Noto Sans KR", sans-serif;
+ @font-family-base: @font-family-sans-serif;
+ 
+ @font-weight-light: 300;
+ @font-weight-regular: 400;
+ @font-weight-medium: 500;
+ @font-weight-bold: 700;
+ 
+ @font-size-base: 14px;
+ 
+ @h1-font-size: 36px;
+ @h2-font-size: 30px;
+ @h3-font-size: 26px;
+ @h4-font-size: 22px;
+ @h5-font-size: 16px;
+ @h6-font-size: 14px;
+ 
+ @headings-font-family: @font-family-base;
+ @headings-font-weight: @font-weight-bold;
+ @headings-text-color: #464855;
+ 
+ /************************************************
+ * Common Components (Controls)
+ ************************************************/ 
+ 
+ @border-base: @border-width @border-style @component-border-color;
+ 
+ @border-style: solid;
+ @border-width: 1px;
+ 
+ @border-radius-0: 0px;
+ @border-radius-sm: 3px;
+ @border-radius: 5px;
+ @border-radius-lg: 8px;
+ 
+ @box-shadow: 0 2px 18px 1px rgba(49, 53, 72, 0.15);
+ @invert-box-shadow: 2px 0 18px 1px rgba(49, 53, 72, 0.15);
+ 
+ @component-text-color: @gray-800;
+ 
+ @component-background-color: @white;
+ @component-background-image: none;
+ 
+ @component-border-base: @border-base;
+ @component-border-color: @gray-600;
+ @component-border-width: @border-width;
+ @component-border-style: @border-style;
+ @component-border-radius: @border-radius-sm;
+ @component-border-radius-0: @border-radius-0;
+ 
+ @component-readonly-text-color: @component-text-color;
+ @component-readonly-background-color:  @component-disabled-background-color;
+ @component-readonly-border-color: @component-border-color;
+ 
+ @component-focus-text-color: @info;
+ @component-focus-background-color: @info;
+ @component-focus-border-color: @info;
+ 
+ @component-hover-text-color: @component-text-color;
+ @component-hover-background-color: #EFF5FF;
+ @component-hover-border-color: @component-border-color;
+ 
+ @component-selected-text-color: @white;
+ @component-selected-background-color: @info; //#1E90FF;
+ @component-selected-border-color: @component-focus-border-color;
+ 
+ @component-disabled-text-color: @gray-600;
+ @component-disabled-background-color: @gray-400;
+ @component-disabled-border-color: @component-border-color;
+ 
+ @component-disabled-selected-text-color: @gray-700;
+ @component-disabled-selected-background-color: @gray-500;
+ @component-disabled-selected-border-color: @component-border-color;
+ 
+ /* Transition */
+ @transition-base: color .15s ease-in-out, background-color .15s ease-in-out, background-image .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+ @transition-fade: opacity .15s linear;
+ @transition-collapse: height .35s ease;
+ 
+ /************************************************
+ * Input Groups
+ ************************************************/
+ 
+ @input-padding-0: 0px;
+ @input-padding-y: 3px;
+ @input-padding-x: 6px;
+ 
+ @input-text-color: @component-text-color;
+ @input-placeholder-text-color: #cfd2d8;
+ @input-placeholder-text-style: normal; // italic;
+ @input-placeholder-text-weight: @font-weight-light;
+ 
+ @input-background-color: @component-background-color;
+ @input-background-image: @component-background-image;
+ 
+ @input-border-base: @component-border-base;
+ @input-border-color: @component-border-color;
+ @input-border-width: @component-border-width;
+ @input-border-radius: @component-border-radius;
+ 
+ @input-focus-text-color: @component-focus-text-color;
+ @input-focus-background-color: @component-focus-background-color;
+ @input-focus-border-color: @component-focus-border-color;
+ 
+ @input-disabled-text-color: @component-disabled-text-color;
+ @input-disabled-background-color: @component-disabled-background-color;
+ @input-disabled-border-color: @component-disabled-border-color;
+ 
+ /************************************************
+ * Selection Group
+ ************************************************/
+ 
+ @list-padding-y: 0px;
+ @list-padding-x: 0px;
+ 
+ @list-text-color: @component-text-color;
+ 
+ @list-background-color: @component-background-color;
+ @list-box-shadow: @box-shadow;
+ @list-invert-box-shadow: @invert-box-shadow;
+ 
+ @list-border-base: @component-border-base;
+ @list-border-color: @component-border-color;
+ @list-border-width: @component-border-width;
+ @list-border-radius: @component-border-radius;
+ 
+ @list-focus-text-color: @component-focus-text-color;
+ @list-focus-background-color: @component-focus-background-color;
+ @list-focus-border-color: @component-focus-border-color;
+ 
+ @list-disabled-text-color: @component-disabled-text-color;
+ @list-disabled-background-color: @component-disabled-background-color;
+ @list-disabled-border-color: @component-disabled-border-color;
+ 
+ @list-item-padding-y: 0px;
+ @list-item-padding-x: 5px;
+ 
+ @list-item-height: 30px;
+ 
+ @list-item-text-color: @list-text-color;
+ @list-item-background-color: @list-background-color;
+ 
+ @list-item-hover-text-color: @component-hover-text-color;
+ @list-item-hover-background-color: @component-hover-background-color;
+ 
+ @list-item-selected-text-color: @component-selected-text-color;
+ @list-item-selected-background-color: @component-selected-background-color;
+ 
+ @list-item-disabled-text-color: @list-disabled-text-color;
+ @list-item-disabled-background-color: @list-disabled-background-color;
+ 
+ @list-item-disabled-selected-text-color: @component-disabled-selected-text-color;
+ @list-item-disabled-selected-background-color: @component-disabled-selected-background-color;
+ 
+ /************************************************
+ * Button
+ ************************************************/
+ 
+ @btn-padding-y: 6px;
+ @btn-padding-x: 18px;
+ 
+ @btn-padding-y-sm: 4px;
+ @btn-padding-x-sm: 12px;
+ @btn-padding-y-lg: 12px;
+ @btn-padding-x-lg: 24px;
+ 
+ @btn-text-color: @component-text-color;
+ @btn-text-shadow: none;
+ 
+ @btn-background-color: @white;
+ @btn-background-image: @component-background-image;
+ 
+ @btn-border-base: @btn-border-width @component-border-style @btn-border-color;
+ @btn-border-color: @component-border-color;
+ @btn-border-width: @component-border-width;
+ @btn-border-radius: @component-border-radius;
+ 
+ @btn-hover-text-color: @btn-text-color;
+ @btn-hover-background-color: @lighter;
+ @btn-hover-border-color: @btn-border-color;
+ 
+ @btn-focus-text-color: @btn-hover-text-color;
+ @btn-focus-background-color: @btn-hover-background-color;
+ @btn-focus-border-color: @btn-hover-border-color;
+ 
+ @btn-active-text-color: @btn-hover-text-color;
+ @btn-active-background-color: @light;
+ @btn-active-border-color: @btn-hover-border-color;
+ 
+ @btn-disabled-text-color: @component-disabled-text-color;
+ @btn-disabled-background-color: @component-disabled-background-color;
+ @btn-disabled-border-color: @component-disabled-border-color;
+ @btn-disabled-opacity: .65;
+ 
+ /************************************************
+ * Form
+ ************************************************/
+ 
+ @form-text-color: @component-text-color;
+ 
+ @form-background-color: @component-background-color;
+ 
+ @form-border-base: @component-border-width @component-border-style @form-border-color;
+ @form-border-color: @component-border-color;
+ @form-border-radius: @component-border-radius-0;
+ 
+ @form-column-shade-background-color: @indigo-dim;
+ @form-row-shade-background-color: @indigo-dim;
+ 
+ @form-separator-background-color: @form-border-color;
+ @form-lightweight-resizer: @primary;
+ 
+ /************************************************
+ * Table
+ ************************************************/
+ 
+ @table-text-color: @component-text-color;
+ 
+ @table-background-color: @component-background-color;
+ 
+ @table-border-base: @table-border-width @component-border-style @table-border-color;
+ @table-border-width: @component-border-width;
+ @table-border-color: @component-border-color;
+ @table-border-radius: @component-border-radius;
+ 
+ @table-disabled-text-color: @component-disabled-text-color;
+ @table-disabled-background-color: @component-disabled-background-color;
+ @table-disabled-border-color: @component-disabled-border-color;
+ 
+ @table-header-text-color: @gray-900;
+ @table-header-text-weight: @font-weight-medium;
+ @table-header-background-color: #edf1f4; // @gray-100;
+ @table-header-background-image: @component-background-image;
+ 
+ @table-cell-border-base: @table-border-width @component-border-style @table-cell-border-color;
+ @table-cell-border-color: @table-border-color;
+ @table-cell-border-right-color: @table-cell-border-color;
+ @table-cell-border-bottom-color: @table-cell-border-color;
+ 
+ @table-cell-padding-y: 0px;
+ @table-cell-padding-x: 3px;
+ 
+ @table-footer-background-color: @gray-100;
+ @table-footer-text-color: @table-text-color;
+ @table-footer-text-weight: @font-weight-medium;
+ 
+ @table-group-header-background-color:  @indigo-dim;
+ @table-group-footer-background-color: @indigo-dim;
+
+ @table-row-transition: background-color .15s ease-in-out;
+ 
+ @table-row-odd-background-color: @gray-100;
+ @table-row-odd-text-color: @table-text-color;
+ 
+ @table-row-even-background-color: @gray-100;
+ @table-row-even-text-color: @table-text-color;
+ 
+ /* Row - Insert */
+ @table-row-inserted-background-color: rgba(30, 159, 242, 0.15);
+ @table-row-inserted-text-color: inherit;
+ 
+ /* Row - Update */
+ @table-row-updated-background-color: rgba(255, 193, 7, 0.18);
+ @table-row-updated-text-color: inherit;
+ 
+ /* Row - Delete */
+ @table-row-deleted-background-color: rgba(0, 0, 0, .05);
+ @table-row-deleted-text-color: @component-disabled-text-color;
+
+ /* Row - Hover */
+ @table-row-hover-background-color: @gray-dim;
+ @table-row-hover-text-color: @table-text-color;
+ 
+ /* Row - Select */
+ @table-row-selected-background-color: rgba(255, 235, 59, 0.45);
+ @table-row-selected-text-color: @table-text-color;
+ 
+ /* Row - Edit */
+ @table-row-edit-background-color: rgba(255, 235, 59, 0.65);
+ @table-row-edit-text-color: @table-text-color;
+ 
+ /************************************************
+ * Tab
+ ************************************************/
+ 
+ @tab-text-color: @component-text-color;
+ 
+ @tab-body-background-color: @component-background-color;
+ 
+ @tab-border-base: @component-border-base;
+ @tab-border-color: @component-border-color;
+ @tab-border-radius: @component-border-radius;
+ @tab-border-width: @component-border-width; 
+ 
+ @tab-disabled-text-color: @component-disabled-text-color;
+ @tab-disabled-background-color: @component-disabled-background-color;
+ @tab-disabled-border-color: @component-disabled-border-color;
+ 
+ @tab-item-padding-y: 5px;
+ @tab-item-padding-x: 12px;
+ 
+ @tab-item-height: 32px;
+ 
+ @tab-item-text-color: @component-text-color;
+ 
+ @tab-item-background-color: @transparent;
+ @tab-item-background-image: none;
+ @tab-item-box-shadow: inset 0 -3px 3px -2px rgba(0,0,0,0.05);
+ @tab-item-invert-box-shadow: inset 0 3px 3px -2px rgba(0,0,0,0.05);
+ 
+ @tab-item-border-base: @tab-border-base;
+ @tab-item-border-color: @transparent;
+ @tab-item-border-radius: @component-border-radius;
+ @tab-item-border-width: @component-border-width;
+ 
+ @tab-item-hover-text-color: @blue;
+ @tab-item-hover-background-color: @tab-item-background-color;
+ @tab-item-hover-border-color: @tab-item-border-color;
+ 
+ @tab-item-selected-text-color:  @info;
+ @tab-item-selected-background-color: @component-background-color;
+ @tab-item-selected-border-color: @tab-border-color;
+ 
+ @tab-item-disabled-text-color: @component-disabled-text-color;
+ @tab-item-disabled-background-color: @tab-item-background-color;
+ @tab-item-disabled-border-color: @component-disabled-border-color;
+ 
+ @tab-item-disabled-selected-text-color: @component-disabled-selected-text-color;
+ @tab-item-disabled-selected-background-color: @tab-item-disabled-background-color;
+ @tab-item-disabled-selected-border-color: @component-disabled-selected-border-color;
+ 
+ /************************************************
+ * Modal
+ ************************************************/
+ 
+ @modal-overlay-background-color: rgba(30, 61, 115, .25);
+ 
+ @modal-background-color: @component-background-color;
+ @modal-box-shadow: @box-shadow;
+ 
+ @modal-text-color: @component-text-color;
+ 
+ @modal-border-base: none; // @modal-border-width @component-border-style @modal-border-color;
+ @modal-border-color: @component-border-color;
+ @modal-border-width: @component-border-width;
+ @modal-border-radius: @component-border-radius;
+ 
+ @modal-header-padding-0: 0px;
+ @modal-header-padding-y: 12px;
+ @modal-header-padding-x: 15px;
+ @modal-header-padding-sm-y: 6px;
+ @modal-header-padding-sm-x: 10px;
+ 
+ @modal-header-height: 35px;
+ 
+ @modal-header-background-color: @white;
+ @modal-header-border-color: @modal-border-color;
+ @modal-header-text-color: @gray-900;
+ @modal-header-text-weight: @font-weight-bold;
+ 
+ @modal-footer-background-color: @gray-200;
+ 
+ /************************************************
+ * Notification (Alert)
+ ************************************************/
+ 
+ @alert-border-base: @component-border-base;
+ @alert-border-radius: @border-radius;
+ 
+ @alert-box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+ 
+ @alert-padding-y: 8px;
+ @alert-padding-x: 14px;
+ 
+ @alert-text-color: @white;
+ 
+ @alert-default-background-color: @primary;
+ @alert-default-border-color: @primary;
+ @alert-default-text-color: @alert-text-color;
+ 
+ @alert-info-background-color: @info;
+ @alert-info-border-color: @info;
+ @alert-info-text-color: @alert-text-color;
+ 
+ @alert-success-background-color: @success;
+ @alert-success-border-color: @success;
+ @alert-success-text-color: @alert-text-color;
+ 
+ @alert-warning-background-color: @warning;
+ @alert-warning-border-color: @warning;
+ @alert-warning-text-color: @alert-text-color;
+ 
+ @alert-danger-background-color: @danger;
+ @alert-danger-border-color: @danger;
+ @alert-danger-text-color: @alert-text-color;
+ 
+/************************************************
+ * Calendar
+ ************************************************/
+ 
+ /* Calendar Root */
+@calendar-text-color: @component-text-color;
+ 
+@calendar-border-base: @component-border-width @border-style @component-border-color;
+@calendar-border-color: @component-border-color;
+@calendar-border-width: @component-border-width;
+@calendar-border-radius: @component-border-radius;
+
+@calendar-focus-border-color: @component-focus-border-color;
+
+@calendar-box-shadow: @box-shadow;
+@calendar-invert-box-shadow: @invert-box-shadow;
+
+@calendar-background-color: @component-background-color;
+
+@calendar-disabled-background-color: @component-disabled-background-color;
+@calendar-disabled-border-color: @component-disabled-border-color;
+@calendar-disabled-text-color: @component-disabled-text-color;
+
+/* Header */
+@calendar-header-background-color: @transparent;
+@calendar-header-text-color: @component-text-color;
+@calendar-header-text-weight: @font-weight-medium;
+
+@calendar-header-hover-text-color: @component-focus-text-color;
+
+/* Content header */
+@calendar-content-header-height: 25px;
+
+@calendar-content-header-background-color: @transparent;
+@calendar-content-header-text-color: @gray;
+@calendar-content-header-text-weight: @font-weight-medium;
+ 
+/* Other month */
+@calendar-date-sun-text-color: inherit;
+@calendar-date-sat-text-color: inherit;
+ @calendar-other-date-background-color: @transparent;
+@calendar-other-date-text-color: @component-disabled-text-color;
+
+@calendar-other-date-disabled-background-color: @transparent;
+@calendar-other-date-disabled-text-color: @calendar-disabled-text-color;
+
+/* Dates */
+
+@calendar-date-text-color: @calendar-text-color;
+
+@calendar-date-border-radius: @component-border-radius-0;
+
+@calendar-date-hover-background-color: @list-item-hover-background-color;
+@calendar-date-hover-text-color: @list-item-hover-text-color;
+
+@calendar-date-selected-background-color: @list-item-selected-background-color;
+@calendar-date-selected-text-color: @list-item-selected-text-color;
+ @calendar-defalut-date-background-color: @transparent;
+@calendar-default-date-text-color: @component-focus-text-color;
+
+@calendar-date-range-selected-background-color: @info-dim;
+@calendar-date-range-selected-text-color: @calendar-date-text-color;
+
+@calendar-current-date-background-color: @calendar-date-hover-background-color;
+@calendar-current-date-text-color: @calendar-date-hover-text-color;
+@calendar-current-date-box-shadow: none;
+
+@calendar-date-disabled-background-color: @component-disabled-background-color;
+@calendar-date-disabled-text-color: @component-disabled-text-color;
+ 
+/* Footer */
+@calendar-footer-background-color: @transparent;
+@calendar-footer-text-color: @calendar-text-color;
+@calendar-footer-text-weight: @font-weight-regular;
+@calendar-footer-text-size: @h6-font-size;

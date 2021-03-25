@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:cl="http://tomatosystem.co.kr/cleopatra" xmlns:std="http://tomatosystem.co.kr/cleopatra/studio" std:sid="html-2f1f217b" version="1.0.0.0">
+  <head std:sid="head-6cba7381">
+    <title>SCRIPT_CONTROLS_VIDEO_01</title>
+    <screen std:sid="screen-b6b398ee" id="default" name="default" minwidth="1200px" width="1200px" height="768px"/>
+    <screen std:sid="screen-c91ad733" id="tablet" name="tablet" minwidth="850px" maxwidth="1199px" width="850px" height="768px"/>
+    <screen std:sid="screen-056d271b" id="test" name="mobile" maxwidth="849px" width="544px" height="768px"/>
+    <cl:model std:sid="model-65cb113f">
+      <cl:dataset std:sid="d-set-223b27f7" id="dsPropVw" info="프로퍼티 뷰 (속성 뷰)">
+        <cl:datacolumnlist>
+          <cl:datacolumn comment="컨트롤 명" std:sid="d-column-2ab4891d" name="CTRL_NM"/>
+          <cl:datacolumn comment="속성 탭 명" std:sid="d-column-068c1e55" name="PROP_SJ"/>
+          <cl:datacolumn comment="속성 명" std:sid="d-column-3f149788" name="PROP_NM"/>
+          <cl:datacolumn comment="속성 값" std:sid="d-column-53fd0a82" name="PROP_VAL"/>
+          <cl:datacolumn comment="속성 설명" std:sid="d-column-09e0c603" name="PROP_STY_DESC"/>
+        </cl:datacolumnlist>
+        <cl:datarowlist>
+          <cl:datarow>
+            <cl:datavalue columnname="CTRL_NM"><![CDATA[video]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_SJ"><![CDATA[일반]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_NM"><![CDATA[src]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_VAL"><![CDATA[GalaxyOpen.mp4]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="CTRL_NM"><![CDATA[video]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_SJ"><![CDATA[일반]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_NM"><![CDATA[displayControl]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_VAL"><![CDATA[true]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_STY_DESC"><![CDATA[]]></cl:datavalue>
+          </cl:datarow>
+        </cl:datarowlist>
+      </cl:dataset>
+    </cl:model>
+    <cl:appspec title="비디오 스킵방지"/>
+  </head>
+  <body std:sid="body-c2df5f9a" style="top:0px; left:0px; width:800px; height:600px;">
+    <cl:group std:sid="group-59960b1b" class="content-card">
+      <cl:verticaldata std:sid="v-data-4a576e2c" width="1200px" height="4454px" autosize="height"/>
+      <cl:udc std:sid="ud-control-b8469aa4" type="udc.cmn.AppTitle">
+        <cl:verticaldata std:sid="v-data-f0bae039" width="1140px" height="175px" autosize="none"/>
+        <cl:property name="tags" value="비디오,스킵,비디오 API" type="string"/>
+      </cl:udc>
+      <cl:group std:sid="group-a4b3eb74">
+        <cl:verticaldata std:sid="v-data-3747f6b2" width="400px" height="4172px" autosize="height"/>
+        <cl:group std:sid="group-c3b4f76c" class="card-inner">
+          <cl:verticaldata std:sid="v-data-76d5fec5" width="400px" height="119px" autosize="height"/>
+          <cl:udc std:sid="ud-control-400ea92b" id="areatitle1" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-6e7053ba" width="300px" height="38px"/>
+            <cl:property name="value" value="개요" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-91f8c8b3" value="이 문서는 비디오 전체 스킵 방지에 대하여 설명합니다.&#xD;&#xA;비디오에서 제공하는 API를 사용하여 비디오 스킵 방지 방법을 구성할 수 있습니다.">
+            <cl:verticaldata std:sid="v-data-89fb3e43" width="100px" height="46px" autosize="height"/>
+          </cl:output>
+          <cl:verticallayout std:sid="v-layout-f8b7a75d" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-de8c1411" class="card-inner">
+          <cl:verticaldata std:sid="v-data-b9cc578f" width="1100px" height="1254px" autosize="height"/>
+          <cl:udc std:sid="ud-control-fb8bf275" id="areatitle2" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-a1e15097" width="1040px" height="38px" autosize="none"/>
+            <cl:property name="value" value="컨트롤 생성 및 설정" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-63aedf87" value="비디오 컨트롤을 [Palette] 뷰에서 찾아 디자인 편집기에 배치합니다.&#xD;&#xA;&#xD;&#xA;비디오 컨트롤에 [속성] 뷰 src에 비디오 소스 경로를 넣어 줍니다.&#xD;&#xA;(밑에 [속성] 뷰를 확인 해 보시기 바랍니다.)&#xD;&#xA;&#xD;&#xA;비디오 컨트롤에 [속성] 뷰 displayControl을 true로 바꾸어 브라우저에서 제공하는 컨트롤을 표시하여 비디오 구성을 완료합니다.&#xD;&#xA;(밑에 [속성] 뷰를 확인 해 보시기 바랍니다.)">
+            <cl:verticaldata std:sid="v-data-7a20e9d2" width="100px" height="141px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-5f47d467" class="attach-box">
+            <cl:verticaldata std:sid="v-data-4e38cf7f" width="400px" height="561px" autosize="height"/>
+            <cl:group std:sid="group-c0c8a107">
+              <cl:flowlayoutdata std:sid="f-data-727427eb" width="800px" height="500px" autosize="none"/>
+              <cl:output std:sid="output-a7b32d96" class="text-center" value="&lt;기본 비디오 컨트롤>">
+                <cl:formdata std:sid="f-data-aa05ad8a" row="1" col="0"/>
+              </cl:output>
+              <cl:group std:sid="group-153b1784">
+                <cl:formdata std:sid="f-data-c30f5931" row="0" col="0"/>
+                <cl:video std:sid="video-b6e039bb" id="vdoView" src="GalaxyOpen.mp4" displaycontrol="true">
+                  <cl:xylayoutdata std:sid="xyl-data-34b8ea81" width="760px" height="435px" horizontalAnchor="CENTER" verticalAnchor="CENTER"/>
+                </cl:video>
+                <cl:xylayout std:sid="xylayout-e1aba2cb"/>
+              </cl:group>
+              <cl:formlayout std:sid="f-layout-8dbac282" hspace="5px" vspace="5px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+                <cl:rows length="1" unit="FRACTION" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+                <cl:rows length="20" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+                <cl:columns length="1" unit="FRACTION"/>
+              </cl:formlayout>
+            </cl:group>
+            <cl:flowlayout std:sid="f-layout-3c9b5206" scrollable="false" spacing="20" halign="center" valign="middle" leftmargin="20" rightmargin="20" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:group std:sid="group-5e19b42c" class="attach-box">
+            <cl:verticaldata std:sid="v-data-b0037262" width="1100px" height="381px" autosize="height"/>
+            <cl:udc std:sid="ud-control-93a40a6f" id="propview1" type="udc.cmn.PropView">
+              <cl:flowlayoutdata std:sid="f-data-cc97c86e" width="400px" height="350px" autosize="none"/>
+              <cl:property name="dataset" value="dsPropVw" type="control"/>
+              <cl:property name="filterCondition" value="video" type="enumeration"/>
+            </cl:udc>
+            <cl:flowlayout std:sid="f-layout-0ad4f3a2" scrollable="false" halign="center" valign="middle" leftmargin="20" rightmargin="20" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-fea69ec9" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-11053d61" class="card-inner">
+          <cl:verticaldata std:sid="v-data-fff0ab9c" width="1100px" height="393px" autosize="height"/>
+          <cl:udc std:sid="ud-control-d726449c" id="areatitle3" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-2234104b" width="300px" height="38px"/>
+            <cl:property name="value" value="스타일 시트" type="string"/>
+          </cl:udc>
+          <cl:group std:sid="group-6a755066" id="grp16" class="ref-card info">
+            <cl:verticaldata std:sid="v-data-a577cd31" width="1040px" height="96px" autosize="height"/>
+            <cl:output std:sid="output-d6122608" id="opt14" class="ref-title" value="경로 : LESS 파일">
+              <cl:verticaldata std:sid="v-data-157990b2" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-88c60ef5" id="opt15" value="`clx-src/asset/STY_CTRL_SLCT_01.less`">
+              <cl:verticaldata std:sid="v-data-7eea5e7b" width="100px" height="25px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-3d91933b" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:output std:sid="output-c66842e8" value="`스타일 시트 내용을 입력하십시오.`">
+            <cl:verticaldata std:sid="v-data-d3939fb0" width="1040px" height="126px" autosize="height"/>
+          </cl:output>
+          <cl:udc std:sid="ud-control-b7a23aae" id="ace1" type="udc.cmn.Ace">
+            <cl:verticaldata std:sid="v-data-ae2cf1f3" width="300px" height="50px" autosize="height"/>
+            <cl:property name="value" value=".cl-container.toggle-wrap {&#xD;&#xA;&#x9;/* 토글 버튼 스타일 */&#xD;&#xA;&#x9;background-color: #cccccc;&#xD;&#xA;&#x9;border-radius: 5px;&#xD;&#xA;&#x9;&#xD;&#xA;&#x9;.cl-checkbox.toggle {&#xD;&#xA;&#x9;&#x9;/* 토글되지 않은 상태 스타일 */&#xD;&#xA;&#x9;&#x9;padding: 0px;&#xD;&#xA;&#x9;&#x9;text-align: center;&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;.cl-checkbox-wrap {&#xD;&#xA;&#x9;&#x9;&#x9;/* 체크박스 아이콘 래퍼 스타일 */&#xD;&#xA;&#x9;&#x9;&#x9;vertical-align: middle;&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;.cl-checkbox-icon {&#xD;&#xA;&#x9;&#x9;&#x9;/* 체크박스 아이콘 스타일 */&#xD;&#xA;&#x9;&#x9;&#x9;background-image: none;&#xD;&#xA;&#x9;&#x9;&#x9;background-color: #ffffff;&#xD;&#xA;&#x9;&#x9;&#x9;border-radius: 3px;&#xD;&#xA;&#x9;&#x9;&#x9;margin-left: 0px;&#xD;&#xA;&#x9;&#x9;&#x9;width: 20px;&#xD;&#xA;&#x9;&#x9;&#x9;height: 20px;&#xD;&#xA;&#x9;&#x9;&#x9;min-height: 20px;&#xD;&#xA;&#x9;&#x9;&#x9;margin-bottom: 2px;&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&amp;.cl-focus, &amp;:focus {&#xD;&#xA;&#x9;&#x9;&#x9;.cl-checkbox-icon {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;/* 체크박스 포커스 스타일 */&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;outline: none;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;&#xD;&#xA;&#x9;&amp;.on {&#xD;&#xA;&#x9;&#x9;/* 토글 상태 스타일 */&#xD;&#xA;&#x9;&#x9;background-color: #6edc5f;&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;&#xD;&#xA;&#x9;&amp;.round {&#xD;&#xA;&#x9;&#x9;/* 둥근 토글 버튼 스타일 */&#xD;&#xA;&#x9;&#x9;border-radius: 14px;&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;.cl-checkbox.toggle {&#xD;&#xA;&#x9;&#x9;&#x9;.cl-checkbox-icon {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;/* 둥근 토글 버튼 아이콘 스타일 */&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;border-radius: 14px;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;}&#xD;&#xA;}" type="string"/>
+            <cl:property name="language" value="ace/mode/less" type="enumeration"/>
+          </cl:udc>
+          <cl:verticallayout std:sid="v-layout-81987a1e" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-54850849" class="card-inner">
+          <cl:verticaldata std:sid="v-data-2869225a" width="1100px" height="241px" autosize="height"/>
+          <cl:udc std:sid="ud-control-3bc3fa1b" id="areatitle8" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-9d05f978" width="300px" height="38px"/>
+            <cl:property name="value" value="시나리오" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-5fa2801f" value="time-update, seeking, seeked 이벤트를 이용하여 사용자가 현재 재생되고있는 시간보다 이후의 시간으로 이동하지 못하도록 방지하는 기능을 확인한다.">
+            <cl:verticaldata std:sid="v-data-da502c34" width="1040px" height="140px" autosize="height"/>
+          </cl:output>
+          <cl:verticallayout std:sid="v-layout-d8c39c93" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-f5df0ee5" class="card-inner">
+          <cl:verticaldata std:sid="v-data-ec3b1972" width="1100px" height="840px" autosize="height"/>
+          <cl:udc std:sid="ud-control-c65fdfe7" id="areatitle4" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-980fb5f9" width="300px" height="38px"/>
+            <cl:property name="value" value="주요 기능" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-df49c14a" value="시나리오 순서대로 비디오 동작과 실행 버튼을 눌러 스크립트를 확인하십시오.">
+            <cl:verticaldata std:sid="v-data-e0f2ddad" width="1040px" height="25px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-dbdd7a02" class="attach-box">
+            <cl:verticaldata std:sid="v-data-5798a75c" width="1040px" height="561px" autosize="height"/>
+            <cl:group std:sid="group-64039178">
+              <cl:flowlayoutdata std:sid="f-data-bf37695e" width="800px" height="500px" autosize="none"/>
+              <cl:output std:sid="output-d84ea8aa" class="text-center" value="&lt;기능 확인 비디오 컨트롤>">
+                <cl:formdata std:sid="f-data-69b32d2a" row="1" col="0"/>
+              </cl:output>
+              <cl:group std:sid="group-2c1be881">
+                <cl:formdata std:sid="f-data-76869261" row="0" col="0"/>
+                <cl:video std:sid="video-c49a41bd" id="vdoSkipPrevent" src="GalaxyOpen.mp4" displaycontrol="true">
+                  <cl:listener std:sid="listener-bed0ab7a" name="timeupdate" handler="onVdoSkipPreventTimeupdate"/>
+                  <cl:listener std:sid="listener-7f0699f3" name="seeking" handler="onVdoSkipPreventSeeking"/>
+                  <cl:listener std:sid="listener-34b2c9f5" name="seeked" handler="onVdoSkipPreventSeeked"/>
+                  <cl:xylayoutdata std:sid="xyl-data-24b1255f" width="760px" height="435px" horizontalAnchor="CENTER" verticalAnchor="CENTER"/>
+                </cl:video>
+                <cl:xylayout std:sid="xylayout-47da2886"/>
+              </cl:group>
+              <cl:formlayout std:sid="f-layout-b925bff5" hspace="5px" vspace="5px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+                <cl:rows length="1" unit="FRACTION" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+                <cl:rows length="20" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+                <cl:columns length="1" unit="FRACTION"/>
+              </cl:formlayout>
+            </cl:group>
+            <cl:flowlayout std:sid="f-layout-814cfc30" scrollable="false" spacing="20" halign="center" valign="middle" leftmargin="20" rightmargin="20" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:group std:sid="group-09d32a74" class="form-box vertical">
+            <cl:verticaldata std:sid="v-data-14af5a00" width="1100px" height="82px" autosize="height"/>
+            <cl:output std:sid="output-ebfd262a" class="label" value="EVENT">
+              <cl:formdata std:sid="f-data-29062f84" row="0" col="0"/>
+            </cl:output>
+            <cl:output std:sid="output-8528dd47" class="label" value="설명">
+              <cl:formdata std:sid="f-data-45811037" row="0" col="1"/>
+            </cl:output>
+            <cl:output std:sid="output-b7dfb44f" class="label" value="기능확인">
+              <cl:formdata std:sid="f-data-fb62526b" row="0" col="2"/>
+            </cl:output>
+            <cl:output std:sid="output-163c1562" value="비디오 컨트롤에 현재 재생되고있는 시간보다 이후의 시간으로 이동하지 못하도록 스킵 방지 합니다.">
+              <cl:formdata std:sid="f-data-e9fde26c" row="1" col="1"/>
+            </cl:output>
+            <cl:button std:sid="button-d034b9a2" id="btnSkipPrevent" value="실행">
+              <cl:listener std:sid="listener-0b2d095a" name="click" handler="onBtnSkipPreventClick"/>
+              <cl:formdata std:sid="f-data-f514903b" valign="CENTER" height="30" row="1" col="2"/>
+            </cl:button>
+            <cl:output std:sid="output-da9b088b" value="time-update, seeking, seeked">
+              <cl:formdata std:sid="f-data-981f50ee" row="1" col="0"/>
+            </cl:output>
+            <cl:formlayout std:sid="f-layout-74e4f45e" hspace="10px" vspace="10px" top-margin="5px" right-margin="5px" bottom-margin="5px" left-margin="5px" hseparatorwidth="1" hseparatortype="BY_CLASS" vseparatorwidth="1" vseparatortype="BY_CLASS">
+              <cl:rows length="30" unit="PIXEL" autoSizing="false" shadetype="BY_CLASS" shadecolor="#000000" minlength="0"/>
+              <cl:rows length="30" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="200" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="1" unit="FRACTION" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="80" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+            </cl:formlayout>
+          </cl:group>
+          <cl:udc std:sid="ud-control-10dd49ff" id="ace2" type="udc.cmn.Ace">
+            <cl:verticaldata std:sid="v-data-30d0dacf" width="1100px" height="29px" autosize="height"/>
+          </cl:udc>
+          <cl:verticallayout std:sid="v-layout-7fc796fa" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-16a57721" class="card-inner">
+          <cl:verticaldata std:sid="v-data-aa68b8bf" width="1100px" height="369px" autosize="height"/>
+          <cl:udc std:sid="ud-control-e4c183a0" id="areatitle10" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-9e77ae01" width="300px" height="38px"/>
+            <cl:property name="value" value="서버" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-9770224c" value="`서버 소스에 대하여 설명을 작성하십시오.`">
+            <cl:verticaldata std:sid="v-data-821bfd4c" width="1040px" height="25px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-190bf690" class="form-box vertical">
+            <cl:verticaldata std:sid="v-data-6361dc96" width="400px" height="82px" autosize="height"/>
+            <cl:output std:sid="output-e4180ef5" class="label" value="API">
+              <cl:formdata std:sid="f-data-e0e4254a" row="0" col="0"/>
+            </cl:output>
+            <cl:output std:sid="output-92543c87" class="label" value="설명">
+              <cl:formdata std:sid="f-data-f4dcf1c5" row="0" col="1"/>
+            </cl:output>
+            <cl:output std:sid="output-57daa54d" class="label" value="입력값">
+              <cl:formdata std:sid="f-data-b448da6e" row="0" col="2"/>
+            </cl:output>
+            <cl:output std:sid="output-67b58dff" class="label" value="기능확인">
+              <cl:formdata std:sid="f-data-c5ca1f82" row="0" col="3"/>
+            </cl:output>
+            <cl:formlayout std:sid="f-layout-394c576f" hspace="10px" vspace="10px" top-margin="5px" right-margin="5px" bottom-margin="5px" left-margin="5px" hseparatorwidth="1" hseparatortype="BY_CLASS" vseparatorwidth="1" vseparatortype="BY_CLASS">
+              <cl:rows length="30" unit="PIXEL" autoSizing="false" shadetype="BY_CLASS" shadecolor="#000000" minlength="0"/>
+              <cl:rows length="30" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="200" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="1" unit="FRACTION" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="200" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="80" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+            </cl:formlayout>
+          </cl:group>
+          <cl:udc std:sid="ud-control-1a62a7d1" id="ace4" type="udc.cmn.Ace">
+            <cl:verticaldata std:sid="v-data-a1794635" width="300px" height="29px" autosize="height"/>
+          </cl:udc>
+          <cl:verticallayout std:sid="v-layout-2b7ce9f7" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-1c3aa905" class="card-inner">
+          <cl:verticaldata std:sid="v-data-dc5153b2" width="400px" height="216px" autosize="height"/>
+          <cl:udc std:sid="ud-control-bcb64de7" id="areatitle5" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-644908cd" width="1040px" height="38px" autosize="none"/>
+            <cl:property name="value" value="유의사항" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-495c0c07" value="`반드시 숙지해야 하는 정보에 대하여 작성하십시오.`">
+            <cl:verticaldata std:sid="v-data-46b08fb4" width="100px" height="25px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-1488dccb" class="ref-card danger">
+            <cl:verticaldata std:sid="v-data-6a83a5c9" width="1200px" height="100px" autosize="height"/>
+            <cl:output std:sid="output-64057e29" class="ref-title" value="DANGER">
+              <cl:verticaldata std:sid="v-data-437b9b9a" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-721ab1e1" value="`반드시 숙지해야 하는 정보에 대하여 작성하십시오.`">
+              <cl:verticaldata std:sid="v-data-6e431a84" width="100px" height="25px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-f4b4941d" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-4a914592" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-f59d0528" class="card-inner">
+          <cl:verticaldata std:sid="v-data-4e6004be" width="400px" height="218px" autosize="height"/>
+          <cl:udc std:sid="ud-control-3dead214" id="areatitle6" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-1ff324f1" width="1040px" height="38px" autosize="none"/>
+            <cl:property name="value" value="최소 요구 버전" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-50ed7766" value="`특별히 인지해야 하는 정보에 대하여 작성하십시오.`">
+            <cl:verticaldata std:sid="v-data-c03d0e2d" width="100px" height="25px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-62079995" class="ref-card warning">
+            <cl:verticaldata std:sid="v-data-f752b593" width="1040px" height="100px" autosize="height"/>
+            <cl:output std:sid="output-a9b248ef" class="ref-title" value="WARNING">
+              <cl:verticaldata std:sid="v-data-8dbfa4b4" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-532ac550" value="`특별히 인지해야 하는 정보에 대하여 작성하십시오.`">
+              <cl:verticaldata std:sid="v-data-7f6b1b60" width="100px" height="25px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-7607fc8d" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-25a6e49a" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-bc3decc0" class="card-inner">
+          <cl:verticaldata std:sid="v-data-fc989f6e" width="1040px" height="229px" autosize="height"/>
+          <cl:udc std:sid="ud-control-73179844" id="areatitle7" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-97420d3e" width="300px" height="38px"/>
+            <cl:property name="value" value="도움말" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-b1c673c6" value="비디오에 대한 자세한 사항은 도움말을 참조하십시오.">
+            <cl:verticaldata std:sid="v-data-69dd3988" width="1040px" height="25px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-ee002fc3" class="ref-card default">
+            <cl:verticaldata std:sid="v-data-c9537cf9" width="1200px" height="96px" autosize="height"/>
+            <cl:output std:sid="output-5a0e53f8" class="ref-title" value="Help Contents">
+              <cl:verticaldata std:sid="v-data-f51eafad" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-741fa5d5" value="eXBuilder6 > 앱 개발 > 컨트롤 > UI 컨트롤 > 비디오&#xD;&#xA;eXBuilder6 > API Reference > cpr.controls > cpr.controls.Video">
+              <cl:verticaldata std:sid="v-data-c8df8970" width="100px" height="25px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-eff44aa2" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-49276802" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:verticallayout std:sid="v-layout-a50c518b" spacing="20" leftmargin="50" rightmargin="50" topmargin="20" bottommargin="60"/>
+      </cl:group>
+      <cl:verticallayout std:sid="v-layout-5825919e" spacing="0"/>
+    </cl:group>
+    <cl:udc std:sid="ud-control-98388c51" id="updatedtitle1" type="udc.cmn.UpdatedTitle">
+      <cl:verticaldata std:sid="v-data-86306805" width="1200px" height="25px" autosize="none"/>
+      <cl:property name="value" value="20210308" type="string"/>
+    </cl:udc>
+    <cl:verticallayout std:sid="v-layout-6dd2ab37"/>
+  </body>
+  <std:studiosetting>
+    <std:hruler/>
+    <std:vruler/>
+  </std:studiosetting>
+</html>

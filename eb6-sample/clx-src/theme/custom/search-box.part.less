@@ -1,0 +1,40 @@
+@import "../custom-settings.part.less";
+
+ /************************************************
+ * 조회조건 영역
+ ************************************************/
+ 
+.cl-container.search-box {
+	background-color: @white;
+	border: @component-border-base;
+	border-radius: @component-border-radius;
+	
+	.cl-output,
+	.cl-output.label {
+		font-weight: @font-weight-bold;
+		text-align: right;
+		padding-right: 8px;
+		
+		&.require {
+			&:after {
+				content: "*";
+				position: absolute;
+				display: inline-block;
+				top: calc(50% - 7px);
+				right: 0px;
+				width: 8px;
+
+				color: @danger;
+			}
+		}
+	}
+	
+	/* 조회조건의 폼 컨트롤에서의 예외 스타일 */
+	.cl-container,
+	.cl-container.form-control-group {
+		.cl-output {
+			padding: 0px;
+			font-weight: @font-weight-regular;
+		}
+	}
+}

@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:cl="http://tomatosystem.co.kr/cleopatra" xmlns:std="http://tomatosystem.co.kr/cleopatra/studio" std:sid="html-4b5ede49" version="1.0.0.0">
+  <head std:sid="head-561cdf61">
+    <title>STYLE_CONTROLS_MDIFOLDER_01</title>
+    <screen std:sid="screen-12538d9c" id="default" name="default" minwidth="1200px" width="1200px" height="768px"/>
+    <screen std:sid="screen-bbb1d228" id="tablet" name="tablet" minwidth="850px" maxwidth="1199px" width="850px" height="768px"/>
+    <screen std:sid="screen-9f577585" id="test" name="mobile" maxwidth="849px" width="544px" height="768px"/>
+    <cl:model std:sid="model-48f9d961">
+      <cl:dataset std:sid="d-set-223b27f7" id="dsPropVw" info="프로퍼티 뷰 (속성 뷰)">
+        <cl:datacolumnlist>
+          <cl:datacolumn comment="컨트롤 명" std:sid="d-column-2ab4891d" name="CTRL_NM"/>
+          <cl:datacolumn comment="속성 탭 명" std:sid="d-column-068c1e55" name="PROP_SJ"/>
+          <cl:datacolumn comment="속성 명" std:sid="d-column-3f149788" name="PROP_NM"/>
+          <cl:datacolumn comment="속성 값" std:sid="d-column-53fd0a82" name="PROP_VAL"/>
+          <cl:datacolumn comment="속성 설명" std:sid="d-column-09e0c603" name="PROP_STY_DESC"/>
+        </cl:datacolumnlist>
+        <cl:datarowlist>
+          <cl:datarow>
+            <cl:datavalue columnname="CTRL_NM"><![CDATA[mdifolder]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_SJ"><![CDATA[일반]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_NM"><![CDATA[childCombinatorClass]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_VAL"><![CDATA[inner-cont]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="CTRL_NM"><![CDATA[mdifolder]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_SJ"><![CDATA[일반]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_NM"><![CDATA[headerArrowPosition]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_VAL"><![CDATA[right]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_STY_DESC"><![CDATA[]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="CTRL_NM"><![CDATA[mdifolder]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_SJ"><![CDATA[일반]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_NM"><![CDATA[itemSizing]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_VAL"><![CDATA[fixed]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_STY_DESC"><![CDATA[]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="CTRL_NM"><![CDATA[mdifolder]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_SJ"><![CDATA[일반]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_NM"><![CDATA[preferredItemWidth]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_VAL"><![CDATA[150]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_STY_DESC"><![CDATA[]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="CTRL_NM"><![CDATA[mdifolder]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_SJ"><![CDATA[스타일]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_NM"><![CDATA[class]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_VAL"><![CDATA[tab-cont]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_STY_DESC"><![CDATA[]]></cl:datavalue>
+          </cl:datarow>
+        </cl:datarowlist>
+      </cl:dataset>
+    </cl:model>
+    <cl:appspec title="MDI폴더 스타일링"/>
+  </head>
+  <body std:sid="body-c8894f6e" style="top:0px; left:0px; width:800px; height:600px;">
+    <cl:group std:sid="group-59960b1b" class="content-card">
+      <cl:verticaldata std:sid="v-data-af4de938" width="1200px" height="2971px" autosize="height"/>
+      <cl:udc std:sid="ud-control-b8469aa4" type="udc.cmn.AppTitle">
+        <cl:verticaldata std:sid="v-data-f0bae039" width="1140px" height="175px" autosize="none"/>
+        <cl:property name="tags" value="퍼블리싱,MDI폴더,탭폴더" type="string"/>
+      </cl:udc>
+      <cl:group std:sid="group-a4b3eb74">
+        <cl:verticaldata std:sid="v-data-3747f6b2" width="400px" height="2795px" autosize="height"/>
+        <cl:group std:sid="group-c3b4f76c" class="card-inner">
+          <cl:verticaldata std:sid="v-data-76d5fec5" width="400px" height="438px" autosize="height"/>
+          <cl:udc std:sid="ud-control-400ea92b" id="areatitle1" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-6e7053ba" width="300px" height="38px"/>
+            <cl:property name="value" value="개요" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-91f8c8b3" value="이 문서는 MDI폴더 스타일에 대하여 설명합니다.&#xD;&#xA;MDI폴더는 탭 아이템 내부 컨텐츠에 기본 그룹 이외에 임베디드 앱 또는 임베디드 페이지를 가질 수 있는 컨트롤로, 탭 아이템 내부 컨텐츠와 간섭이 일어나지 않도록 childCombinatorClass 속성을 이용하여 스타일링할 수 있습니다.">
+            <cl:verticaldata std:sid="v-data-89fb3e43" width="100px" height="46px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-fc5891b4" class="attach-box">
+            <cl:verticaldata std:sid="v-data-d20e3b78" width="1040px" height="281px" autosize="height"/>
+            <cl:mdifolder std:sid="mdifolder-2d7102af" id="mdi1">
+              <cl:flowlayoutdata std:sid="f-data-de457b66" width="500px" height="240px"/>
+              <cl:tabitem std:sid="t-item-e3de620d" text="탭 아이템">
+                <cl:group std:sid="group-b523f100">
+                  <std:metadata>
+                    <std:property key="locked" value="true"/>
+                  </std:metadata>
+                  <cl:xylayout std:sid="xylayout-bbe7880e"/>
+                </cl:group>
+              </cl:tabitem>
+              <cl:tabitem std:sid="t-item-047a774d" selected="true" text="탭 아이템">
+                <std:metadata>
+                  <std:property key="is-active-item" value="true"/>
+                </std:metadata>
+                <cl:group std:sid="group-c5802120">
+                  <std:metadata>
+                    <std:property key="locked" value="true"/>
+                  </std:metadata>
+                  <cl:xylayout std:sid="xylayout-80423f34"/>
+                </cl:group>
+              </cl:tabitem>
+              <cl:tabitem std:sid="t-item-78b7ef00" text="탭 아이템">
+                <cl:group std:sid="group-eb65b495">
+                  <std:metadata>
+                    <std:property key="locked" value="true"/>
+                  </std:metadata>
+                  <cl:xylayout std:sid="xylayout-c565cacf"/>
+                </cl:group>
+              </cl:tabitem>
+            </cl:mdifolder>
+            <cl:output std:sid="output-6b266da4" value="→">
+              <cl:flowlayoutdata std:sid="f-data-2eb553f3" width="20px" height="25px" autosize="width"/>
+            </cl:output>
+            <cl:mdifolder std:sid="mdifolder-e1e55ff1" id="mdi2" class="tab-cont" childcombinatorclass="inner-cont" headerarrowposition="right" item-sizing="fixed" preferred-item-width="150">
+              <cl:flowlayoutdata std:sid="f-data-6fb2875d" width="500px" height="240px"/>
+              <cl:tabitem std:sid="t-item-92587dbc" text="탭 아이템">
+                <cl:group std:sid="group-c4e94eb3">
+                  <std:metadata>
+                    <std:property key="locked" value="true"/>
+                  </std:metadata>
+                  <cl:xylayout std:sid="xylayout-b3a3127b"/>
+                </cl:group>
+              </cl:tabitem>
+              <cl:tabitem std:sid="t-item-da42f5c6" selected="true" text="탭 아이템">
+                <std:metadata>
+                  <std:property key="is-active-item" value="true"/>
+                </std:metadata>
+                <cl:group std:sid="group-27e3d647">
+                  <std:metadata>
+                    <std:property key="locked" value="true"/>
+                  </std:metadata>
+                  <cl:xylayout std:sid="xylayout-ef433f56"/>
+                </cl:group>
+              </cl:tabitem>
+              <cl:tabitem std:sid="t-item-0ff1076b" text="탭 아이템">
+                <cl:group std:sid="group-c7c0e1ba">
+                  <std:metadata>
+                    <std:property key="locked" value="true"/>
+                  </std:metadata>
+                  <cl:xylayout std:sid="xylayout-563c2cda"/>
+                </cl:group>
+              </cl:tabitem>
+            </cl:mdifolder>
+            <cl:flowlayout std:sid="f-layout-6ea22f5b" scrollable="false" spacing="15" halign="center" valign="middle" linewrap="false" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-f8b7a75d" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-de8c1411" class="card-inner">
+          <cl:verticaldata std:sid="v-data-b7ece3a4" width="400px" height="716px" autosize="height"/>
+          <cl:udc std:sid="ud-control-fb8bf275" id="areatitle2" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-a1e15097" width="1040px" height="38px" autosize="none"/>
+            <cl:property name="value" value="컨트롤 생성 및 설정" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-63aedf87" value="MDI폴더 컨트롤은 상위 그룹의 레이아웃 종류에 따라 알맞게 크기를 설정합니다.&#xD;&#xA;&#xD;&#xA;MDI폴더 컨트롤에서 탭 아이템의 크기 및 정렬, 아이템 간 간격 등은 컨트롤에서 제공하는 속성을 사용합니다. 해당 예제에서는 headerArrowPosition=right, itemSizing=fixed, preferredItemWidth=150 적용하여 탭 폴더 헤더의 화살표 위치, 아이템 너비를 결정하는 방식, 아이템의 너비 고정 값을 변경하였습니다.&#xD;&#xA;&#xD;&#xA;MDI폴더 컨트롤은 탭 아이템 내부 컨텐츠로 기본 그룹 이외에 임베디드 앱 또는 임베디드 페이지를 가질 수 있으므로 스타일에 대한 간섭이 일어나기 쉽습니다. 따라서 childCombinatorClass 속성을 사용하여 직계 자식 컨트롤 및 직계 해당 컨트롤을 감싸는 레이아웃 래퍼 노드에 직계 부모 노드에서 지정한 클래스 명이 추가될 수 있도록 할 수 있습니다. childCombinatorClass의 값은 inner-cont로 적용합니다.">
+            <cl:verticaldata std:sid="v-data-7a20e9d2" width="100px" height="208px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-5f47d467" class="attach-box">
+            <cl:verticaldata std:sid="v-data-4e38cf7f" width="400px" height="381px" autosize="height"/>
+            <cl:udc std:sid="ud-control-93a40a6f" id="propview1" type="udc.cmn.PropView">
+              <cl:flowlayoutdata std:sid="f-data-c5ae57a6" width="400px" height="350px"/>
+              <cl:property name="dataset" value="dsPropVw" type="control"/>
+              <cl:property name="filterCondition" value="mdifolder" type="enumeration"/>
+            </cl:udc>
+            <cl:flowlayout std:sid="f-layout-3c9b5206" scrollable="false" spacing="20" halign="center" valign="middle" leftmargin="20" rightmargin="20" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-fea69ec9" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-11053d61" class="card-inner">
+          <cl:verticaldata std:sid="v-data-92db121e" width="1040px" height="393px" autosize="height"/>
+          <cl:udc std:sid="ud-control-d726449c" id="areatitle3" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-2234104b" width="300px" height="38px"/>
+            <cl:property name="value" value="스타일 시트" type="string"/>
+          </cl:udc>
+          <cl:group std:sid="group-6a755066" id="grp16" class="ref-card info">
+            <cl:verticaldata std:sid="v-data-a577cd31" width="1040px" height="96px" autosize="height"/>
+            <cl:output std:sid="output-d6122608" id="opt14" class="ref-title" value="경로 : LESS 파일">
+              <cl:verticaldata std:sid="v-data-157990b2" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-88c60ef5" id="opt15" value="theme/assets/less/controls/mdifolder/STYLE_CONTROLS_MDIFOLDER_01.less">
+              <cl:verticaldata std:sid="v-data-7eea5e7b" width="100px" height="25px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-3d91933b" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:output std:sid="output-c66842e8" value="MDI 컨트롤에는 &quot;tab-cont&quot;클래스를 적용합니다. MDI컨트롤에 childCombinatorClass 속성을 통해 &quot;inner-cont&quot;라는 특정 클래스를 적용합니다.&#xD;&#xA;&#xD;&#xA;사용되는 레이아웃마다 자식 컨트롤을 렌더링 하기 위해 만들어 내는 노드의 형태가 각기 다를 수 있어 eXBuilder6에서 퍼블리싱을 할 때에 차일드 셀렉터 컴비네이터(>)를 사용하지 않도록 권장하고 있습니다. 하지만 탭 폴더가 중첩되어 있는 경우에 특정 탭 폴더만 스타일링하거나 그룹(컨테이너)이 중첩되어 있는 경우에 특정 그룹(컨테이너)만 스타일링하고자 할 때 차일드 셀렉터 컴비네이터 사용할 수 있도록 속성을 제공하고 있습니다.&#xD;&#xA;&#xD;&#xA;해당 속성을 사용하면 직계 자식 컨트롤 및 해당 컨트롤을 감싸는 레이아웃 래퍼 노드에 지정한 클래스 명이 추가되어 탭 폴더 또는 그룹(컨테이너)의 직계 자손이 되는 노드를 선택할 수 있게 됩니다.">
+            <cl:verticaldata std:sid="v-data-d3939fb0" width="1040px" height="126px" autosize="height"/>
+          </cl:output>
+          <cl:udc std:sid="ud-control-b7a23aae" id="ace1" type="udc.cmn.Ace">
+            <cl:verticaldata std:sid="v-data-ae2cf1f3" width="300px" height="50px" autosize="height"/>
+            <cl:property name="value" value=".cl-tabfolder.cl-mdifolder.tab-cont {&#xD;&#xA;&#x9;> .inner-cont {&#xD;&#xA;&#x9;&#x9;> .cl-tabfolder-header.inner-cont {&#xD;&#xA;&#x9;&#x9;&#x9;height: 40px;&#xD;&#xA;&#x9;&#x9;&#x9;background-image: linear-gradient(#babfc7, #babfc7);&#xD;&#xA;&#x9;&#x9;&#x9;background-size: 100% 1px;&#xD;&#xA;&#x9;&#x9;&#x9;background-repeat: no-repeat;&#xD;&#xA;&#x9;&#x9;&#x9;background-position: 0px 100%;&#xD;&#xA;&#x9;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&#x9;> .inner-cont .cl-tabfolder-item {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;background-color: transparent;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;border: none;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;color: #333333;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;font-size: 15px;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;text-align: left;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;.cl-text {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&amp;:focus {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;text-decoration: none; // 탭 포커스 시 텍스트 언더라인 제거&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&amp;.cl-selected {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;background-color: #ffffff;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;border: 1px solid #babfc7;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;border-bottom: 1px solid #ffffff;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;color: #3f87fd;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;+ .cl-tabfolder-item {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;margin-left: -1px;  // 테두리가 겹치지 않도록 추가&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#xD;&#xA;&#x9;&#x9;> .cl-tabfolder-body {&#xD;&#xA;&#x9;&#x9;&#x9;border: 1px solid #babfc7;&#xD;&#xA;&#x9;&#x9;&#x9;border-top: none;&#xD;&#xA;&#x9;&#x9;&#x9;background-color: #ffffff;&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;}&#xD;&#xA;}" type="string"/>
+            <cl:property name="language" value="ace/mode/less" type="enumeration"/>
+          </cl:udc>
+          <cl:verticallayout std:sid="v-layout-81987a1e" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-f5df0ee5" class="card-inner">
+          <cl:verticaldata std:sid="v-data-35411d62" width="1040px" height="369px" autosize="height"/>
+          <cl:udc std:sid="ud-control-c65fdfe7" id="areatitle4" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-980fb5f9" width="300px" height="38px"/>
+            <cl:property name="value" value="주요 기능" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-df49c14a" value="`주요 기능을 서술하십시오.`">
+            <cl:verticaldata std:sid="v-data-e0f2ddad" width="1040px" height="126px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-09d32a74" class="form-box vertical">
+            <cl:verticaldata std:sid="v-data-f0926932" width="400px" height="82px" autosize="height"/>
+            <cl:output std:sid="output-ebfd262a" class="label" value="컨트롤">
+              <cl:formdata std:sid="f-data-29062f84" row="0" col="0"/>
+            </cl:output>
+            <cl:output std:sid="output-8528dd47" class="label" value="API">
+              <cl:formdata std:sid="f-data-45811037" row="0" col="1"/>
+            </cl:output>
+            <cl:output std:sid="output-96613175" class="label" value="설명">
+              <cl:formdata std:sid="f-data-650fab76" row="0" col="2"/>
+            </cl:output>
+            <cl:output std:sid="output-c075744c">
+              <cl:formdata std:sid="f-data-cb06f5cb" row="1" col="0"/>
+            </cl:output>
+            <cl:output std:sid="output-d2ddb19c">
+              <cl:formdata std:sid="f-data-270a92d7" row="1" col="1"/>
+            </cl:output>
+            <cl:output std:sid="output-564c1937">
+              <cl:formdata std:sid="f-data-2c645f70" row="1" col="2"/>
+            </cl:output>
+            <cl:formlayout std:sid="f-layout-74e4f45e" hspace="10px" vspace="10px" top-margin="5px" right-margin="5px" bottom-margin="5px" left-margin="5px" hseparatorwidth="1" hseparatortype="BY_CLASS" vseparatorwidth="1" vseparatortype="BY_CLASS">
+              <cl:rows length="30" unit="PIXEL" autoSizing="false" shadetype="BY_CLASS" shadecolor="#000000" minlength="0"/>
+              <cl:rows length="30" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="100" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="250" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="1" unit="FRACTION"/>
+            </cl:formlayout>
+          </cl:group>
+          <cl:udc std:sid="ud-control-10dd49ff" id="ace2" type="udc.cmn.Ace">
+            <cl:verticaldata std:sid="v-data-ffeb6519" width="300px" height="29px" autosize="height"/>
+            <cl:property name="value" value="var vcCbxTy2 = app.lookup(&quot;cbxTy2&quot;);&#xD;&#xA;var vcGrpWrap = vcCbxTy2.getParent();&#xD;&#xA;&#x9;&#xD;&#xA;var vbChecked = vcCbxTy2.checked;&#xD;&#xA;if (vbChecked){&#xD;&#xA;&#x9;vcGrpWrap.updateConstraint(vcCbxTy2, {&#xD;&#xA;&#x9;&#x9;left : &quot;calc(100% - &quot; + vcCbxTy2.getActualRect().width + &quot;px - 3px)&quot;&#xD;&#xA;&#x9;});&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;/* 토글 상태로 변경 */&#xD;&#xA;&#x9;vcGrpWrap.style.addClass(&quot;on&quot;);&#xD;&#xA;} else {&#xD;&#xA;&#x9;vcGrpWrap.updateConstraint(vcCbxTy2, {&#xD;&#xA;&#x9;&#x9;left : &quot;3px&quot;&#xD;&#xA;&#x9;});&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;/* 토글 상태 해제 */&#xD;&#xA;&#x9;vcGrpWrap.style.removeClass(&quot;on&quot;);&#xD;&#xA;}" type="string"/>
+          </cl:udc>
+          <cl:verticallayout std:sid="v-layout-7fc796fa" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-1c3aa905" class="card-inner">
+          <cl:verticaldata std:sid="v-data-dc5153b2" width="400px" height="216px" autosize="height"/>
+          <cl:udc std:sid="ud-control-bcb64de7" id="areatitle5" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-644908cd" width="1040px" height="38px" autosize="none"/>
+            <cl:property name="value" value="유의사항" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-495c0c07" value="차일드 컴비네이터 클래스는 직계 자식 컨트롤을 선택하기 위한 셀렉터이므로 해당 클래스를 이름만을 대상으로 하는 룰 블록을 작성하지 않도록 주의합니다. 예를 들어 차일드 컴비네이터 클래스 이름인 &quot;inner-cont&quot; 자체를 대상으로 하는 룰셋을 작성하는 것은 퍼블리싱 가이드라인에 위배됩니다. 따라서 차일드 컴비네이터 클래스 이름은 반드시 직계 자식을 선택하는 조합으로 사용하여야 합니다.&#xD;&#xA;&#xD;&#xA;* 올바른 예시: .inner-cont > .cl-tabfolder-header { ... }&#xD;&#xA;* 올바르지 않은 예시: .inner-cont { ... }">
+            <cl:verticaldata std:sid="v-data-46b08fb4" width="100px" height="25px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-1488dccb" class="ref-card danger">
+            <cl:verticaldata std:sid="v-data-6a83a5c9" width="1200px" height="100px" autosize="height"/>
+            <cl:output std:sid="output-64057e29" class="ref-title" value="eXBuilder6 렌더링">
+              <cl:verticaldata std:sid="v-data-437b9b9a" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-721ab1e1" value="eXBuilder6는 높은 추상성을 갖는 비즈니스 컨트롤을 표현하는 DOM을 개발자의 요청에 따라 효율적으로 합성하고 그 콘텐츠를 관리합니다. 또한 컨트롤들 및 데이터의 상태를 감시하여 변경이 일어날 때마다 동적으로 가장 적절한 시점에 DOM을 재합성합니다. 따라서, DOM은 어플리케이션이 실행되는 동안 역동적으로 변경될 수 있기 때문에 특성 시점의 DOM의 상태를 관측한 결과를 바탕으로 퍼블리싱을 수행해서는 안 됩니다.&#xD;&#xA;&#xD;&#xA;eXBuilder6의 런타임이 업데이트 되면서 성능 향상, 기능 추가, 접근성 향상 등의 이유로 컨트롤의 DOM 구조는 언제든지 변경될 수 있어 차일드 셀렉트 컴비네이터(>) 사용을 금지하고 있습니다. 단, childCombinatorClass 속성을 사용하는 경우에 한하여 차일드 셀렉트 컴비네이터를 사용할 수 있으므로 차일드 셀렉터 컴비네이터를 사용해야 한다면 반드시 해당 속성을 이용해야 합니다.">
+              <cl:verticaldata std:sid="v-data-6e431a84" width="100px" height="25px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-f4b4941d" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-4a914592" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-f59d0528" class="card-inner">
+          <cl:verticaldata std:sid="v-data-4e6004be" width="400px" height="218px" autosize="height"/>
+          <cl:udc std:sid="ud-control-3dead214" id="areatitle6" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-1ff324f1" width="1040px" height="38px" autosize="none"/>
+            <cl:property name="value" value="최소 요구 버전" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-50ed7766" id="opt1" value="* 1.0.992 릴리즈 버전 이상 - 그룹(컨테이너)&#xD;&#xA;* 1.0.1120 릴리즈 버전 이상 - 탭 폴더, MDI폴더&#xD;&#xA;&#xD;&#xA;childCombinatorClass 속성은 직계 자식을 선택하기 위한 컴비네이터용 클래스로 해당 속성을 제공하는 컨트롤은 그룹(컨테이너), 탭 폴더, MDI폴더입니다. 그룹(컨테이너)의 childCombinatorClass 속성은 1.0.992 릴리즈 버전 이상부터 사용할 수 있으며, 탭 폴더의 childCombinatorClass 속성은 1.0.1120 릴리즈 버전 이상부터 사용할 수 있습니다.">
+            <cl:verticaldata std:sid="v-data-c03d0e2d" width="100px" height="25px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-62079995" id="grp14" class="ref-card warning">
+            <cl:verticaldata std:sid="v-data-f752b593" width="1040px" height="100px" autosize="height"/>
+            <cl:output std:sid="output-a9b248ef" id="opt10" class="ref-title" value="WARNING">
+              <cl:verticaldata std:sid="v-data-8dbfa4b4" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-532ac550" id="opt11" value="`특별히 인지해야 하는 정보에 대하여 작성하십시오.`">
+              <cl:verticaldata std:sid="v-data-7f6b1b60" width="100px" height="25px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-7607fc8d" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-25a6e49a" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-bc3decc0" class="card-inner">
+          <cl:verticaldata std:sid="v-data-fc989f6e" width="1040px" height="281px" autosize="height"/>
+          <cl:udc std:sid="ud-control-73179844" id="areatitle7" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-97420d3e" width="300px" height="38px"/>
+            <cl:property name="value" value="도움말" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-b1c673c6" value="MDI폴더에 대한 자세한 사항은 도움말을 참조하십시오.">
+            <cl:verticaldata std:sid="v-data-69dd3988" width="1040px" height="25px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-ee002fc3" id="grp11" class="ref-card default">
+            <cl:verticaldata std:sid="v-data-c9537cf9" width="1200px" height="129px" autosize="height"/>
+            <cl:output std:sid="output-5a0e53f8" id="opt4" class="ref-title" value="Help Contents">
+              <cl:verticaldata std:sid="v-data-f51eafad" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-741fa5d5" id="opt5" value="eXBuilder6 > API References > cpr.controls > MDIFolder&#xD;&#xA;eXBuilder6 > 앱 개발 > 컨트롤 > UI 컨트롤 > MDI 폴더">
+              <cl:verticaldata std:sid="v-data-c8df8970" width="100px" height="58px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-eff44aa2" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-49276802" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:verticallayout std:sid="v-layout-a50c518b" spacing="20" leftmargin="50" rightmargin="50" topmargin="20" bottommargin="60"/>
+      </cl:group>
+      <cl:verticallayout std:sid="v-layout-5825919e" spacing="0"/>
+    </cl:group>
+    <cl:udc std:sid="ud-control-98388c51" id="updatedtitle1" type="udc.cmn.UpdatedTitle">
+      <cl:verticaldata std:sid="v-data-f1bcf2ec" width="1200px" height="25px" autosize="none"/>
+      <cl:property name="value" value="20210302" type="string"/>
+    </cl:udc>
+    <cl:verticallayout std:sid="v-layout-399c29b3"/>
+  </body>
+  <std:studiosetting>
+    <std:hruler/>
+    <std:vruler/>
+  </std:studiosetting>
+</html>

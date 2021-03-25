@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:cl="http://tomatosystem.co.kr/cleopatra" xmlns:std="http://tomatosystem.co.kr/cleopatra/studio" std:sid="html-f46b9aec" version="1.0.0.0">
+  <head std:sid="head-fd7d1b18">
+    <title>AppTitle</title>
+    <screen std:sid="screen-48265586" id="default" name="default" width="1200px" height="768px" customHeight="600" customWidth="800"/>
+    <cl:model std:sid="model-b40b474f"/>
+    <cl:appspec>
+      <cl:property name="title" type="string" default="앱 타이틀" bindable="true" std:desc="앱 타이틀 (샘플 제목)"/>
+      <cl:property name="appId" type="string" default="앱 경로" bindable="true" std:desc="앱 ID"/>
+      <cl:property name="tags" type="string" bindable="true" std:desc="태그 정보(&quot;,&quot;로 구분하여 값을 지정하며, 텍스트값은 #을 제외하고 입력한다)"/>
+    </cl:appspec>
+  </head>
+  <body std:sid="body-70924a38" style="top:0px; left:0px; width:544px; height:175px;" class="app-header">
+    <cl:listener std:sid="listener-91fb6ae3" name="load" handler="onBodyLoad"/>
+    <cl:listener std:sid="listener-bcf202af" name="property-change" handler="onBodyPropertyChange"/>
+    <cl:group std:sid="group-20592b5f" id="grp1">
+      <cl:verticaldata std:sid="v-data-6f7da84c" width="400px" height="45px"/>
+      <cl:output std:sid="output-e6925358" id="lblAppTtl" class="app-title" value="앱 타이틀" ellipsis="true">
+        <cl:apppropbind property="value" app-property="title"/>
+        <cl:apppropbind property="tooltip" category="PROPERTY" app-property="title"/>
+        <cl:formdata std:sid="f-data-bc550df9" row="0" col="0"/>
+      </cl:output>
+      <cl:output std:sid="output-063bc708" id="lblAppId" class="app-path" value="앱 ID" unselectable="false">
+        <cl:apppropbind property="value" app-property="appId"/>
+        <cl:apppropbind property="tooltip" category="PROPERTY" app-property="appId"/>
+        <cl:formdata std:sid="f-data-52d83bcf" valign="BOTTOM" height="20" row="0" col="1"/>
+      </cl:output>
+      <cl:formlayout std:sid="f-layout-059e0cc3" hspace="5px" vspace="5px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+        <cl:rows length="1" unit="FRACTION"/>
+        <cl:columns length="1" unit="FRACTION" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+        <cl:columns length="50" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+      </cl:formlayout>
+    </cl:group>
+    <cl:group std:sid="group-b7331378" id="grpTagBx" class="tag-box">
+      <cl:verticaldata std:sid="v-data-d1b3910d" width="400px" height="25px" autosize="height"/>
+      <cl:output std:sid="output-7bccde43" id="opt3" class="tag-item" value="#태그">
+        <cl:flowlayoutdata std:sid="f-data-927dcbe4" width="60px" height="25px" autosize="both"/>
+      </cl:output>
+      <cl:flowlayout std:sid="f-layout-fb3f866c" scrollable="false"/>
+    </cl:group>
+    <cl:verticallayout std:sid="v-layout-98e7dc93" scrollable="false" spacing="15" leftmargin="50" rightmargin="50" topmargin="50" bottommargin="50"/>
+  </body>
+  <std:studiosetting>
+    <std:hruler/>
+    <std:vruler/>
+  </std:studiosetting>
+</html>

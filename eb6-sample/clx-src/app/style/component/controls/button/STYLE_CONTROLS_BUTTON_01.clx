@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:cl="http://tomatosystem.co.kr/cleopatra" xmlns:std="http://tomatosystem.co.kr/cleopatra/studio" std:sid="html-bf3a301b" version="1.0.0.0">
+  <head std:sid="head-e5621d06">
+    <title>STYLE_CONTROLS_BUTTON_01</title>
+    <screen std:sid="screen-4873c512" id="default" name="default" minwidth="1200px" width="1200px" height="768px"/>
+    <screen std:sid="screen-08fbdf08" id="tablet" name="tablet" minwidth="850px" maxwidth="1199px" width="850px" height="768px"/>
+    <screen std:sid="screen-20c03ef0" id="test" name="mobile" maxwidth="849px" width="544px" height="768px"/>
+    <cl:model std:sid="model-b17e1570">
+      <cl:dataset std:sid="d-set-223b27f7" id="dsPropVw" info="프로퍼티 뷰 (속성 뷰)">
+        <cl:datacolumnlist>
+          <cl:datacolumn comment="컨트롤 명" std:sid="d-column-2ab4891d" name="CTRL_NM"/>
+          <cl:datacolumn comment="속성 탭 명" std:sid="d-column-068c1e55" name="PROP_SJ"/>
+          <cl:datacolumn comment="속성 명" std:sid="d-column-3f149788" name="PROP_NM"/>
+          <cl:datacolumn comment="속성 값" std:sid="d-column-53fd0a82" name="PROP_VAL"/>
+          <cl:datacolumn comment="속성 설명" std:sid="d-column-09e0c603" name="PROP_STY_DESC"/>
+        </cl:datacolumnlist>
+        <cl:datarowlist>
+          <cl:datarow>
+            <cl:datavalue columnname="CTRL_NM"><![CDATA[button]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_SJ"><![CDATA[일반]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_NM"><![CDATA[value]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_VAL"><![CDATA[Button]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_STY_DESC"><![CDATA[]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="CTRL_NM"><![CDATA[button]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_SJ"><![CDATA[스타일]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_NM"><![CDATA[class]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_VAL"><![CDATA[btn-soft-primary]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_STY_DESC"><![CDATA[]]></cl:datavalue>
+          </cl:datarow>
+        </cl:datarowlist>
+      </cl:dataset>
+    </cl:model>
+    <cl:appspec title="버튼 스타일"/>
+  </head>
+  <body std:sid="body-ddaa932e" style="top:0px; left:0px; width:800px; height:600px;">
+    <cl:group std:sid="group-59960b1b" class="content-card">
+      <cl:verticaldata std:sid="v-data-e5f20390" width="1200px" height="2860px" autosize="height"/>
+      <cl:udc std:sid="ud-control-b8469aa4" type="udc.cmn.AppTitle">
+        <cl:verticaldata std:sid="v-data-f0bae039" width="1140px" height="175px" autosize="none"/>
+        <cl:property name="tags" value="퍼블리싱,버튼" type="string"/>
+      </cl:udc>
+      <cl:group std:sid="group-a4b3eb74">
+        <cl:verticaldata std:sid="v-data-3747f6b2" width="400px" height="2658px" autosize="height"/>
+        <cl:group std:sid="group-c3b4f76c" class="card-inner">
+          <cl:verticaldata std:sid="v-data-76d5fec5" width="400px" height="211px" autosize="height"/>
+          <cl:udc std:sid="ud-control-400ea92b" id="areatitle1" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-6e7053ba" width="300px" height="38px"/>
+            <cl:property name="value" value="개요" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-91f8c8b3" value="이 문서는 버튼 컨트롤에 스타일을 적용하는 방법에 대하여 설명합니다.&#xD;&#xA;버튼은 호버, 포커스, 액티브 상태에 대하여 스타일을 정의할 수 있습니다.">
+            <cl:verticaldata std:sid="v-data-89fb3e43" width="100px" height="46px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-fc5891b4" class="attach-box">
+            <cl:verticaldata std:sid="v-data-d20e3b78" width="1040px" height="76px" autosize="height"/>
+            <cl:button std:sid="button-45df8da4" id="btn1" value="Button">
+              <cl:flowlayoutdata std:sid="f-data-193debe8" width="100px" height="30px"/>
+            </cl:button>
+            <cl:output std:sid="output-6b266da4" value="→">
+              <cl:flowlayoutdata std:sid="f-data-2eb553f3" width="20px" height="25px" autosize="width"/>
+            </cl:output>
+            <cl:button std:sid="button-e3a626af" id="btn2" class="btn-soft-primary" value="Button">
+              <cl:flowlayoutdata std:sid="f-data-c2d15f5b" width="100px" height="30px"/>
+            </cl:button>
+            <cl:flowlayout std:sid="f-layout-6ea22f5b" scrollable="false" spacing="15" halign="center" valign="middle" linewrap="false" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-f8b7a75d" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-de8c1411" class="card-inner">
+          <cl:verticaldata std:sid="v-data-b7ece3a4" width="400px" height="575px" autosize="height"/>
+          <cl:udc std:sid="ud-control-fb8bf275" id="areatitle2" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-a1e15097" width="1040px" height="38px" autosize="none"/>
+            <cl:property name="value" value="컨트롤 생성 및 설정" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-63aedf87" value="버튼의 크기를 상위 그룹의 레이아웃 종류에 따라 알맞게 크기를 설정합니다.">
+            <cl:verticaldata std:sid="v-data-7a20e9d2" width="100px" height="51px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-5f47d467" class="attach-box">
+            <cl:verticaldata std:sid="v-data-4e38cf7f" width="400px" height="381px" autosize="height"/>
+            <cl:udc std:sid="ud-control-93a40a6f" id="propview1" type="udc.cmn.PropView">
+              <cl:flowlayoutdata std:sid="f-data-c5ae57a6" width="400px" height="350px"/>
+              <cl:property name="dataset" value="dsPropVw" type="control"/>
+              <cl:property name="filterCondition" value="button" type="enumeration"/>
+            </cl:udc>
+            <cl:flowlayout std:sid="f-layout-3c9b5206" scrollable="false" spacing="20" halign="center" valign="middle" leftmargin="20" rightmargin="20" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-fea69ec9" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-11053d61" class="card-inner">
+          <cl:verticaldata std:sid="v-data-92db121e" width="1040px" height="393px" autosize="height"/>
+          <cl:udc std:sid="ud-control-d726449c" id="areatitle3" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-2234104b" width="300px" height="38px"/>
+            <cl:property name="value" value="스타일 시트" type="string"/>
+          </cl:udc>
+          <cl:group std:sid="group-6a755066" id="grp16" class="ref-card info">
+            <cl:verticaldata std:sid="v-data-a577cd31" width="1040px" height="96px" autosize="height"/>
+            <cl:output std:sid="output-d6122608" id="opt14" class="ref-title" value="경로 : LESS 파일">
+              <cl:verticaldata std:sid="v-data-157990b2" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-88c60ef5" id="opt15" value="theme/assets/less/controls/button/STYLE_CONTROLS_BUTTON_01.less">
+              <cl:verticaldata std:sid="v-data-7eea5e7b" width="100px" height="25px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-3d91933b" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:output std:sid="output-c66842e8" value="버튼에 &quot;btn-soft-primary&quot; 클래스를 적용합니다. 버튼에서의 호버, 포커스, 액티브, 비활성화 상태에 따른 스타일을 작성합니다.&#xD;&#xA;&#xD;&#xA;전역적인 버튼 컨트롤에 사용하는 경우 루트 스타일러의 class에 클래스를 적용하지 않도록 합니다. LESS 작성 시에도 전역적인 버튼 컨트롤에 적용될 수 있는 형태로 작성되어야 합니다. 따라서 전역적으로 버튼 컨트롤의 스타일을 변경하고 싶은 경우 button.part.less에서 다음의 스타일을 적용하면 됩니다. 특정 버튼만 스타일을 적용하고 싶은 경우에는 해당 스타일이 적용될 수 있는 class를 작성하여 적용하세요.">
+            <cl:verticaldata std:sid="v-data-d3939fb0" width="1040px" height="126px" autosize="height"/>
+          </cl:output>
+          <cl:udc std:sid="ud-control-b7a23aae" id="ace1" type="udc.cmn.Ace">
+            <cl:verticaldata std:sid="v-data-ae2cf1f3" width="300px" height="50px" autosize="height"/>
+            <cl:property name="value" value=".cl-button.btn-soft-primary {&#xD;&#xA;&#x9;background-image: none; // 기본 버튼 그라데이션 제거&#xD;&#xA;&#x9;background-color: rgba(23,97,253,0.1);&#xD;&#xA;&#x9;border: none;&#xD;&#xA;&#x9;color: #1761fd;&#xD;&#xA;&#x9;text-shadow: none; // 기본 버튼 텍스트 그림자 제거&#xD;&#xA;&#x9;&#xD;&#xA;&#x9;/* 버튼 호버 스타일 */&#xD;&#xA;&#x9;&amp;:not(.cl-disabled):hover {&#xD;&#xA;&#x9;&#x9;background-color: #1761fd;&#xD;&#xA;&#x9;&#x9;color: #ffffff;&#xD;&#xA;    }&#xD;&#xA;    &#xD;&#xA;&#x9;/* 버튼 포커스 스타일 */&#xD;&#xA;    &amp;:focus, &amp;.cl-focus{&#xD;&#xA;&#x9;&#x9;background-color: rgba(23,97,253,0.8);&#xD;&#xA;    &#x9;box-shadow: 0 0 0 2px rgba(23, 97, 253, 0.2);&#xD;&#xA;    &#x9;color: #ffffff;&#xD;&#xA;    }&#xD;&#xA;    &#xD;&#xA;&#x9;/* 버튼 액티브 스타일 */&#xD;&#xA;    &amp;:not(.cl-disabled).cl-activated, &amp;:not(.cl-disabled):active {&#xD;&#xA;    &#x9;background-image: none; // 기본 버튼 그라데이션 제거&#xD;&#xA;&#x9;&#x9;background-color: rgba(23,97,253,0.8);&#xD;&#xA;    &#x9;color: #ffffff;&#xD;&#xA;    }&#xD;&#xA;    &#xD;&#xA;    /* 버튼 비활성화 스타일 */&#xD;&#xA;    &amp;.cl-disabled {&#xD;&#xA;    &#x9;opacity: 0.7;&#xD;&#xA;    }&#xD;&#xA;}" type="string"/>
+            <cl:property name="language" value="ace/mode/less" type="enumeration"/>
+          </cl:udc>
+          <cl:verticallayout std:sid="v-layout-81987a1e" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-f5df0ee5" class="card-inner">
+          <cl:verticaldata std:sid="v-data-35411d62" width="1040px" height="259px" autosize="height"/>
+          <cl:udc std:sid="ud-control-c65fdfe7" id="areatitle4" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-980fb5f9" width="300px" height="38px"/>
+            <cl:property name="value" value="주요 기능" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-df49c14a" value="`주요 기능에 대하여 작성합니다.`">
+            <cl:verticaldata std:sid="v-data-e0f2ddad" width="1040px" height="24px" autosize="height"/>
+          </cl:output>
+          <cl:udc std:sid="ud-control-10dd49ff" id="ace2" type="udc.cmn.Ace">
+            <cl:verticaldata std:sid="v-data-ffeb6519" width="300px" height="29px" autosize="height"/>
+            <cl:property name="value" value="var vcCbxTy2 = app.lookup(&quot;cbxTy2&quot;);&#xD;&#xA;var vcGrpWrap = vcCbxTy2.getParent();&#xD;&#xA;&#x9;&#xD;&#xA;var vbChecked = vcCbxTy2.checked;&#xD;&#xA;if (vbChecked){&#xD;&#xA;&#x9;vcGrpWrap.updateConstraint(vcCbxTy2, {&#xD;&#xA;&#x9;&#x9;left : &quot;calc(100% - &quot; + vcCbxTy2.getActualRect().width + &quot;px - 3px)&quot;&#xD;&#xA;&#x9;});&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;/* 토글 상태로 변경 */&#xD;&#xA;&#x9;vcGrpWrap.style.addClass(&quot;on&quot;);&#xD;&#xA;} else {&#xD;&#xA;&#x9;vcGrpWrap.updateConstraint(vcCbxTy2, {&#xD;&#xA;&#x9;&#x9;left : &quot;3px&quot;&#xD;&#xA;&#x9;});&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;/* 토글 상태 해제 */&#xD;&#xA;&#x9;vcGrpWrap.style.removeClass(&quot;on&quot;);&#xD;&#xA;}" type="string"/>
+          </cl:udc>
+          <cl:group std:sid="group-09d32a74" class="form-box vertical">
+            <cl:verticaldata std:sid="v-data-f0926932" width="400px" height="82px" autosize="height"/>
+            <cl:output std:sid="output-ebfd262a" class="label" value="컨트롤">
+              <cl:formdata std:sid="f-data-29062f84" row="0" col="0"/>
+            </cl:output>
+            <cl:output std:sid="output-8528dd47" class="label" value="API">
+              <cl:formdata std:sid="f-data-45811037" row="0" col="1"/>
+            </cl:output>
+            <cl:output std:sid="output-96613175" class="label" value="설명">
+              <cl:formdata std:sid="f-data-650fab76" row="0" col="2"/>
+            </cl:output>
+            <cl:formlayout std:sid="f-layout-74e4f45e" hspace="10px" vspace="10px" top-margin="5px" right-margin="5px" bottom-margin="5px" left-margin="5px" hseparatorwidth="1" hseparatortype="BY_CLASS" vseparatorwidth="1" vseparatortype="BY_CLASS">
+              <cl:rows length="30" unit="PIXEL" autoSizing="false" shadetype="BY_CLASS" shadecolor="#000000" minlength="0"/>
+              <cl:rows length="30" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="100" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="250" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="1" unit="FRACTION"/>
+            </cl:formlayout>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-7fc796fa" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-1c3aa905" class="card-inner">
+          <cl:verticaldata std:sid="v-data-dc5153b2" width="400px" height="351px" autosize="height"/>
+          <cl:udc std:sid="ud-control-bcb64de7" id="areatitle5" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-644908cd" width="1040px" height="38px" autosize="none"/>
+            <cl:property name="value" value="유의사항" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-495c0c07" value="``">
+            <cl:verticaldata std:sid="v-data-46b08fb4" width="100px" height="139px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-1488dccb" class="ref-card danger">
+            <cl:verticaldata std:sid="v-data-6a83a5c9" width="1200px" height="100px" autosize="height"/>
+            <cl:output std:sid="output-64057e29" class="ref-title" value="">
+              <cl:verticaldata std:sid="v-data-437b9b9a" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-721ab1e1" value="``">
+              <cl:verticaldata std:sid="v-data-6e431a84" width="100px" height="25px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-f4b4941d" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-4a914592" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-f59d0528" class="card-inner">
+          <cl:verticaldata std:sid="v-data-4e6004be" width="400px" height="218px" autosize="height"/>
+          <cl:udc std:sid="ud-control-3dead214" id="areatitle6" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-1ff324f1" width="1040px" height="38px" autosize="none"/>
+            <cl:property name="value" value="최소 요구 버전" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-50ed7766" id="opt1" value="``">
+            <cl:verticaldata std:sid="v-data-c03d0e2d" width="100px" height="25px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-62079995" id="grp14" class="ref-card warning">
+            <cl:verticaldata std:sid="v-data-f752b593" width="1040px" height="100px" autosize="height"/>
+            <cl:output std:sid="output-a9b248ef" id="opt10" class="ref-title" value="WARNING">
+              <cl:verticaldata std:sid="v-data-8dbfa4b4" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-532ac550" id="opt11" value="`특별히 인지해야 하는 정보에 대하여 작성하십시오.`">
+              <cl:verticaldata std:sid="v-data-7f6b1b60" width="100px" height="25px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-7607fc8d" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-25a6e49a" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-bc3decc0" class="card-inner">
+          <cl:verticaldata std:sid="v-data-fc989f6e" width="1040px" height="215px" autosize="height"/>
+          <cl:udc std:sid="ud-control-73179844" id="areatitle7" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-97420d3e" width="300px" height="38px"/>
+            <cl:property name="value" value="도움말" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-b1c673c6" value="버튼에 대한 자세한 사항은 도움말을 참조하십시오.">
+            <cl:verticaldata std:sid="v-data-69dd3988" width="1040px" height="25px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-d5720f02" class="ref-card default">
+            <cl:verticaldata std:sid="v-data-1337c753" width="1100px" height="143px" autosize="height"/>
+            <cl:output std:sid="output-db87d1e6" class="ref-title" value="Help Contents">
+              <cl:verticaldata std:sid="v-data-dbec6302" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-1ead4169" value="eXBuilder6 > API Reference > cpr.controls > Button&#xD;&#xA;eXBuilder6 > 앱 개발 > 컨트롤 > UI 컨트롤 > 버튼">
+              <cl:verticaldata std:sid="v-data-92cfcea7" width="100px" height="44px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-5c36a7b6" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-49276802" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:verticallayout std:sid="v-layout-a50c518b" spacing="20" leftmargin="50" rightmargin="50" topmargin="20" bottommargin="60"/>
+      </cl:group>
+      <cl:verticallayout std:sid="v-layout-5825919e" spacing="0"/>
+    </cl:group>
+    <cl:udc std:sid="ud-control-98388c51" id="updatedtitle1" type="udc.cmn.UpdatedTitle">
+      <cl:verticaldata std:sid="v-data-06f3a0cc" width="1200px" height="25px"/>
+      <cl:property name="value" value="20210305" type="string"/>
+    </cl:udc>
+    <cl:verticallayout std:sid="v-layout-8cf4124d"/>
+  </body>
+  <std:studiosetting>
+    <std:hruler/>
+    <std:vruler/>
+  </std:studiosetting>
+</html>

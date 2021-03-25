@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:cl="http://tomatosystem.co.kr/cleopatra" xmlns:std="http://tomatosystem.co.kr/cleopatra/studio" std:sid="html-c8cc0522" version="1.0.0.0">
+  <head std:sid="head-478d4b03">
+    <title>SCRIPT_CONTROLS_MDIFOLDER_01_B</title>
+    <screen std:sid="screen-a9db035f" id="default" name="default" minwidth="1200px" width="1200px" height="768px"/>
+    <screen std:sid="screen-c48260f8" id="tablet" name="tablet" minwidth="850px" maxwidth="1199px" width="850px" height="768px"/>
+    <screen std:sid="screen-68b42f51" id="test" name="mobile" maxwidth="849px" width="544px" height="768px"/>
+    <cl:model std:sid="model-46880220"/>
+    <cl:appspec title="MDI B"/>
+  </head>
+  <body std:sid="body-51ffb795" style="top:0px; left:0px; width:800px; height:600px;">
+    <cl:output std:sid="output-98eb9683" style="font-size:40px; text-align:center;" value="MDI폴더 B">
+      <cl:xylayoutdata std:sid="xyl-data-76629ab6" width="300px" height="60px" horizontalAnchor="CENTER" verticalAnchor="CENTER"/>
+    </cl:output>
+    <cl:xylayout std:sid="xylayout-e4d68d9c"/>
+  </body>
+  <std:studiosetting>
+    <std:hruler/>
+    <std:vruler/>
+  </std:studiosetting>
+</html>

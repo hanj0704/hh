@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:cl="http://tomatosystem.co.kr/cleopatra" xmlns:std="http://tomatosystem.co.kr/cleopatra/studio" std:sid="html-dee2c875" version="1.0.0.0">
+  <head std:sid="head-45c2aebc">
+    <title>SCRIPT_CONTROLS_COMBOBOX_02</title>
+    <screen std:sid="screen-6a9ceb5c" id="default" name="default" minwidth="1200px" width="1200px" height="768px"/>
+    <screen std:sid="screen-da6cb12e" id="tablet" name="tablet" minwidth="850px" maxwidth="1199px" width="850px" height="768px"/>
+    <screen std:sid="screen-7ccd34f2" id="test" name="mobile" maxwidth="849px" width="544px" height="768px"/>
+    <cl:model std:sid="model-6b654a50">
+      <cl:dataset std:sid="d-set-5d85edf4" id="dsList">
+        <cl:dataview std:sid="d-view-612756a1" id="dvList"/>
+        <cl:datacolumnlist>
+          <cl:datacolumn std:sid="d-column-6452ed09" name="tensDigit"/>
+          <cl:datacolumn std:sid="d-column-634d7efb" name="onesDigit"/>
+        </cl:datacolumnlist>
+        <cl:datarowlist>
+          <cl:datarow>
+            <cl:datavalue columnname="tensDigit">10</cl:datavalue>
+            <cl:datavalue columnname="onesDigit">11</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="tensDigit">20</cl:datavalue>
+            <cl:datavalue columnname="onesDigit">21</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="tensDigit">30</cl:datavalue>
+            <cl:datavalue columnname="onesDigit">31</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="tensDigit">10</cl:datavalue>
+            <cl:datavalue columnname="onesDigit">12</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="tensDigit">20</cl:datavalue>
+            <cl:datavalue columnname="onesDigit">22</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="tensDigit">30</cl:datavalue>
+            <cl:datavalue columnname="onesDigit">32</cl:datavalue>
+          </cl:datarow>
+        </cl:datarowlist>
+      </cl:dataset>
+      <cl:dataset std:sid="d-set-917bec4b" id="dsCmb1">
+        <cl:datacolumnlist>
+          <cl:datacolumn std:sid="d-column-894a6321" name="label"/>
+          <cl:datacolumn std:sid="d-column-8ac1ac04" name="value"/>
+        </cl:datacolumnlist>
+        <cl:datarowlist>
+          <cl:datarow>
+            <cl:datavalue columnname="label">10</cl:datavalue>
+            <cl:datavalue columnname="value">10</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="label">20</cl:datavalue>
+            <cl:datavalue columnname="value">20</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="label">30</cl:datavalue>
+            <cl:datavalue columnname="value">30</cl:datavalue>
+          </cl:datarow>
+        </cl:datarowlist>
+      </cl:dataset>
+      <cl:dataset std:sid="d-set-40c46a55" id="dsCmb2">
+        <cl:datacolumnlist>
+          <cl:datacolumn std:sid="d-column-9817e30a" name="label"/>
+          <cl:datacolumn std:sid="d-column-690bcace" name="value"/>
+          <cl:datacolumn std:sid="d-column-3e588da8" name="parent"/>
+        </cl:datacolumnlist>
+        <cl:datarowlist>
+          <cl:datarow>
+            <cl:datavalue columnname="label">11</cl:datavalue>
+            <cl:datavalue columnname="value">11</cl:datavalue>
+            <cl:datavalue columnname="parent">10</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="label">12</cl:datavalue>
+            <cl:datavalue columnname="value">12</cl:datavalue>
+            <cl:datavalue columnname="parent">10</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="label">13</cl:datavalue>
+            <cl:datavalue columnname="value">13</cl:datavalue>
+            <cl:datavalue columnname="parent">10</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="label">14</cl:datavalue>
+            <cl:datavalue columnname="value">14</cl:datavalue>
+            <cl:datavalue columnname="parent">10</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="label">15</cl:datavalue>
+            <cl:datavalue columnname="value">15</cl:datavalue>
+            <cl:datavalue columnname="parent">10</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="label">16</cl:datavalue>
+            <cl:datavalue columnname="value">16</cl:datavalue>
+            <cl:datavalue columnname="parent">10</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="label">17</cl:datavalue>
+            <cl:datavalue columnname="value">17</cl:datavalue>
+            <cl:datavalue columnname="parent">10</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="label">18</cl:datavalue>
+            <cl:datavalue columnname="value">18</cl:datavalue>
+            <cl:datavalue columnname="parent">10</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="label">19</cl:datavalue>
+            <cl:datavalue columnname="value">19</cl:datavalue>
+            <cl:datavalue columnname="parent">10</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="label">21</cl:datavalue>
+            <cl:datavalue columnname="value">21</cl:datavalue>
+            <cl:datavalue columnname="parent">20</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="label">22</cl:datavalue>
+            <cl:datavalue columnname="value">22</cl:datavalue>
+            <cl:datavalue columnname="parent">20</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="label">23</cl:datavalue>
+            <cl:datavalue columnname="value">23</cl:datavalue>
+            <cl:datavalue columnname="parent">20</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="label">24</cl:datavalue>
+            <cl:datavalue columnname="value">24</cl:datavalue>
+            <cl:datavalue columnname="parent">20</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="label">25</cl:datavalue>
+            <cl:datavalue columnname="value">25</cl:datavalue>
+            <cl:datavalue columnname="parent">20</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="label">26</cl:datavalue>
+            <cl:datavalue columnname="value">26</cl:datavalue>
+            <cl:datavalue columnname="parent">20</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="label">27</cl:datavalue>
+            <cl:datavalue columnname="value">27</cl:datavalue>
+            <cl:datavalue columnname="parent">20</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="label">28</cl:datavalue>
+            <cl:datavalue columnname="value">28</cl:datavalue>
+            <cl:datavalue columnname="parent">20</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="label">29</cl:datavalue>
+            <cl:datavalue columnname="value">29</cl:datavalue>
+            <cl:datavalue columnname="parent">20</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="label">31</cl:datavalue>
+            <cl:datavalue columnname="value">31</cl:datavalue>
+            <cl:datavalue columnname="parent">30</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="label">32</cl:datavalue>
+            <cl:datavalue columnname="value">32</cl:datavalue>
+            <cl:datavalue columnname="parent">30</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="label">33</cl:datavalue>
+            <cl:datavalue columnname="value">33</cl:datavalue>
+            <cl:datavalue columnname="parent">30</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="label">34</cl:datavalue>
+            <cl:datavalue columnname="value">34</cl:datavalue>
+            <cl:datavalue columnname="parent">30</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="label">35</cl:datavalue>
+            <cl:datavalue columnname="value">35</cl:datavalue>
+            <cl:datavalue columnname="parent">30</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="label">36</cl:datavalue>
+            <cl:datavalue columnname="value">36</cl:datavalue>
+            <cl:datavalue columnname="parent">30</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="label">37</cl:datavalue>
+            <cl:datavalue columnname="value">37</cl:datavalue>
+            <cl:datavalue columnname="parent">30</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="label">38</cl:datavalue>
+            <cl:datavalue columnname="value">38</cl:datavalue>
+            <cl:datavalue columnname="parent">30</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="label">39</cl:datavalue>
+            <cl:datavalue columnname="value">39</cl:datavalue>
+            <cl:datavalue columnname="parent">30</cl:datavalue>
+          </cl:datarow>
+        </cl:datarowlist>
+      </cl:dataset>
+      <cl:dataset std:sid="d-set-223b27f7" id="dsPropVw" info="프로퍼티 뷰 (속성 뷰)">
+        <cl:datacolumnlist>
+          <cl:datacolumn comment="컨트롤 명" std:sid="d-column-2ab4891d" name="CTRL_NM"/>
+          <cl:datacolumn comment="속성 탭 명" std:sid="d-column-068c1e55" name="PROP_SJ"/>
+          <cl:datacolumn comment="속성 명" std:sid="d-column-3f149788" name="PROP_NM"/>
+          <cl:datacolumn comment="속성 값" std:sid="d-column-53fd0a82" name="PROP_VAL"/>
+          <cl:datacolumn comment="속성 설명" std:sid="d-column-09e0c603" name="PROP_STY_DESC"/>
+        </cl:datacolumnlist>
+        <cl:datarowlist>
+          <cl:datarow>
+            <cl:datavalue columnname="CTRL_NM">combobox</cl:datavalue>
+            <cl:datavalue columnname="PROP_SJ">일반</cl:datavalue>
+            <cl:datavalue columnname="PROP_NM">filterExp</cl:datavalue>
+            <cl:datavalue columnname="PROP_VAL">parent==tensDigit</cl:datavalue>
+            <cl:datavalue columnname="PROP_STY_DESC"/>
+          </cl:datarow>
+        </cl:datarowlist>
+      </cl:dataset>
+    </cl:model>
+    <cl:appspec title="콤보박스 필터"/>
+  </head>
+  <body std:sid="body-42838fb2" style="top:0px; left:0px; width:800px; height:600px;">
+    <cl:group std:sid="group-59960b1b" class="content-card">
+      <cl:verticaldata std:sid="v-data-4d436769" width="1200px" height="4154px" autosize="height"/>
+      <cl:udc std:sid="ud-control-b8469aa4" type="udc.cmn.AppTitle">
+        <cl:verticaldata std:sid="v-data-f0bae039" width="1140px" height="175px" autosize="none"/>
+        <cl:property name="tags" value="콤보박스,그리드,필터,익스프레션,콤보박스 API" type="string"/>
+      </cl:udc>
+      <cl:group std:sid="group-a4b3eb74">
+        <cl:verticaldata std:sid="v-data-3747f6b2" width="400px" height="3972px" autosize="height"/>
+        <cl:group std:sid="group-c3b4f76c" class="card-inner">
+          <cl:verticaldata std:sid="v-data-76d5fec5" width="400px" height="119px" autosize="height"/>
+          <cl:udc std:sid="ud-control-400ea92b" id="areatitle1" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-6e7053ba" width="300px" height="38px"/>
+            <cl:property name="value" value="개요" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-91f8c8b3" value="이 문서는 콤보박스 필터에 대하여 설명합니다.&#xD;&#xA;콤보박스에서 제공하는 API 또는 filterExp속성을 사용하여 콤보박스 필터를 구성할 수 있습니다.">
+            <cl:verticaldata std:sid="v-data-89fb3e43" width="100px" height="46px" autosize="height"/>
+          </cl:output>
+          <cl:verticallayout std:sid="v-layout-f8b7a75d" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-de8c1411" class="card-inner">
+          <cl:verticaldata std:sid="v-data-b9cc578f" width="1100px" height="1154px" autosize="height"/>
+          <cl:udc std:sid="ud-control-fb8bf275" id="areatitle2" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-a1e15097" width="1040px" height="38px" autosize="none"/>
+            <cl:property name="value" value="컨트롤 생성 및 설정" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-63aedf87" value="그리드 컨트롤을 [Palette] 뷰에서 찾아 디자인 편집기에 배치합니다.&#xD;&#xA;&#xD;&#xA;그리드에 연결될 데이터 셋을 [Model] 뷰를 통해 생성합니다. 데이터 셋의 ID는 &quot;dsList&quot;로 설정하고, 해당 데이터 셋에 tensDigit, onesDigit 컬럼을 추가합니다.&#xD;&#xA;&#xD;&#xA;데이터 셋 구성이 완료되면 데이터 셋을 그리드에 드래그 앤 드롭하여 연결하고, 그리드 생성 옵션의 '행 번호 컬럼 생성' 옵션에 체크하여 그리드 구성을 완료합니다.&#xD;&#xA;&#xD;&#xA;그리드 편집기에서 콤보박스 컨트롤을 [Palette] 뷰에서 찾아 각 컬럼에 배치합니다.&#xD;&#xA;&#xD;&#xA;그리드 편집기에 배치한 tensDigit컬럼 첫번째 콤보박스 데이터 셋의 ID는 &quot;dsCmb1&quot;로 설정하고, 해당 데이터 셋에 label, value 컬럼을 추가 후 콤보박스 [Assist] 뷰를 통해 label, value를 바인딩 합니다.&#xD;&#xA;&#xD;&#xA;그리드 편집기에 배치한 onesDigit컬럼 두번째 콤보박스 데이터 셋의 ID는 &quot;dsCmb2&quot;로 설정하고, 해당 데이터 셋에 label, value, parent 컬럼을 추가 후 콤보박스 [Assist] 뷰를 통해 위와 같이 label, value를 바인딩 합니다.">
+            <cl:verticaldata std:sid="v-data-7a20e9d2" width="100px" height="141px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-5f47d467" class="attach-box">
+            <cl:verticaldata std:sid="v-data-4e38cf7f" width="400px" height="381px" autosize="height"/>
+            <cl:group std:sid="group-c0c8a107">
+              <cl:flowlayoutdata std:sid="f-data-727427eb" width="200px" height="300px" autosize="none"/>
+              <cl:output std:sid="output-a7b32d96" class="text-center" value="&lt;기본 콤보박스 컨트롤>">
+                <cl:formdata std:sid="f-data-aa05ad8a" row="1" col="0"/>
+              </cl:output>
+              <cl:group std:sid="group-153b1784">
+                <cl:formdata std:sid="f-data-c30f5931" row="0" col="0"/>
+                <cl:combobox std:sid="c-box-2425160b" id="cmb">
+                  <cl:xylayoutdata std:sid="xyl-data-1972f991" width="160px" height="50px" horizontalAnchor="CENTER" verticalAnchor="CENTER"/>
+                </cl:combobox>
+                <cl:xylayout std:sid="xylayout-e1aba2cb"/>
+              </cl:group>
+              <cl:formlayout std:sid="f-layout-8dbac282" hspace="5px" vspace="5px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+                <cl:rows length="1" unit="FRACTION" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+                <cl:rows length="20" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+                <cl:columns length="1" unit="FRACTION"/>
+              </cl:formlayout>
+            </cl:group>
+            <cl:group std:sid="group-d161ccf6">
+              <cl:flowlayoutdata std:sid="f-data-319df002" width="400px" height="300px" autosize="none"/>
+              <cl:output std:sid="output-5aa6c1ae" class="text-center" value="&lt;그리드 내 콤보박스>">
+                <cl:formdata std:sid="f-data-6ce63a53" row="1" col="0"/>
+              </cl:output>
+              <cl:grid std:sid="grid-59446d11" id="grdCmbFilterView" datasetid="dvList">
+                <cl:formdata std:sid="f-data-a8ce151a" row="0" col="0"/>
+                <cl:gridcolumn std:sid="g-column-7740a605" width="25px"/>
+                <cl:gridcolumn std:sid="g-column-c7453fa1"/>
+                <cl:gridcolumn std:sid="g-column-134abaf3"/>
+                <cl:gridheader std:sid="gh-band-b7998aa6">
+                  <cl:gridrow std:sid="g-row-63747f35" height="35px"/>
+                  <cl:gridcell std:sid="gh-cell-0d446f91" rowindex="0" colindex="0" sortable="false" filterable="false" text="No"/>
+                  <cl:gridcell std:sid="gh-cell-a20201a0" rowindex="0" colindex="1" targetcolumnname="tensDigit" sortable="false" filterable="false" text="십의 자리수"/>
+                  <cl:gridcell std:sid="gh-cell-d1aa4ef9" rowindex="0" colindex="2" targetcolumnname="onesDigit" sortable="false" filterable="false" text="일의 자리수"/>
+                </cl:gridheader>
+                <cl:griddetail std:sid="gd-band-ca02ac8b">
+                  <cl:gridrow std:sid="g-row-7c12d8eb" height="30px"/>
+                  <cl:gridcell std:sid="gd-cell-9fc2e257" rowindex="0" colindex="0" columntype="rowindex"/>
+                  <cl:gridcell std:sid="gd-cell-dfff72f7" rowindex="0" colindex="1" columnname="tensDigit">
+                    <cl:combobox std:sid="c-box-ce0396d1" id="cmb1" class="text-center">
+                      <cl:itemset datasetid="dsCmb1" label="label" value="value"/>
+                    </cl:combobox>
+                  </cl:gridcell>
+                  <cl:gridcell std:sid="gd-cell-e11ebbc7" rowindex="0" colindex="2" columnname="onesDigit">
+                    <cl:combobox std:sid="c-box-9bdd7bcb" id="cmb2" class="text-center">
+                      <cl:itemset datasetid="dsCmb2" label="label" value="value"/>
+                    </cl:combobox>
+                  </cl:gridcell>
+                </cl:griddetail>
+              </cl:grid>
+              <cl:formlayout std:sid="f-layout-55aaa290" hspace="5px" vspace="5px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+                <cl:rows length="1" unit="FRACTION" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+                <cl:rows length="20" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+                <cl:columns length="1" unit="FRACTION"/>
+              </cl:formlayout>
+            </cl:group>
+            <cl:flowlayout std:sid="f-layout-3c9b5206" scrollable="false" spacing="20" halign="center" valign="middle" leftmargin="20" rightmargin="20" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:group std:sid="group-64cf6790" class="ref-card warning">
+            <cl:verticaldata std:sid="v-data-a0c7e13b" width="1100px" height="100px" autosize="height"/>
+            <cl:output std:sid="output-7286c2ac" class="ref-title" value="filterExp 속성">
+              <cl:verticaldata std:sid="v-data-4228b642" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-88655785" value="filterExp 사용하여 콤보박스를 필터할 경우 콤보박스 [속성] 뷰에서 filterExp에 조건식을 넣어 사용하시기 바랍니다.&#xD;&#xA;(밑에 [속성] 뷰와 적용된 콤보박스를 통해 확인 해 보시기 바랍니다.)">
+              <cl:verticaldata std:sid="v-data-d95ef583" width="100px" height="25px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-00d403f9" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:group std:sid="group-fd078b77" class="attach-box">
+            <cl:verticaldata std:sid="v-data-0342b492" width="1100px" height="381px" autosize="height"/>
+            <cl:udc std:sid="ud-control-6d8132ca" id="propview1" type="udc.cmn.PropView">
+              <cl:flowlayoutdata std:sid="f-data-ed759f84" width="400px" height="350px"/>
+              <cl:property name="dataset" value="dsPropVw" type="control"/>
+              <cl:property name="filterType" value="control" type="enumeration"/>
+              <cl:property name="filterCondition" value="combobox" type="enumeration"/>
+            </cl:udc>
+            <cl:group std:sid="group-fda8b24d">
+              <cl:flowlayoutdata std:sid="f-data-c580970c" width="400px" height="300px" autosize="none"/>
+              <cl:output std:sid="output-bc23bcdc" class="text-center" value="&lt;filterExp 적용 그리드 내 콤보박스>">
+                <cl:formdata std:sid="f-data-9feedffc" row="1" col="0"/>
+              </cl:output>
+              <cl:grid std:sid="grid-6d859a37" id="grdCmbFilterView2" datasetid="dvList">
+                <cl:formdata std:sid="f-data-344d8fc3" row="0" col="0"/>
+                <cl:gridcolumn std:sid="g-column-da0153da" width="25px"/>
+                <cl:gridcolumn std:sid="g-column-4e136d39"/>
+                <cl:gridcolumn std:sid="g-column-4e9eb669"/>
+                <cl:gridheader std:sid="gh-band-85f1c26d">
+                  <cl:gridrow std:sid="g-row-5ccce01e" height="35px"/>
+                  <cl:gridcell std:sid="gh-cell-d745e960" rowindex="0" colindex="0" sortable="false" filterable="false" text="No"/>
+                  <cl:gridcell std:sid="gh-cell-a77a9b7c" rowindex="0" colindex="1" targetcolumnname="tensDigit" sortable="false" filterable="false" text="십의 자리수"/>
+                  <cl:gridcell std:sid="gh-cell-1fbf5d8c" rowindex="0" colindex="2" targetcolumnname="onesDigit" sortable="false" filterable="false" text="일의 자리수"/>
+                </cl:gridheader>
+                <cl:griddetail std:sid="gd-band-d9eadaee">
+                  <cl:gridrow std:sid="g-row-68dd7d4a" height="30px"/>
+                  <cl:gridcell std:sid="gd-cell-ccdb50fb" rowindex="0" colindex="0" columntype="rowindex"/>
+                  <cl:gridcell std:sid="gd-cell-8151e029" rowindex="0" colindex="1" columnname="tensDigit">
+                    <cl:combobox std:sid="c-box-a2573a34" id="cmbTensDigitsView" class="text-center">
+                      <cl:listener std:sid="listener-2270d5df" name="selection-change" handler="onCmbTensDigitsViewSelectionChange"/>
+                      <cl:itemset datasetid="dsCmb1" label="label" value="value"/>
+                    </cl:combobox>
+                  </cl:gridcell>
+                  <cl:gridcell std:sid="gd-cell-23d141f4" rowindex="0" colindex="2" columnname="onesDigit">
+                    <cl:combobox std:sid="c-box-0cfb4912" id="cmbOnesDigitView" class="text-center" filterexp="parent==tensDigit">
+                      <cl:itemset datasetid="dsCmb2" label="label" value="value"/>
+                    </cl:combobox>
+                  </cl:gridcell>
+                </cl:griddetail>
+              </cl:grid>
+              <cl:formlayout std:sid="f-layout-056e0103" hspace="5px" vspace="5px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+                <cl:rows length="1" unit="FRACTION" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+                <cl:rows length="20" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+                <cl:columns length="1" unit="FRACTION"/>
+              </cl:formlayout>
+            </cl:group>
+            <cl:flowlayout std:sid="f-layout-d3d4114e" scrollable="false" spacing="20" halign="center" valign="middle" leftmargin="20" rightmargin="20" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-fea69ec9" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-11053d61" class="card-inner">
+          <cl:verticaldata std:sid="v-data-fff0ab9c" width="1100px" height="393px" autosize="height"/>
+          <cl:udc std:sid="ud-control-d726449c" id="areatitle3" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-2234104b" width="300px" height="38px"/>
+            <cl:property name="value" value="스타일 시트" type="string"/>
+          </cl:udc>
+          <cl:group std:sid="group-6a755066" id="grp16" class="ref-card info">
+            <cl:verticaldata std:sid="v-data-a577cd31" width="1040px" height="96px" autosize="height"/>
+            <cl:output std:sid="output-d6122608" id="opt14" class="ref-title" value="경로 : LESS 파일">
+              <cl:verticaldata std:sid="v-data-157990b2" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-88c60ef5" id="opt15" value="`clx-src/asset/STY_CTRL_SLCT_01.less`">
+              <cl:verticaldata std:sid="v-data-7eea5e7b" width="100px" height="25px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-3d91933b" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:output std:sid="output-c66842e8" value="`스타일 시트 내용을 입력하십시오.`">
+            <cl:verticaldata std:sid="v-data-d3939fb0" width="1040px" height="126px" autosize="height"/>
+          </cl:output>
+          <cl:udc std:sid="ud-control-b7a23aae" id="ace1" type="udc.cmn.Ace">
+            <cl:verticaldata std:sid="v-data-ae2cf1f3" width="300px" height="50px" autosize="height"/>
+            <cl:property name="value" value=".cl-container.toggle-wrap {&#xD;&#xA;&#x9;/* 토글 버튼 스타일 */&#xD;&#xA;&#x9;background-color: #cccccc;&#xD;&#xA;&#x9;border-radius: 5px;&#xD;&#xA;&#x9;&#xD;&#xA;&#x9;.cl-checkbox.toggle {&#xD;&#xA;&#x9;&#x9;/* 토글되지 않은 상태 스타일 */&#xD;&#xA;&#x9;&#x9;padding: 0px;&#xD;&#xA;&#x9;&#x9;text-align: center;&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;.cl-checkbox-wrap {&#xD;&#xA;&#x9;&#x9;&#x9;/* 체크박스 아이콘 래퍼 스타일 */&#xD;&#xA;&#x9;&#x9;&#x9;vertical-align: middle;&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;.cl-checkbox-icon {&#xD;&#xA;&#x9;&#x9;&#x9;/* 체크박스 아이콘 스타일 */&#xD;&#xA;&#x9;&#x9;&#x9;background-image: none;&#xD;&#xA;&#x9;&#x9;&#x9;background-color: #ffffff;&#xD;&#xA;&#x9;&#x9;&#x9;border-radius: 3px;&#xD;&#xA;&#x9;&#x9;&#x9;margin-left: 0px;&#xD;&#xA;&#x9;&#x9;&#x9;width: 20px;&#xD;&#xA;&#x9;&#x9;&#x9;height: 20px;&#xD;&#xA;&#x9;&#x9;&#x9;min-height: 20px;&#xD;&#xA;&#x9;&#x9;&#x9;margin-bottom: 2px;&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&amp;.cl-focus, &amp;:focus {&#xD;&#xA;&#x9;&#x9;&#x9;.cl-checkbox-icon {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;/* 체크박스 포커스 스타일 */&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;outline: none;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;&#xD;&#xA;&#x9;&amp;.on {&#xD;&#xA;&#x9;&#x9;/* 토글 상태 스타일 */&#xD;&#xA;&#x9;&#x9;background-color: #6edc5f;&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;&#xD;&#xA;&#x9;&amp;.round {&#xD;&#xA;&#x9;&#x9;/* 둥근 토글 버튼 스타일 */&#xD;&#xA;&#x9;&#x9;border-radius: 14px;&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;.cl-checkbox.toggle {&#xD;&#xA;&#x9;&#x9;&#x9;.cl-checkbox-icon {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;/* 둥근 토글 버튼 아이콘 스타일 */&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;border-radius: 14px;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;}&#xD;&#xA;}" type="string"/>
+            <cl:property name="language" value="ace/mode/less" type="enumeration"/>
+          </cl:udc>
+          <cl:verticallayout std:sid="v-layout-81987a1e" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-54850849" class="card-inner">
+          <cl:verticaldata std:sid="v-data-2869225a" width="1100px" height="241px" autosize="height"/>
+          <cl:udc std:sid="ud-control-3bc3fa1b" id="areatitle8" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-9d05f978" width="300px" height="38px"/>
+            <cl:property name="value" value="시나리오" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-5fa2801f" value="setFilter API를 사용하여 콤보박스의 십의자리수 항목에 해당하는 일의 자리수 목록으로 필터 되는 기능을 확인한다.">
+            <cl:verticaldata std:sid="v-data-da502c34" width="1040px" height="140px" autosize="height"/>
+          </cl:output>
+          <cl:verticallayout std:sid="v-layout-d8c39c93" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-f5df0ee5" class="card-inner">
+          <cl:verticaldata std:sid="v-data-ec3b1972" width="1100px" height="740px" autosize="height"/>
+          <cl:udc std:sid="ud-control-c65fdfe7" id="areatitle4" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-980fb5f9" width="300px" height="38px"/>
+            <cl:property name="value" value="주요 기능" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-df49c14a" value="시나리오 순서대로 콤보박스 동작과 실행 버튼을 눌러 스크립트를 확인하십시오.">
+            <cl:verticaldata std:sid="v-data-e0f2ddad" width="1040px" height="25px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-dbdd7a02" class="attach-box">
+            <cl:verticaldata std:sid="v-data-5798a75c" width="1040px" height="337px" autosize="height"/>
+            <cl:group std:sid="group-a466b510">
+              <cl:flowlayoutdata std:sid="f-data-8303c484" width="800px" height="300px"/>
+              <cl:output std:sid="output-84338f3d" class="text-center" value="&lt;기능 확인 그리드 내 콤보박스>">
+                <cl:formdata std:sid="f-data-a25ef98e" row="1" col="0"/>
+              </cl:output>
+              <cl:grid std:sid="grid-85fcb36f" id="grdCmbFilter" datasetid="dsList">
+                <cl:listener std:sid="listener-03c296c9" name="selection-change" handler="onGrdCmbFilterSelectionChange"/>
+                <cl:formdata std:sid="f-data-e0d69b0f" row="0" col="0"/>
+                <cl:gridcolumn std:sid="g-column-36bbfd8e" width="25px"/>
+                <cl:gridcolumn std:sid="g-column-5d218fc4"/>
+                <cl:gridcolumn std:sid="g-column-a5c83294"/>
+                <cl:gridheader std:sid="gh-band-d4c824eb">
+                  <cl:gridrow std:sid="g-row-5d32e2cd" height="35px"/>
+                  <cl:gridcell std:sid="gh-cell-1971789b" rowindex="0" colindex="0" sortable="false" filterable="false" text="No"/>
+                  <cl:gridcell std:sid="gh-cell-ea623227" rowindex="0" colindex="1" targetcolumnname="tensDigit" sortable="false" filterable="false" text="십의 자리수"/>
+                  <cl:gridcell std:sid="gh-cell-5ed1100d" rowindex="0" colindex="2" targetcolumnname="onesDigit" sortable="false" filterable="false" text="일의 자리수"/>
+                </cl:gridheader>
+                <cl:griddetail std:sid="gd-band-97fa66f1">
+                  <cl:gridrow std:sid="g-row-b3693215" height="30px"/>
+                  <cl:gridcell std:sid="gd-cell-022708ed" rowindex="0" colindex="0" columntype="rowindex"/>
+                  <cl:gridcell std:sid="gd-cell-ea87379a" rowindex="0" colindex="1" columnname="tensDigit">
+                    <cl:combobox std:sid="c-box-336104d7" id="cmbTensDigit" class="text-center" placeholder="십의 자리수 선택">
+                      <cl:listener std:sid="listener-7e1b7020" name="selection-change" handler="onCmbTensDigitSelectionChange"/>
+                      <cl:itemset datasetid="dsCmb1" label="label" value="value"/>
+                    </cl:combobox>
+                  </cl:gridcell>
+                  <cl:gridcell std:sid="gd-cell-17bb9de5" rowindex="0" colindex="2" columnname="onesDigit">
+                    <cl:combobox std:sid="c-box-7bca8d31" id="cmbOnesDigit" class="text-center" placeholder="일의 자리수 선택">
+                      <cl:itemset datasetid="dsCmb2" label="label" value="value"/>
+                    </cl:combobox>
+                  </cl:gridcell>
+                </cl:griddetail>
+              </cl:grid>
+              <cl:formlayout std:sid="f-layout-2a759d15" hspace="5px" vspace="5px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+                <cl:rows length="1" unit="FRACTION" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+                <cl:rows length="20" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+                <cl:columns length="1" unit="FRACTION"/>
+              </cl:formlayout>
+            </cl:group>
+            <cl:flowlayout std:sid="f-layout-814cfc30" scrollable="false" spacing="20" halign="center" valign="middle" leftmargin="20" rightmargin="20" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:group std:sid="group-09d32a74" class="form-box vertical">
+            <cl:verticaldata std:sid="v-data-14af5a00" width="1100px" height="82px" autosize="height"/>
+            <cl:output std:sid="output-ebfd262a" class="label" value="API">
+              <cl:formdata std:sid="f-data-29062f84" row="0" col="0"/>
+            </cl:output>
+            <cl:output std:sid="output-8528dd47" class="label" value="설명">
+              <cl:formdata std:sid="f-data-45811037" row="0" col="1"/>
+            </cl:output>
+            <cl:output std:sid="output-96613175" class="label" value="입력값">
+              <cl:formdata std:sid="f-data-650fab76" row="0" col="2"/>
+            </cl:output>
+            <cl:output std:sid="output-b7dfb44f" class="label" value="기능확인">
+              <cl:formdata std:sid="f-data-fb62526b" row="0" col="3"/>
+            </cl:output>
+            <cl:output std:sid="output-163c1562" value="콤보박스 아이템 목록에 필터를 지정합니다. 십의 자리수 항목을 선택하면 일의 자리수 항목이 십의 자리수 항목에 해당하는 목록으로 필터링 됩니다.">
+              <cl:formdata std:sid="f-data-e9fde26c" row="1" col="1"/>
+            </cl:output>
+            <cl:button std:sid="button-d034b9a2" id="btnSetFilter" value="실행">
+              <cl:listener std:sid="listener-98666c1b" name="click" handler="onBtnSetFilterClick"/>
+              <cl:formdata std:sid="f-data-f514903b" valign="CENTER" height="30" row="1" col="3"/>
+            </cl:button>
+            <cl:output std:sid="output-da9b088b" value="ComboBox.setFilter()">
+              <cl:formdata std:sid="f-data-981f50ee" row="1" col="0"/>
+            </cl:output>
+            <cl:formlayout std:sid="f-layout-74e4f45e" hspace="10px" vspace="10px" top-margin="5px" right-margin="5px" bottom-margin="5px" left-margin="5px" hseparatorwidth="1" hseparatortype="BY_CLASS" vseparatorwidth="1" vseparatortype="BY_CLASS">
+              <cl:rows length="30" unit="PIXEL" autoSizing="false" shadetype="BY_CLASS" shadecolor="#000000" minlength="0"/>
+              <cl:rows length="30" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="200" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="1" unit="FRACTION" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="200" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="80" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+            </cl:formlayout>
+          </cl:group>
+          <cl:udc std:sid="ud-control-10dd49ff" id="ace" type="udc.cmn.Ace">
+            <cl:verticaldata std:sid="v-data-30d0dacf" width="1100px" height="29px" autosize="height"/>
+          </cl:udc>
+          <cl:group std:sid="group-830fc7ad" class="ref-card warning">
+            <cl:verticaldata std:sid="v-data-501b7a78" width="1100px" height="100px" autosize="height"/>
+            <cl:output std:sid="output-2236ad5e" class="ref-title" value="displayExp 함수사용">
+              <cl:verticaldata std:sid="v-data-78690775" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-c6b3c389" value="콤보박스 .displayExp를 사용하여 expression에서 제공하는 값 label과 value를 조건식을 넣어 사용가능합니다.">
+              <cl:verticaldata std:sid="v-data-54699a12" width="100px" height="25px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-3bae7dbd" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-7fc796fa" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-16a57721" class="card-inner">
+          <cl:verticaldata std:sid="v-data-aa68b8bf" width="1100px" height="369px" autosize="height"/>
+          <cl:udc std:sid="ud-control-e4c183a0" id="areatitle10" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-9e77ae01" width="300px" height="38px"/>
+            <cl:property name="value" value="서버" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-9770224c" value="`서버 소스에 대하여 설명을 작성하십시오.`">
+            <cl:verticaldata std:sid="v-data-821bfd4c" width="1040px" height="25px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-190bf690" class="form-box vertical">
+            <cl:verticaldata std:sid="v-data-6361dc96" width="400px" height="82px" autosize="height"/>
+            <cl:output std:sid="output-e4180ef5" class="label" value="API">
+              <cl:formdata std:sid="f-data-e0e4254a" row="0" col="0"/>
+            </cl:output>
+            <cl:output std:sid="output-92543c87" class="label" value="설명">
+              <cl:formdata std:sid="f-data-f4dcf1c5" row="0" col="1"/>
+            </cl:output>
+            <cl:output std:sid="output-57daa54d" class="label" value="입력값">
+              <cl:formdata std:sid="f-data-b448da6e" row="0" col="2"/>
+            </cl:output>
+            <cl:output std:sid="output-67b58dff" class="label" value="기능확인">
+              <cl:formdata std:sid="f-data-c5ca1f82" row="0" col="3"/>
+            </cl:output>
+            <cl:formlayout std:sid="f-layout-394c576f" hspace="10px" vspace="10px" top-margin="5px" right-margin="5px" bottom-margin="5px" left-margin="5px" hseparatorwidth="1" hseparatortype="BY_CLASS" vseparatorwidth="1" vseparatortype="BY_CLASS">
+              <cl:rows length="30" unit="PIXEL" autoSizing="false" shadetype="BY_CLASS" shadecolor="#000000" minlength="0"/>
+              <cl:rows length="30" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="200" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="1" unit="FRACTION" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="200" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="80" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+            </cl:formlayout>
+          </cl:group>
+          <cl:udc std:sid="ud-control-1a62a7d1" id="ace4" type="udc.cmn.Ace">
+            <cl:verticaldata std:sid="v-data-a1794635" width="300px" height="29px" autosize="height"/>
+          </cl:udc>
+          <cl:verticallayout std:sid="v-layout-2b7ce9f7" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-1c3aa905" class="card-inner">
+          <cl:verticaldata std:sid="v-data-dc5153b2" width="400px" height="216px" autosize="height"/>
+          <cl:udc std:sid="ud-control-bcb64de7" id="areatitle5" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-644908cd" width="1040px" height="38px" autosize="none"/>
+            <cl:property name="value" value="유의사항" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-495c0c07" value="`반드시 숙지해야 하는 정보에 대하여 작성하십시오.`">
+            <cl:verticaldata std:sid="v-data-46b08fb4" width="100px" height="25px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-1488dccb" class="ref-card danger">
+            <cl:verticaldata std:sid="v-data-6a83a5c9" width="1200px" height="100px" autosize="height"/>
+            <cl:output std:sid="output-64057e29" class="ref-title" value="DANGER">
+              <cl:verticaldata std:sid="v-data-437b9b9a" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-721ab1e1" value="`반드시 숙지해야 하는 정보에 대하여 작성하십시오.`">
+              <cl:verticaldata std:sid="v-data-6e431a84" width="100px" height="25px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-f4b4941d" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-4a914592" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-f59d0528" class="card-inner">
+          <cl:verticaldata std:sid="v-data-4e6004be" width="400px" height="218px" autosize="height"/>
+          <cl:udc std:sid="ud-control-3dead214" id="areatitle6" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-1ff324f1" width="1040px" height="38px" autosize="none"/>
+            <cl:property name="value" value="최소 요구 버전" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-50ed7766" value="`해당 기능은 1.0.xxxx 릴리즈 버전 이상부터 사용할 수 있습니다.`">
+            <cl:verticaldata std:sid="v-data-c03d0e2d" width="100px" height="25px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-62079995" class="ref-card warning">
+            <cl:verticaldata std:sid="v-data-f752b593" width="1040px" height="100px" autosize="height"/>
+            <cl:output std:sid="output-a9b248ef" class="ref-title" value="WARNING">
+              <cl:verticaldata std:sid="v-data-8dbfa4b4" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-532ac550" value="`특별히 인지해야 하는 정보에 대하여 작성하십시오.`">
+              <cl:verticaldata std:sid="v-data-7f6b1b60" width="100px" height="25px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-7607fc8d" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-25a6e49a" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-bc3decc0" class="card-inner">
+          <cl:verticaldata std:sid="v-data-fc989f6e" width="1040px" height="229px" autosize="height"/>
+          <cl:udc std:sid="ud-control-73179844" id="areatitle7" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-97420d3e" width="300px" height="38px"/>
+            <cl:property name="value" value="도움말" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-b1c673c6" value="그리드와 콤보박스에 대한 자세한 사항은 도움말을 참조하십시오.">
+            <cl:verticaldata std:sid="v-data-69dd3988" width="1040px" height="25px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-ee002fc3" class="ref-card default">
+            <cl:verticaldata std:sid="v-data-c9537cf9" width="1200px" height="96px" autosize="height"/>
+            <cl:output std:sid="output-5a0e53f8" class="ref-title" value="Help Contents">
+              <cl:verticaldata std:sid="v-data-f51eafad" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-741fa5d5" value="eXBuilder6 > 앱 개발 > 컨트롤 > UI 컨트롤 > 그리드&#xD;&#xA;eXBuilder6 > 앱 개발 > 컨트롤 > UI 컨트롤 > 콤보박스&#xD;&#xA;eXBuilder6 > API Reference > cpr.controls > Grid&#xD;&#xA;eXBuilder6 > API Reference > cpr.controls > ComboBox">
+              <cl:verticaldata std:sid="v-data-c8df8970" width="100px" height="25px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-eff44aa2" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-49276802" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:verticallayout std:sid="v-layout-a50c518b" spacing="20" leftmargin="50" rightmargin="50" topmargin="20" bottommargin="60"/>
+      </cl:group>
+      <cl:verticallayout std:sid="v-layout-5825919e" spacing="0"/>
+    </cl:group>
+    <cl:udc std:sid="ud-control-98388c51" id="updatedtitle1" type="udc.cmn.UpdatedTitle">
+      <cl:verticaldata std:sid="v-data-881f1130" width="1200px" height="25px" autosize="none"/>
+      <cl:property name="value" value="20210308" type="string"/>
+    </cl:udc>
+    <cl:verticallayout std:sid="v-layout-ed36d53d"/>
+  </body>
+  <std:studiosetting>
+    <std:hruler/>
+    <std:vruler/>
+  </std:studiosetting>
+</html>

@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:cl="http://tomatosystem.co.kr/cleopatra" xmlns:std="http://tomatosystem.co.kr/cleopatra/studio" std:sid="html-d37c6ed9" version="1.0.0.0">
+  <head std:sid="head-ecb01235">
+    <title>SCRIPT_CONTROLS_FIELINPUT_01</title>
+    <screen std:sid="screen-72234bc5" id="default" name="default" minwidth="1200px" width="1200px" height="768px"/>
+    <screen std:sid="screen-079ba835" id="tablet" name="tablet" minwidth="850px" maxwidth="1199px" width="850px" height="768px"/>
+    <screen std:sid="screen-53546b56" id="test" name="mobile" maxwidth="849px" width="544px" height="768px"/>
+    <cl:model std:sid="model-2246c808">
+      <cl:dataset std:sid="d-set-2a100359" id="dsList">
+        <cl:datacolumnlist>
+          <cl:datacolumn comment="사번" std:sid="d-column-e285c200" name="empId"/>
+          <cl:datacolumn comment="사원명" std:sid="d-column-1ebec5c1" name="empNm"/>
+          <cl:datacolumn comment="이메일" std:sid="d-column-d74a31d4" name="email"/>
+          <cl:datacolumn comment="핸드폰" std:sid="d-column-b6bc7058" name="phone"/>
+          <cl:datacolumn comment="주소" std:sid="d-column-e9248ae8" name="address"/>
+          <cl:datacolumn comment="등록일자" std:sid="d-column-c05b1ae9" name="rgstDt"/>
+        </cl:datacolumnlist>
+        <cl:datarowlist>
+          <cl:datarow>
+            <cl:datavalue columnname="empId">594-38-4655</cl:datavalue>
+            <cl:datavalue columnname="empNm">Lane Considine</cl:datavalue>
+            <cl:datavalue columnname="email">rbissell0@de.vu</cl:datavalue>
+            <cl:datavalue columnname="phone">010-1886-6554</cl:datavalue>
+            <cl:datavalue columnname="address">12 Burning Wood Avenue</cl:datavalue>
+            <cl:datavalue columnname="rgstDt">20200920</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId">314-39-2150</cl:datavalue>
+            <cl:datavalue columnname="empNm">Selma Fay</cl:datavalue>
+            <cl:datavalue columnname="email">lairton1@amazon.de</cl:datavalue>
+            <cl:datavalue columnname="phone">010-2043-2275</cl:datavalue>
+            <cl:datavalue columnname="address">36 Darwin Avenue</cl:datavalue>
+            <cl:datavalue columnname="rgstDt">20200912</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId">164-62-6156</cl:datavalue>
+            <cl:datavalue columnname="empNm">Neal Zieme</cl:datavalue>
+            <cl:datavalue columnname="email">mjindra2@so-net.ne.jp</cl:datavalue>
+            <cl:datavalue columnname="phone">010-6299-8957</cl:datavalue>
+            <cl:datavalue columnname="address">98 Drewry Junction</cl:datavalue>
+            <cl:datavalue columnname="rgstDt">20200615</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId">484-19-2604</cl:datavalue>
+            <cl:datavalue columnname="empNm">Meggan Auer</cl:datavalue>
+            <cl:datavalue columnname="email">skennet3@dropbox.com</cl:datavalue>
+            <cl:datavalue columnname="phone">010-3187-3090</cl:datavalue>
+            <cl:datavalue columnname="address">9 Montana Terrace</cl:datavalue>
+            <cl:datavalue columnname="rgstDt">20200312</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId">559-13-4942</cl:datavalue>
+            <cl:datavalue columnname="empNm">Araceli Smith</cl:datavalue>
+            <cl:datavalue columnname="email">dhocking4@t.co</cl:datavalue>
+            <cl:datavalue columnname="phone">010-1622-5856</cl:datavalue>
+            <cl:datavalue columnname="address">40863 Scofield Circle</cl:datavalue>
+            <cl:datavalue columnname="rgstDt">20200128</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId">840-42-2888</cl:datavalue>
+            <cl:datavalue columnname="empNm">Mickey Erdman</cl:datavalue>
+            <cl:datavalue columnname="email">hcollins5@stanford.edu</cl:datavalue>
+            <cl:datavalue columnname="phone">010-2768-3424</cl:datavalue>
+            <cl:datavalue columnname="address">556 West Court</cl:datavalue>
+            <cl:datavalue columnname="rgstDt">20200901</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId">144-26-0513</cl:datavalue>
+            <cl:datavalue columnname="empNm">Rosalva Jerde</cl:datavalue>
+            <cl:datavalue columnname="email">olettsom6@addtoany.com</cl:datavalue>
+            <cl:datavalue columnname="phone">010-6745-6895</cl:datavalue>
+            <cl:datavalue columnname="address">20858 Center Parkway</cl:datavalue>
+            <cl:datavalue columnname="rgstDt">20200806</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId">450-28-5237</cl:datavalue>
+            <cl:datavalue columnname="empNm">Teodoro Sanford</cl:datavalue>
+            <cl:datavalue columnname="email">pclampett7@twitpic.com</cl:datavalue>
+            <cl:datavalue columnname="phone">010-8681-1087</cl:datavalue>
+            <cl:datavalue columnname="address">8 Oak Hill</cl:datavalue>
+            <cl:datavalue columnname="rgstDt">20200430</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId">748-53-9610</cl:datavalue>
+            <cl:datavalue columnname="empNm">Shaquana Murazik</cl:datavalue>
+            <cl:datavalue columnname="email">sglaum8@moonfruit.com</cl:datavalue>
+            <cl:datavalue columnname="phone">010-4246-2969</cl:datavalue>
+            <cl:datavalue columnname="address">19885 4th Terrace</cl:datavalue>
+            <cl:datavalue columnname="rgstDt">20191204</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId">437-25-7106</cl:datavalue>
+            <cl:datavalue columnname="empNm">Cliff Green</cl:datavalue>
+            <cl:datavalue columnname="email">mdrever9@adobe.com</cl:datavalue>
+            <cl:datavalue columnname="phone">010-8757-3058</cl:datavalue>
+            <cl:datavalue columnname="address">355 Hanover Hill</cl:datavalue>
+            <cl:datavalue columnname="rgstDt">20200627</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId">203-62-7094</cl:datavalue>
+            <cl:datavalue columnname="empNm">Roberto Padberg</cl:datavalue>
+            <cl:datavalue columnname="email">csisslanda@bizjournals.com</cl:datavalue>
+            <cl:datavalue columnname="phone">010-4603-1770</cl:datavalue>
+            <cl:datavalue columnname="address">7 Texas Center</cl:datavalue>
+            <cl:datavalue columnname="rgstDt">20200809</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId">560-52-8330</cl:datavalue>
+            <cl:datavalue columnname="empNm">Danielle Fisher</cl:datavalue>
+            <cl:datavalue columnname="email">ameadusb@columbia.edu</cl:datavalue>
+            <cl:datavalue columnname="phone">010-7703-5098</cl:datavalue>
+            <cl:datavalue columnname="address">88244 Gerald Point</cl:datavalue>
+            <cl:datavalue columnname="rgstDt">20191215</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId">880-25-8413</cl:datavalue>
+            <cl:datavalue columnname="empNm">Ambrose Senger</cl:datavalue>
+            <cl:datavalue columnname="email">kbeelsc@ezinearticles.com</cl:datavalue>
+            <cl:datavalue columnname="phone">010-0806-5101</cl:datavalue>
+            <cl:datavalue columnname="address">09 Bobwhite Lane</cl:datavalue>
+            <cl:datavalue columnname="rgstDt">20200911</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId">782-76-2048</cl:datavalue>
+            <cl:datavalue columnname="empNm">Demarcus Brown</cl:datavalue>
+            <cl:datavalue columnname="email">dblakeyd@51.la</cl:datavalue>
+            <cl:datavalue columnname="phone">010-4239-8279</cl:datavalue>
+            <cl:datavalue columnname="address">94917 Delladonna Drive</cl:datavalue>
+            <cl:datavalue columnname="rgstDt">20200327</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId">883-93-1783</cl:datavalue>
+            <cl:datavalue columnname="empNm">Johnathan Quigley</cl:datavalue>
+            <cl:datavalue columnname="email">wpaule@networkadvertising.org</cl:datavalue>
+            <cl:datavalue columnname="phone">010-5475-6965</cl:datavalue>
+            <cl:datavalue columnname="address">95647 Erie Lane</cl:datavalue>
+            <cl:datavalue columnname="rgstDt">20200223</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId">359-94-5504</cl:datavalue>
+            <cl:datavalue columnname="empNm">Elias Leannon</cl:datavalue>
+            <cl:datavalue columnname="email">jgilmourf@bandcamp.com</cl:datavalue>
+            <cl:datavalue columnname="phone">010-6736-0761</cl:datavalue>
+            <cl:datavalue columnname="address">21161 Stoughton Center</cl:datavalue>
+            <cl:datavalue columnname="rgstDt">20200906</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId">873-47-4854</cl:datavalue>
+            <cl:datavalue columnname="empNm">Brande Jast</cl:datavalue>
+            <cl:datavalue columnname="email">mmowlamg@seattletimes.com</cl:datavalue>
+            <cl:datavalue columnname="phone">010-4977-3504</cl:datavalue>
+            <cl:datavalue columnname="address">476 Havey Road</cl:datavalue>
+            <cl:datavalue columnname="rgstDt">20200709</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId">807-57-5913</cl:datavalue>
+            <cl:datavalue columnname="empNm">Sebastian Walsh</cl:datavalue>
+            <cl:datavalue columnname="email">gtrobeh@hibu.com</cl:datavalue>
+            <cl:datavalue columnname="phone">010-4218-0433</cl:datavalue>
+            <cl:datavalue columnname="address">85 Novick Pass</cl:datavalue>
+            <cl:datavalue columnname="rgstDt">20200318</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId">702-08-3511</cl:datavalue>
+            <cl:datavalue columnname="empNm">Hortensia Kuvalis</cl:datavalue>
+            <cl:datavalue columnname="email">psnoadi@cnet.com</cl:datavalue>
+            <cl:datavalue columnname="phone">010-7493-6305</cl:datavalue>
+            <cl:datavalue columnname="address">18 Shoshone Street</cl:datavalue>
+            <cl:datavalue columnname="rgstDt">20200321</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId">165-52-8840</cl:datavalue>
+            <cl:datavalue columnname="empNm">Claris Mills</cl:datavalue>
+            <cl:datavalue columnname="email">gswindonj@mlb.com</cl:datavalue>
+            <cl:datavalue columnname="phone">010-1040-8459</cl:datavalue>
+            <cl:datavalue columnname="address">7722 Warrior Plaza</cl:datavalue>
+            <cl:datavalue columnname="rgstDt">20200528</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId">141-30-3913</cl:datavalue>
+            <cl:datavalue columnname="empNm">Renna Labadie</cl:datavalue>
+            <cl:datavalue columnname="email">agunnk@nbcnews.com</cl:datavalue>
+            <cl:datavalue columnname="phone">010-0081-4172</cl:datavalue>
+            <cl:datavalue columnname="address">5 Canary Pass</cl:datavalue>
+            <cl:datavalue columnname="rgstDt">20200408</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId">131-64-7984</cl:datavalue>
+            <cl:datavalue columnname="empNm">Janetta Gorczany</cl:datavalue>
+            <cl:datavalue columnname="email">wkobierzyckil@springer.com</cl:datavalue>
+            <cl:datavalue columnname="phone">010-4318-5862</cl:datavalue>
+            <cl:datavalue columnname="address">171 Caliangt Point</cl:datavalue>
+            <cl:datavalue columnname="rgstDt">20191128</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId">363-53-6686</cl:datavalue>
+            <cl:datavalue columnname="empNm">Claude White</cl:datavalue>
+            <cl:datavalue columnname="email">lsivillsm@shop-pro.jp</cl:datavalue>
+            <cl:datavalue columnname="phone">010-6589-5906</cl:datavalue>
+            <cl:datavalue columnname="address">612 Troy Center</cl:datavalue>
+            <cl:datavalue columnname="rgstDt">20200509</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId">164-58-0443</cl:datavalue>
+            <cl:datavalue columnname="empNm">Jaime Fay</cl:datavalue>
+            <cl:datavalue columnname="email">wabrahamoffn@wikispaces.com</cl:datavalue>
+            <cl:datavalue columnname="phone">010-6049-3853</cl:datavalue>
+            <cl:datavalue columnname="address">47 Merchant Plaza</cl:datavalue>
+            <cl:datavalue columnname="rgstDt">20200726</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId">833-09-3725</cl:datavalue>
+            <cl:datavalue columnname="empNm">Yasmine Towne</cl:datavalue>
+            <cl:datavalue columnname="email">wchallenoro@engadget.com</cl:datavalue>
+            <cl:datavalue columnname="phone">010-6497-9056</cl:datavalue>
+            <cl:datavalue columnname="address">61 Grasskamp Place</cl:datavalue>
+            <cl:datavalue columnname="rgstDt">20201029</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId">253-63-2956</cl:datavalue>
+            <cl:datavalue columnname="empNm">Raymundo Howe</cl:datavalue>
+            <cl:datavalue columnname="email">kbarterp@mediafire.com</cl:datavalue>
+            <cl:datavalue columnname="phone">010-4545-3584</cl:datavalue>
+            <cl:datavalue columnname="address">941 Leroy Way</cl:datavalue>
+            <cl:datavalue columnname="rgstDt">20200612</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId">726-08-0595</cl:datavalue>
+            <cl:datavalue columnname="empNm">Russell Paucek</cl:datavalue>
+            <cl:datavalue columnname="email">tnottleq@hatena.ne.jp</cl:datavalue>
+            <cl:datavalue columnname="phone">010-9167-2117</cl:datavalue>
+            <cl:datavalue columnname="address">0 Charing Cross Road</cl:datavalue>
+            <cl:datavalue columnname="rgstDt">20201121</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId">879-74-5236</cl:datavalue>
+            <cl:datavalue columnname="empNm">Wilfred Greenfelder</cl:datavalue>
+            <cl:datavalue columnname="email">tlafayer@comcast.net</cl:datavalue>
+            <cl:datavalue columnname="phone">010-4639-7552</cl:datavalue>
+            <cl:datavalue columnname="address">14 Maryland Plaza</cl:datavalue>
+            <cl:datavalue columnname="rgstDt">20191203</cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="empId">837-27-0001</cl:datavalue>
+            <cl:datavalue columnname="empNm">Jacinto Wilkinson</cl:datavalue>
+            <cl:datavalue columnname="email">kwalass@ovh.net</cl:datavalue>
+            <cl:datavalue columnname="phone">010-6138-0842</cl:datavalue>
+            <cl:datavalue columnname="address">76123 Cordelia Terrace</cl:datavalue>
+            <cl:datavalue columnname="rgstDt">20200204</cl:datavalue>
+          </cl:datarow>
+        </cl:datarowlist>
+      </cl:dataset>
+    </cl:model>
+    <cl:appspec title="스크립트 예제 템플릿"/>
+  </head>
+  <body std:sid="body-63966dc4" style="top:0px; left:0px; width:800px; height:600px;">
+    <cl:group std:sid="group-59960b1b" class="content-card">
+      <cl:verticaldata std:sid="v-data-9b47f408" width="1140px" height="4154px" autosize="height"/>
+      <cl:udc std:sid="ud-control-b8469aa4" type="udc.cmn.AppTitle">
+        <cl:verticaldata std:sid="v-data-f0bae039" width="1140px" height="175px" autosize="none"/>
+        <cl:property name="tags" value="파일인풋,이미지" type="string"/>
+        <cl:property name="title" value="이미지 미리보기" type="string"/>
+      </cl:udc>
+      <cl:group std:sid="group-a4b3eb74">
+        <cl:verticaldata std:sid="v-data-3747f6b2" width="400px" height="3972px" autosize="height"/>
+        <cl:group std:sid="group-c3b4f76c" class="card-inner">
+          <cl:verticaldata std:sid="v-data-76d5fec5" width="400px" height="119px" autosize="height"/>
+          <cl:udc std:sid="ud-control-400ea92b" id="areatitle1" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-6e7053ba" width="300px" height="38px"/>
+            <cl:property name="value" value="개요" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-91f8c8b3" value="이 문서는 파일 인풋 컨트롤로 가져온 이미지를 이미지 컨트롤에 보여주는 방법에 대해서 설명합니다.">
+            <cl:verticaldata std:sid="v-data-89fb3e43" width="100px" height="46px" autosize="height"/>
+          </cl:output>
+          <cl:verticallayout std:sid="v-layout-f8b7a75d" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-de8c1411" class="card-inner">
+          <cl:verticaldata std:sid="v-data-b7ece3a4" width="400px" height="573px" autosize="height"/>
+          <cl:udc std:sid="ud-control-fb8bf275" id="areatitle2" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-a1e15097" width="1040px" height="38px" autosize="none"/>
+            <cl:property name="value" value="컨트롤 생성 및 설정" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-63aedf87" value="파일인풋 컨트롤과 이미지 컨트롤을 [Palette] 뷰에서 찾아 디자인 편집기에 배치합니다.">
+            <cl:verticaldata std:sid="v-data-7a20e9d2" width="100px" height="141px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-5f47d467" class="attach-box">
+            <cl:verticaldata std:sid="v-data-f4a6be1f" width="1100px" height="341px" autosize="height"/>
+            <cl:group std:sid="group-d161ccf6">
+              <cl:flowlayoutdata std:sid="f-data-19f55388" width="500px" height="300px" autosize="none"/>
+              <cl:output std:sid="output-5aa6c1ae" class="text-center" value="&lt;기본 파일인풋 컨트롤>">
+                <cl:formdata std:sid="f-data-6ce63a53" row="1" col="0"/>
+              </cl:output>
+              <cl:group std:sid="group-cd10c3b8" class="border-dashed">
+                <cl:formdata std:sid="f-data-95d4eaf6" row="0" col="0"/>
+                <cl:fileinput std:sid="f-input-8391c81b" id="fi1">
+                  <cl:xylayoutdata std:sid="xyl-data-8e272695" width="229px" height="30px" horizontalAnchor="CENTER" verticalAnchor="CENTER"/>
+                </cl:fileinput>
+                <cl:xylayout std:sid="xylayout-0a6b1221"/>
+              </cl:group>
+              <cl:formlayout std:sid="f-layout-55aaa290" hspace="5px" vspace="5px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+                <cl:rows length="1" unit="FRACTION" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+                <cl:rows length="20" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+                <cl:columns length="1" unit="FRACTION"/>
+              </cl:formlayout>
+            </cl:group>
+            <cl:group std:sid="group-4a254c79">
+              <cl:flowlayoutdata std:sid="f-data-d66e2bf4" width="500px" height="300px" autosize="none"/>
+              <cl:output std:sid="output-a1067662" class="text-center" value="&lt;기본 이미지 컨트롤>">
+                <cl:formdata std:sid="f-data-f9b0e749" row="1" col="0"/>
+              </cl:output>
+              <cl:group std:sid="group-226b52c8" class="border-dashed">
+                <cl:formdata std:sid="f-data-6d3e9f51" row="0" col="0"/>
+                <cl:img std:sid="image-53c28b9f" id="img2" src="../../../../../theme/images/com/login/login_logo.png">
+                  <cl:xylayoutdata std:sid="xyl-data-c46faf97" width="217px" height="176px" horizontalAnchor="CENTER" verticalAnchor="CENTER"/>
+                </cl:img>
+                <cl:xylayout std:sid="xylayout-00eab7b0"/>
+              </cl:group>
+              <cl:formlayout std:sid="f-layout-6461e3ce" hspace="5px" vspace="5px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+                <cl:rows length="1" unit="FRACTION" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+                <cl:rows length="20" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+                <cl:columns length="1" unit="FRACTION"/>
+              </cl:formlayout>
+            </cl:group>
+            <cl:flowlayout std:sid="f-layout-3c9b5206" scrollable="false" spacing="20" halign="center" valign="middle" leftmargin="20" rightmargin="20" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-fea69ec9" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-11053d61" class="card-inner">
+          <cl:verticaldata std:sid="v-data-92db121e" width="1040px" height="393px" autosize="height"/>
+          <cl:udc std:sid="ud-control-d726449c" id="areatitle3" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-2234104b" width="300px" height="38px"/>
+            <cl:property name="value" value="스타일 시트" type="string"/>
+          </cl:udc>
+          <cl:group std:sid="group-6a755066" id="grp16" class="ref-card info">
+            <cl:verticaldata std:sid="v-data-a577cd31" width="1040px" height="96px" autosize="height"/>
+            <cl:output std:sid="output-d6122608" id="opt14" class="ref-title" value="경로 : LESS 파일">
+              <cl:verticaldata std:sid="v-data-157990b2" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-88c60ef5" id="opt15" value="`clx-src/asset/STY_CTRL_SLCT_01.less`">
+              <cl:verticaldata std:sid="v-data-7eea5e7b" width="100px" height="25px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-3d91933b" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:output std:sid="output-c66842e8" value="`스타일 시트 내용을 입력하십시오.`">
+            <cl:verticaldata std:sid="v-data-d3939fb0" width="1040px" height="126px" autosize="height"/>
+          </cl:output>
+          <cl:udc std:sid="ud-control-b7a23aae" id="ace1" type="udc.cmn.Ace">
+            <cl:verticaldata std:sid="v-data-ae2cf1f3" width="300px" height="50px" autosize="height"/>
+            <cl:property name="value" value=".cl-container.toggle-wrap {&#xD;&#xA;&#x9;/* 토글 버튼 스타일 */&#xD;&#xA;&#x9;background-color: #cccccc;&#xD;&#xA;&#x9;border-radius: 5px;&#xD;&#xA;&#x9;&#xD;&#xA;&#x9;.cl-checkbox.toggle {&#xD;&#xA;&#x9;&#x9;/* 토글되지 않은 상태 스타일 */&#xD;&#xA;&#x9;&#x9;padding: 0px;&#xD;&#xA;&#x9;&#x9;text-align: center;&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;.cl-checkbox-wrap {&#xD;&#xA;&#x9;&#x9;&#x9;/* 체크박스 아이콘 래퍼 스타일 */&#xD;&#xA;&#x9;&#x9;&#x9;vertical-align: middle;&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;.cl-checkbox-icon {&#xD;&#xA;&#x9;&#x9;&#x9;/* 체크박스 아이콘 스타일 */&#xD;&#xA;&#x9;&#x9;&#x9;background-image: none;&#xD;&#xA;&#x9;&#x9;&#x9;background-color: #ffffff;&#xD;&#xA;&#x9;&#x9;&#x9;border-radius: 3px;&#xD;&#xA;&#x9;&#x9;&#x9;margin-left: 0px;&#xD;&#xA;&#x9;&#x9;&#x9;width: 20px;&#xD;&#xA;&#x9;&#x9;&#x9;height: 20px;&#xD;&#xA;&#x9;&#x9;&#x9;min-height: 20px;&#xD;&#xA;&#x9;&#x9;&#x9;margin-bottom: 2px;&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&amp;.cl-focus, &amp;:focus {&#xD;&#xA;&#x9;&#x9;&#x9;.cl-checkbox-icon {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;/* 체크박스 포커스 스타일 */&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;outline: none;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;&#xD;&#xA;&#x9;&amp;.on {&#xD;&#xA;&#x9;&#x9;/* 토글 상태 스타일 */&#xD;&#xA;&#x9;&#x9;background-color: #6edc5f;&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;&#xD;&#xA;&#x9;&amp;.round {&#xD;&#xA;&#x9;&#x9;/* 둥근 토글 버튼 스타일 */&#xD;&#xA;&#x9;&#x9;border-radius: 14px;&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;.cl-checkbox.toggle {&#xD;&#xA;&#x9;&#x9;&#x9;.cl-checkbox-icon {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;/* 둥근 토글 버튼 아이콘 스타일 */&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;border-radius: 14px;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;}&#xD;&#xA;}" type="string"/>
+            <cl:property name="language" value="ace/mode/less" type="enumeration"/>
+          </cl:udc>
+          <cl:verticallayout std:sid="v-layout-81987a1e" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-54850849" class="card-inner">
+          <cl:verticaldata std:sid="v-data-49f1570a" width="1040px" height="301px" autosize="height"/>
+          <cl:udc std:sid="ud-control-3bc3fa1b" id="areatitle8" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-9d05f978" width="300px" height="38px"/>
+            <cl:property name="value" value="시나리오" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-5fa2801f" value="1. 파일인풋 컨트롤을 통해서 이미지를 가져왔을시 해당이미지를 이미지 컨트롤을 통해 화면에 띄웁니다.">
+            <cl:verticaldata std:sid="v-data-da502c34" width="1040px" height="90px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-8f14d7fc" class="ref-card warning">
+            <cl:verticaldata std:sid="v-data-5b7a0ae3" width="1200px" height="100px" autosize="height"/>
+            <cl:output std:sid="output-564d9426" class="ref-title" value="">
+              <cl:verticaldata std:sid="v-data-076d9fe9" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-28ab6d03" value="`시나리오 영역에서 특별히 안내가 필요한 정보를 작성하십시오.`">
+              <cl:verticaldata std:sid="v-data-37c1bfe5" width="100px" height="25px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-ec928def" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-d8c39c93" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-f5df0ee5" class="card-inner">
+          <cl:verticaldata std:sid="v-data-35411d62" width="1040px" height="734px" autosize="height"/>
+          <cl:udc std:sid="ud-control-c65fdfe7" id="areatitle4" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-980fb5f9" width="300px" height="38px"/>
+            <cl:property name="value" value="주요 기능" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-df49c14a" value="시나리오 순서대로 아래의 실행 버튼을 눌러 그리드 API 동작을 확인하십시오.">
+            <cl:verticaldata std:sid="v-data-e0f2ddad" width="1040px" height="25px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-dbdd7a02" class="attach-box">
+            <cl:verticaldata std:sid="v-data-5798a75c" width="1040px" height="450px" autosize="height"/>
+            <cl:group std:sid="group-a466b510">
+              <cl:flowlayoutdata std:sid="f-data-8303c484" width="800px" height="400px"/>
+              <cl:output std:sid="output-84338f3d" class="text-center" value="&lt;이미지 컨트롤>">
+                <cl:formdata std:sid="f-data-a25ef98e" row="2" col="0"/>
+              </cl:output>
+              <cl:img std:sid="image-18f0462b" id="img1" style="border-right-style:solid; border-top-width:1px; border-bottom-color:#cccccc; border-right-width:1px; border-left-style:solid; border-bottom-width:1px; border-left-color:#cccccc; border-top-color:#cccccc; border-bottom-style:solid; border-right-color:#cccccc; border-left-width:1px; border-top-style:solid;">
+                <cl:formdata std:sid="f-data-0cb355be" halign="CENTER" width="450" row="0" col="0" rowspan="1" colspan="1"/>
+              </cl:img>
+              <cl:fileinput std:sid="f-input-54518d49" id="fileInput">
+                <cl:listener std:sid="listener-7c77e6bc" name="value-change" handler="onFileInputValueChange"/>
+                <cl:formdata std:sid="f-data-f96687ed" halign="CENTER" valign="CENTER" width="400" row="1" col="0" rowspan="1" colspan="1"/>
+              </cl:fileinput>
+              <cl:formlayout std:sid="f-layout-2a759d15" hspace="5px" vspace="5px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+                <cl:rows length="1" unit="FRACTION" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+                <cl:rows length="40" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+                <cl:rows length="20" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+                <cl:columns length="1" unit="FRACTION"/>
+              </cl:formlayout>
+            </cl:group>
+            <cl:flowlayout std:sid="f-layout-814cfc30" scrollable="false" spacing="20" halign="center" valign="middle" leftmargin="20" rightmargin="20" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:group std:sid="group-09d32a74" class="form-box vertical">
+            <cl:verticaldata std:sid="v-data-f0926932" width="400px" height="86px" autosize="height"/>
+            <cl:output std:sid="output-ebfd262a" class="label" value="API">
+              <cl:formdata std:sid="f-data-29062f84" row="0" col="0"/>
+            </cl:output>
+            <cl:output std:sid="output-8528dd47" class="label" value="설명">
+              <cl:formdata std:sid="f-data-45811037" row="0" col="1"/>
+            </cl:output>
+            <cl:output std:sid="output-96613175" class="label" value="기능확인">
+              <cl:formdata std:sid="f-data-650fab76" row="0" col="2"/>
+            </cl:output>
+            <cl:output std:sid="output-c075744c" value="value-change()">
+              <cl:formdata std:sid="f-data-cb06f5cb" row="1" col="0"/>
+            </cl:output>
+            <cl:output std:sid="output-d2ddb19c" value="파일인풋에 이미지 파일을 입력시 이미지 컨트롤에 이미지가 보입니다. (실행을 클릭하세요)">
+              <cl:formdata std:sid="f-data-270a92d7" row="1" col="1"/>
+            </cl:output>
+            <cl:button std:sid="button-8ca082b2" id="btnCallPageMethod" value="실행">
+              <cl:listener std:sid="listener-a47fd558" name="click" handler="onBtnCallPageMethodClick"/>
+              <cl:formdata std:sid="f-data-89675b9a" halign="CENTER" row="1" col="2"/>
+            </cl:button>
+            <cl:formlayout std:sid="f-layout-74e4f45e" hspace="10px" vspace="10px" top-margin="5px" right-margin="5px" bottom-margin="5px" left-margin="5px" hseparatorwidth="1" hseparatortype="BY_CLASS" vseparatorwidth="1" vseparatortype="BY_CLASS">
+              <cl:rows length="30" unit="PIXEL" autoSizing="false" shadetype="BY_CLASS" shadecolor="#000000" minlength="0"/>
+              <cl:rows length="30" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="200" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="1" unit="FRACTION" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="100" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+            </cl:formlayout>
+          </cl:group>
+          <cl:udc std:sid="ud-control-10dd49ff" id="ace2" visible="true" type="udc.cmn.Ace">
+            <cl:verticaldata std:sid="v-data-ffeb6519" width="300px" height="29px" autosize="height"/>
+          </cl:udc>
+          <cl:verticallayout std:sid="v-layout-7fc796fa" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-b18febb5" class="card-inner">
+          <cl:verticaldata std:sid="v-data-8382d0b4" width="1040px" height="369px" autosize="height"/>
+          <cl:udc std:sid="ud-control-8a69315d" id="areatitle9" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-ddf1f627" width="300px" height="38px"/>
+            <cl:property name="value" value="서버" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-0b305f19" value="`서버 소스에 대하여 설명을 작성하십시오.`">
+            <cl:verticaldata std:sid="v-data-1cfc2ae0" width="1040px" height="25px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-39ab9ba5" class="form-box vertical">
+            <cl:verticaldata std:sid="v-data-c68bfb63" width="400px" height="82px" autosize="height"/>
+            <cl:output std:sid="output-4b41e07c" class="label" value="API">
+              <cl:formdata std:sid="f-data-b9f9822c" row="0" col="0"/>
+            </cl:output>
+            <cl:output std:sid="output-594e0364" class="label" value="설명">
+              <cl:formdata std:sid="f-data-adeb8db4" row="0" col="1"/>
+            </cl:output>
+            <cl:output std:sid="output-b1a9e9b5" value="">
+              <cl:formdata std:sid="f-data-f8b416c4" row="1" col="0"/>
+            </cl:output>
+            <cl:output std:sid="output-bea7dda6" value="">
+              <cl:formdata std:sid="f-data-07dca4dd" row="1" col="1"/>
+            </cl:output>
+            <cl:formlayout std:sid="f-layout-25438dea" hspace="10px" vspace="10px" top-margin="5px" right-margin="5px" bottom-margin="5px" left-margin="5px" hseparatorwidth="1" hseparatortype="BY_CLASS" vseparatorwidth="1" vseparatortype="BY_CLASS">
+              <cl:rows length="30" unit="PIXEL" autoSizing="false" shadetype="BY_CLASS" shadecolor="#000000" minlength="0"/>
+              <cl:rows length="30" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="200" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="1" unit="FRACTION" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+            </cl:formlayout>
+          </cl:group>
+          <cl:udc std:sid="ud-control-5f94f350" id="ace3" type="udc.cmn.Ace">
+            <cl:verticaldata std:sid="v-data-dc3dc443" width="300px" height="29px" autosize="height"/>
+          </cl:udc>
+          <cl:verticallayout std:sid="v-layout-8a55cc02" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-1c3aa905" class="card-inner">
+          <cl:verticaldata std:sid="v-data-dc5153b2" width="400px" height="216px" autosize="height"/>
+          <cl:udc std:sid="ud-control-bcb64de7" id="areatitle5" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-644908cd" width="1040px" height="38px" autosize="none"/>
+            <cl:property name="value" value="유의사항" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-495c0c07" value="`해당 기능은 그리드 컬럼의 병합을 고려하지 않은 예제입니다.`">
+            <cl:verticaldata std:sid="v-data-46b08fb4" width="100px" height="25px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-1488dccb" class="ref-card danger">
+            <cl:verticaldata std:sid="v-data-6a83a5c9" width="1200px" height="100px" autosize="height"/>
+            <cl:output std:sid="output-64057e29" class="ref-title" value="DANGER">
+              <cl:verticaldata std:sid="v-data-437b9b9a" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-721ab1e1" value="`반드시 숙지해야 하는 정보에 대하여 작성하십시오.`">
+              <cl:verticaldata std:sid="v-data-6e431a84" width="100px" height="25px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-f4b4941d" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-4a914592" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-f59d0528" class="card-inner">
+          <cl:verticaldata std:sid="v-data-4e6004be" width="400px" height="218px" autosize="height"/>
+          <cl:udc std:sid="ud-control-3dead214" id="areatitle6" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-1ff324f1" width="1040px" height="38px" autosize="none"/>
+            <cl:property name="value" value="최소 요구 버전" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-50ed7766" value="`1.0.1967 릴리즈 버전 이상: Grid.moveColumn API 사용 가능&#xD;&#xA;해당 기능 중 Grid.moveColumn API의 경우 1.0.1967 릴리즈 버전 이상부터 사용할 수 있습니다.`">
+            <cl:verticaldata std:sid="v-data-c03d0e2d" width="100px" height="25px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-62079995" class="ref-card warning">
+            <cl:verticaldata std:sid="v-data-f752b593" width="1040px" height="100px" autosize="height"/>
+            <cl:output std:sid="output-a9b248ef" class="ref-title" value="WARNING">
+              <cl:verticaldata std:sid="v-data-8dbfa4b4" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-532ac550" value="`특별히 인지해야 하는 정보에 대하여 작성하십시오.`">
+              <cl:verticaldata std:sid="v-data-7f6b1b60" width="100px" height="25px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-7607fc8d" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-25a6e49a" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-bc3decc0" class="card-inner">
+          <cl:verticaldata std:sid="v-data-fc989f6e" width="1040px" height="352px" autosize="height"/>
+          <cl:udc std:sid="ud-control-73179844" id="areatitle7" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-97420d3e" width="300px" height="38px"/>
+            <cl:property name="value" value="도움말" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-b1c673c6" value="파일인풋 컨트롤 및 이미지 컨트롤 및 FileReader 문법 및 자세한 사항은 다음 링크와 도움말을 참조하십시오.">
+            <cl:verticaldata std:sid="v-data-69dd3988" width="1040px" height="25px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-ee002fc3" class="ref-card default">
+            <cl:verticaldata std:sid="v-data-c9537cf9" width="1200px" height="96px" autosize="height"/>
+            <cl:output std:sid="output-5a0e53f8" class="ref-title" value="FileReader">
+              <cl:verticaldata std:sid="v-data-f51eafad" width="100px" height="25px"/>
+            </cl:output>
+            <cl:htmlsnippet std:sid="htmlsnippet-d46c4344" id="hsp1" value="&lt;a class=&quot;cl-text&quot;  href=&quot;https://developer.mozilla.org/ko/docs/Web/API/FileReader&quot; target=&quot;_blank&quot;>https://developer.mozilla.org/ko/docs/Web/API/FileReader&lt;/a>">
+              <cl:verticaldata std:sid="v-data-269d42c5" width="1040px" height="25px" autosize="none"/>
+            </cl:htmlsnippet>
+            <cl:verticallayout std:sid="v-layout-eff44aa2" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:group std:sid="group-2d3d3838" class="ref-card default">
+            <cl:verticaldata std:sid="v-data-39e5d621" width="1100px" height="96px" autosize="height"/>
+            <cl:output std:sid="output-942f76a1" class="ref-title" value="Help Contents">
+              <cl:verticaldata std:sid="v-data-5dc4dc39" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-83fd5696" value="eXBuilder6 > API References > cpr.controls > FileInput">
+              <cl:verticaldata std:sid="v-data-c09cdee4" width="100px" height="25px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-08d196a8" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-49276802" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:verticallayout std:sid="v-layout-a50c518b" spacing="20" leftmargin="50" rightmargin="50" topmargin="20" bottommargin="60"/>
+      </cl:group>
+      <cl:verticallayout std:sid="v-layout-5825919e" spacing="0"/>
+    </cl:group>
+    <cl:udc std:sid="ud-control-98388c51" id="updatedtitle1" type="udc.cmn.UpdatedTitle">
+      <cl:verticaldata std:sid="v-data-cc6fcaf6" width="1140px" height="25px" autosize="none"/>
+      <cl:property name="value" value="20210201" type="string"/>
+    </cl:udc>
+    <cl:verticallayout std:sid="v-layout-dcee1c73"/>
+  </body>
+  <std:studiosetting>
+    <std:hruler/>
+    <std:vruler/>
+  </std:studiosetting>
+</html>

@@ -1,0 +1,35 @@
+@import "../custom-settings.part.less";
+
+/************************************************
+ * 브래드크럼블
+ ************************************************/
+ 
+.cl-container.breadcrumbs {
+	.cl-output.breadcrumb-item {
+		color: @component-text-color;
+		font-size: @h6-font-size;
+	}
+	
+	.cl-layout-wrap:first-child {
+	}
+	
+	.cl-layout-wrap:not(:first-child) {
+		.cl-output.breadcrumb-item {
+			
+			.cl-text {
+				&:before {
+					content: ">";
+					display: inline-block;
+					color: @component-text-color;
+					padding: 0px 5px;
+				}
+			}
+		}
+	}
+	
+	.cl-layout-wrap:last-child {
+		.cl-output.breadcrumb-item {
+			color: @component-text-color;
+		}
+	}
+}

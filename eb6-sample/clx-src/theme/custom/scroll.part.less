@@ -1,0 +1,47 @@
+@import "../custom-settings.part.less";
+
+.cl-container.aside {
+	.cl-customscrollbar {
+		&.cl-with-vscrollbar {
+			width: calc(100% - 6px);
+		}
+		
+		&.cl-with-hscrollbar {
+		}
+	}
+	
+	.cl-vscrollbar {
+		background-color: @transparent;
+		width: 6px;
+		
+		.cl-arrow-up,
+		.cl-arrow-down {
+			background-color: @transparent;
+			height: 0px;
+		}
+		
+		.cl-arrow-up {
+		}
+			
+		.cl-arrow-down {
+		}
+			
+		.cl-track {
+			.cl-thumb {
+				background-color: @transparent;
+				border-radius: @border-radius;
+				transition: @transition-base;
+			}
+		}
+	}
+	
+	&:hover {
+		.cl-vscrollbar {
+			.cl-track {
+				.cl-thumb {
+					background-color: #61728F;
+				}
+			}
+		}
+	}
+}

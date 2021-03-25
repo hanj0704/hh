@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:cl="http://tomatosystem.co.kr/cleopatra" xmlns:std="http://tomatosystem.co.kr/cleopatra/studio" std:sid="html-0e30d9f6" version="1.0.0.0">
+  <head std:sid="head-3b2c503d">
+    <title>STYLE_CONTROLS_TABFOLDER_05</title>
+    <screen std:sid="screen-69ac6db1" id="default" name="default" minwidth="1200px" width="1200px" height="768px"/>
+    <screen std:sid="screen-224fe446" id="tablet" name="tablet" minwidth="850px" maxwidth="1199px" width="850px" height="768px"/>
+    <screen std:sid="screen-8ea0be9b" id="test" name="mobile" maxwidth="849px" width="544px" height="768px"/>
+    <cl:model std:sid="model-228c36e8">
+      <cl:dataset std:sid="d-set-223b27f7" id="dsPropVw" info="프로퍼티 뷰 (속성 뷰)">
+        <cl:datacolumnlist>
+          <cl:datacolumn comment="컨트롤 명" std:sid="d-column-2ab4891d" name="CTRL_NM"/>
+          <cl:datacolumn comment="속성 탭 명" std:sid="d-column-068c1e55" name="PROP_SJ"/>
+          <cl:datacolumn comment="속성 명" std:sid="d-column-3f149788" name="PROP_NM"/>
+          <cl:datacolumn comment="속성 값" std:sid="d-column-53fd0a82" name="PROP_VAL"/>
+          <cl:datacolumn comment="속성 설명" std:sid="d-column-09e0c603" name="PROP_STY_DESC"/>
+        </cl:datacolumnlist>
+        <cl:datarowlist>
+          <cl:datarow>
+            <cl:datavalue columnname="CTRL_NM"><![CDATA[tabfolder]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_SJ"><![CDATA[일반]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_NM"><![CDATA[itemSizing]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_VAL"><![CDATA[fixed]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_STY_DESC"><![CDATA[]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="CTRL_NM"><![CDATA[tabfolder]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_SJ"><![CDATA[일반]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_NM"><![CDATA[preferredItemWidth]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_VAL"><![CDATA[120]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_STY_DESC"><![CDATA[]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="CTRL_NM"><![CDATA[tabfolder]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_SJ"><![CDATA[스타일]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_NM"><![CDATA[class]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_VAL"><![CDATA[tab-basic]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_STY_DESC"><![CDATA[]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="CTRL_NM"><![CDATA[tabfolder]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_SJ"><![CDATA[스타일]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_NM"><![CDATA[class(body)]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_VAL"><![CDATA[exp://"cl-" + (self.headerPosition == "top" ? "bottom" : "top")]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_STY_DESC"><![CDATA[탭 폴더 헤더에 따른 탭 폴더 바디 위치]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="CTRL_NM"><![CDATA[tabfolder]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_SJ"><![CDATA[바인딩]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_NM"><![CDATA[class(body)]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_VAL"><![CDATA[exp://"cl-" + (self.headerPosition == "top" ? "bottom" : "top")]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_STY_DESC">PROP_STY_DESC5</cl:datavalue>
+          </cl:datarow>
+        </cl:datarowlist>
+      </cl:dataset>
+    </cl:model>
+    <cl:appspec title="탭 폴더 스타일링"/>
+  </head>
+  <body std:sid="body-db8c9dde" style="top:0px; left:0px; width:800px; height:600px;">
+    <cl:group std:sid="group-59960b1b" class="content-card">
+      <cl:verticaldata std:sid="v-data-aabe657d" width="1200px" height="2971px" autosize="height"/>
+      <cl:udc std:sid="ud-control-b8469aa4" type="udc.cmn.AppTitle">
+        <cl:verticaldata std:sid="v-data-f0bae039" width="1140px" height="175px" autosize="none"/>
+        <cl:property name="tags" value="퍼블리싱,탭폴더" type="string"/>
+      </cl:udc>
+      <cl:group std:sid="group-a4b3eb74">
+        <cl:verticaldata std:sid="v-data-3747f6b2" width="400px" height="2795px" autosize="height"/>
+        <cl:group std:sid="group-c3b4f76c" class="card-inner">
+          <cl:verticaldata std:sid="v-data-76d5fec5" width="400px" height="438px" autosize="height"/>
+          <cl:udc std:sid="ud-control-400ea92b" id="areatitle1" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-6e7053ba" width="300px" height="38px"/>
+            <cl:property name="value" value="개요" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-91f8c8b3" value="이 문서는 탭 폴더에 스타일을 적용하는 방법에 대하여 설명합니다.&#xD;&#xA;제공하는 퍼블리싱 포인트를 활용하여 탭 폴더의 헤더 높이를 설정하는 방법과 일반적인 탭 스타일(선택한 탭에 선이 보이지 않는)을 적용하는 방법에 대하여 다룹니다.">
+            <cl:verticaldata std:sid="v-data-89fb3e43" width="100px" height="46px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-fc5891b4" class="attach-box">
+            <cl:verticaldata std:sid="v-data-d20e3b78" width="1040px" height="281px" autosize="height"/>
+            <cl:tabfolder std:sid="t-folder-92407d7b" id="tf1" item-sizing="fixed" use-item-text-ellipsis="true" preferred-item-width="120">
+              <cl:flowlayoutdata std:sid="f-data-0e206c71" width="400px" height="240px"/>
+              <cl:tabitem std:sid="t-item-d715db3f" text="탭 아이템">
+                <cl:group std:sid="group-cc2d1003">
+                  <std:metadata>
+                    <std:property key="locked" value="true"/>
+                  </std:metadata>
+                  <cl:xylayout std:sid="xylayout-2457f016"/>
+                </cl:group>
+              </cl:tabitem>
+              <cl:tabitem std:sid="t-item-3cbc0119" selected="true" text="탭 아이템">
+                <std:metadata>
+                  <std:property key="is-active-item" value="true"/>
+                </std:metadata>
+                <cl:group std:sid="group-35916d14">
+                  <std:metadata>
+                    <std:property key="locked" value="true"/>
+                  </std:metadata>
+                  <cl:xylayout std:sid="xylayout-34cf5db4"/>
+                </cl:group>
+              </cl:tabitem>
+              <cl:tabitem std:sid="t-item-dafe11e5" text="탭 아이템">
+                <cl:group std:sid="group-ca62ba32">
+                  <std:metadata>
+                    <std:property key="locked" value="true"/>
+                  </std:metadata>
+                  <cl:xylayout std:sid="xylayout-d7c74b53"/>
+                </cl:group>
+              </cl:tabitem>
+            </cl:tabfolder>
+            <cl:output std:sid="output-6b266da4" value="→">
+              <cl:flowlayoutdata std:sid="f-data-2eb553f3" width="20px" height="25px" autosize="width"/>
+            </cl:output>
+            <cl:tabfolder std:sid="t-folder-ce9bb09c" id="tf2" class="tab-basic" item-sizing="fixed" use-item-text-ellipsis="true" preferred-item-width="120">
+              <cl:flowlayoutdata std:sid="f-data-ff8a72cb" width="400px" height="240px" autosize="none"/>
+              <cl:tabitem std:sid="t-item-dd13e575" text="탭 아이템">
+                <cl:group std:sid="group-54f8ff5f">
+                  <std:metadata>
+                    <std:property key="locked" value="true"/>
+                  </std:metadata>
+                  <cl:xylayout std:sid="xylayout-c801b140"/>
+                </cl:group>
+              </cl:tabitem>
+              <cl:tabitem std:sid="t-item-be6267a5" selected="true" text="탭 아이템">
+                <std:metadata>
+                  <std:property key="is-active-item" value="true"/>
+                </std:metadata>
+                <cl:group std:sid="group-7db09cdd">
+                  <std:metadata>
+                    <std:property key="locked" value="true"/>
+                  </std:metadata>
+                  <cl:xylayout std:sid="xylayout-19d08d15"/>
+                </cl:group>
+              </cl:tabitem>
+              <cl:tabitem std:sid="t-item-e7d44fe0" text="탭 아이템">
+                <cl:group std:sid="group-81fd9758">
+                  <std:metadata>
+                    <std:property key="locked" value="true"/>
+                  </std:metadata>
+                  <cl:xylayout std:sid="xylayout-2ac77b16"/>
+                </cl:group>
+              </cl:tabitem>
+              <cl:body-style>
+                <cl:expbind property="class" category="CLASS" expression="&quot;cl-&quot; + (self.headerPosition == &quot;top&quot; ? &quot;bottom&quot; : &quot;top&quot;)"/>
+              </cl:body-style>
+            </cl:tabfolder>
+            <cl:flowlayout std:sid="f-layout-6ea22f5b" scrollable="false" spacing="15" halign="center" valign="middle" linewrap="false" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-f8b7a75d" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-de8c1411" class="card-inner">
+          <cl:verticaldata std:sid="v-data-b7ece3a4" width="400px" height="716px" autosize="height"/>
+          <cl:udc std:sid="ud-control-fb8bf275" id="areatitle2" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-a1e15097" width="1040px" height="38px" autosize="none"/>
+            <cl:property name="value" value="컨트롤 생성 및 설정" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-63aedf87" value="탭 폴더 컨트롤은 상위 그룹의 레이아웃 종류에 따라 알맞게 크기를 설정합니다. 탭 폴더 내 컨텐츠에 대한 자동 크기를 지원 받고자 하는 경우 탭 폴더 내 컨텐츠 영역에 해당하는 그룹의 레이아웃 종류를 확인하십시오.&#xD;&#xA;&#xD;&#xA;탭 폴더 컨트롤에서 탭 아이템의 크기 및 정렬, 아이템 간 간격 등은 컨트롤에서 제공하는 속성을 사용합니다. 해당 예제에서는 itemSizing=fixed, preferredItemWidth=120을 적용하여 탭 폴더 아이템 너비를 결정하는 방식과 아이템의 너비 고정 값을 변경하였습니다.&#xD;&#xA;&#xD;&#xA;탭 폴더 헤더의 위치가 위 또는 아래에 표시할지에 대한 여부를 headerPosition을 통해 설정할 수 있는데, 탭 폴더 헤더의 위치에 따라 탭 폴더 바디 스타일도 다르게 설정하고자 하는 경우 탭 폴더에도 별도의 퍼블리싱 포인트를 만들어 안전하게 퍼블리싱할 수 있습니다. 탭 폴더 바디의 class 속성에 익스프레션(표현식) 바인딩을 하여 탭 폴더 바디에 아래에 표시되는 경우 .cl-bottom 퍼블리싱 포인트가 추가되고, 위에 표시되면 .cl-top 퍼블리싱 포인트가 추가될 수 있도록 하였습니다. 설정한 바인딩은 exp://&quot;cl-&quot; + (self.headerPosition == &quot;top&quot; ? &quot;bottom&quot; : &quot;top&quot;) 입니다. 이는 필수적인 요소는 아니지만 퍼블리싱 포인트를 직접 만들어 추가하게 되면 보다 논리적인 퍼블리싱을 할 수 있게 됩니다.">
+            <cl:verticaldata std:sid="v-data-7a20e9d2" width="100px" height="208px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-5f47d467" class="attach-box">
+            <cl:verticaldata std:sid="v-data-4e38cf7f" width="400px" height="381px" autosize="height"/>
+            <cl:udc std:sid="ud-control-93a40a6f" id="propview1" type="udc.cmn.PropView">
+              <cl:flowlayoutdata std:sid="f-data-c5ae57a6" width="400px" height="350px"/>
+              <cl:property name="dataset" value="dsPropVw" type="control"/>
+              <cl:property name="filterCondition" value="tabfolder" type="enumeration"/>
+            </cl:udc>
+            <cl:flowlayout std:sid="f-layout-3c9b5206" scrollable="false" spacing="20" halign="center" valign="middle" leftmargin="20" rightmargin="20" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-fea69ec9" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-11053d61" class="card-inner">
+          <cl:verticaldata std:sid="v-data-92db121e" width="1040px" height="393px" autosize="height"/>
+          <cl:udc std:sid="ud-control-d726449c" id="areatitle3" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-2234104b" width="300px" height="38px"/>
+            <cl:property name="value" value="스타일 시트" type="string"/>
+          </cl:udc>
+          <cl:group std:sid="group-6a755066" id="grp16" class="ref-card info">
+            <cl:verticaldata std:sid="v-data-a577cd31" width="1040px" height="96px" autosize="height"/>
+            <cl:output std:sid="output-d6122608" id="opt14" class="ref-title" value="경로 : LESS 파일">
+              <cl:verticaldata std:sid="v-data-157990b2" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-88c60ef5" id="opt15" value="theme/assets/less/controls/tabfolder/STYLE_CONTROLS_TABFOLDER_01.less">
+              <cl:verticaldata std:sid="v-data-7eea5e7b" width="100px" height="25px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-3d91933b" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:output std:sid="output-c66842e8" value="탭 폴더 컨트롤에는 &quot;tab-basic&quot;클래스를 적용합니다. 전역적인 탭 폴더 컨트롤에 사용하는 경우 루트 스타일러의 class에 클래스를 적용하지 않도록 합니다. LESS 작성 시에도 전역적인 탭 폴더 컨트롤에 적용될 수 있는 형태로 작성되어야 합니다. 따라서 전역적으로 탭 폴더 스타일을 변경하고 싶은 경우에는 tabfolder.part.less에서 다음의 스타일을 적용하면 됩니다. 특정 탭 폴더만 스타일을 적용하고 싶은 경우에는 해당 스타일이 적용될 수 있는 class를 작성하여 적용하세요.&#xD;&#xA;&#xD;&#xA;탭 폴더에서 탭 폴더 헤더의 높이는 .cl-tabfolder-header 퍼블리싱 포인트를 사용하여 높이를 변경할 수 있습니다. 또한, .cl-tabfolder-header.cl-top 또는 .cl-tabfolder-header.cl-bottom 퍼블리싱 포인트를 활용하여 탭 폴더의 헤더 위치에 따라 스타일을 다르게 지정할 수 있습니다.&#xD;&#xA;&#xD;&#xA;위에서 설명한대로 탭 폴더 바디의 class에 사용자가 원하는 이름으로 퍼블리싱 포인트를 추가하게 되면 탭 폴더 바디도 탭 폴더 헤더와 비슷하게 위치에 따른 퍼블리싱 포인트를 사용할 수 있게 됩니다. 따라서 탭 폴더 헤더의 방향에 따라 탭 폴더 바디의 스타일도 다르게 지정할 수 있습니다.&#xD;&#xA;&#xD;&#xA;일반적인 탭 폴더 스타일에서는 탭 폴더 아이템에서 선택된 아이템에 대하여 선이 보이지 않게 하는 스타일을 자주 사용하게 됩니다. eXBuilder6에서는 탭 폴더 바디를 통해 선을 표시하고 있기 때문에 탭 폴더 바디에서 표시되는 선을 숨기고, 탭 폴더 헤더에 선을 표시하는 방식으로 스타일링 해야 합니다. 선택된 탭 아이템에 대해서만 선을 표시하지 않아야 하므로, 탭 폴더 아이템에는 선처럼 보일 수 있도록 box-shaow를 사용하여 선을 긋는 형식으로 구현할 수 있습니다.">
+            <cl:verticaldata std:sid="v-data-d3939fb0" width="1040px" height="126px" autosize="height"/>
+          </cl:output>
+          <cl:udc std:sid="ud-control-b7a23aae" id="ace1" type="udc.cmn.Ace">
+            <cl:verticaldata std:sid="v-data-ae2cf1f3" width="300px" height="50px" autosize="height"/>
+            <cl:property name="value" value=".cl-tabfolder.tab-basic {&#xD;&#xA;&#x9;/* 탭 폴더 헤더 스타일 */&#xD;&#xA;&#x9;.cl-tabfolder-header {&#xD;&#xA;&#x9;&#x9;background-image: linear-gradient(#babfc7, #babfc7);&#xD;&#xA;&#x9;&#x9;background-size: 100% 1px;&#xD;&#xA;&#x9;&#x9;background-repeat: no-repeat;&#xD;&#xA;&#x9;&#x9;height: 35px; // 탭 폴더 아이템의 높이&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;/* 탭 폴더 헤더가 위에 표시될 때 */&#xD;&#xA;&#x9;&#x9;&amp;.cl-top {&#xD;&#xA;&#x9;&#x9;&#x9;background-position: 0px 100%; // 라인을 탭 아이템 기준 아래에 표시&#xD;&#xA;&#x9;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&#x9;.cl-tabfolder-item {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;box-shadow: inset 0px -1px 0px 0px rgb(186, 191, 199, 1); // 탭 아이템 아래 선&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;/* 라인 굵어보인다면 추가 가능 */&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;+ .cl-tabfolder-item {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;border-left: none;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;/* 탭 폴더 헤더가 아래에 표시될 때 */&#xD;&#xA;&#x9;&#x9;&amp;.cl-bottom {&#xD;&#xA;&#x9;&#x9;&#x9;background-position: 100% 0px; // 라인을 탭 아이템 기준 위에 표시&#xD;&#xA;&#x9;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&#x9;.cl-tabfolder-item {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;box-shadow: inset 0px 1px 0px 0px rgb(186, 191, 199, 1); // 탭 아이템 윗 선&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;/* 라인 굵어보인다면 추가 가능 */&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;+ .cl-tabfolder-item {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;border-left: none;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;/* 탭 폴더 아이템 스타일 */&#xD;&#xA;&#x9;&#x9;.cl-tabfolder-item {&#xD;&#xA;&#x9;&#x9;&#x9;background-color: #ffffff;&#xD;&#xA;&#x9;&#x9;&#x9;color: #666666;&#xD;&#xA;&#x9;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&#x9;/* 탭 폴더 아이템 포커스링 해제 */&#xD;&#xA;&#x9;&#x9;&#x9;.cl-text:focus {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;text-decoration: none;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&#x9;/* 탭 폴더 아이템 선택 스타일 */&#xD;&#xA;&#x9;&#x9;&#x9;&amp;.cl-selected {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;background-color: #ffffff;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;border-color: #babfc7;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;box-shadow: none;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;color: #3f87fd;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&#x9;/* 탭 폴더 아이템 호버 스타일 */&#xD;&#xA;&#x9;&#x9;&#x9;&amp;:not(.cl-selected):hover {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;background-color: #f5f5f5;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;color: #333333;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;&#xD;&#xA;&#x9;/* 탭 폴더 바디 스타일 */&#xD;&#xA;&#x9;.cl-tabfolder-body {&#xD;&#xA;&#x9;&#x9;/* 탭 폴더 헤더가 바디 아래에 표시될 때 */&#xD;&#xA;&#x9;&#x9;&amp;.cl-top {&#xD;&#xA;&#x9;&#x9;&#x9;border-bottom: none;&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;/* 탭 폴더 헤더가 바디 위에 표시될 때 */&#xD;&#xA;&#x9;&#x9;&amp;.cl-bottom {&#xD;&#xA;&#x9;&#x9;&#x9;border-top: none;&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;}&#xD;&#xA;}" type="string"/>
+            <cl:property name="language" value="ace/mode/less" type="enumeration"/>
+          </cl:udc>
+          <cl:verticallayout std:sid="v-layout-81987a1e" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-f5df0ee5" class="card-inner">
+          <cl:verticaldata std:sid="v-data-35411d62" width="1040px" height="369px" autosize="height"/>
+          <cl:udc std:sid="ud-control-c65fdfe7" id="areatitle4" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-980fb5f9" width="300px" height="38px"/>
+            <cl:property name="value" value="주요 기능" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-df49c14a" value="`주요 기능을 서술하십시오.`">
+            <cl:verticaldata std:sid="v-data-e0f2ddad" width="1040px" height="126px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-09d32a74" class="form-box vertical">
+            <cl:verticaldata std:sid="v-data-f0926932" width="400px" height="82px" autosize="height"/>
+            <cl:output std:sid="output-ebfd262a" class="label" value="컨트롤">
+              <cl:formdata std:sid="f-data-29062f84" row="0" col="0"/>
+            </cl:output>
+            <cl:output std:sid="output-8528dd47" class="label" value="API">
+              <cl:formdata std:sid="f-data-45811037" row="0" col="1"/>
+            </cl:output>
+            <cl:output std:sid="output-96613175" class="label" value="설명">
+              <cl:formdata std:sid="f-data-650fab76" row="0" col="2"/>
+            </cl:output>
+            <cl:output std:sid="output-c075744c">
+              <cl:formdata std:sid="f-data-cb06f5cb" row="1" col="0"/>
+            </cl:output>
+            <cl:output std:sid="output-d2ddb19c">
+              <cl:formdata std:sid="f-data-270a92d7" row="1" col="1"/>
+            </cl:output>
+            <cl:output std:sid="output-564c1937">
+              <cl:formdata std:sid="f-data-2c645f70" row="1" col="2"/>
+            </cl:output>
+            <cl:formlayout std:sid="f-layout-74e4f45e" hspace="10px" vspace="10px" top-margin="5px" right-margin="5px" bottom-margin="5px" left-margin="5px" hseparatorwidth="1" hseparatortype="BY_CLASS" vseparatorwidth="1" vseparatortype="BY_CLASS">
+              <cl:rows length="30" unit="PIXEL" autoSizing="false" shadetype="BY_CLASS" shadecolor="#000000" minlength="0"/>
+              <cl:rows length="30" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="100" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="250" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="1" unit="FRACTION"/>
+            </cl:formlayout>
+          </cl:group>
+          <cl:udc std:sid="ud-control-10dd49ff" id="ace2" type="udc.cmn.Ace">
+            <cl:verticaldata std:sid="v-data-ffeb6519" width="300px" height="29px" autosize="height"/>
+            <cl:property name="value" value="var vcCbxTy2 = app.lookup(&quot;cbxTy2&quot;);&#xD;&#xA;var vcGrpWrap = vcCbxTy2.getParent();&#xD;&#xA;&#x9;&#xD;&#xA;var vbChecked = vcCbxTy2.checked;&#xD;&#xA;if (vbChecked){&#xD;&#xA;&#x9;vcGrpWrap.updateConstraint(vcCbxTy2, {&#xD;&#xA;&#x9;&#x9;left : &quot;calc(100% - &quot; + vcCbxTy2.getActualRect().width + &quot;px - 3px)&quot;&#xD;&#xA;&#x9;});&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;/* 토글 상태로 변경 */&#xD;&#xA;&#x9;vcGrpWrap.style.addClass(&quot;on&quot;);&#xD;&#xA;} else {&#xD;&#xA;&#x9;vcGrpWrap.updateConstraint(vcCbxTy2, {&#xD;&#xA;&#x9;&#x9;left : &quot;3px&quot;&#xD;&#xA;&#x9;});&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;/* 토글 상태 해제 */&#xD;&#xA;&#x9;vcGrpWrap.style.removeClass(&quot;on&quot;);&#xD;&#xA;}" type="string"/>
+          </cl:udc>
+          <cl:verticallayout std:sid="v-layout-7fc796fa" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-1c3aa905" class="card-inner">
+          <cl:verticaldata std:sid="v-data-dc5153b2" width="400px" height="216px" autosize="height"/>
+          <cl:udc std:sid="ud-control-bcb64de7" id="areatitle5" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-644908cd" width="1040px" height="38px" autosize="none"/>
+            <cl:property name="value" value="유의사항" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-495c0c07" value="탭 폴더에서는 현재 포커스된 아이템이 어느 아이템인지 인지할 수 있도록 텍스트에 밑줄이 표시되는 스타일(text-decoration: underline)인 포커스링을 제공하고 있습니다. 웹 접근성을 준수해야 하는 경우 CSS를 통해 포커스링을 제거하지 않도록 권고합니다.">
+            <cl:verticaldata std:sid="v-data-46b08fb4" width="100px" height="25px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-1488dccb" class="ref-card danger">
+            <cl:verticaldata std:sid="v-data-6a83a5c9" width="1200px" height="100px" autosize="height"/>
+            <cl:output std:sid="output-64057e29" class="ref-title" value="DANGER">
+              <cl:verticaldata std:sid="v-data-437b9b9a" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-721ab1e1" value="``">
+              <cl:verticaldata std:sid="v-data-6e431a84" width="100px" height="25px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-f4b4941d" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-4a914592" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-f59d0528" class="card-inner">
+          <cl:verticaldata std:sid="v-data-4e6004be" width="400px" height="218px" autosize="height"/>
+          <cl:udc std:sid="ud-control-3dead214" id="areatitle6" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-1ff324f1" width="1040px" height="38px" autosize="none"/>
+            <cl:property name="value" value="최소 요구 버전" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-50ed7766" id="opt1" value="* 1.0.537 릴리즈 버전 이상&#xD;&#xA;&#xD;&#xA;탭 폴더의 헤더의 위치를 변경할 수 있는 headerPosition 속성은 1.0.537 릴리즈 버전 이상부터 사용할 수 있습니다.">
+            <cl:verticaldata std:sid="v-data-c03d0e2d" width="100px" height="25px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-62079995" id="grp14" class="ref-card warning">
+            <cl:verticaldata std:sid="v-data-f752b593" width="1040px" height="100px" autosize="height"/>
+            <cl:output std:sid="output-a9b248ef" id="opt10" class="ref-title" value="탭 폴더 아이템 관련 속성">
+              <cl:verticaldata std:sid="v-data-8dbfa4b4" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-532ac550" id="opt11" value="이 예제에서 설명하는 스타일은 릴리즈 버전에 큰 영향을 받지 않습니다만 탭 폴더의 속성 중 일부는 사용하고 있는 릴리즈 버전에 따라 표시되지 않을 수 있습니다. 따라서 과거 릴리즈 버전을 사용 중이신 경우 해당 속성을 지원하기 시작한 릴리즈 버전을 반드시 확인하셔야 합니다. 속성에 대한 정보는 도움말과 릴리즈 노트를 확인하거나 탭 폴더 관련 예제에서 최소 요구 버전을 확인해야 합니다.">
+              <cl:verticaldata std:sid="v-data-7f6b1b60" width="100px" height="25px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-7607fc8d" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-25a6e49a" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-bc3decc0" class="card-inner">
+          <cl:verticaldata std:sid="v-data-fc989f6e" width="1040px" height="281px" autosize="height"/>
+          <cl:udc std:sid="ud-control-73179844" id="areatitle7" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-97420d3e" width="300px" height="38px"/>
+            <cl:property name="value" value="도움말" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-b1c673c6" value="탭 폴더에 대한 자세한 사항은 도움말을 참조하십시오.">
+            <cl:verticaldata std:sid="v-data-69dd3988" width="1040px" height="25px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-ee002fc3" id="grp11" class="ref-card default">
+            <cl:verticaldata std:sid="v-data-c9537cf9" width="1200px" height="129px" autosize="height"/>
+            <cl:output std:sid="output-5a0e53f8" id="opt4" class="ref-title" value="Help Contents">
+              <cl:verticaldata std:sid="v-data-f51eafad" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-741fa5d5" id="opt5" value="eXBuilder6 > API References > cpr.controls > TabFolder&#xD;&#xA;eXBuilder6 > 앱 개발 > 컨트롤 > UI 컨트롤 > 탭 폴더">
+              <cl:verticaldata std:sid="v-data-c8df8970" width="100px" height="58px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-eff44aa2" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-49276802" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:verticallayout std:sid="v-layout-a50c518b" spacing="20" leftmargin="50" rightmargin="50" topmargin="20" bottommargin="60"/>
+      </cl:group>
+      <cl:verticallayout std:sid="v-layout-5825919e" spacing="0"/>
+    </cl:group>
+    <cl:udc std:sid="ud-control-98388c51" id="updatedtitle1" type="udc.cmn.UpdatedTitle">
+      <cl:verticaldata std:sid="v-data-eb83e636" width="1200px" height="25px" autosize="none"/>
+      <cl:property name="value" value="20210317" type="string"/>
+    </cl:udc>
+    <cl:verticallayout std:sid="v-layout-893456ef"/>
+  </body>
+  <std:studiosetting>
+    <std:hruler/>
+    <std:vruler/>
+  </std:studiosetting>
+</html>

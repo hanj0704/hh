@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:cl="http://tomatosystem.co.kr/cleopatra" xmlns:std="http://tomatosystem.co.kr/cleopatra/studio" std:sid="html-e5ceda21" version="1.0.0.0">
+  <head std:sid="head-c2351ce4">
+    <title>SCRIPT_DATACOMPONENT_DATASET_02</title>
+    <screen std:sid="screen-8c041273" id="default" name="default" minwidth="1200px" width="1200px" height="768px"/>
+    <screen std:sid="screen-a4eb29fc" id="tablet" name="tablet" minwidth="850px" maxwidth="1199px" width="850px" height="768px"/>
+    <screen std:sid="screen-ed882f39" id="test" name="mobile" maxwidth="849px" width="544px" height="768px"/>
+    <cl:model std:sid="model-b54affd9">
+      <cl:dataset std:sid="d-set-9a1b5b85" id="dsSample">
+        <cl:datacolumnlist>
+          <cl:datacolumn comment="특별·광역시" std:sid="d-column-d6311d00" name="city"/>
+          <cl:datacolumn comment="자치군·구" std:sid="d-column-5438efd2" name="town"/>
+          <cl:datacolumn comment="행정동, 읍·면" std:sid="d-column-f670ae0e" name="township"/>
+          <cl:datacolumn comment="순번" std:sid="d-column-78d8ded3" name="index" datatype="expression" expression="getIndex()"/>
+        </cl:datacolumnlist>
+        <cl:datarowlist>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[서울특별시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[종로구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[삼청동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[서울특별시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[종로구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[혜화동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[서울특별시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[서초구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[서초동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[서울특별시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[서초구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[반포동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[서울특별시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[서초구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[방배동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[서울특별시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[강남구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[신사동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[서울특별시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[강남구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[청담동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[서울특별시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[강남구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[역삼동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[서울특별시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[마포구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[망원동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[서울특별시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[마포구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[연남동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[부산광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[해운대]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[우제동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[부산광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[해운대구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[좌제동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[부산광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[부산진구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[초읍동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[부산광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[부산진구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[개금동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[부산광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[사하구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[다대동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[부산광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[사하구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[당리동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[광주광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[북구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[용봉동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[광주광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[북구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[양산동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[광주광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[광산구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[수완동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[광주광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[광산구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[신창동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[광주광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[남구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[봉선동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[광주광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[남구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[효덕동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[대구광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[달성군]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[다사읍]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[대구광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[달성군]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[화원읍]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[대구광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[동구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[안심동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[대구광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[동구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[혁신동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[대구광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[북구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[구암동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[대구광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[북구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[관문동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[울산광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[남구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[무거동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[울산광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[남구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[삼산동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[울산광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[중구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[태화동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[울산광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[중구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[다운동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[울산광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[울주군]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[범서읍]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[울산광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[울주군]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[언양읍]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[대전광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[유성구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[원신흥동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[대전광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[유성구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[온천동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[대전광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[동구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[효동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[대전광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[동구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[가양동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[대전광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[서구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[둔산동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[대전광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[서구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[탄방동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[인천광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[남동구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[구월동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[인천광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[남동구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[만수동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[인천광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[서구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[연희동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[인천광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[서구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[검단동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[인천광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[미추홀구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[용현동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[인천광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[미추홀구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[도화동]]></cl:datavalue>
+          </cl:datarow>
+        </cl:datarowlist>
+      </cl:dataset>
+      <cl:dataset std:sid="d-set-6a49975b" id="dsView">
+        <cl:datacolumnlist>
+          <cl:datacolumn comment="특별·광역시" std:sid="d-column-7c2be1d0" name="city"/>
+          <cl:datacolumn comment="자치군·구" std:sid="d-column-1721ff34" name="town"/>
+          <cl:datacolumn comment="행정동, 읍·면" std:sid="d-column-71cde25a" name="township"/>
+          <cl:datacolumn comment="순번" std:sid="d-column-f79abd4d" name="index" datatype="expression" expression="getIndex()"/>
+        </cl:datacolumnlist>
+        <cl:datarowlist>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[서울특별시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[종로구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[삼청동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[서울특별시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[종로구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[혜화동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[서울특별시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[서초구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[서초동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[서울특별시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[서초구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[반포동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[서울특별시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[서초구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[방배동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[서울특별시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[강남구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[신사동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[서울특별시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[강남구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[청담동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[서울특별시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[강남구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[역삼동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[서울특별시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[마포구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[망원동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[서울특별시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[마포구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[연남동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[부산광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[해운대]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[우제동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[부산광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[해운대구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[좌제동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[부산광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[부산진구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[초읍동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[부산광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[부산진구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[개금동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[부산광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[사하구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[다대동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[부산광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[사하구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[당리동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[광주광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[북구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[용봉동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[광주광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[북구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[양산동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[광주광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[광산구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[수완동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[광주광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[광산구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[신창동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[광주광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[남구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[봉선동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[광주광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[남구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[효덕동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[대구광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[달성군]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[다사읍]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[대구광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[달성군]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[화원읍]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[대구광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[동구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[안심동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[대구광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[동구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[혁신동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[대구광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[북구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[구암동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[대구광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[북구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[관문동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[울산광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[남구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[무거동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[울산광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[남구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[삼산동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[울산광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[중구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[태화동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[울산광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[중구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[다운동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[울산광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[울주군]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[범서읍]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[울산광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[울주군]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[언양읍]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[대전광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[유성구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[원신흥동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[대전광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[유성구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[온천동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[대전광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[동구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[효동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[대전광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[동구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[가양동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[대전광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[서구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[둔산동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[대전광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[서구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[탄방동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[인천광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[남동구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[구월동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[인천광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[남동구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[만수동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[인천광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[서구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[연희동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[인천광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[서구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[검단동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[인천광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[미추홀구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[용현동]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="city"><![CDATA[인천광역시]]></cl:datavalue>
+            <cl:datavalue columnname="town"><![CDATA[미추홀구]]></cl:datavalue>
+            <cl:datavalue columnname="township"><![CDATA[도화동]]></cl:datavalue>
+          </cl:datarow>
+        </cl:datarowlist>
+      </cl:dataset>
+    </cl:model>
+    <cl:appspec title="데이터 셋 중복 컬럼 필터"/>
+  </head>
+  <body std:sid="body-da64e548" style="top:0px; left:0px; width:800px; height:600px;">
+    <cl:group std:sid="group-59960b1b" class="content-card">
+      <cl:verticaldata std:sid="v-data-22bc0937" width="1200px" height="3567px" autosize="height"/>
+      <cl:udc std:sid="ud-control-b8469aa4" type="udc.cmn.AppTitle">
+        <cl:verticaldata std:sid="v-data-f0bae039" width="1140px" height="175px" autosize="none"/>
+        <cl:property name="tags" value="스크립트,데이터 컴포넌트,데이터 셋,중복 컬럼,필터" type="string"/>
+      </cl:udc>
+      <cl:group std:sid="group-a4b3eb74">
+        <cl:verticaldata std:sid="v-data-3747f6b2" width="400px" height="3392px" autosize="height"/>
+        <cl:group std:sid="group-c3b4f76c" class="card-inner">
+          <cl:verticaldata std:sid="v-data-76d5fec5" width="400px" height="159px" autosize="height"/>
+          <cl:udc std:sid="ud-control-400ea92b" id="areatitle1" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-6e7053ba" width="300px" height="38px"/>
+            <cl:property name="value" value="개요" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-91f8c8b3" value="이 문서는 데이터 셋 특정 컬럼의 값 중 중복되지 않은 값의 첫번째 행들을 출력하는 방법에 대하여 설명합니다.&#xD;&#xA;(테크돔 FAQ 134 문서를 참고하여 작성되었습니다.)">
+            <cl:verticaldata std:sid="v-data-89fb3e43" width="100px" height="46px" autosize="height"/>
+          </cl:output>
+          <cl:verticallayout std:sid="v-layout-f8b7a75d" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-de8c1411" class="card-inner">
+          <cl:verticaldata std:sid="v-data-b7ece3a4" width="400px" height="514px" autosize="height"/>
+          <cl:udc std:sid="ud-control-fb8bf275" id="areatitle2" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-a1e15097" width="1040px" height="38px" autosize="none"/>
+            <cl:property name="value" value="컨트롤 생성 및 설정" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-63aedf87" value="그리드 컨트롤을 [Palette] 뷰에서 찾아 디자인 편집기에 배치합니다.&#xD;&#xA;&#xD;&#xA;그리드에 연결될 데이터 셋을 [Model] 뷰를 통해 생성합니다. 데이터 셋의 ID는 &quot;dsSample&quot;로 설정하고, 해당 데이터 셋에 index, city, town, township컬럼을 추가합니다.&#xD;&#xA;&#xD;&#xA;index 컬럼은 dataType을 expression으로 설정하고, expression을 getIndex()로 설정합니다. (특정 컬럼의 값 중 중복되지 않은 값의 첫번째 행의 index와 index 컬럼의 값과 비교하여 필터링 조건 생성)&#xD;&#xA;&#xD;&#xA;데이터 셋 구성이 완료되면 데이터 셋을 그리드에 드래그 앤 드롭하여 연결하고, 컬럼 구성에서 index 컬럼은 생성 옵션을 체크해제하여 그리드 구성을 완료합니다.">
+            <cl:verticaldata std:sid="v-data-7a20e9d2" width="100px" height="46px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-5f47d467" class="attach-box">
+            <cl:verticaldata std:sid="v-data-4e38cf7f" width="400px" height="340px" autosize="height"/>
+            <cl:group std:sid="group-d161ccf6">
+              <cl:flowlayoutdata std:sid="f-data-19f55388" width="650px" height="300px" autosize="none"/>
+              <cl:output std:sid="output-5aa6c1ae" class="text-center" value="&lt;그리드에 연결된 데이터 셋 컨트롤>">
+                <cl:formdata std:sid="f-data-6ce63a53" row="1" col="0"/>
+              </cl:output>
+              <cl:grid std:sid="grid-42bfbe4c" id="dsToGrdView" datasetid="dsView">
+                <cl:formdata std:sid="f-data-db4820cd" row="0" col="0"/>
+                <cl:gridcolumn std:sid="g-column-ec633944"/>
+                <cl:gridcolumn std:sid="g-column-481220fb"/>
+                <cl:gridcolumn std:sid="g-column-8f3222a1"/>
+                <cl:gridheader std:sid="gh-band-287e5789">
+                  <cl:gridrow std:sid="g-row-10d96b89" height="35px"/>
+                  <cl:gridcell std:sid="gh-cell-d16aadbb" rowindex="0" colindex="0" targetcolumnname="city" sortable="false" filterable="false" text="특별·광역시"/>
+                  <cl:gridcell std:sid="gh-cell-1a470a05" rowindex="0" colindex="1" targetcolumnname="town" sortable="false" filterable="false" text="자치군·구"/>
+                  <cl:gridcell std:sid="gh-cell-4ee0ec76" rowindex="0" colindex="2" targetcolumnname="township" sortable="false" filterable="false" text="행정동, 읍·면"/>
+                </cl:gridheader>
+                <cl:griddetail std:sid="gd-band-dc8f34ce">
+                  <cl:gridrow std:sid="g-row-f5dc8e55" height="30px"/>
+                  <cl:gridcell std:sid="gd-cell-dc870328" rowindex="0" colindex="0" columnname="city"/>
+                  <cl:gridcell std:sid="gd-cell-f3f7a1ef" rowindex="0" colindex="1" columnname="town"/>
+                  <cl:gridcell std:sid="gd-cell-de4a9235" rowindex="0" colindex="2" columnname="township"/>
+                </cl:griddetail>
+              </cl:grid>
+              <cl:formlayout std:sid="f-layout-55aaa290" hspace="5px" vspace="5px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+                <cl:rows length="1" unit="FRACTION" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+                <cl:rows length="20" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+                <cl:columns length="1" unit="FRACTION"/>
+              </cl:formlayout>
+            </cl:group>
+            <cl:flowlayout std:sid="f-layout-3c9b5206" scrollable="false" spacing="20" halign="center" valign="middle" leftmargin="20" rightmargin="20" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-fea69ec9" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-11053d61" class="card-inner">
+          <cl:verticaldata std:sid="v-data-92db121e" width="1040px" height="393px" autosize="height"/>
+          <cl:udc std:sid="ud-control-d726449c" id="areatitle3" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-2234104b" width="300px" height="38px"/>
+            <cl:property name="value" value="스타일 시트" type="string"/>
+          </cl:udc>
+          <cl:group std:sid="group-6a755066" id="grp16" class="ref-card info">
+            <cl:verticaldata std:sid="v-data-a577cd31" width="1040px" height="95px" autosize="height"/>
+            <cl:output std:sid="output-d6122608" id="opt14" class="ref-title" value="경로 : LESS 파일">
+              <cl:verticaldata std:sid="v-data-157990b2" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-88c60ef5" id="opt15" value="`clx-src/asset/STY_CTRL_SLCT_01.less`">
+              <cl:verticaldata std:sid="v-data-7eea5e7b" width="100px" height="25px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-3d91933b" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:output std:sid="output-c66842e8" value="`스타일 시트 내용을 입력하십시오.`">
+            <cl:verticaldata std:sid="v-data-d3939fb0" width="1040px" height="126px" autosize="height"/>
+          </cl:output>
+          <cl:udc std:sid="ud-control-b7a23aae" id="ace1" type="udc.cmn.Ace">
+            <cl:verticaldata std:sid="v-data-ae2cf1f3" width="300px" height="29px" autosize="height"/>
+            <cl:property name="value" value=".cl-container.toggle-wrap {&#xD;&#xA;&#x9;/* 토글 버튼 스타일 */&#xD;&#xA;&#x9;background-color: #cccccc;&#xD;&#xA;&#x9;border-radius: 5px;&#xD;&#xA;&#x9;&#xD;&#xA;&#x9;.cl-checkbox.toggle {&#xD;&#xA;&#x9;&#x9;/* 토글되지 않은 상태 스타일 */&#xD;&#xA;&#x9;&#x9;padding: 0px;&#xD;&#xA;&#x9;&#x9;text-align: center;&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;.cl-checkbox-wrap {&#xD;&#xA;&#x9;&#x9;&#x9;/* 체크박스 아이콘 래퍼 스타일 */&#xD;&#xA;&#x9;&#x9;&#x9;vertical-align: middle;&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;.cl-checkbox-icon {&#xD;&#xA;&#x9;&#x9;&#x9;/* 체크박스 아이콘 스타일 */&#xD;&#xA;&#x9;&#x9;&#x9;background-image: none;&#xD;&#xA;&#x9;&#x9;&#x9;background-color: #ffffff;&#xD;&#xA;&#x9;&#x9;&#x9;border-radius: 3px;&#xD;&#xA;&#x9;&#x9;&#x9;margin-left: 0px;&#xD;&#xA;&#x9;&#x9;&#x9;width: 20px;&#xD;&#xA;&#x9;&#x9;&#x9;height: 20px;&#xD;&#xA;&#x9;&#x9;&#x9;min-height: 20px;&#xD;&#xA;&#x9;&#x9;&#x9;margin-bottom: 2px;&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&amp;.cl-focus, &amp;:focus {&#xD;&#xA;&#x9;&#x9;&#x9;.cl-checkbox-icon {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;/* 체크박스 포커스 스타일 */&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;outline: none;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;&#xD;&#xA;&#x9;&amp;.on {&#xD;&#xA;&#x9;&#x9;/* 토글 상태 스타일 */&#xD;&#xA;&#x9;&#x9;background-color: #6edc5f;&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;&#xD;&#xA;&#x9;&amp;.round {&#xD;&#xA;&#x9;&#x9;/* 둥근 토글 버튼 스타일 */&#xD;&#xA;&#x9;&#x9;border-radius: 14px;&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;.cl-checkbox.toggle {&#xD;&#xA;&#x9;&#x9;&#x9;.cl-checkbox-icon {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;/* 둥근 토글 버튼 아이콘 스타일 */&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;border-radius: 14px;&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;}&#xD;&#xA;}" type="string"/>
+            <cl:property name="language" value="ace/mode/less" type="enumeration"/>
+          </cl:udc>
+          <cl:verticallayout std:sid="v-layout-81987a1e" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-54850849" class="card-inner">
+          <cl:verticaldata std:sid="v-data-49f1570a" width="1040px" height="269px" autosize="height"/>
+          <cl:udc std:sid="ud-control-3bc3fa1b" id="areatitle8" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-9d05f978" width="300px" height="38px"/>
+            <cl:property name="value" value="시나리오" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-5fa2801f" value="1. 선택된 컬럼을 getUnfilterDistinctValues API를 통해 중복되지 않은 값들의 행을 보여주는지 확인합니다.&#xD;&#xA;2. 1번에서 데이터 셋에 설정된 필터링 조건을 제거하여 데이터 셋의 초기 설정으로 돌아가는지 확인합니다.">
+            <cl:verticaldata std:sid="v-data-da502c34" width="1040px" height="46px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-8f14d7fc" class="ref-card warning">
+            <cl:verticaldata std:sid="v-data-5b7a0ae3" width="1200px" height="95px" autosize="height"/>
+            <cl:output std:sid="output-564d9426" class="ref-title" value="WARNING">
+              <cl:verticaldata std:sid="v-data-076d9fe9" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-28ab6d03" value="`시나리오 영역에서 특별히 안내가 필요한 정보를 작성하십시오.`">
+              <cl:verticaldata std:sid="v-data-37c1bfe5" width="100px" height="25px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-ec928def" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-d8c39c93" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-f5df0ee5" class="card-inner">
+          <cl:verticaldata std:sid="v-data-35411d62" width="1040px" height="674px" autosize="height"/>
+          <cl:udc std:sid="ud-control-c65fdfe7" id="areatitle4" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-980fb5f9" width="300px" height="38px"/>
+            <cl:property name="value" value="주요 기능" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-df49c14a" value="시나리오 순서대로 각 API의 실행 버튼을 눌러 그리드에 연결된 데이터 셋 동작과 스크립트를 확인하십시오.">
+            <cl:verticaldata std:sid="v-data-e0f2ddad" width="1040px" height="25px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-363efae4" class="attach-box">
+            <cl:verticaldata std:sid="v-data-fd07513a" width="1100px" height="340px" autosize="height"/>
+            <cl:group std:sid="group-a68074cb">
+              <cl:flowlayoutdata std:sid="f-data-6c3b3aba" width="650px" height="300px"/>
+              <cl:output std:sid="output-f174da7d" class="text-center" value="&lt;기능 확인 데이터 셋 컨트롤>">
+                <cl:formdata std:sid="f-data-f0723df7" row="1" col="0"/>
+              </cl:output>
+              <cl:grid std:sid="grid-6ce55386" id="dsToGrdSample" datasetid="dsSample">
+                <cl:formdata std:sid="f-data-dd38809b" row="0" col="0"/>
+                <cl:gridcolumn std:sid="g-column-09d6369e"/>
+                <cl:gridcolumn std:sid="g-column-3cf3a2ee"/>
+                <cl:gridcolumn std:sid="g-column-b501cbd4"/>
+                <cl:gridheader std:sid="gh-band-f747fc1e">
+                  <cl:gridrow std:sid="g-row-87af4e46" height="35px"/>
+                  <cl:gridcell std:sid="gh-cell-7b0f8e15" rowindex="0" colindex="0" targetcolumnname="city" sortable="false" filterable="false" text="특별·광역시"/>
+                  <cl:gridcell std:sid="gh-cell-73239372" rowindex="0" colindex="1" targetcolumnname="town" sortable="false" filterable="false" text="자치군·구"/>
+                  <cl:gridcell std:sid="gh-cell-4729f1ee" rowindex="0" colindex="2" targetcolumnname="township" sortable="false" filterable="false" text="행정동, 읍·면"/>
+                </cl:gridheader>
+                <cl:griddetail std:sid="gd-band-8ce94b4d">
+                  <cl:gridrow std:sid="g-row-09147499" height="30px"/>
+                  <cl:gridcell std:sid="gd-cell-b46dd918" rowindex="0" colindex="0" columnname="city"/>
+                  <cl:gridcell std:sid="gd-cell-dd6efe11" rowindex="0" colindex="1" columnname="town"/>
+                  <cl:gridcell std:sid="gd-cell-9cbabfb5" rowindex="0" colindex="2" columnname="township"/>
+                </cl:griddetail>
+              </cl:grid>
+              <cl:formlayout std:sid="f-layout-bd803e82" hspace="5px" vspace="5px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+                <cl:rows length="1" unit="FRACTION" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+                <cl:rows length="20" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+                <cl:columns length="1" unit="FRACTION"/>
+              </cl:formlayout>
+            </cl:group>
+            <cl:flowlayout std:sid="f-layout-1d420c14" scrollable="false" spacing="20" halign="center" valign="middle" leftmargin="20" rightmargin="20" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:group std:sid="group-09d32a74" class="form-box vertical">
+            <cl:verticaldata std:sid="v-data-f0926932" width="400px" height="122px" autosize="height"/>
+            <cl:output std:sid="output-ebfd262a" class="label" value="API">
+              <cl:formdata std:sid="f-data-29062f84" row="0" col="0"/>
+            </cl:output>
+            <cl:output std:sid="output-8528dd47" class="label" value="설명">
+              <cl:formdata std:sid="f-data-45811037" row="0" col="1"/>
+            </cl:output>
+            <cl:output std:sid="output-96613175" class="label" value="입력값">
+              <cl:formdata std:sid="f-data-650fab76" row="0" col="2"/>
+            </cl:output>
+            <cl:output std:sid="output-b7dfb44f" class="label" value="기능확인">
+              <cl:formdata std:sid="f-data-fb62526b" row="0" col="3"/>
+            </cl:output>
+            <cl:output std:sid="output-816cb9ab" value="getUnfilteredDistinctValues(columnName)">
+              <cl:formdata std:sid="f-data-a8557972" row="1" col="0"/>
+            </cl:output>
+            <cl:output std:sid="output-1c5060bf" value="전체 데이터에서 특정 컬럼의 값 중 중복되지 않은 값의 배열을 반환합니다. 사용자가 원하는 필터링 함수를 추가하여 사용할 수 있습니다. (첫번째 행을 찾을 때 findFirstRow API 사용, 필터링 조건을 설정할 때 데이터 셋의 setFilter API 사용)">
+              <cl:formdata std:sid="f-data-60369f67" row="1" col="1"/>
+            </cl:output>
+            <cl:combobox std:sid="c-box-f63f98e9" id="cmbColumnName" maxvisibleitems="6" placeholder="컬럼 선택" preventinput="true">
+              <cl:formdata std:sid="f-data-7676db3e" valign="CENTER" height="30" row="1" col="2"/>
+              <cl:item std:sid="item-04235935" label="특별·광역시" value="city"/>
+              <cl:item std:sid="item-3ad0d81b" label="자치군·구" value="town"/>
+            </cl:combobox>
+            <cl:button std:sid="button-8ca082b2" id="btnDistinctValue" value="실행">
+              <cl:listener std:sid="listener-0e394fdb" name="click" handler="onBtnDistinctValueClick"/>
+              <cl:formdata std:sid="f-data-6ec71237" valign="CENTER" height="30" row="1" col="3"/>
+            </cl:button>
+            <cl:output std:sid="output-ef8ac65b" value="clearFilter()">
+              <cl:formdata std:sid="f-data-55d73361" row="2" col="0"/>
+            </cl:output>
+            <cl:output std:sid="output-f170a580" value="데이터 셋의 필터링 조건을 제거합니다.">
+              <cl:formdata std:sid="f-data-45735456" row="2" col="1"/>
+            </cl:output>
+            <cl:button std:sid="button-c76e0d9c" id="btnClearFilter" value="실행">
+              <cl:listener std:sid="listener-82ffa3cb" name="click" handler="onBtnClearFilterClick"/>
+              <cl:formdata std:sid="f-data-5248bf1b" valign="CENTER" height="30" row="2" col="3"/>
+            </cl:button>
+            <cl:formlayout std:sid="f-layout-74e4f45e" hspace="10px" vspace="10px" top-margin="5px" right-margin="5px" bottom-margin="5px" left-margin="5px" hseparatorwidth="1" hseparatortype="BY_CLASS" vseparatorwidth="1" vseparatortype="BY_CLASS">
+              <cl:rows length="30" unit="PIXEL" autoSizing="false" shadetype="BY_CLASS" shadecolor="#000000" minlength="0"/>
+              <cl:rows length="30" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:rows length="30" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="200" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="1" unit="FRACTION" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="200" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="80" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+            </cl:formlayout>
+          </cl:group>
+          <cl:udc std:sid="ud-control-10dd49ff" id="ace2" type="udc.cmn.Ace">
+            <cl:verticaldata std:sid="v-data-ffeb6519" width="300px" height="29px" autosize="height"/>
+          </cl:udc>
+          <cl:verticallayout std:sid="v-layout-7fc796fa" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-b18febb5" class="card-inner">
+          <cl:verticaldata std:sid="v-data-8382d0b4" width="1040px" height="399px" autosize="height"/>
+          <cl:udc std:sid="ud-control-8a69315d" id="areatitle9" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-ddf1f627" width="300px" height="38px"/>
+            <cl:property name="value" value="서버" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-0b305f19" value="`서버 소스에 대하여 설명을 작성하십시오.`">
+            <cl:verticaldata std:sid="v-data-1cfc2ae0" width="1040px" height="25px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-39ab9ba5" class="form-box vertical">
+            <cl:verticaldata std:sid="v-data-c68bfb63" width="400px" height="202px" autosize="height"/>
+            <cl:output std:sid="output-4b41e07c" class="label" value="API">
+              <cl:formdata std:sid="f-data-b9f9822c" row="0" col="0"/>
+            </cl:output>
+            <cl:output std:sid="output-594e0364" class="label" value="설명">
+              <cl:formdata std:sid="f-data-adeb8db4" row="0" col="1"/>
+            </cl:output>
+            <cl:output std:sid="output-c0b849c4" class="label" value="입력값">
+              <cl:formdata std:sid="f-data-cf1be17e" row="0" col="2"/>
+            </cl:output>
+            <cl:output std:sid="output-e1c8a74e" class="label" value="기능확인">
+              <cl:formdata std:sid="f-data-f4f79628" row="0" col="3"/>
+            </cl:output>
+            <cl:output std:sid="output-b1a9e9b5" value="">
+              <cl:formdata std:sid="f-data-f8b416c4" row="1" col="0"/>
+            </cl:output>
+            <cl:output std:sid="output-bea7dda6" value="">
+              <cl:formdata std:sid="f-data-07dca4dd" row="1" col="1"/>
+            </cl:output>
+            <cl:button std:sid="button-bd3a3970" id="btnInit2" value="실행">
+              <cl:formdata std:sid="f-data-f571db7e" valign="CENTER" height="30" row="1" col="3"/>
+            </cl:button>
+            <cl:formlayout std:sid="f-layout-25438dea" hspace="10px" vspace="10px" top-margin="5px" right-margin="5px" bottom-margin="5px" left-margin="5px" hseparatorwidth="1" hseparatortype="BY_CLASS" vseparatorwidth="1" vseparatortype="BY_CLASS">
+              <cl:rows length="30" unit="PIXEL" autoSizing="false" shadetype="BY_CLASS" shadecolor="#000000" minlength="0"/>
+              <cl:rows length="30" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="200" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="1" unit="FRACTION" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="200" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="80" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+            </cl:formlayout>
+          </cl:group>
+          <cl:udc std:sid="ud-control-5f94f350" id="ace3" type="udc.cmn.Ace">
+            <cl:verticaldata std:sid="v-data-dc3dc443" width="300px" height="29px" autosize="height"/>
+          </cl:udc>
+          <cl:verticallayout std:sid="v-layout-8a55cc02" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-1c3aa905" class="card-inner">
+          <cl:verticaldata std:sid="v-data-dc5153b2" width="400px" height="248px" autosize="height"/>
+          <cl:udc std:sid="ud-control-bcb64de7" id="areatitle5" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-644908cd" width="1040px" height="38px" autosize="none"/>
+            <cl:property name="value" value="유의사항" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-495c0c07" value="그리드에 연결된 DataSet과 DataView의 경우 해당 데이터 컴포넌트로 직접 조작시 그리드와 싱크가 안 맞는 경우가 발생할 수 있으므로, 되도록 그리드를 통해 데이터 조작하는 것을 권장드립니다.&#xD;&#xA;ex) DataSet.deleteRow(1) → Grid.deleteRow(1)">
+            <cl:verticaldata std:sid="v-data-46b08fb4" width="100px" height="25px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-1488dccb" class="ref-card danger">
+            <cl:verticaldata std:sid="v-data-6a83a5c9" width="1200px" height="95px" autosize="height"/>
+            <cl:output std:sid="output-64057e29" class="ref-title" value="컬럼명 작성 규칙">
+              <cl:verticaldata std:sid="v-data-437b9b9a" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-74838383" value="DataSet의 컬럼명은 영문자로 시작해야하며 영문자, 숫자, 언더바를 포함할 수 있습니다.&#xD;&#xA;올바르지 않은 규칙으로 컬럼명을 작성할 경우 표현식을 사용할 수 없습니다.">
+              <cl:verticaldata std:sid="v-data-140086d7" width="1040px" height="25px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-f4b4941d" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-4a914592" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-f59d0528" class="card-inner">
+          <cl:verticaldata std:sid="v-data-4e6004be" width="400px" height="248px" autosize="height"/>
+          <cl:udc std:sid="ud-control-3dead214" id="areatitle6" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-1ff324f1" width="1040px" height="38px" autosize="none"/>
+            <cl:property name="value" value="최소 요구 버전" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-50ed7766" value="``">
+            <cl:verticaldata std:sid="v-data-c03d0e2d" width="100px" height="25px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-62079995" class="ref-card warning">
+            <cl:verticaldata std:sid="v-data-f752b593" width="1040px" height="95px" autosize="height"/>
+            <cl:output std:sid="output-a9b248ef" class="ref-title" value="WARNING">
+              <cl:verticaldata std:sid="v-data-8dbfa4b4" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-532ac550" value="`특별히 인지해야 하는 정보에 대하여 작성하십시오.`">
+              <cl:verticaldata std:sid="v-data-7f6b1b60" width="100px" height="25px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-7607fc8d" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-25a6e49a" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-bc3decc0" class="card-inner">
+          <cl:verticaldata std:sid="v-data-fc989f6e" width="1040px" height="248px" autosize="height"/>
+          <cl:udc std:sid="ud-control-73179844" id="areatitle7" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-97420d3e" width="300px" height="38px"/>
+            <cl:property name="value" value="도움말" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-b1c673c6" value="데이터 셋 컨트롤에 대한 자세한 사항은 도움말을 참조하십시오.">
+            <cl:verticaldata std:sid="v-data-69dd3988" width="1040px" height="25px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-ee002fc3" class="ref-card default">
+            <cl:verticaldata std:sid="v-data-c9537cf9" width="1200px" height="95px" autosize="height"/>
+            <cl:output std:sid="output-5a0e53f8" class="ref-title" value="Help Contents">
+              <cl:verticaldata std:sid="v-data-f51eafad" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-6fbfbfa0" value="eXBuilder6 > 앱 개발 > 컨트롤 > 데이터 > 데이터 셋&#xD;&#xA;eXBuilder6 > API References > cpr.data > cpr.data.DataSet">
+              <cl:verticaldata std:sid="v-data-761bc800" width="1040px" height="25px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-eff44aa2" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-49276802" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:verticallayout std:sid="v-layout-a50c518b" spacing="20" leftmargin="50" rightmargin="50" topmargin="20" bottommargin="60"/>
+      </cl:group>
+      <cl:verticallayout std:sid="v-layout-5825919e" spacing="0"/>
+    </cl:group>
+    <cl:udc std:sid="ud-control-98388c51" id="updatedtitle1" type="udc.cmn.UpdatedTitle">
+      <cl:verticaldata std:sid="v-data-5d9cb25f" width="1200px" height="25px" autosize="none"/>
+      <cl:property name="value" value="20210302" type="string"/>
+    </cl:udc>
+    <cl:verticallayout std:sid="v-layout-29a49e31"/>
+  </body>
+  <std:studiosetting>
+    <std:hruler/>
+    <std:vruler/>
+  </std:studiosetting>
+</html>

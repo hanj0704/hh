@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:cl="http://tomatosystem.co.kr/cleopatra" xmlns:std="http://tomatosystem.co.kr/cleopatra/studio" std:sid="html-f3e80776" version="1.0.0.0">
+  <head std:sid="head-a83fee9a">
+    <title>STYLE_CONTROLS_ACCORDION_01</title>
+    <screen std:sid="screen-63e21797" id="default" name="default" minwidth="1200px" width="1200px" height="768px"/>
+    <screen std:sid="screen-5e215871" id="tablet" name="tablet" minwidth="850px" maxwidth="1199px" width="850px" height="768px"/>
+    <screen std:sid="screen-52f043c2" id="test" name="mobile" maxwidth="849px" width="544px" height="768px"/>
+    <cl:model std:sid="model-fbf8f412">
+      <cl:dataset std:sid="d-set-223b27f7" id="dsPropVw" info="프로퍼티 뷰 (속성 뷰)">
+        <cl:datacolumnlist>
+          <cl:datacolumn comment="컨트롤 명" std:sid="d-column-2ab4891d" name="CTRL_NM"/>
+          <cl:datacolumn comment="속성 탭 명" std:sid="d-column-068c1e55" name="PROP_SJ"/>
+          <cl:datacolumn comment="속성 명" std:sid="d-column-3f149788" name="PROP_NM"/>
+          <cl:datacolumn comment="속성 값" std:sid="d-column-53fd0a82" name="PROP_VAL"/>
+          <cl:datacolumn comment="속성 설명" std:sid="d-column-09e0c603" name="PROP_STY_DESC"/>
+        </cl:datacolumnlist>
+        <cl:datarowlist>
+          <cl:datarow>
+            <cl:datavalue columnname="CTRL_NM"><![CDATA[accordion]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_SJ"><![CDATA[스타일]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_NM"><![CDATA[class]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_VAL"><![CDATA[accordion-card]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_STY_DESC"><![CDATA[]]></cl:datavalue>
+          </cl:datarow>
+          <cl:datarow>
+            <cl:datavalue columnname="CTRL_NM"><![CDATA[accordion]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_SJ"><![CDATA[레이아웃]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_NM"><![CDATA[autoSize]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_VAL"><![CDATA[height]]></cl:datavalue>
+            <cl:datavalue columnname="PROP_STY_DESC"><![CDATA[]]></cl:datavalue>
+          </cl:datarow>
+        </cl:datarowlist>
+      </cl:dataset>
+    </cl:model>
+    <cl:appspec title="카드형 아코디언 스타일"/>
+  </head>
+  <body std:sid="body-a638dfc3" style="top:0px; left:0px; width:800px; height:600px;">
+    <cl:group std:sid="group-59960b1b" class="content-card">
+      <cl:verticaldata std:sid="v-data-51142caa" width="1200px" height="2860px" autosize="height"/>
+      <cl:udc std:sid="ud-control-b8469aa4" type="udc.cmn.AppTitle">
+        <cl:verticaldata std:sid="v-data-f0bae039" width="1140px" height="175px" autosize="none"/>
+        <cl:property name="tags" value="퍼블리싱,아코디언,카드형" type="string"/>
+      </cl:udc>
+      <cl:group std:sid="group-a4b3eb74">
+        <cl:verticaldata std:sid="v-data-3747f6b2" width="400px" height="2658px" autosize="height"/>
+        <cl:group std:sid="group-c3b4f76c" class="card-inner">
+          <cl:verticaldata std:sid="v-data-76d5fec5" width="400px" height="419px" autosize="height"/>
+          <cl:udc std:sid="ud-control-400ea92b" id="areatitle1" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-6e7053ba" width="300px" height="38px"/>
+            <cl:property name="value" value="개요" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-91f8c8b3" value="이 문서는 카드 형태의 아코디언 스타일을 적용하는 방법에 대하여 설명합니다.">
+            <cl:verticaldata std:sid="v-data-89fb3e43" width="100px" height="46px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-fc5891b4" class="attach-box">
+            <cl:verticaldata std:sid="v-data-d20e3b78" width="1040px" height="256px" autosize="height"/>
+            <cl:accordion std:sid="accordion-c6ee0906" id="acd1">
+              <std:metadata>
+                <std:property key="active-index" value="2"/>
+              </std:metadata>
+              <cl:flowlayoutdata std:sid="f-data-9f8962cd" width="400px" height="200px" autosize="height"/>
+              <cl:sectionitem std:sid="s-item-cabb5747" selected="true" title="item 1">
+                <std:metadata>
+                  <std:property key="is-active-item" value="true"/>
+                </std:metadata>
+                <cl:group std:sid="group-69ec64c6">
+                  <std:metadata>
+                    <std:property key="locked" value="true"/>
+                  </std:metadata>
+                  <cl:output std:sid="output-2f18add6" value="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.">
+                    <cl:verticaldata std:sid="v-data-4d33efd3" width="100px" height="84px" autosize="height"/>
+                  </cl:output>
+                  <cl:verticallayout std:sid="v-layout-48b7e04e" leftmargin="10" rightmargin="10" topmargin="10" bottommargin="10"/>
+                </cl:group>
+              </cl:sectionitem>
+              <cl:sectionitem std:sid="s-item-62b887c5" title="item 2">
+                <cl:group std:sid="group-5e4098a7">
+                  <std:metadata>
+                    <std:property key="locked" value="true"/>
+                  </std:metadata>
+                  <cl:output std:sid="output-04a15c0f" value="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.">
+                    <cl:verticaldata std:sid="v-data-ae7e78fa" width="390px" height="84px" autosize="height"/>
+                  </cl:output>
+                  <cl:verticallayout std:sid="v-layout-9d396d69" leftmargin="10" rightmargin="10" topmargin="10" bottommargin="10"/>
+                </cl:group>
+              </cl:sectionitem>
+              <cl:sectionitem std:sid="s-item-94918fd1" title="item 3">
+                <cl:group std:sid="group-4fec2364">
+                  <std:metadata>
+                    <std:property key="locked" value="true"/>
+                  </std:metadata>
+                  <cl:output std:sid="output-0781d78f" value="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.">
+                    <cl:verticaldata std:sid="v-data-e3d63a6d" width="390px" height="84px" autosize="height"/>
+                  </cl:output>
+                  <cl:verticallayout std:sid="v-layout-900b0340" leftmargin="10" rightmargin="10" topmargin="10" bottommargin="10"/>
+                </cl:group>
+              </cl:sectionitem>
+            </cl:accordion>
+            <cl:output std:sid="output-6b266da4" value="→">
+              <cl:flowlayoutdata std:sid="f-data-2eb553f3" width="20px" height="25px" autosize="width"/>
+            </cl:output>
+            <cl:accordion std:sid="accordion-57894d82" id="acd2" class="accordion-card">
+              <std:metadata>
+                <std:property key="active-index" value="2"/>
+              </std:metadata>
+              <cl:flowlayoutdata std:sid="f-data-dfef2241" width="400px" height="200px" autosize="height"/>
+              <cl:sectionitem std:sid="s-item-c263f758" selected="true" title="item 1">
+                <std:metadata>
+                  <std:property key="is-active-item" value="true"/>
+                </std:metadata>
+                <cl:group std:sid="group-0e82f188">
+                  <std:metadata>
+                    <std:property key="locked" value="true"/>
+                  </std:metadata>
+                  <cl:output std:sid="output-aee855ec" value="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.">
+                    <cl:verticaldata std:sid="v-data-6e9b6938" width="100px" height="84px" autosize="height"/>
+                  </cl:output>
+                  <cl:verticallayout std:sid="v-layout-6f561d12" leftmargin="10" rightmargin="10" topmargin="10" bottommargin="10"/>
+                </cl:group>
+              </cl:sectionitem>
+              <cl:sectionitem std:sid="s-item-7082c631" title="item 2">
+                <cl:group std:sid="group-aa63f602">
+                  <std:metadata>
+                    <std:property key="locked" value="true"/>
+                  </std:metadata>
+                  <cl:output std:sid="output-075aae25" value="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.">
+                    <cl:verticaldata std:sid="v-data-7068ab00" width="390px" height="84px" autosize="height"/>
+                  </cl:output>
+                  <cl:verticallayout std:sid="v-layout-95c08618" leftmargin="10" rightmargin="10" topmargin="10" bottommargin="10"/>
+                </cl:group>
+              </cl:sectionitem>
+              <cl:sectionitem std:sid="s-item-b1be8bc0" title="item 3">
+                <cl:group std:sid="group-c371bf4f">
+                  <std:metadata>
+                    <std:property key="locked" value="true"/>
+                  </std:metadata>
+                  <cl:output std:sid="output-071f794b" value="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.">
+                    <cl:verticaldata std:sid="v-data-64ecf5e7" width="390px" height="84px" autosize="height"/>
+                  </cl:output>
+                  <cl:verticallayout std:sid="v-layout-2568d978" leftmargin="10" rightmargin="10" topmargin="10" bottommargin="10"/>
+                </cl:group>
+              </cl:sectionitem>
+            </cl:accordion>
+            <cl:flowlayout std:sid="f-layout-6ea22f5b" scrollable="false" spacing="15" halign="center" valign="middle" linewrap="false" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-f8b7a75d" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-de8c1411" class="card-inner">
+          <cl:verticaldata std:sid="v-data-b7ece3a4" width="400px" height="575px" autosize="height"/>
+          <cl:udc std:sid="ud-control-fb8bf275" id="areatitle2" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-a1e15097" width="1040px" height="38px" autosize="none"/>
+            <cl:property name="value" value="컨트롤 생성 및 설정" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-63aedf87" value="아코디언의 크기를 상위 그룹의 레이아웃 종류에 따라 알맞게 크기를 설정합니다.&#xD;&#xA;&#xD;&#xA;아코디언의 컨텐츠 내용에 따라 자동으로 크기가 조절되어야 하는 경우에는 폼 레이아웃, 버티컬 레이아웃, 플로우 레이아웃 등 자동 크기 기능을 지원하는 레이아웃에 컨트롤을 배치해야 하며, 아코디언 컨텐츠를 이루고 있는 그룹의 레이아웃 또한 자동 크기 기능을 지원하는 레이아웃을 사용해야 합니다.">
+            <cl:verticaldata std:sid="v-data-7a20e9d2" width="100px" height="51px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-5f47d467" class="attach-box">
+            <cl:verticaldata std:sid="v-data-4e38cf7f" width="400px" height="381px" autosize="height"/>
+            <cl:udc std:sid="ud-control-93a40a6f" id="propview1" type="udc.cmn.PropView">
+              <cl:flowlayoutdata std:sid="f-data-c5ae57a6" width="400px" height="350px"/>
+              <cl:property name="dataset" value="dsPropVw" type="control"/>
+              <cl:property name="filterCondition" value="accordion" type="enumeration"/>
+            </cl:udc>
+            <cl:flowlayout std:sid="f-layout-3c9b5206" scrollable="false" spacing="20" halign="center" valign="middle" leftmargin="20" rightmargin="20" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-fea69ec9" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-11053d61" class="card-inner">
+          <cl:verticaldata std:sid="v-data-92db121e" width="1040px" height="393px" autosize="height"/>
+          <cl:udc std:sid="ud-control-d726449c" id="areatitle3" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-2234104b" width="300px" height="38px"/>
+            <cl:property name="value" value="스타일 시트" type="string"/>
+          </cl:udc>
+          <cl:group std:sid="group-6a755066" id="grp16" class="ref-card info">
+            <cl:verticaldata std:sid="v-data-a577cd31" width="1040px" height="96px" autosize="height"/>
+            <cl:output std:sid="output-d6122608" id="opt14" class="ref-title" value="경로 : LESS 파일">
+              <cl:verticaldata std:sid="v-data-157990b2" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-88c60ef5" id="opt15" value="theme/assets/less/controls/accordion/STYLE_CONTROLS_ACCORDION_01.less">
+              <cl:verticaldata std:sid="v-data-7eea5e7b" width="100px" height="25px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-3d91933b" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:output std:sid="output-c66842e8" value="아코디언에 &quot;accordion-card&quot; 클래스를 적용합니다. 아코디언 스타일과 아코디언 헤더에서의 호버, 포커스, 액티브, 비활성화 상태에 따른 스타일을 작성합니다.&#xD;&#xA;&#xD;&#xA;아코디언 컨텐츠 스타일은 .cl-accordion-content {} 에서, 아코디언 헤더 간의 간격은 .cl-accordion-section + .cl-accordion-header {} 에서 지정할 수 있습니다.&#xD;&#xA;&#xD;&#xA;전역적인 아코디언 컨트롤에 사용하는 경우 루트 스타일러의 class에 클래스를 적용하지 않도록 합니다. LESS 작성 시에도 전역적인 아코디언 컨트롤에 적용될 수 있는 형태로 작성되어야 합니다. 따라서 전역적으로 아코디언 컨트롤의 스타일을 변경하고 싶은 경우 accordion.part.less에서 다음의 스타일을 적용하면 됩니다. 특정 아코디언만 스타일을 적용하고 싶은 경우에는 해당 스타일이 적용될 수 있는 class를 작성하여 적용하세요.">
+            <cl:verticaldata std:sid="v-data-d3939fb0" width="1040px" height="126px" autosize="height"/>
+          </cl:output>
+          <cl:udc std:sid="ud-control-b7a23aae" id="ace1" type="udc.cmn.Ace">
+            <cl:verticaldata std:sid="v-data-ae2cf1f3" width="300px" height="50px" autosize="height"/>
+            <cl:property name="value" value=".cl-accordion.accordion-card {&#xD;&#xA;&#x9;background-color: transparent;&#xD;&#xA;&#x9;border: none;&#xD;&#xA;&#x9;padding: 0px;&#xD;&#xA;&#x9;&#xD;&#xA;&#x9;/* 아코디언 헤더 스타일 */&#xD;&#xA;&#x9;.cl-accordion-header {&#xD;&#xA;&#x9;&#x9;background-color: #ffffff;&#xD;&#xA;&#x9;&#x9;border: 1px solid #babfc7;&#xD;&#xA;&#x9;&#x9;border-top-left-radius: 5px;&#xD;&#xA;&#x9;&#x9;border-top-right-radius: 5px;&#xD;&#xA;&#x9;&#x9;color: #6b6f82;&#xD;&#xA;&#x9;&#x9;font-size: 16px;&#xD;&#xA;&#x9;&#x9;padding: 10px 5px 10px 10px;&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;/* 아코디언 헤더 펼침 버튼 스타일 */&#xD;&#xA;&#x9;&#x9;.cl-accordion-expander {&#xD;&#xA;&#x9;&#x9;&#x9;background-image: url(&quot;../../../../images/controls/accordion/icon-arrow-right-s-line.svg&quot;);&#xD;&#xA;&#x9;&#x9;&#x9;background-size: 24px;&#xD;&#xA;&#x9;&#x9;&#x9;width: 24px;&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;/* 아코디언 헤더 호버 스타일 */&#xD;&#xA;&#x9;&#x9;&amp;:hover:not(.cl-disabled) {&#xD;&#xA;&#x9;&#x9;&#x9;background-color: #ffffff;&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;/* 아코디언 헤더 포커스 스타일 */&#xD;&#xA;&#x9;&#x9;&amp;:focus {&#xD;&#xA;&#x9;&#x9;&#x9;text-decoration: none; // 포커스링 제거&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;/* 아코디언 헤더 비활성화 스타일 */&#xD;&#xA;&#x9;&#x9;&amp;.cl-disabled {&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;/* 아코디언 헤더 선택 스타일 */&#xD;&#xA;&#x9;&#x9;&amp;.cl-activated {&#xD;&#xA;&#x9;&#x9;&#x9;background-color: #ffffff;&#xD;&#xA;&#x9;&#x9;&#x9;color: #3f87fd;&#xD;&#xA;&#x9;&#x9;&#x9;font-weight: bold;&#xD;&#xA;&#x9;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&#x9;/* 아코디언 헤더 닫힘 버튼 스타일 */&#xD;&#xA;&#x9;&#x9;&#x9;.cl-accordion-expander {&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;background-image: url(&quot;../../../../images/controls/accordion/icon-arrow-down-s-line.svg&quot;);&#xD;&#xA;&#x9;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;&#xD;&#xA;&#x9;/* 아코디언 컨텐츠 스타일 */&#xD;&#xA;&#x9;.cl-accordion-section:not(.cl-accordion-placeholder) {&#xD;&#xA;&#x9;&#x9;margin-top: -1px;&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;.cl-accordion-content {&#xD;&#xA;&#x9;&#x9;&#x9;background-color: #ffffff;&#xD;&#xA;&#x9;&#x9;&#x9;border: 1px solid #babfc7;&#xD;&#xA;&#x9;&#x9;&#x9;border-bottom-left-radius: 5px;&#xD;&#xA;&#x9;&#x9;&#x9;border-bottom-right-radius: 5px;&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;&#xD;&#xA;&#x9;/* 아코디언 섹션 간의 간격 */&#xD;&#xA;&#x9;.cl-accordion-section +.cl-accordion-header {&#xD;&#xA;&#x9;&#x9;margin-top: 5px;&#xD;&#xA;&#x9;}&#xD;&#xA;}" type="string"/>
+            <cl:property name="language" value="ace/mode/less" type="enumeration"/>
+          </cl:udc>
+          <cl:verticallayout std:sid="v-layout-81987a1e" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-f5df0ee5" class="card-inner">
+          <cl:verticaldata std:sid="v-data-35411d62" width="1040px" height="259px" autosize="height"/>
+          <cl:udc std:sid="ud-control-c65fdfe7" id="areatitle4" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-980fb5f9" width="300px" height="38px"/>
+            <cl:property name="value" value="주요 기능" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-df49c14a" value="`주요 기능에 대하여 작성합니다.`">
+            <cl:verticaldata std:sid="v-data-e0f2ddad" width="1040px" height="24px" autosize="height"/>
+          </cl:output>
+          <cl:udc std:sid="ud-control-10dd49ff" id="ace2" type="udc.cmn.Ace">
+            <cl:verticaldata std:sid="v-data-ffeb6519" width="300px" height="29px" autosize="height"/>
+            <cl:property name="value" value="var vcCbxTy2 = app.lookup(&quot;cbxTy2&quot;);&#xD;&#xA;var vcGrpWrap = vcCbxTy2.getParent();&#xD;&#xA;&#x9;&#xD;&#xA;var vbChecked = vcCbxTy2.checked;&#xD;&#xA;if (vbChecked){&#xD;&#xA;&#x9;vcGrpWrap.updateConstraint(vcCbxTy2, {&#xD;&#xA;&#x9;&#x9;left : &quot;calc(100% - &quot; + vcCbxTy2.getActualRect().width + &quot;px - 3px)&quot;&#xD;&#xA;&#x9;});&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;/* 토글 상태로 변경 */&#xD;&#xA;&#x9;vcGrpWrap.style.addClass(&quot;on&quot;);&#xD;&#xA;} else {&#xD;&#xA;&#x9;vcGrpWrap.updateConstraint(vcCbxTy2, {&#xD;&#xA;&#x9;&#x9;left : &quot;3px&quot;&#xD;&#xA;&#x9;});&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;&#x9;/* 토글 상태 해제 */&#xD;&#xA;&#x9;vcGrpWrap.style.removeClass(&quot;on&quot;);&#xD;&#xA;}" type="string"/>
+          </cl:udc>
+          <cl:group std:sid="group-09d32a74" class="form-box vertical">
+            <cl:verticaldata std:sid="v-data-f0926932" width="400px" height="82px" autosize="height"/>
+            <cl:output std:sid="output-ebfd262a" class="label" value="컨트롤">
+              <cl:formdata std:sid="f-data-29062f84" row="0" col="0"/>
+            </cl:output>
+            <cl:output std:sid="output-8528dd47" class="label" value="API">
+              <cl:formdata std:sid="f-data-45811037" row="0" col="1"/>
+            </cl:output>
+            <cl:output std:sid="output-96613175" class="label" value="설명">
+              <cl:formdata std:sid="f-data-650fab76" row="0" col="2"/>
+            </cl:output>
+            <cl:formlayout std:sid="f-layout-74e4f45e" hspace="10px" vspace="10px" top-margin="5px" right-margin="5px" bottom-margin="5px" left-margin="5px" hseparatorwidth="1" hseparatortype="BY_CLASS" vseparatorwidth="1" vseparatortype="BY_CLASS">
+              <cl:rows length="30" unit="PIXEL" autoSizing="false" shadetype="BY_CLASS" shadecolor="#000000" minlength="0"/>
+              <cl:rows length="30" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="100" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="250" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+              <cl:columns length="1" unit="FRACTION"/>
+            </cl:formlayout>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-7fc796fa" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-1c3aa905" class="card-inner">
+          <cl:verticaldata std:sid="v-data-dc5153b2" width="400px" height="351px" autosize="height"/>
+          <cl:udc std:sid="ud-control-bcb64de7" id="areatitle5" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-644908cd" width="1040px" height="38px" autosize="none"/>
+            <cl:property name="value" value="유의사항" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-495c0c07" value="아코디언의 헤더 간 간격은 아코디언 속성에서 제공하지 않으므로 CSS를 통해 정의해야 합니다.">
+            <cl:verticaldata std:sid="v-data-46b08fb4" width="100px" height="139px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-1488dccb" class="ref-card danger">
+            <cl:verticaldata std:sid="v-data-6a83a5c9" width="1200px" height="100px" autosize="height"/>
+            <cl:output std:sid="output-64057e29" class="ref-title" value="웹 접근성: 포커스링">
+              <cl:verticaldata std:sid="v-data-437b9b9a" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-721ab1e1" value="&quot;한국형 웹 콘텐츠 접근성 지침&quot;에서는 키보드 사용 보장을 위하여 키보드에 의한 초점은 논리적으로 이동해야 하며 시각적으로 구별할 수 있어야 한다고 정의하고 있습니다. 위의 스타일 시트에서는 아코디언 헤더에 초점이 이동하였을 때 표시되는 포커스 링을 보이지 않도록 정의하였으므로 웹 접근성을 고려해야 하는 경우 다음의 스타일을 지정하지 않도록 주의가 필요합니다.">
+              <cl:verticaldata std:sid="v-data-6e431a84" width="100px" height="25px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-f4b4941d" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-4a914592" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-f59d0528" class="card-inner">
+          <cl:verticaldata std:sid="v-data-4e6004be" width="400px" height="218px" autosize="height"/>
+          <cl:udc std:sid="ud-control-3dead214" id="areatitle6" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-1ff324f1" width="1040px" height="38px" autosize="none"/>
+            <cl:property name="value" value="최소 요구 버전" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-50ed7766" id="opt1" value="``">
+            <cl:verticaldata std:sid="v-data-c03d0e2d" width="100px" height="25px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-62079995" id="grp14" class="ref-card warning">
+            <cl:verticaldata std:sid="v-data-f752b593" width="1040px" height="100px" autosize="height"/>
+            <cl:output std:sid="output-a9b248ef" id="opt10" class="ref-title" value="WARNING">
+              <cl:verticaldata std:sid="v-data-8dbfa4b4" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-532ac550" id="opt11" value="`특별히 인지해야 하는 정보에 대하여 작성하십시오.`">
+              <cl:verticaldata std:sid="v-data-7f6b1b60" width="100px" height="25px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-7607fc8d" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-25a6e49a" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:group std:sid="group-bc3decc0" class="card-inner">
+          <cl:verticaldata std:sid="v-data-fc989f6e" width="1040px" height="215px" autosize="height"/>
+          <cl:udc std:sid="ud-control-73179844" id="areatitle7" type="udc.cmn.AreaTitle">
+            <cl:verticaldata std:sid="v-data-97420d3e" width="300px" height="38px"/>
+            <cl:property name="value" value="도움말" type="string"/>
+          </cl:udc>
+          <cl:output std:sid="output-b1c673c6" value="아코디언에 대한 자세한 사항은 도움말을 참조하십시오.">
+            <cl:verticaldata std:sid="v-data-69dd3988" width="1040px" height="25px" autosize="height"/>
+          </cl:output>
+          <cl:group std:sid="group-d5720f02" class="ref-card default">
+            <cl:verticaldata std:sid="v-data-1337c753" width="1100px" height="143px" autosize="height"/>
+            <cl:output std:sid="output-db87d1e6" class="ref-title" value="Help Contents">
+              <cl:verticaldata std:sid="v-data-dbec6302" width="100px" height="25px"/>
+            </cl:output>
+            <cl:output std:sid="output-1ead4169" value="eXBuilder6 > API Reference > cpr.controls > Accordion&#xD;&#xA;eXBuilder6 > 앱 개발 > 컨트롤 > UI 컨트롤 > 아코디언">
+              <cl:verticaldata std:sid="v-data-92cfcea7" width="100px" height="44px" autosize="height"/>
+            </cl:output>
+            <cl:verticallayout std:sid="v-layout-5c36a7b6" leftmargin="30" rightmargin="30" topmargin="20" bottommargin="20"/>
+          </cl:group>
+          <cl:verticallayout std:sid="v-layout-49276802" spacing="15" leftmargin="0" rightmargin="0" topmargin="20" bottommargin="40"/>
+        </cl:group>
+        <cl:verticallayout std:sid="v-layout-a50c518b" spacing="20" leftmargin="50" rightmargin="50" topmargin="20" bottommargin="60"/>
+      </cl:group>
+      <cl:verticallayout std:sid="v-layout-5825919e" spacing="0"/>
+    </cl:group>
+    <cl:udc std:sid="ud-control-98388c51" id="updatedtitle1" type="udc.cmn.UpdatedTitle">
+      <cl:verticaldata std:sid="v-data-5e2cb543" width="1200px" height="25px" autosize="none"/>
+      <cl:property name="value" value="20210305" type="string"/>
+    </cl:udc>
+    <cl:verticallayout std:sid="v-layout-47a33d6f"/>
+  </body>
+  <std:studiosetting>
+    <std:hruler/>
+    <std:vruler/>
+  </std:studiosetting>
+</html>

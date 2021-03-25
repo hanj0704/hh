@@ -1,0 +1,65 @@
+@import "../custom-settings.part.less";
+
+/************************************************
+ * 배지
+ ************************************************/
+ 
+.cl-output.badge {
+	padding: @input-padding-y (@input-padding-x * 1.5);
+	text-align: center;
+	font-weight: @font-weight-medium;
+	
+	&.cl-disabled {
+		opacity: 0.5;
+	}
+	
+	&.badge-pill {
+		border-radius: 1.5rem;
+	}
+	
+	/* 배지 스타일 */
+	&.badge-primary {
+		background-color: @primary;
+		color: @white;
+	}
+	
+	&.badge-secondary {
+		background-color: @secondary;
+		color: @white;
+	}
+	
+	&.badge-info {
+		background-color: @info;		
+		color: @white;
+	}
+	
+	&.badge-success {
+		background-color: @success;
+		color: @white;
+	}
+	
+	&.badge-warning {
+		background-color: @warning;
+		color: @white;
+	}
+	
+	&.badge-danger {
+		background-color: @danger;
+		color: @white;
+	}
+	
+	&.badge-gray {
+		background-color: @gray;
+		color: @white;
+	}
+	
+	&.badge-dark {
+		background-color: @dark;
+		color: @white;
+	}
+	
+	&.badge-light {
+		background-color: @light;
+		color: @white;
+	}
+}

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:cl="http://tomatosystem.co.kr/cleopatra" xmlns:std="http://tomatosystem.co.kr/cleopatra/studio" std:sid="html-40781172" version="1.0.0.0">
+  <head std:sid="head-204027c2">
+    <title>SCRIPT_CONTROLS_DIALOG_01_A</title>
+    <screen std:sid="screen-de6049ca" id="default" name="default" minwidth="1200px" width="1200px" height="768px" useCustomWidth="true" useCustomHeight="true" customHeight="400" customWidth="800"/>
+    <screen std:sid="screen-13ad3c8f" id="tablet" name="tablet" minwidth="850px" maxwidth="1199px" width="850px" height="768px"/>
+    <screen std:sid="screen-ef441d7d" id="mobile" name="mobile" maxwidth="849px" width="544px" height="768px"/>
+    <cl:model std:sid="model-bf18d3c9"/>
+    <cl:appspec title="다이얼로그로 호출된 화면"/>
+  </head>
+  <body std:sid="body-81cfdbcb" style="top:0px; left:0px; width:800px; height:600px;">
+    <cl:listener std:sid="listener-12f3c102" name="load" handler="onBodyLoad"/>
+    <cl:group std:sid="group-5a8e0b52">
+      <cl:formdata std:sid="f-data-e55a5c28" row="1" col="0"/>
+      <cl:button std:sid="button-362b5025" id="btnSubmit" class="btn-info btn-square" value="확인">
+        <cl:listener std:sid="listener-a9ffbae4" name="click" handler="onBtnSubmitClick"/>
+        <cl:formdata std:sid="f-data-6e068832" row="0" col="0"/>
+      </cl:button>
+      <cl:button std:sid="button-4df0c11b" id="btnClose" class="btn-light btn-square" value="닫기">
+        <cl:listener std:sid="listener-cbd11de5" name="click" handler="onBtnCloseClick"/>
+        <cl:formdata std:sid="f-data-7f99617f" row="0" col="1"/>
+      </cl:button>
+      <cl:formlayout std:sid="f-layout-4e89a305" hspace="0px" vspace="0px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+        <cl:rows length="1" unit="FRACTION"/>
+        <cl:columns length="1" unit="FRACTION" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+        <cl:columns length="1" unit="FRACTION"/>
+      </cl:formlayout>
+    </cl:group>
+    <cl:group std:sid="group-487a907e">
+      <cl:formdata std:sid="f-data-fb221791" row="0" col="0"/>
+      <cl:group std:sid="group-39ab9ba5" class="form-box vertical">
+        <cl:verticaldata std:sid="v-data-0c9d9e69" width="1100px" height="122px" autosize="height"/>
+        <cl:output std:sid="output-4b41e07c" class="label" value="API">
+          <cl:formdata std:sid="f-data-b9f9822c" row="0" col="0"/>
+        </cl:output>
+        <cl:output std:sid="output-594e0364" class="label" value="설명">
+          <cl:formdata std:sid="f-data-adeb8db4" row="0" col="1"/>
+        </cl:output>
+        <cl:output std:sid="output-c0b849c4" class="label" value="입력값">
+          <cl:formdata std:sid="f-data-cf1be17e" row="0" col="2"/>
+        </cl:output>
+        <cl:output std:sid="output-e1c8a74e" class="label" value="소스보기">
+          <cl:formdata std:sid="f-data-f4f79628" row="0" col="3"/>
+        </cl:output>
+        <cl:output std:sid="output-d46c0956" value="AppInstance.getHostProperty()">
+          <cl:formdata std:sid="f-data-c79127c9" row="1" col="0"/>
+        </cl:output>
+        <cl:output std:sid="output-c57aae6c" value="임베디드 앱 컨트롤의 속성을 반환합니다. 다이얼로그로 해당 화면이 호출되었을 때 아래의 결과값에 넘어온 initValue를 확인할 수 있습니다.">
+          <cl:formdata std:sid="f-data-0407caf6" row="1" col="1"/>
+        </cl:output>
+        <cl:button std:sid="button-e2e69c8f" id="btnRtrnVal" value="확인">
+          <cl:listener std:sid="listener-c4769dde" name="click" handler="onBtnRtrnValClick"/>
+          <cl:formdata std:sid="f-data-1445d576" valign="CENTER" height="30" row="2" col="3"/>
+        </cl:button>
+        <cl:output std:sid="output-1e8a5260" value="app.close()">
+          <cl:formdata std:sid="f-data-4f32a35d" row="2" col="0"/>
+        </cl:output>
+        <cl:output std:sid="output-e6bfaf64" value="app을 닫습니다. 파라미터로 값을 전달하면 returnValue를 설정할 수 있습니다. (입력값으로 returnValue를 설정하여 [확인] 버튼을 눌렀을 때 값이 다이얼로그를 호출한 화면으로 표시되는지 확인하십시오.)">
+          <cl:formdata std:sid="f-data-b887ea3e" row="2" col="1"/>
+        </cl:output>
+        <cl:inputbox std:sid="i-box-8b028878" id="ipbRtnVal">
+          <cl:formdata std:sid="f-data-962381df" valign="CENTER" height="30" row="2" col="2"/>
+        </cl:inputbox>
+        <cl:formlayout std:sid="f-layout-25438dea" hspace="10px" vspace="10px" top-margin="5px" right-margin="5px" bottom-margin="5px" left-margin="5px" hseparatorwidth="1" hseparatortype="BY_CLASS" vseparatorwidth="1" vseparatortype="BY_CLASS">
+          <cl:rows length="30" unit="PIXEL" autoSizing="false" shadetype="BY_CLASS" shadecolor="#000000" minlength="0"/>
+          <cl:rows length="30" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+          <cl:rows length="30" unit="PIXEL" autoSizing="true" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+          <cl:columns length="220" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+          <cl:columns length="1" unit="FRACTION" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+          <cl:columns length="200" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+          <cl:columns length="80" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+        </cl:formlayout>
+      </cl:group>
+      <cl:group std:sid="group-76dccbbe" class="form-box">
+        <cl:verticaldata std:sid="v-data-15948ac0" width="400px" height="42px"/>
+        <cl:output std:sid="output-66b315aa" class="label" value="결과값">
+          <cl:formdata std:sid="f-data-8eb7a9a1" row="0" col="0"/>
+        </cl:output>
+        <cl:output std:sid="output-2b159af0" id="lblVal" value="">
+          <cl:formdata std:sid="f-data-fb45ad0b" row="0" col="1"/>
+        </cl:output>
+        <cl:formlayout std:sid="f-layout-5f6211f1" hspace="10px" vspace="10px" top-margin="5px" right-margin="5px" bottom-margin="5px" left-margin="5px" hseparatorwidth="1" hseparatortype="BY_CLASS" vseparatorwidth="1" vseparatortype="BY_CLASS">
+          <cl:rows length="1" unit="FRACTION"/>
+          <cl:columns length="100" unit="PIXEL" shadetype="BY_CLASS"/>
+          <cl:columns length="1" unit="FRACTION"/>
+        </cl:formlayout>
+      </cl:group>
+      <cl:udc std:sid="ud-control-70fa1d7e" id="acePop" type="udc.cmn.Ace">
+        <cl:verticaldata std:sid="v-data-051d8b84" width="300px" height="36px" autosize="height"/>
+        <cl:property name="value" value="/*&#xD;&#xA; * 루트 컨테이너에서 load 이벤트 발생 시 호출.&#xD;&#xA; * 앱이 최초 구성된후 최초 랜더링 직후에 발생하는 이벤트 입니다.&#xD;&#xA; */&#xD;&#xA;function onBodyLoad(/* cpr.events.CEvent */ e){&#xD;&#xA;&#x9;var voHostAppIns = app.getHostAppInstance();&#xD;&#xA;&#x9;&#xD;&#xA;&#x9;/* 해당 팝업이 팝업으로 열렸는지 부모로 확인 */&#xD;&#xA;&#x9;if (voHostAppIns){&#xD;&#xA;&#x9;&#x9;/* initValue 가져옴 */&#xD;&#xA;&#x9;&#x9;var vsInitVal = app.getHostProperty(&quot;initValue&quot;);&#xD;&#xA;&#x9;&#x9;if (vsInitVal != null &amp;&amp; vsInitVal != &quot;&quot;){&#xD;&#xA;&#x9;&#x9;&#x9;app.lookup(&quot;lblVal&quot;).value = vsInitVal;&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;}&#xD;&#xA;}" type="string"/>
+      </cl:udc>
+      <cl:verticallayout std:sid="v-layout-9b7cc3e1" spacing="15"/>
+    </cl:group>
+    <cl:formlayout std:sid="f-layout-430f5a41" hspace="5px" vspace="5px" top-margin="0px" right-margin="0px" bottom-margin="0px" left-margin="0px">
+      <cl:rows length="1" unit="FRACTION"/>
+      <cl:rows length="35" unit="PIXEL" autoSizing="false" shadetype="NONE" shadecolor="#000000" minlength="0"/>
+      <cl:columns length="1" unit="FRACTION"/>
+    </cl:formlayout>
+  </body>
+  <std:studiosetting>
+    <std:hruler/>
+    <std:vruler/>
+  </std:studiosetting>
+</html>
